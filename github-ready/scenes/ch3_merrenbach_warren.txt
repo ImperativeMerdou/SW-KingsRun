@@ -107,7 +107,7 @@ But Suuvi Renn hadn't asked the question to hear the obvious answer. She'd asked
     *set personality_loyalty %+ 3
     *set rep_khari_warrens + 10
 
-    Suuvi Renn went still. The specific stillness of a predator when the prey does something it hasn't seen before. Her fingers stopped on the net. The knot hung unfinished.
+    Suuvi Renn froze over the net. Predator focus — the beat where prey does something it hasn't seen before. Her fingers stopped on the net. The knot hung unfinished.
 
     For six seconds she was quiet. Then her head tilted — not the assessment tilt. The other one. The one that said the calculation had changed.
 
