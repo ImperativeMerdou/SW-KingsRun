@@ -18,7 +18,7 @@ The harbor held six ships. The Sundered Wake, the Inheritors' Regrade, a Morvent
 
   That was unusual. The former Wardensea officer did not vanish — she repositioned. She told you where she'd be and she went there and she came back. Today she'd said "the market" and gone. Six hours ago. The market had closed four hours ago.
 
-  You had noticed. The crew had noticed. Kessara had said nothing about it, which for Kessara meant she was waiting to see what the silence produced.
+  The crew had noticed. Kessara had said nothing about it, which for Kessara meant she was waiting to see what the silence produced.
 
 The night was warm. The Bastion Sea held its heat longer at this latitude — the water temperature hadn't dropped below seventy since Brannach, and at Velundri the heat was a constant, something the body stopped tracking because it never changed. The coral platform radiated the day's warmth back into the air, and the harbor smelled of limestone and brine and the residual spice-oil from a thousand market transactions.
 
@@ -95,6 +95,14 @@ The night was warm. The Bastion Sea held its heat longer at this latitude — th
 
   Nobody spoke. Kessara's tool harness clinked once in the harbor swell. The sound was small and familiar and wrong — too ordinary for what they were looking at.
 
+  *if (crew3_name = "Kessara Veldt")
+    "Seventeen stops means one extra choke point," Kessara said.
+
+  *if (crew4_name = "Terrek Ghaal")
+    "Means one extra place to die," Terrek answered.
+
+  Sullavenne did not look up from the vellum. "Both can be true."
+
   "The stops aren't random," Sullavenne said. "They're placed. The distances between them scale geometrically — each stretch is longer than the last by a consistent ratio. The gradient — the way the ocean gets deeper and the currents get stronger the further south you go — isn't natural erosion. The seabed was shaped. The currents were channeled. Someone built this corridor."
 
   She looked at the crew. At Kessara. At Terrek. At you.
@@ -104,6 +112,15 @@ The night was warm. The Bastion Sea held its heat longer at this latitude — th
   She stopped. Chose her next word with the care of someone who understood that words, once spoken, became real.
 
   "— evaluated."
+
+  *if (crew4_name = "Terrek Ghaal")
+    "I signed on for a route," Terrek said. "Not for a god's exam."
+
+  *if (crew5_name = "Sullavenne Ohn")
+    "You signed on for what the route actually is," Sullavenne said. "None of us got to choose the truth's timing."
+
+  *if ((crew4_name = "Terrek Ghaal") and (crew5_name = "Sullavenne Ohn"))
+    "I can choose whether I trust the person delivering it," Terrek said.
 
 *page_break
 
@@ -117,7 +134,7 @@ The night was warm. The Bastion Sea held its heat longer at this latitude — th
     *set personality_openness %+ 3
     *goto crew_reaction_silence
 
-  #Spread the chart flat. Look at the twenty-first stop. If the Kingsrun has a hidden checkpoint, knowing where it is changes everything.
+  #Spread the chart flat. Find the hidden seventeenth mark between Stops 9 and 10. If the route has a concealed checkpoint, mapping it changes everything.
     *set personality_aggression %+ 3
     *goto crew_reaction_chart
 
@@ -159,7 +176,7 @@ The symbol was not any language currently in use.
 *if (crew3_name = "Kessara Veldt")
   Kessara was measuring. She'd produced a straight-edge — the drafting tool she kept with her engineering kit — and was calculating distances on the chart. Her lips moved. The math was automatic.
 
-  "The ratio holds. If the geometric scaling is consistent, the twenty-first stop is approximately one hundred and twenty miles south of Ossengaard. That's deep water. Open ocean. No islands, no reefs, no natural anchorage." She looked up. "There's nothing there."
+  "The ratio holds. If the geometric scaling is consistent, the hidden seventeenth stop sits approximately one hundred and twenty miles south of Ossengaard. That's deep water. Open ocean. No islands, no reefs, no natural anchorage." She looked up. "There's nothing there."
 
   "Something was there," Sullavenne said. "Something that warranted a stop on a chart older than our civilization."
 
@@ -325,8 +342,8 @@ A pause. The pause was editorial.
 
 "The Living Storm hasn't been seen in the Kingsrun corridor for eleven months. If the weather reports are accurate, she's back. Kuldhara Mabaan is in the water. And every crew heading south from Velundri just got a new variable in their math."
 
-The Grimoire dimmed. You lay in the dark of the hold and listened to the ship breathe and the harbor lap and the distant sound of Sullavenne's pen on paper.
+The Grimoire dimmed. You lay in the dark of the hold and listened to the ship breathe, the harbor lap, and Sullavenne's pen scratching one line after another.
 
-Tomorrow. South. The weight-scales were closed. The revelation was open. The Kingsrun was older than the name they called it, and the ocean was watching, and somewhere between here and Durromakh a woman made of storm was deciding who deserved to pass.
+By dawn the route meant something different than it had at breakfast. South was no longer just distance. It was selection.
 
 *goto_scene ch6_velundri_cliffhanger
