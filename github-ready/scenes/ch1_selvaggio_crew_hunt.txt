@@ -162,6 +162,13 @@ The harbor bell chimed noon. The impound auction would be starting at the Warden
 
 *choice
   #Go to Sullavenne Ohn. She has Wardensea money, Wardensea knowledge, and she's been watching you since you arrived.
+    *goto crew_hunt_sullavenne
+  #Go to the dock bouts. Fight. Win the money yourself. You don't owe anybody for a ship you earned with your fists.
+    *goto crew_hunt_bouts
+  #Work the docks for labor credit. No debt, no violence, no favors owed. The slow way is the clean way.
+    *goto crew_hunt_labor
+
+*label crew_hunt_sullavenne
     *if (crew_count = 0)
       You found her at the Anchor's Rest. Same table. Same shadow between two lanterns. Same dark blue coat with the collar turned up, same scar from ear to jaw, same steady gaze that tracked you across the room like a compass needle finding north.
 
@@ -263,7 +270,7 @@ The harbor bell chimed noon. The impound auction would be starting at the Warden
     *set personality_loyalty %+ 5
     *goto claim_the_ship
 
-  #Go to the dock bouts. Fight. Win the money yourself. You don't owe anybody for a ship you earned with your fists.
+*label crew_hunt_bouts
     The dock bouts ran behind the Anchor's Rest in a courtyard hemmed in by warehouse walls on three sides. No roof. The sky overhead was grey and the walls held the noise in — the shuffle of feet on packed dirt, the murmur of the crowd, the sound of money changing hands at the edges.
 
     *set personality_aggression %+ 8
@@ -428,7 +435,7 @@ The harbor bell chimed noon. The impound auction would be starting at the Warden
     *set ship_acquisition_method "fight_earned"
     *goto claim_the_ship
 
-  #Work the docks for labor credit. No debt, no violence, no favors owed. The slow way is the clean way.
+*label crew_hunt_labor
     *set personality_loyalty %+ 5
     *set personality_mercy %+ 3
 
