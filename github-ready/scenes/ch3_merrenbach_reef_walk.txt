@@ -141,7 +141,7 @@ The broadcast sat in the air. Three pieces of intelligence, each one pulling in 
     *set personality_openness %+ 4
 
     *if (crew5_name = "Sullavenne Ohn")
-      Sullavenne looked at you. The pen went still. For a moment the ex-intelligence officer surfaced — the woman who had been trained to read systems, not events.
+      Sullavenne looked at you. The pen paused above the page. For a moment the ex-intelligence officer surfaced — the woman who had been trained to read systems, not events.
 
       "Pattern analysis." She said it quietly. "The Wardensea deployed a patrol that has orders to avoid the strongest crew in the water. Nettava Daeshara — the highest bounty in the world — vanished. The Inheritors are stuck. The middle Kingsrun is emptying."
 

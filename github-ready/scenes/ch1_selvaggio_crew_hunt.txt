@@ -592,7 +592,7 @@ The evening before departure, the crew sat on the Sundered Wake's deck. Five peo
 *if (crew3_name = "Kessara Veldt")
   Kessara sat cross-legged on the forward deck, her Grimoire propped on one knee — the cheap limestone replacement, cracked and dim, already showing the wear of three days' hard use. She was running calculations. Always running calculations.
 
-  "Route to Galluun's Tooth is three to five days depending on the currents south of the Bastion shelf. Could be faster if the north wind holds. Could be worse if it shifts." She looked up. "I'm navigating by chart and Grimoire relay. We don't have a Khari navigator. I keep saying that."
+  "Route to Galluun's Tooth is three to five days depending on the currents south of the Bastion shelf. Could be faster if the north wind holds. Could be worse if it shifts." She looked up. "I'm plotting by chart and Grimoire relay. We don't have a Khari navigator. I keep saying that."
 
   The absence in crew slot two was a hole the size of a person.
 
