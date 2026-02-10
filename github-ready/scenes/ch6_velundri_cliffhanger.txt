@@ -894,6 +894,13 @@ And the storm was smiling.
 *temp pf_oursseva 0
 *if met_oursseva
   *set pf_oursseva 1
+*temp pf_storm "U"
+*if (storm_posture = "through")
+  *set pf_storm "T"
+*if (storm_posture = "cautious")
+  *set pf_storm "C"
+*if (storm_posture = "prepared")
+  *set pf_storm "P"
 
 *set save_code (save_code & "-")
 *set save_code (save_code & pf_bell)
@@ -909,6 +916,7 @@ And the storm was smiling.
 *set save_code (save_code & pf_carved)
 *set save_code (save_code & pf_khari)
 *set save_code (save_code & pf_oursseva)
+*set save_code (save_code & pf_storm)
 
 *comment === SECTION 12: SHIP + RESOURCES ===
 *temp sc_cond round(ship_condition)
