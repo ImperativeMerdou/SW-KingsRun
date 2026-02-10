@@ -1,0 +1,978 @@
+*comment ===================================================
+*comment  CHAPTER 6, SCENE 3 — VELUNDRI: CLIFFHANGER
+*comment  Departure from Velundri. The storm intercept.
+*comment  Kuldhara Mabaan. Grimoire broadcast cuts.
+*comment  Game 1 finale. Build backward from the ending.
+*comment  Final line: "The storm was watching them.
+*comment  And the storm was smiling."
+*comment ===================================================
+
+*comment ---------------------------------------------------
+*comment  DEPARTURE — MORNING
+*comment ---------------------------------------------------
+
+The weight-scales were closed. The coral platform was empty except for the drainage channels — Varrek-engineered, precise, the water still flowing through the stone grooves even after the market had packed and gone. Velundri without its traders was a flat white shelf under a flat white sky. The island produced nothing. Without the market, it was nothing.
+
+The Sundered Wake was loaded. Supplies in the hold — food, rope, caulking compound, a crate of Velundri spice packets that Terrek had weighed against three lengths of Brannach sulfur-cord. The ship rode lower in the water than she had at Kelvanni. Weight was good. Weight meant days.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara ran final checks with the focus of someone who understood that the next stretch of open water was the longest yet. Velundri to Durromakh: one hundred and eighty miles. Two to three days in fair wind. Four to five if the Bastion Sea decided to sit on them.
+
+  "Hull: holding. Rudder: responding. Mast stays: tight." She ran her good hand along the port rail. The broken wrist had healed enough that she'd stopped splinting it — the bone had set crooked, Oursseva had warned, and would ache in cold weather for the rest of her life. Kessara had filed this information the way she filed all information about permanent damage: acknowledged, compensated for, irrelevant to current operations.
+
+  "We're carrying more weight than we've carried since Selvaggio. That's good for stability. Bad for speed." She looked at the sky. "Wind's from the northeast. That's —" She licked her finger. Held it up. Frowned at it the way she frowned at instruments that gave her numbers she didn't want. "That's favorable. Ask me again in an hour."
+
+  The conditional. Kessara's favorite word. Every statement came with one. The Kingsrun had taught her that.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was in the galley. The sound of a knife on a board — the steady rhythm of someone preparing food with the attention of a professional and the care of someone who understood that a crew's morale lived in the pot as much as in the wind. The Velundri spice packets were open. He was sorting them by smell, separating the good from the ground bark, building a flavor profile out of a gamble.
+
+  He'd been quieter since the revelation. Not silent — Terrek was never silent when there was a galley to run. But the jokes had stopped. The humming had stopped. The knife rhythm was the only sound, and it was precise in a way that his cooking usually wasn't. Terrek cooked loose. Terrek cooked by feel. This was Terrek cooking the way his mother had probably cooked on the bad nights in the Kethrun district — mechanical, controlled, the food getting made because the food was the one thing that still made sense.
+
+  The smell of gorrash drifted up from the pot. He'd brought a bag of it from Brannach. It was running low.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was at the bow. Facing south. The notebook was in her coat pocket — the leather edge visible, the pages that held whatever Sullavenne held close to her chest. She'd spoken more at Velundri than she had at any previous stop. The revelation had done that — cracked the seal on something she'd been carrying since before Selvaggio.
+
+  She turned as you came on deck. Her hands were in her coat pockets. She took them out. Put them on the rail. Took them off the rail. Put them back in her pockets. It was the most indecisive you had ever seen her body.
+
+  "Durromakh is the toll gate. Cassara Vellune. Morventhi. A hundred and thirty-four years old. Six ships destroyed over sixty years — the wreckage is still visible from the approach as advertising." She paused. "After Durromakh, the Shoalfields. After the Shoalfields, Ossengaard — the Wardensea fortress where Lieutenant Kassik's report is waiting."
+
+  She looked at you. Looked away. Looked back. The second look held longer than the first, and the first had held longer than she'd intended.
+
+  "And between Velundri and Durromakh — Kuldhara Mabaan's patrol range."
+
+  The name sat in the salt air.
+
+  "The Living Storm. Raiju Fruit. Awakened. Weather within ten miles mirrors her emotional state. She watches Kingsrun crews from the highlands. If she likes what she sees, they pass. If she doesn't —"
+
+  She didn't finish that sentence. She didn't need to. Every crew on the Kingsrun knew how that sentence ended.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE LAST HOUR AT VELUNDRI
+*comment ---------------------------------------------------
+
+The harbor was emptying. Three crews had departed since dawn — the Morventhi freelancers first, silent as they'd arrived, their dark hull cutting south with the outgoing tide. Then a human crew from the northern coast, young, sailing a converted fishing boat they'd bought at Selvaggio. Their odds on the betting board had been three hundred to one. They'd made it to Stop 6. The odds hadn't improved.
+
+The Inheritors were still at dock. Kovesse Thrallek's ship — larger, better-equipped, crewed by people who had been born into the Kingsrun's mythology — sat in the east berth with its sails furled. Kovesse hadn't departed. The legacy heir was waiting for something, and whatever it was had kept her at Velundri for an extra day.
+
+*if met_kovesse
+  Kovesse was on her deck. She saw you. The distance between the ships was forty feet of harbor water. She raised one hand — palm out, fingers spread. The gesture was her mother's. Ghorvenne Thrallek had raised that same hand to the crews she passed on the Kingsrun forty years ago. The gesture meant: I see you. I acknowledge you. The sea will decide what happens next.
+
+  You raised a hand back. Forty feet of water and the accumulated weight of six stops and a revelation that had changed what the Kingsrun meant.
+
+  Kovesse turned away first. Back to her crew. Back to whatever calculation was keeping her at dock while the Sundered Wake pulled anchor.
+
+*comment ---------------------------------------------------
+*comment  DEPARTURE CHOICE
+*comment ---------------------------------------------------
+
+*choice
+  #Cast off. South. Durromakh and whatever waits between here and there.
+    *set personality_aggression %+ 3
+    *goto departure_south
+
+  #Take one more hour. Walk the empty market. The weight-scales are closed, but the drainage channels are still running. Velundri has something left to say.
+    *set personality_aggression %- 2
+    *goto final_walk
+
+  #Find Terrek before departure. He's been cooking since the revelation, and cooking is how Terrek talks. The galley might have answers the market didn't.
+    *set personality_openness %+ 5
+    *goto terrek_departure
+
+*label final_walk
+
+The coral platform was different empty. The drainage channels murmured — water from the morning rain, filtered through Varrek stonework, running in precise gradients toward the ocean. The market stalls were gone. The weight-scales were locked in their stone housings. The ground was scored with boot-marks and trade-marks — the temporary geography of a thousand transactions, already fading.
+
+A single Varrek woman remained. Old. Thin. She sat beside the primary drainage channel with a slate board and a stylus, recording the water flow. Her work was not the market — it was the platform. The engineering that made Velundri possible.
+
+She looked up as your shadow crossed her work.
+
+"The drainage hasn't changed in two hundred years." She spoke without being asked. Varrek precision: the information was relevant, so she provided it. "The channels were cut by my grandmother's crew. The gradient is seven-point-three degrees per hundred — seven-point-four." She corrected herself, looked annoyed at the correction, wrote it down. "Per hundred feet. Optimal for coral substrate drainage at this latitude." She returned to her slate. "I've been measuring this channel for thirty years and it still surprises me."
+
+You stood on the empty platform. South, the ocean stretched — darker than it had been at Selvaggio, darker than it had been at any stop. The Kingsrun gradient. The water deepened by degrees, and the color tracked the depth, and the depth tracked the distance from the world you had known.
+
+*goto departure_south
+
+*label terrek_departure
+
+*if (crew4_name = "Terrek Ghaal")
+  The galley was warm. The spice packets were sorted — four piles, smallest to largest, the ground bark separated into a discard bowl and the real spices arranged by heat profile. Terrek was cutting something. Root vegetable, local — bought at the weight-trade for a coil of rope the crew couldn't spare but Terrek had insisted on.
+
+  "Sit," he said. He didn't look up from the board. "Eat."
+
+  A bowl was already set. Rice, salted, with a layer of Brannach sulfur-salt fish and a sprig of something green from Merrenbach's reef-dried kelp stock. Ship food. Terrek's ship food — which meant it was better than most port restaurants and was delivered without ceremony or expectation.
+
+  He cooked while you ate. The galley moved with the harbor swell — small, rhythmic, motion that had become invisible over six stops and fifty-something days at sea.
+
+  "My mother was Gorundai." He said it to the cutting board. The knife rhythm didn't change. "From the Kethrun mining district. My father was Gorundai. From the same district. They made soul-bars when my grandmother died — mixed her ashes with iron dust and hammered them at the clan forge. I carried one until I was nineteen."
+
+  The knife paused.
+
+  "I left the bar at a shrine in Kallenport. I was nineteen. I'd been cooking in port kitchens for three years and I was good at it and I was tired of being good at something nobody in the mining district cared about." He resumed cutting. "Gorundai respect for craft is real. Gorundai respect for cooking specifically is — conditional. If you cook for soldiers, you're essential. If you cook because the food matters to you, because the flavor is worth getting right, because feeding people well is a thing that changes them — that's soft work. Soft work in a mining district is tolerated. Tolerated isn't respected."
+
+  He looked up. The face was Gorundai — the tusked jaw and the heavy brow and the skin that was grey-green in the galley's lamplight. The expression was Terrek's own.
+
+  "I'm not on this ship because I had nowhere else to go. I'm on this ship because the Kingsrun goes somewhere nobody's cooked before. Durromakh. The Shoalfields. The deep stops where the ingredients are different and the crews have been eating the same salt-fish for months and they've forgotten what food can do." He set down the knife. "I want to cook at the Sundren. I want to stand on a continent nobody's built a kitchen on and make something from whatever grows there. That's my Kingsrun."
+
+  He picked the knife back up.
+
+  "Now eat. We're leaving in an hour and I need the bowl back."
+
+  *set crew4_loyalty %+ 8
+
+*goto departure_south
+
+*label departure_south
+
+*comment ---------------------------------------------------
+*comment  DEPARTURE FROM VELUNDRI
+*comment ---------------------------------------------------
+
+*set current_stop 7
+*set current_stop_name "At Sea — Toward Durromakh"
+*set days_since_departure + 1
+*if (food_days > 0)
+  *set food_days - 1
+
+The mooring lines came in. The anchor broke free from the coral shelf with a sound like a tooth being pulled — grit and suction and then the sudden weightlessness of a ship that belonged to the ocean again.
+
+The Sundered Wake turned south.
+
+*if (crew3_name = "Kessara Veldt")
+  "Heading one-seven-five. Wind northeast, steady. Making six knots." Kessara at the helm, the tiller in her good hand, the chart pinned beside her. The engineer-turned-navigator who had kept this ship alive since Selvaggio was doing the math she always did — wind against current, speed against supply, distance against the body's willingness to keep going.
+
+  "Four days to Durromakh. If the wind holds."
+
+  The conditional.
+
+Velundri shrank behind them. The flat coral platform, the drainage channels, the single Varrek woman with her slate — all of it compressed to a white line on the northern horizon and then to nothing. Gone. The sixth stop. The last stop where the Kingsrun was still a race, still a test of endurance and luck and crew cohesion. After Velundri, the Kingsrun became something else. The revelation had told them that.
+
+The crew knew. The weight of it showed in how they moved — not slower, not faster. Differently. The way people moved when the rules had changed and the new rules hadn't been written yet.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  TWO DAYS SOUTH — OPEN WATER
+*comment ---------------------------------------------------
+
+*set days_since_departure + 2
+*if (food_days >= 2)
+  *set food_days - 2
+*if (food_days < 2)
+  *set food_days 0
+*set total_sea_days + 2
+
+Two days of open water. The longest unbroken stretch since Selvaggio to Galluun's Tooth, and the ocean was different here. The color had shifted — from the bright blue of the northern Bastion to a deeper shade, almost indigo — a color that meant depth. Real depth. The charts showed nothing below them for twelve hundred feet. The water was warm at the surface and cold at the keel, and the differential made the hull sweat — condensation on the inner planking that dripped in the darkness of the hold.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek cooked. Twice a day. The spice packets held. The sulfur-salt from Brannach made the difference — the way it transformed the base ingredients from survival to sustenance. The crew ate together at the stern, sitting on coiled rope and deck crates, and the meals were the scaffold that held the days together.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara tracked the distance. One hundred miles south of Velundri. Two hundred. The wind held — northeast, steady, the kind of cooperative weather that made experienced sailors nervous because the Bastion Sea didn't cooperate without a reason.
+
+  "Barometric pressure's been dropping since yesterday." She said it on the morning of the second day, reading the instrument Sullavenne had traded for at the weight-market. A glass tube filled with liquid, marked with Varrek notation. "Down three — no, wait. I'm reading the wrong mark." She tilted the tube. Squinted. "Down two points. Slow drop. Consistent. Not a squall pattern — squalls drop fast and recover. This is a system." She looked at the tube again. "I think. I've never used Varrek notation before and the increments are in base twelve."
+
+  She looked south.
+
+  "Something's building."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had not slept well. You could tell because the former intelligence officer's discipline included managing visible fatigue, and the management was showing — the extra care with which she moved, the deliberate steadiness that replaced the natural kind.
+
+  Her Grimoire was active. She'd been monitoring broadcasts — the Green-band civilian frequencies, the scraps of Grey-band military traffic that the modified Grimoire from Galluun's Tooth could receive.
+
+  "Wardensea patrol traffic has decreased." She said it at midday, standing at the rail. "In the last twelve hours, four patrol broadcast check-ins were expected. Two occurred. The other two — silence."
+
+  She let you process that.
+
+  "Patrols don't go silent unless they're ordered to. Or unless something in their patrol area is making broadcast a bad idea."
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE GRIMOIRE BROADCAST — FINAL
+*comment ---------------------------------------------------
+
+*set broadcast_count + 1
+
+The Grimoire lit up at sunset.
+
+The broadcast was Kingsrun Watch — the independent Grimoire channel that tracked crew movements, bounty updates, and the ongoing drama of people trying to sail to the end of the world. The host was the same voice that had followed you since Selvaggio: Veshanna Torc, the Khari commentator whose audience had grown alongside the Cursed Generation crews she covered.
+
+The broadcast played on the deck. The crew gathered — not by decision but by gravity. The Grimoire's glow was the only light besides the stars.
+
+*comment Dynamic bounty based on player actions across 6 chapters
+*if (bounty >= 50000000)
+  "Merdou Akkan, the Sundered Wake. Six stops. Bounty at ${bounty} Sovereigns and climbing." Veshanna's voice was measured, precise, Khari — the cadence of someone who used height and silence as spatial metaphors because she'd grown up in the warrens. "The half-Oni from the Sennaku Highlands has gone from cold entry at Selvaggio to a name the Watch can't ignore. The betting board has adjusted — current odds on reaching Stop 10: forty-five to one. Better than where they started. Worse than where they need to be."
+*if (bounty < 50000000)
+  "Merdou Akkan, the Sundered Wake. Six stops. Bounty still minimal — the Wardensea hasn't flagged them high-priority, which means they're either very clean or very lucky." Veshanna's voice was the same it had been since Selvaggio — measured, Khari, the cadence of someone who documented other people's ambition for a living. "The betting board has them at two hundred to one. Long odds. But they're still sailing, which is more than sixty percent of the season's crews can say."
+
+"Ahead of them: Durromakh. Cassara Vellune's toll gate. The Morventhi has tripled the passage fee this season — crews are turning back at Stop 7 because they can't afford to go through. The Kingsrun Watch has confirmed twelve crew reversals at Durromakh in the last month."
+
+A pause. The broadcast shifted tone — the clipped register that meant breaking news, the kind that moved bounty markets and changed crew calculations.
+
+"And in the last six hours — weather. South of Velundri, between Stops 6 and 7, a storm system has formed. Rapid onset. No natural precursor — satellite barometry shows clear conditions twelve hours ago. The system is concentrated, localized, and moving along the Kingsrun corridor."
+
+Another pause. The Grimoire hummed with signal processing.
+
+"Wardensea patrols in the area have gone dark. Two cutters, one frigate. All three ceased broadcasting at 14:00 hours. The Wardensea's southern command has issued a navigation warning for all vessels in the Velundri-Durromakh corridor."
+
+Veshanna's voice dropped. The precision didn't waver, but the space between words widened — the Khari instinct for letting silence carry weight.
+
+"The Kingsrun Watch recognizes the pattern. A localized storm with no natural origin, Wardensea patrols going silent, and weather that moves along the Kingsrun route instead of across it."
+
+"Kuldhara Mabaan is in the water."
+
+The Grimoire hissed with signal static — the comment section erupting. Hundreds of responses per second. The name did that. The Living Storm. The youngest Conqueror. The Oni woman who controlled the highlands and watched the Kingsrun from above, and when she came down to the ocean, the weather came with her.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE STORM
+*comment ---------------------------------------------------
+
+*choice
+  #Hold course. The Sundered Wake is south of Velundri and north of Durromakh. There is no port between. There is no turning back. The only direction is through.
+    *set personality_aggression %+ 5
+    *goto storm_approach
+
+  #Reduce sail. Slow the ship. Give the storm time to pass, or to find whatever it's looking for. A Conqueror's attention is a resource you don't spend unless you choose to.
+    *set personality_aggression %- 3
+    *goto storm_approach
+
+  #Wake the crew. Battle stations — not for a fight, but for survival. Secure everything. Tie down the hold. Prep for heavy weather. Whatever Kuldhara Mabaan is doing out there, the Sundered Wake will be ready for the ocean she brings with her.
+    *set personality_loyalty %+ 3
+    *goto storm_approach
+
+*label storm_approach
+
+The wind changed.
+
+It happened in a line — a visible boundary in the water, the surface texture shifting from the steady northeast chop they'd been sailing for two days to something else. South of the line, the water was flat. Unnaturally flat. Oiled. The swells that had been pushing the ship in rhythmic sets simply stopped, as if someone had laid a hand on the ocean and said *enough*.
+
+The temperature dropped. Not gradually — in a step. Warm to cold. The condensation on the hull reversed — the metal fittings went dry and then wet again with a different kind of moisture. The air tasted of copper and salt and something sharper. Static. The hair on your forearms lifted.
+
+*if (crew3_name = "Kessara Veldt")
+  "Barometric free-fall." Kessara was at the instrument. The liquid in the glass tube was dropping — visibly, measurably, the kind of pressure change that didn't happen in open ocean without a major cyclonic system. But there was no cyclone. The sky above was clear. Stars. The Southern Cross at the horizon. Clear air — except to the south, where the stars ended.
+
+  A wall. Dark. Rising from the waterline to a height that swallowed the horizon. No gradual cloud-build. No leading edge of cirrus or advancing grey. A wall of weather, standing across the Kingsrun like a door.
+
+  "That's not a storm system." Kessara's voice was steady. The steadiness was effort. "That's a Fruit event. That's someone's power written on the sky."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had the Grimoire open. The Green-band was static — civilian broadcasts overwhelmed by interference. The Grey-band was worse. Military frequencies that had been carrying patrol traffic twelve hours ago were silent, replaced by a low, rhythmic pulse that the modified Grimoire registered as signal but couldn't decode.
+
+  "The pulse is regular." She held the device toward you. The screen showed a waveform — peaks and valleys at consistent intervals. "Point-eight seconds between peaks. Consistent amplitude. It's not random interference."
+
+  She looked at the wall of weather.
+
+  "It's a heartbeat."
+
+The first lightning struck.
+
+Not from the wall — from the water. A column of white-blue light erupted from the ocean's surface a quarter mile south, climbing into the dark sky and vanishing. No thunder. The light came and went in silence, and the afterimage burned a line across your vision.
+
+The second strike was closer. Two hundred yards. The water where it hit glowed — phosphorescent, the charge dispersing across the surface in branching veins that pulsed once and faded.
+
+The third strike hit the water between the Sundered Wake and the storm wall. A hundred yards. The sound arrived late — a crack that wasn't thunder. Sharper. More focused. The sound of something breaking the air apart with precision rather than force.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was on deck. The Gorundai had come up from the galley carrying two things: a knife he'd forgotten to put down and a clay bowl with a lid. He pressed the bowl into your hands without a word — warm, the lid rattling, the smell of rice and sulfur-salt leaking from the seal. He'd been cooking when the lightning started and his first response had been to bring you food. He stood at the starboard rail, gripping the wood with both hands, the knife still in his belt where he'd shoved it, and his face was turned south toward the lightning.
+
+  He was Gorundai. He'd grown up in mines where the mountain shook and the ore glowed and the fissure walls hummed with a frequency you felt in the teeth. He knew the vocabulary of forces larger than a person.
+
+  But this was different. The lightning walked the water in a pattern — not random, not scattered. Rhythmic. Point-eight seconds between strikes. A heartbeat. Something alive was writing on the ocean with electricity, and the handwriting was steady, and the handwriting was coming closer.
+
+  "Kessuura," he whispered. The Oni storm-goddess. The name the Oni gave to weather that had intent. The Gorundai knew the name because the Gorundai lived near the Oni highlands, and when Kessuura spoke, even the mines went quiet.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE INTERCEPT
+*comment ---------------------------------------------------
+
+The storm wall moved.
+
+Not like weather. Weather drifted, built, dissipated. This moved with intention — a lateral shift, the entire wall of cloud and lightning and impossible pressure sliding east along the Kingsrun corridor, closing the gap between the weather and the ship. The wind changed again — not northeast anymore. From the south. From inside the storm. Warm wind. Hot. The kind of heat that came off skin, off a body running at full temperature, off someone whose Dominion ran so hot that the air around them shimmered.
+
+The Grimoire broadcast cut.
+
+Mid-sentence. Veshanna Torc's voice — she'd been providing live updates, the Kingsrun Watch's signal boosted by the relay stations that dotted the corridor — stopped. The Grimoire screen flickered. Static. The signal bars dropped to zero. The relay stations south of Velundri had gone dark. The signal north — back toward Velundri, back toward Kelvanni, back toward the world — was still there. But the world ahead was silent.
+
+The lightning reached the ship.
+
+A pass — exploratory. A bolt of white-blue fire arced from the water thirty feet to starboard, climbed into the air above the ship, and crossed to port — tracing a line over the Sundered Wake from east to west. The heat was immediate. The wood of the rail steamed. The metal fittings sang — a harmonic vibration, the iron resonating with the charge that had just passed through the air above it.
+
+Nothing was damaged. Nothing was hit. The bolt had crossed over the ship the way a hand crosses over a table — surveying. Looking.
+
+The crew was still. The ocean was flat. The storm wall held, five hundred yards south, lightning walking its surface in that rhythm — point-eight seconds, point-eight seconds, point-eight seconds. A heartbeat. Alive.
+
+*if dominion_vision >= 10
+  And something else. At the edge of the storm wall — a shape. Your Vision, unreliable and growing, caught it for a half-second before the lightning wash blanked the read. A figure. Standing on the water's surface. Tall. Horned. The outline of someone whose body was wreathed in electricity, whose hair stood with static, whose feet rested on the ocean as if the ocean were floor.
+
+  The figure was facing the ship.
+
+  The Vision read one thing before it burned out: joy. Wild, enormous, delighted joy — the emotional signature of someone who had found something in the water and was thrilled by it.
+
+*if dominion_vision < 10
+  From the storm wall — light. Not lightning. Steadier. A glow at the base of the cloud, where the dark wall met the water. Something was there. Something that burned hot enough to illuminate the storm from inside. The shape was indistinct — distance and charge interference reduced it to a silhouette. Tall. Broad.
+
+  Watching.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  FINAL GRIMOIRE — BOUNTY AND STATUS
+*comment ---------------------------------------------------
+
+The Grimoire flickered back to life. A burst — three seconds of signal, the last relay station before the dead zone catching a fragment of the Watch broadcast and throwing it forward.
+
+Veshanna's voice, mid-sentence:
+
+"— confirmed. Kuldhara Mabaan's patrol fleet has been sighted south of Velundri. Three ships. The Living Storm herself is —"
+
+Static. Gone.
+
+The Grimoire held the last frame of the broadcast. Your profile. The bounty number.
+
+*if (bounty >= 50000000)
+  ${bounty} Sovereigns. The number meant something now. Six stops ago it had been zero. Six stops ago you had been a highland exile with twelve coins and no ship and no crew and no name the world cared about.
+
+  The Grimoire followers: ${grimoire_followers}. People were watching. People who would not see what happened next, because the signal was dead and the storm was between you and the audience, and whatever Kuldhara Mabaan wanted with the Sundered Wake, she wanted it private.
+
+*if (bounty < 50000000)
+  ${bounty} Sovereigns. Low. Unremarkable. A number that said the Masqarat hadn't noticed.
+
+  But someone had noticed. The storm that stood across the Kingsrun was not the Masqarat's. The weather that closed the corridor was not official, not jurisdictional, not a function of law or order. It was a woman in the water. An Oni from the highlands. A Conqueror who watched Kingsrun crews and chose — chose — which ones passed.
+
+  The Grimoire followers: ${grimoire_followers}. However many they were, they couldn't see this. The relay was dead. What happened next was between the crew and the storm.
+
+*comment ---------------------------------------------------
+*comment  FINAL CREW STATUS
+*comment ---------------------------------------------------
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was at the helm. Her hands were on the tiller. Her eyes were on the wall.
+
+  "I can't —" She swallowed. Started over. "The ship can't outrun weather. If she wants us stopped, we're stopped."
+
+  She looked at you. Her hand was still on the tiller. The knuckles hadn't relaxed since the first bolt.
+
+  "But the lightning didn't hit us. It went over us. If she wanted us —" She blinked. "We'd know."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek stood at the rail. The Gorundai's hands were at his sides — fists. Then open. Then fists again. His weight kept shifting forward, toward the storm, the way his body leaned toward a pot when the smell changed. One hand came up and gripped the rail. The other stayed at his side, fingers moving — reaching for a knife that wasn't there, or a spoon, or whatever his hands reached for when the world went sideways.
+
+  He wiped his mouth with the back of his hand. Did it again. His lips were dry and he kept licking them and they kept drying. He couldn't stop looking south.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne closed the Grimoire. The signal was dead. The former intelligence officer who had spent her career inside the Wardensea's information network was, for the first time since you had met her, operating without data.
+
+  She looked at the storm. She looked at you.
+
+  "She's Oni," Sullavenne said. Quiet. "You're Oni. Half-Oni. Sennaku tattoos. Ram horns." A pause. "If she has Vision — and she does, Conquerors always do — she's already read you. She knows your heart rate. She knows your Armoring potential. She knows where you're from."
+
+  The notebook was in her pocket. Her hand was on it.
+
+  "The question isn't whether she sees you. The question is what she does with what she sees."
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE ENDING
+*comment ---------------------------------------------------
+
+The Sundered Wake held its position. The ocean was flat. The storm wall stood at five hundred yards, lightning walking its face in that steady rhythm — point-eight, point-eight, point-eight. A heartbeat. The Conqueror's heartbeat, written on the weather, broadcast to the ocean.
+
+The crew of the Sundered Wake stood on the deck of a ship that had been a salvage claim at Selvaggio, that had been patched and patched again and declared "not good, better" by an engineer who'd rebuilt it with a broken wrist. The ship that had carried them past six stops. The ship whose name was carved on the reef wall at Galluun's Tooth.
+
+South of them: a Conqueror. A storm. A toll gate and a fortress and a ocean that got darker and deeper and older the further you went. The Kingsrun — the real Kingsrun, the one that existed before the Sovereign King gave it a name, the corridor that selected and tested and watched — stretched ahead into water no chart fully mapped.
+
+North of them: Velundri and Kelvanni and Brannach and Merrenbach and Galluun's Tooth and Selvaggio and the highland where you had been born and the bell that had rung once or twice and the world you'd left behind.
+
+*if (bell_rings = 1)
+  One ring. Safe journey. No promise to return. The bell's echo had faded five stops ago. The journey had not been safe.
+*if (bell_rings = 2)
+  Two rings. A promise to return. The bell's echo had faded five stops ago. The promise had not.
+
+The storm was watching them.
+
+And the storm was smiling.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  GAME 1 — FINAL STATS AND CHECKPOINT
+*comment ---------------------------------------------------
+
+*set velundri_revelation true
+
+[b]KINGSRUN: THE DEPARTURE[/b]
+[b]End of Game 1[/b]
+
+[b]Captain:[/b] ${mc_name}
+[b]Ship:[/b] ${ship_name}
+[b]Crew:[/b] ${crew_count}
+[b]Bounty:[/b] ${bounty} Sovereigns
+[b]Grimoire Followers:[/b] ${grimoire_followers}
+[b]Dominion — Armoring:[/b] ${armoring_tier} | [b]Vision:[/b] ${vision_tier} | [b]King:[/b] ${king_tier}
+[b]Kingsrun Position:[/b] South of Stop 6 — Approaching Durromakh
+[b]Days Since Departure:[/b] ${days_since_departure}
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  CHECKPOINT CODE GENERATION
+*comment  Encode ~30 key variables for Game 2 import
+*comment ---------------------------------------------------
+
+*comment ---------------------------------------------------
+*comment  CHECKPOINT CODE — Positional Encoding
+*comment  Each variable maps to a fixed character(s).
+*comment  Delimiter: dash (-) between sections.
+*comment  Player copies the full string.
+*comment  Game 2 decodes by splitting on dashes.
+*comment ---------------------------------------------------
+
+*comment Build the code in sections, concatenating into save_code
+*temp save_code ""
+
+*comment === SECTION 1: MC IDENTITY (8 single chars) ===
+*temp id_parent "X"
+*if (mc_parent = "oni_mother")
+  *set id_parent "O"
+*if (mc_parent = "human_father")
+  *set id_parent "H"
+
+*temp id_height "X"
+*if (mc_height = "human_passing")
+  *set id_height "1"
+*if (mc_height = "noticeable")
+  *set id_height "2"
+*if (mc_height = "imposing")
+  *set id_height "3"
+*if (mc_height = "towering")
+  *set id_height "4"
+
+*temp id_horns "X"
+*if (mc_horns = "swept_back")
+  *set id_horns "S"
+*if (mc_horns = "single_central")
+  *set id_horns "C"
+*if (mc_horns = "ram_curved")
+  *set id_horns "R"
+*if (mc_horns = "broken")
+  *set id_horns "B"
+
+*temp id_skin "X"
+*if (mc_skin = "bronze_red")
+  *set id_skin "R"
+*if (mc_skin = "blue_grey")
+  *set id_skin "B"
+*if (mc_skin = "muted_violet")
+  *set id_skin "V"
+*if (mc_skin = "ash_white")
+  *set id_skin "W"
+
+*temp id_build "X"
+*if (mc_build = "lean")
+  *set id_build "L"
+*if (mc_build = "broad")
+  *set id_build "B"
+*if (mc_build = "wiry")
+  *set id_build "W"
+*if (mc_build = "balanced")
+  *set id_build "D"
+
+*temp id_hair "X"
+*if (mc_hair = "white_long")
+  *set id_hair "W"
+*if (mc_hair = "black_cropped")
+  *set id_hair "C"
+*if (mc_hair = "dark_red_tied")
+  *set id_hair "R"
+*if (mc_hair = "silver_wild")
+  *set id_hair "S"
+*if (mc_hair = "black_mane")
+  *set id_hair "M"
+
+*temp id_back "X"
+*if (mc_backstory = "debt")
+  *set id_back "D"
+*if (mc_backstory = "name_on_wall")
+  *set id_back "N"
+*if (mc_backstory = "exile")
+  *set id_back "E"
+*if (mc_backstory = "broadcast")
+  *set id_back "B"
+
+*temp id_motive "X"
+*if (mc_motivation = "prove_wrong")
+  *set id_motive "P"
+*if (mc_motivation = "find_father")
+  *set id_motive "F"
+*if (mc_motivation = "see_the_end")
+  *set id_motive "S"
+*if (mc_motivation = "build_something")
+  *set id_motive "B"
+
+*set save_code id_parent
+*set save_code (save_code & id_height)
+*set save_code (save_code & id_horns)
+*set save_code (save_code & id_skin)
+*set save_code (save_code & id_build)
+*set save_code (save_code & id_hair)
+*set save_code (save_code & id_back)
+*set save_code (save_code & id_motive)
+
+*comment === SECTION 2: DOMINION + POWER (separated by dash) ===
+*temp d_arm round(dominion_armoring)
+*temp d_vis round(dominion_vision)
+*temp d_king round(dominion_king)
+*set save_code (save_code & "-")
+*set save_code (save_code & d_arm)
+*set save_code (save_code & "-")
+*set save_code (save_code & d_vis)
+*set save_code (save_code & "-")
+*set save_code (save_code & d_king)
+
+*temp id_korvaan 0
+*if (korvaan_stage = "callus")
+  *set id_korvaan 1
+*if (korvaan_stage = "ironset")
+  *set id_korvaan 2
+*if (korvaan_stage = "fleshweave")
+  *set id_korvaan 3
+*if (korvaan_stage = "nerveburn")
+  *set id_korvaan 4
+*if (korvaan_stage = "reforged")
+  *set id_korvaan 5
+
+*temp id_fruit 0
+*if has_god_fruit
+  *set id_fruit 1
+*if god_fruit_awakened
+  *set id_fruit 2
+
+*set save_code (save_code & "-")
+*set save_code (save_code & id_korvaan)
+*set save_code (save_code & id_fruit)
+
+*comment === SECTION 3: BOUNTY + FOLLOWERS ===
+*set save_code (save_code & "-")
+*set save_code (save_code & bounty)
+*set save_code (save_code & "-")
+*set save_code (save_code & grimoire_followers)
+
+*comment === SECTION 4: CREW ROSTER ===
+*comment Each crew slot: E(xists)A(live)L(oyalty) — e.g., "YY75" = exists, alive, loyalty 75
+*comment "NN00" = doesn't exist
+
+*temp cl1 round(crew1_loyalty)
+*temp cl2 round(crew2_loyalty)
+*temp cl3 round(crew3_loyalty)
+*temp cl4 round(crew4_loyalty)
+*temp cl5 round(crew5_loyalty)
+
+*temp c1_code "NN00"
+*if crew1_exists
+  *if crew1_alive
+    *set c1_code ("YY" & cl1)
+  *if (crew1_alive = false)
+    *set c1_code ("YN" & cl1)
+
+*temp c2_code "NN00"
+*if crew2_exists
+  *if crew2_alive
+    *set c2_code ("YY" & cl2)
+  *if (crew2_alive = false)
+    *set c2_code ("YN" & cl2)
+
+*temp c3_code "NN00"
+*if crew3_exists
+  *if crew3_alive
+    *set c3_code ("YY" & cl3)
+  *if (crew3_alive = false)
+    *set c3_code ("YN" & cl3)
+
+*temp c4_code "NN00"
+*if crew4_exists
+  *if crew4_alive
+    *set c4_code ("YY" & cl4)
+  *if (crew4_alive = false)
+    *set c4_code ("YN" & cl4)
+
+*temp c5_code "NN00"
+*if crew5_exists
+  *if crew5_alive
+    *set c5_code ("YY" & cl5)
+  *if (crew5_alive = false)
+    *set c5_code ("YN" & cl5)
+
+*set save_code (save_code & "-")
+*set save_code (save_code & c1_code)
+*set save_code (save_code & "-")
+*set save_code (save_code & c2_code)
+*set save_code (save_code & "-")
+*set save_code (save_code & c3_code)
+*set save_code (save_code & "-")
+*set save_code (save_code & c4_code)
+*set save_code (save_code & "-")
+*set save_code (save_code & c5_code)
+
+*comment === SECTION 5: CREW NAMES ===
+*comment Encode crew names by first 3 chars or "EMP" for empty
+*temp cn1 "EMP"
+*if crew1_exists
+  *set cn1 crew1_name
+
+*temp cn2 "EMP"
+*if crew2_exists
+  *set cn2 crew2_name
+
+*temp cn3 "EMP"
+*if crew3_exists
+  *set cn3 crew3_name
+
+*temp cn4 "EMP"
+*if crew4_exists
+  *set cn4 crew4_name
+
+*temp cn5 "EMP"
+*if crew5_exists
+  *set cn5 crew5_name
+
+*set save_code (save_code & "-")
+*set save_code (save_code & cn1)
+*set save_code (save_code & "-")
+*set save_code (save_code & cn2)
+*set save_code (save_code & "-")
+*set save_code (save_code & cn3)
+*set save_code (save_code & "-")
+*set save_code (save_code & cn4)
+*set save_code (save_code & "-")
+*set save_code (save_code & cn5)
+
+*comment === SECTION 6: CREW RACES ===
+*temp cr1 "XX"
+*if crew1_exists
+  *set cr1 crew1_race
+
+*temp cr2 "XX"
+*if crew2_exists
+  *set cr2 crew2_race
+
+*temp cr3 "XX"
+*if crew3_exists
+  *set cr3 crew3_race
+
+*temp cr4 "XX"
+*if crew4_exists
+  *set cr4 crew4_race
+
+*temp cr5 "XX"
+*if crew5_exists
+  *set cr5 crew5_race
+
+*set save_code (save_code & "-")
+*set save_code (save_code & cr1)
+*set save_code (save_code & "-")
+*set save_code (save_code & cr2)
+*set save_code (save_code & "-")
+*set save_code (save_code & cr3)
+*set save_code (save_code & "-")
+*set save_code (save_code & cr4)
+*set save_code (save_code & "-")
+*set save_code (save_code & cr5)
+
+*comment === SECTION 7: CREW ROLES ===
+*temp rl1 "XX"
+*if crew1_exists
+  *set rl1 crew1_role
+
+*temp rl2 "XX"
+*if crew2_exists
+  *set rl2 crew2_role
+
+*temp rl3 "XX"
+*if crew3_exists
+  *set rl3 crew3_role
+
+*temp rl4 "XX"
+*if crew4_exists
+  *set rl4 crew4_role
+
+*temp rl5 "XX"
+*if crew5_exists
+  *set rl5 crew5_role
+
+*set save_code (save_code & "-")
+*set save_code (save_code & rl1)
+*set save_code (save_code & "-")
+*set save_code (save_code & rl2)
+*set save_code (save_code & "-")
+*set save_code (save_code & rl3)
+*set save_code (save_code & "-")
+*set save_code (save_code & rl4)
+*set save_code (save_code & "-")
+*set save_code (save_code & rl5)
+
+*comment === SECTION 8: CREW TRUST LEVELS ===
+*temp ct1 "XX"
+*if crew1_exists
+  *set ct1 crew1_trust
+
+*temp ct2 "XX"
+*if crew2_exists
+  *set ct2 crew2_trust
+
+*temp ct3 "XX"
+*if crew3_exists
+  *set ct3 crew3_trust
+
+*temp ct4 "XX"
+*if crew4_exists
+  *set ct4 crew4_trust
+
+*temp ct5 "XX"
+*if crew5_exists
+  *set ct5 crew5_trust
+
+*set save_code (save_code & "-")
+*set save_code (save_code & ct1)
+*set save_code (save_code & "-")
+*set save_code (save_code & ct2)
+*set save_code (save_code & "-")
+*set save_code (save_code & ct3)
+*set save_code (save_code & "-")
+*set save_code (save_code & ct4)
+*set save_code (save_code & "-")
+*set save_code (save_code & ct5)
+
+*comment === SECTION 9: CREW ROMANCE ===
+*temp rm1 0
+*if crew1_romance_active
+  *set rm1 crew1_romance
+
+*temp rm2 0
+*if crew2_romance_active
+  *set rm2 crew2_romance
+
+*temp rm3 0
+*if crew3_romance_active
+  *set rm3 crew3_romance
+
+*temp rm4 0
+*if crew4_romance_active
+  *set rm4 crew4_romance
+
+*temp rm5 0
+*if crew5_romance_active
+  *set rm5 crew5_romance
+
+*set save_code (save_code & "-")
+*set save_code (save_code & rm1)
+*set save_code (save_code & "-")
+*set save_code (save_code & rm2)
+*set save_code (save_code & "-")
+*set save_code (save_code & rm3)
+*set save_code (save_code & "-")
+*set save_code (save_code & rm4)
+*set save_code (save_code & "-")
+*set save_code (save_code & rm5)
+
+*comment === SECTION 10: PERSONALITY AXES (rounded to int) ===
+*temp pa_agg round(personality_aggression)
+*temp pa_loy round(personality_loyalty)
+*temp pa_opn round(personality_openness)
+*temp pa_mer round(personality_mercy)
+*set save_code (save_code & "-")
+*set save_code (save_code & pa_agg)
+*set save_code (save_code & "-")
+*set save_code (save_code & pa_loy)
+*set save_code (save_code & "-")
+*set save_code (save_code & pa_opn)
+*set save_code (save_code & "-")
+*set save_code (save_code & pa_mer)
+
+*comment === SECTION 11: PLOT FLAGS ===
+*temp pf_bell bell_rings
+*temp pf_fight 0
+*if selvaggio_fight_won
+  *set pf_fight 1
+*temp pf_reef 0
+*if completed_reef_walk
+  *set pf_reef 1
+*temp pf_slag 0
+*if received_slag_gift
+  *set pf_slag 1
+*temp pf_erupt 0
+*if brannach_eruption_survived
+  *set pf_erupt 1
+*temp pf_weapon 0
+*if obtained_weapon
+  *set pf_weapon 1
+*temp pf_clinic 0
+*if clinic_debt_owed
+  *set pf_clinic 1
+*temp pf_coat 0
+*if coat_traded
+  *set pf_coat 1
+*temp pf_2age 0
+*if second_age_fragment
+  *set pf_2age 1
+*temp pf_king 0
+*if king_manifested
+  *set pf_king 1
+*temp pf_carved 0
+*if carved_name_reef
+  *set pf_carved 1
+*temp pf_khari 0
+*if khari_trust_earned
+  *set pf_khari 1
+*temp pf_oursseva 0
+*if met_oursseva
+  *set pf_oursseva 1
+
+*set save_code (save_code & "-")
+*set save_code (save_code & pf_bell)
+*set save_code (save_code & pf_fight)
+*set save_code (save_code & pf_reef)
+*set save_code (save_code & pf_slag)
+*set save_code (save_code & pf_erupt)
+*set save_code (save_code & pf_weapon)
+*set save_code (save_code & pf_clinic)
+*set save_code (save_code & pf_coat)
+*set save_code (save_code & pf_2age)
+*set save_code (save_code & pf_king)
+*set save_code (save_code & pf_carved)
+*set save_code (save_code & pf_khari)
+*set save_code (save_code & pf_oursseva)
+
+*comment === SECTION 12: SHIP + RESOURCES ===
+*temp sc_cond round(ship_condition)
+*temp sc_sov round(sovereigns)
+*temp sc_sup round(supplies)
+*set save_code (save_code & "-")
+*set save_code (save_code & ship_name)
+*set save_code (save_code & "-")
+*set save_code (save_code & sc_cond)
+*set save_code (save_code & "-")
+*set save_code (save_code & sc_sov)
+*set save_code (save_code & "-")
+*set save_code (save_code & sc_sup)
+*set save_code (save_code & "-")
+*set save_code (save_code & days_since_departure)
+
+*comment === SECTION 13: FACTION REPS ===
+*comment Offset by 100 to avoid negative numbers (range becomes 0-200)
+*comment Game 2 decodes by subtracting 100
+*temp fr_ward (rep_wardensea + 100)
+*temp fr_kolm (rep_kolmari + 100)
+*temp fr_ren (rep_renegade + 100)
+*temp fr_khar (rep_khari_warrens + 100)
+*temp fr_oni (rep_oni_highlands + 100)
+*set save_code (save_code & "-")
+*set save_code (save_code & fr_ward)
+*set save_code (save_code & "-")
+*set save_code (save_code & fr_kolm)
+*set save_code (save_code & "-")
+*set save_code (save_code & fr_ren)
+*set save_code (save_code & "-")
+*set save_code (save_code & fr_khar)
+*set save_code (save_code & "-")
+*set save_code (save_code & fr_oni)
+
+*comment === SECTION 14: RIVAL CAPTAINS ===
+*comment Offset by 100 to avoid negatives. Game 2 subtracts 100.
+*temp rv_mav 100
+*if met_mavrokka
+  *set rv_mav (rival_mavrokka + 100)
+*temp rv_cael 100
+*if met_caelmund
+  *set rv_cael (rival_caelmund + 100)
+*temp rv_tom 100
+*if met_tomoe
+  *set rv_tom (rival_tomoe + 100)
+*temp rv_suu 100
+*if met_suuba
+  *set rv_suu (rival_suuba + 100)
+*temp rv_kov 100
+*if met_kovesse
+  *set rv_kov (rival_kovesse + 100)
+
+*set save_code (save_code & "-")
+*set save_code (save_code & rv_mav)
+*set save_code (save_code & "-")
+*set save_code (save_code & rv_cael)
+*set save_code (save_code & "-")
+*set save_code (save_code & rv_tom)
+*set save_code (save_code & "-")
+*set save_code (save_code & rv_suu)
+*set save_code (save_code & "-")
+*set save_code (save_code & rv_kov)
+
+*comment === SECTION 15: WEAPON + MISC ===
+*set save_code (save_code & "-")
+*set save_code (save_code & weapon_name)
+*set save_code (save_code & "-")
+*set save_code (save_code & weapon_grade)
+*set save_code (save_code & "-")
+*set save_code (save_code & god_fruit_name)
+*set save_code (save_code & "-")
+*set save_code (save_code & god_fruit_type)
+
+*comment === SECTION 16: DOMINION LEAN + MISC FLAGS ===
+*temp id_lean "B"
+*if (dominion_lean = "armoring")
+  *set id_lean "A"
+*if (dominion_lean = "vision")
+  *set id_lean "V"
+
+*set save_code (save_code & "-")
+*set save_code (save_code & id_lean)
+*set save_code (save_code & "-")
+*set save_code (save_code & galluuns_tooth_challenge)
+*set save_code (save_code & "-")
+*set save_code (save_code & merrenbach_deal)
+*set save_code (save_code & "-")
+*set save_code (save_code & kelvanni_favor)
+*set save_code (save_code & "-")
+*set save_code (save_code & revelation_type)
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  DISPLAY CHECKPOINT CODE
+*comment ---------------------------------------------------
+
+[b]YOUR KINGSRUN CHECKPOINT[/b]
+[b]━━━━━━━━━━━━━━━━━━━━━━━[/b]
+
+Copy this code exactly. You will need it to continue your journey in [b]Kingsrun: The Deep Water[/b].
+
+[b]Code:[/b]
+${save_code}
+
+[b]━━━━━━━━━━━━━━━━━━━━━━━[/b]
+
+[i]Select the code above and copy it to your clipboard. Store it somewhere safe — a text file, a note on your phone, anywhere you won't lose it. When Kingsrun: The Deep Water launches, you will paste this code at the start to restore your captain, your crew, your choices, and everything the Kingsrun remembers about you.[/i]
+
+[i]If you lose this code, The Deep Water will offer a "Story So Far" sequence where you can make the key decisions again — but it won't be the same. The Kingsrun remembers specifics. Approximations don't carry the same weight.[/i]
+
+*page_break
+
+[i]Thank you for playing.[/i]
+
+[i]Merdou Akkan sailed south. The ocean got darker. The crew got quieter. The Kingsrun was not what they thought it was.[/i]
+
+[i]It never had been.[/i]
+
+[i]— Continue in KINGSRUN: THE DEEP WATER —[/i]
+
+[i]Kingsrun v${game_version} — © Mert Akhan[/i]
+
+*ending

@@ -1,0 +1,161 @@
+*stat_chart
+  text mc_name ═══════════════════════
+  text bounty_tier BOUNTY STATUS
+  text current_stop_name KINGSRUN POSITION
+
+*stat_chart
+  text mc_name
+  text mc_height_feet Height
+  text mc_horns Horns
+  text mc_skin Skin
+  text mc_build Build
+
+*page_break
+
+*comment ═══════════════════════════════════
+*comment  GRIMOIRE PROFILE — DOMINION
+*comment ═══════════════════════════════════
+
+DOMINION EXPRESSIONS
+*line_break
+
+*stat_chart
+  text armoring_tier Armoring
+  percent dominion_armoring Armoring
+
+*if (dominion_vision > 5)
+  *stat_chart
+    text vision_tier Vision
+    percent dominion_vision Vision
+
+*if (dominion_king > 0)
+  *stat_chart
+    text king_tier King
+    percent dominion_king King
+
+*if korvaan_training
+  *line_break
+  BODY REFINEMENT — KORVAAN
+  *stat_chart
+    text korvaan_stage Stage
+
+*if has_god_fruit
+  *line_break
+  GOD FRUIT
+  *stat_chart
+    text god_fruit_name Fruit
+    text god_fruit_type Type
+
+*page_break
+
+*comment ═══════════════════════════════════
+*comment  GRIMOIRE PROFILE — REPUTATION
+*comment ═══════════════════════════════════
+
+WORLD STANDING
+*line_break
+
+*stat_chart
+  text wardensea_standing Wardensea
+  text kolmari_standing Kolmari
+  text renegade_standing Renegade Community
+  text khari_standing Khari Warrens
+  text oni_standing Oni Highlands
+
+*line_break
+*if (bounty > 0)
+  BOUNTY: ${bounty} Sovereigns
+*if (bounty = 0)
+  BOUNTY: None issued
+*line_break
+GRIMOIRE FOLLOWERS: ${grimoire_followers}
+
+*page_break
+
+*comment ═══════════════════════════════════
+*comment  GRIMOIRE PROFILE — CREW ROSTER
+*comment ═══════════════════════════════════
+
+CREW ROSTER — ${crew_count} members
+*line_break
+
+*if crew1_exists
+  ${crew1_name} — ${crew1_role}
+  *if (crew1_alive = false)
+    [LOST]
+  *line_break
+  *stat_chart
+    text crew1_trust Trust
+    percent crew1_loyalty Loyalty
+
+*if crew2_exists
+  *line_break
+  ${crew2_name} — ${crew2_role}
+  *if (crew2_alive = false)
+    [LOST]
+  *line_break
+  *stat_chart
+    text crew2_trust Trust
+    percent crew2_loyalty Loyalty
+
+*if crew3_exists
+  *line_break
+  ${crew3_name} — ${crew3_role}
+  *if (crew3_alive = false)
+    [LOST]
+  *line_break
+  *stat_chart
+    text crew3_trust Trust
+    percent crew3_loyalty Loyalty
+
+*if crew4_exists
+  *line_break
+  ${crew4_name} — ${crew4_role}
+  *if (crew4_alive = false)
+    [LOST]
+  *line_break
+  *stat_chart
+    text crew4_trust Trust
+    percent crew4_loyalty Loyalty
+
+*if crew5_exists
+  *line_break
+  ${crew5_name} — ${crew5_role}
+  *if (crew5_alive = false)
+    [LOST]
+  *line_break
+  *stat_chart
+    text crew5_trust Trust
+    percent crew5_loyalty Loyalty
+
+*if (crew_count = 0)
+  No crew. You sail alone.
+
+*page_break
+
+*comment ═══════════════════════════════════
+*comment  GRIMOIRE PROFILE — TREASURY
+*comment ═══════════════════════════════════
+
+TREASURY AND SUPPLIES
+*line_break
+
+*stat_chart
+  text sovereigns Sovereigns
+  percent supplies Supplies
+  text food_days Days of Food
+
+*if has_ship
+  *line_break
+  SHIP: ${ship_name}
+  *stat_chart
+    percent ship_condition Hull Condition
+
+*if (has_ship = false)
+  *line_break
+  NO SHIP.
+
+*line_break
+KINGSRUN — Stop ${current_stop}: ${current_stop_name}
+*line_break
+Days since departure: ${days_since_departure}

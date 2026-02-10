@@ -1,0 +1,355 @@
+*title Kingsrun
+*author Mert Akhan
+*ifid a5034680-4842-45ed-8902-989808d03d12
+*scene_list
+  startup
+  ch1_selvaggio_arrival
+  ch1_selvaggio_docks
+  ch1_selvaggio_departure_row
+  ch1_selvaggio_first_night
+  ch1_selvaggio_crew_hunt
+  ch1_selvaggio_the_bell
+  ch2_galluuns_tooth_approach
+  ch2_galluuns_tooth_port
+  ch2_galluuns_tooth_reef
+  ch3_merrenbach_arrival
+  ch3_merrenbach_warren
+  ch3_merrenbach_reef_walk
+  ch4_brannach_landfall
+  ch4_brannach_fissures
+  ch4_brannach_forge
+  ch5_kelvanni_clinic
+  ch5_kelvanni_debts
+  ch5_kelvanni_crisis
+  ch6_velundri_market
+  ch6_velundri_revelation
+  ch6_velundri_cliffhanger
+
+*comment ===================================================
+*comment  KINGSRUN — Game 1: The Departure
+*comment  Kingsrun Stops 1-6 (Selvaggio through Velundri)
+*comment ===================================================
+
+*comment ---------------------------------------------------
+*comment  MC IDENTITY — Fixed + Player-Shaped
+*comment ---------------------------------------------------
+
+*comment MC is half-Oni/half-Human. This is fixed.
+*create mc_name "Merdou Akkan"
+*create mc_first_name "Merdou"
+*create mc_surname "Akkan"
+
+*comment Parent who raised the MC (oni_mother / human_father)
+*create mc_parent "oni_mother"
+
+*comment Height options: human_passing / noticeable / imposing / towering
+*create mc_height "imposing"
+*create mc_height_feet "6'7\""
+
+*comment Horn style: swept_back / single_central / ram_curved / broken
+*create mc_horns "ram_curved"
+
+*comment Skin tone: bronze_red / blue_grey / muted_violet / ash_white
+*create mc_skin "ash_white"
+
+*comment Build: lean / broad / wiry / balanced
+*create mc_build "broad"
+
+*comment Hair: white_long / black_cropped / dark_red_tied / silver_wild / black_mane
+*create mc_hair "black_mane"
+
+*comment Starting outfit: worn / highland / maritime / stolen
+*create mc_outfit "highland"
+
+*comment Backstory: debt / name_on_wall / exile / broadcast
+*create mc_backstory "exile"
+
+*comment Motivation: prove_them_wrong / find_father / see_the_end / build_something
+*create mc_motivation "prove_wrong"
+
+*comment ---------------------------------------------------
+*comment  DOMINION SYSTEM
+*comment ---------------------------------------------------
+
+*comment Three expressions. Scale 0-100.
+*comment Tier thresholds: 0-9 Flicker, 10-29 Tempered, 30-59 Forged, 60-84 Paramount, 85+ Conqueror
+*comment MC starts at Flicker with trace amounts.
+*create dominion_armoring 5
+*create dominion_vision 5
+*create dominion_king 0
+
+*comment Dominion lean: armoring / vision / balanced
+*create dominion_lean "balanced"
+
+*comment Descriptive tier names (updated by code when thresholds crossed)
+*create armoring_tier "Flicker"
+*create vision_tier "Flicker"
+*create king_tier "Dormant"
+
+*comment Has King manifested at all? (first manifestation is a major story beat)
+*create king_manifested false
+
+*comment ---------------------------------------------------
+*comment  KORVAAN (Body Refinement)
+*comment ---------------------------------------------------
+
+*comment Stages: none / callus / ironset / fleshweave / nerveburn / reforged
+*create korvaan_stage "none"
+*create korvaan_training false
+*create korvaan_progress 0
+
+*comment ---------------------------------------------------
+*comment  GOD FRUIT
+*comment ---------------------------------------------------
+
+*create has_god_fruit false
+*create god_fruit_name "none"
+*create god_fruit_type "none"
+*create god_fruit_awakened false
+
+*comment ---------------------------------------------------
+*comment  BOUNTY AND REPUTATION
+*comment ---------------------------------------------------
+
+*comment Bounty in Sovereigns. MC starts at 0 — no bounty yet.
+*create bounty 0
+
+*comment Descriptive bounty tier
+*create bounty_tier "Unknown"
+
+*comment Grimoire followers (audience size — social media equivalent)
+*create grimoire_followers 0
+
+*comment ---------------------------------------------------
+*comment  FACTION REPUTATION
+*comment  Scale: -100 to 100
+*comment  Negative = hostile. Zero = unknown. Positive = favorable.
+*comment ---------------------------------------------------
+
+*create rep_wardensea 0
+*create rep_kolmari 0
+*create rep_renegade 0
+*create rep_khari_warrens 0
+*create rep_oni_highlands 0
+
+*comment Specific Conqueror awareness/reputation
+*create rep_dessaren 0
+*create rep_kuldhara 0
+*create rep_senmovar 0
+*create rep_vassago 0
+*create rep_daeshara 0
+
+*comment Descriptive faction standing (updated by code)
+*create wardensea_standing "Unknown"
+*create kolmari_standing "Unknown"
+*create renegade_standing "Nobody"
+*create khari_standing "Outsider"
+*create oni_standing "Exiled"
+
+*comment ---------------------------------------------------
+*comment  MONEY AND SUPPLIES
+*comment ---------------------------------------------------
+
+*comment Currency in Sovereigns. MC starts nearly broke.
+*create sovereigns 12
+
+*comment Supply level: 0 = starving, 100 = fully stocked
+*create supplies 15
+
+*comment Days of food remaining for current crew size
+*create food_days 3
+
+*comment Ship condition: 0 = sinking, 100 = perfect
+*create ship_condition 0
+
+*comment Does the MC have a ship?
+*create has_ship false
+*create ship_name "none"
+*create ship_acquisition_method "none"
+
+*comment ---------------------------------------------------
+*comment  CREW ROSTER
+*comment  Each crew member: exists flag, alive flag, loyalty (0-100),
+*comment  trust level, and role.
+*comment ---------------------------------------------------
+
+*create crew_count 0
+
+*comment Crew Slot 1 — First Mate
+*create crew1_exists false
+*create crew1_name "empty"
+*create crew1_race "unknown"
+*create crew1_role "empty"
+*create crew1_alive true
+*create crew1_loyalty 0
+*create crew1_trust "stranger"
+*create crew1_romance 0
+*create crew1_romance_active false
+
+*comment Crew Slot 2 — Navigator
+*create crew2_exists false
+*create crew2_name "empty"
+*create crew2_race "unknown"
+*create crew2_role "empty"
+*create crew2_alive true
+*create crew2_loyalty 0
+*create crew2_trust "stranger"
+*create crew2_romance 0
+*create crew2_romance_active false
+
+*comment Crew Slot 3 — Engineer
+*create crew3_exists false
+*create crew3_name "empty"
+*create crew3_race "unknown"
+*create crew3_role "empty"
+*create crew3_alive true
+*create crew3_loyalty 0
+*create crew3_trust "stranger"
+*create crew3_romance 0
+*create crew3_romance_active false
+
+*comment Crew Slot 4 — Cook / Morale
+*create crew4_exists false
+*create crew4_name "empty"
+*create crew4_race "unknown"
+*create crew4_role "empty"
+*create crew4_alive true
+*create crew4_loyalty 0
+*create crew4_trust "stranger"
+*create crew4_romance 0
+*create crew4_romance_active false
+
+*comment Crew Slot 5 — Fighter / Specialist
+*create crew5_exists false
+*create crew5_name "empty"
+*create crew5_race "unknown"
+*create crew5_role "empty"
+*create crew5_alive true
+*create crew5_loyalty 0
+*create crew5_trust "stranger"
+*create crew5_romance 0
+*create crew5_romance_active false
+
+*comment ---------------------------------------------------
+*comment  NPC RELATIONSHIP FLAGS (non-crew recurring NPCs)
+*comment ---------------------------------------------------
+
+*comment Rival CG Captains
+*create met_mavrokka false
+*create met_caelmund false
+*create met_tomoe false
+*create met_suuba false
+*create met_kovesse false
+
+*create rival_mavrokka 0
+*create rival_caelmund 0
+*create rival_tomoe 0
+*create rival_suuba 0
+*create rival_kovesse 0
+
+*comment Wardensea Officers
+*create met_officer_selvaggio false
+*create officer_selvaggio_name "unknown"
+*create officer_selvaggio_attitude 0
+
+*comment Kingsrun locals
+*create met_goltieri false
+*create goltieri_attitude 0
+
+*comment ---------------------------------------------------
+*comment  MC PERSONALITY AXES
+*comment  These shift based on player choices.
+*comment  Scale: 0-100, starts at 50 (neutral).
+*comment ---------------------------------------------------
+
+*comment Aggressive <-> Cautious
+*create personality_aggression 50
+
+*comment Loyal <-> Pragmatic
+*create personality_loyalty 50
+
+*comment Open <-> Guarded
+*create personality_openness 50
+
+*comment Merciful <-> Ruthless
+*create personality_mercy 50
+
+*comment ---------------------------------------------------
+*comment  PLOT FLAGS — Game 1
+*comment ---------------------------------------------------
+
+*comment Chapter 1: Selvaggio
+*create rang_departure_bell false
+*create bell_rings 0
+*create selvaggio_fight_won false
+*create selvaggio_gambit_encountered false
+*create found_ship false
+
+*comment Chapter 2: Galluun's Tooth
+*create carved_name_reef false
+*create galluuns_tooth_challenge "none"
+
+*comment Chapter 3: Merrenbach
+*create completed_reef_walk false
+*create khari_guide_name "unknown"
+*create khari_trust_earned false
+*create merrenbach_deal "none"
+
+*comment Chapter 4: Brannach
+*create received_slag_gift false
+*create brannach_eruption_survived false
+*create obtained_weapon false
+*create weapon_name "none"
+*create weapon_grade "none"
+
+*comment Chapter 5: Kelvanni
+*create clinic_debt_owed false
+*create kelvanni_favor "none"
+*create met_oursseva false
+
+*comment Chapter 6: Velundri
+*create coat_traded false
+*create velundri_revelation false
+*create revelation_type "none"
+*create second_age_fragment false
+
+*comment ---------------------------------------------------
+*comment  GRIMOIRE BROADCAST FLAGS
+*comment  Track which broadcasts the player has seen.
+*comment ---------------------------------------------------
+
+*create broadcast_count 0
+*create latest_broadcast "none"
+
+*comment ---------------------------------------------------
+*comment  KINGSRUN PROGRESS
+*comment ---------------------------------------------------
+
+*create current_stop 1
+*create current_stop_name "Selvaggio"
+*create days_since_departure 0
+*create total_sea_days 0
+
+*comment ---------------------------------------------------
+*comment  INJURIES AND CONDITIONS
+*comment ---------------------------------------------------
+
+*create injured false
+*create injury_type "none"
+*create injury_severity 0
+*create injury_days_remaining 0
+
+*comment ---------------------------------------------------
+*comment  SAVE CODE VARIABLES (for cross-game persistence)
+*comment ---------------------------------------------------
+
+*comment These will be encoded into the checkpoint password at Game 1 end
+*comment Kept to ~30 variables max for manageable code length
+
+*comment ---------------------------------------------------
+*comment  GAME START
+*comment ---------------------------------------------------
+
+*create game_version "1.0.0"
+
+*goto_scene ch1_selvaggio_arrival

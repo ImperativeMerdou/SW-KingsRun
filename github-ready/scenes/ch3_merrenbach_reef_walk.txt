@@ -1,0 +1,274 @@
+*comment ===================================================
+*comment  CHAPTER 3: MERRENBACH — "The Reef Walk"
+*comment  Scene 3: The Reef Walk / Transit South
+*comment  At sea between Merrenbach and Brannach. The MC
+*comment  reflects on what the Khari taught. Open water.
+*comment  Grimoire broadcast — wider Kingsrun update.
+*comment  Cliffhanger: smoke from Brannach's direction.
+*comment  The volcano. Chapter 3 ends.
+*comment  1 real choice. Zero fake choices.
+*comment ===================================================
+
+The night passed on the open water.
+
+The Bastion Sea was different south of Merrenbach. The swells lengthened — twelve seconds between crests instead of eight, each one a slow, rolling presence that lifted the ship and set it down with a motion that had lost the choppiness of the reef zone. The water was darker. The turquoise of the coral shallows was gone, replaced by an open-ocean blue that said the bottom was no longer visible, no longer close, no longer relevant. The Sundered Wake sailed over a depth that the body could feel — the specific knowledge of nothing beneath you, transmitted through the hull, through the deck, through the bones.
+
+You took the dawn watch.
+
+The tiller was cold in the pre-dawn air — the bronze fitting conducting the water's temperature through the rudder mount, through the tiller arm, into your grip. The ship responded. The heading was south by southeast, the sails drawing well, the wind steady from the east.
+
+*if (merrenbach_deal = "accepted")
+  The cargo made the ship heavier. You could feel it in the tiller's resistance — a sluggishness in the turn that hadn't been there before. Thirty crates of Kolmari spice in the hold, worth six Gold Sovereigns at market, worth more than that at Brannach where the volcano contaminated the local supply. The weight was money. The money was opportunity. Opportunity that changed a crew's trajectory.
+
+  The Kolmari trading house was four days away by recovery vessel. The Wardensea's file was instantaneous by Grimoire. Somewhere between those two timelines, the Sundered Wake sailed with stolen cargo in the hold and route intelligence in the navigator's chart.
+
+The dawn came from the east — grey first, then gold, the horizon defining itself by degrees. The ocean was empty. No ships. No reef markers. No island silhouettes. The Bastion Sea between Merrenbach and Brannach was open water — two hundred miles of nothing except depth and weather and the slow rotation of the sky.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne relieved you at dawn. She'd slept four hours — the minimum she allowed herself, the Wardensea discipline holding even at sea.
+
+  "No contacts overnight. The Grimoire has been quiet — no priority broadcasts, no patrol chatter on the standard bands." She took the tiller. "The gap holds. If the patrol maintained course, they reached Galluun's Tooth before dawn and Merrenbach by midday. We're sixty miles south of them."
+
+  *if (galluuns_tooth_challenge = "took_box")
+    She paused. The morning light was grey on her face.
+
+    "I checked Grey band before the watch change. The patrol is at Galluun's Tooth. They're inspecting the three ships that were still at anchor — fishing boats, local traffic. No Kingsrun vessels. They'll move south within hours."
+
+    She looked at the horizon.
+
+    "We're ahead. For now."
+
+*page_break
+
+The first day at sea was quiet.
+
+The crew settled into the transit rhythm — watches, meals, maintenance. The ship demanded less attention now than it had between Selvaggio and Galluun's Tooth. The repairs had accumulated. The sternpost joint from Pellanne. The bronze fitting from the wreck. The caulking Kessara had applied and reapplied at every stop. The Sundered Wake was still not a good ship. But it was a ship that had been improved by every island it had visited, and the improvements were measurable in the tiller's response and the hull's silence and the way the bilge stayed dry through the first watch.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara spent the morning in the bilge. She came up dry.
+
+  "First time," she said. She was grinning. The grin was wrong on her face — too wide, too surprised. "First time since Selvaggio that the bilge hasn't needed bailing after a watch." She leaned against the mast. "Caulking's cured. Sternpost solid. Bronze mount is — it's working. It's actually working." She touched the mast. Patted it. Caught herself patting a mast and stopped. "She's not pretty. She's not fast. But she's —" The grin came back. "She floated all night without complaining. I'm counting that."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek cooked with the Merrenbach kelp. The morning meal was rice and fish — dried stores from Selvaggio, rehydrated with a kelp broth that transformed the food from survival rations into something with depth and warmth and the dense minerality of the reef.
+
+  "The kelp is —" He tasted it. Closed his eyes. Opened them. "When you rehydrate it, the salt comes back, and the algae, and the — something from the coral. I don't know the word. The mineral thing." He served it on the deck. Tasted it again. "Three coppers a sheet. I've been thinking about this kelp since Merrenbach. I think I might be in love with a dried plant. Don't tell anyone."
+
+  *if (merrenbach_deal = "accepted")
+    He'd also been through the spice crates. Not opening — inspecting. Running his hands over the seals, reading the Kolmari marks, his nose close to the wood.
+
+    "Pepper. Turmeric. Cardamom. I can smell them through the seal — the waxed cord doesn't contain the aromatics completely." He looked up from the hold. "Southern Bastion stock, premium grade. At Brannach, where the volcanic ash taints the local spice supply, this cargo is worth its weight in Silver. At Kelvanni, where the clinic uses turmeric in medical preparations, it's worth more."
+
+    He paused.
+
+    "We're carrying a spice merchant's fortune in our hold. The Kolmari will want it back. The Wardensea will want to know why we have it." He looked at the ocean. "The answer needs to be ready before we need it."
+
+*page_break
+
+The Grimoire woke in the afternoon.
+
+The signal was strong — the Merrenbach relay was behind them, and the next relay was at Brannach, still a day ahead. The overlap created a clear zone where both signals reached, and the broadcast came through clean.
+
+"Kingsrun Watch — Veshanna Torc — standard update from the southern route."
+
+*set broadcast_count + 1
+
+"Kingsrun standings update. The MEAB has released the quarterly Cursed Generation assessment. Eight crews. Three active engagement zones. The headline: Nettava Daeshara has not been sighted in forty days. That's forty days of silence from the highest-bounty Renegade in the world — 5.21 billion Sovereigns and no signal, no sighting, no Grimoire trace. The Broadwave is speculating. The Wardensea isn't talking. Draw your own conclusions."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne looked at the Grimoire. Her hand went to her coat collar — the Wardensea gesture, the habit she hadn't killed. She caught herself. Dropped the hand.
+
+  "Nettava Daeshara. Forge Fruit. The Conqueror." She said the name the way she said all Wardensea file names — flat, clipped, professional. Then quieter: "If the Wardensea has lost track of a 5.21 billion Sovereign target for forty days, either she's dead, she's in the Sundren, or they know exactly where she is and aren't saying."
+
+"In other Kingsrun news: the Inheritors remain docked at Brannach for repairs. Kovesse Thrallek has reportedly hired local Gorundai labor for hull reconstruction — the volcanic eruption damaged the Regrade's port side and keel. Estimated repair time has been revised upward to three weeks."
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara listened. The engineer in her was calculating repair timelines.
+
+  "Three weeks for hull and keel work. That's significant damage — the volcanic debris must have hit them hard. The Gorundai at Brannach have the metalwork skills, but keel repair requires drydock facilities." She looked south. "If the Inheritors are still at Brannach when we arrive, that's a Cursed Generation crew at anchor. Kovesse Thrallek. Boar Fruit. Hundred and ninety million bounty."
+
+  She looked at you.
+
+  "We've been sharing stops with Suuba's crew since Galluun's Tooth. Now we might share one with Kovesse's. The Kingsrun is getting crowded."
+
+"Tomoe Gallacs update: The Gannet Crew has left Stop Eight heading south. Tomoe's bounty stands at seven hundred and ten million. The Wardensea Fourth Division patrol currently operating in the southern Bastion zone has been instructed to avoid engagement with the Gannet Crew. Repeat: the Fourth Division patrol has standing orders not to engage Tomoe Gallacs. That patrol is the same one conducting inspections on the southern route. Torc's analysis: they're inspecting cargo ships and rookies, not fighting the people who actually scare them."
+
+A pause.
+
+"Personal note from Torc: when the Wardensea tells a patrol to avoid a 24-year-old vulpine Khari captain, the patrol knows how scary the ocean actually is. Torc out."
+
+The broadcast ended. The ocean held the silence that followed — the wide quiet of open water that had been filled with a voice and was now empty of it.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was writing. Fast. The notebook filled with numbers and names and connections.
+
+  "The Fourth Division patrol has orders to avoid Tomoe Gallacs. That means they know she's on the same route — heading south from Stop Eight while they're heading south from Stop One. The patrol isn't just inspecting ships. It's threading a needle between Tomoe ahead of them and whatever Nettava is doing behind them."
+
+  She looked at you.
+
+  "We're in the middle. Between the patrol coming south and whatever's happening in the deep Kingsrun. The Bastion Sea is the safe zone — the easy water, the gentle stops. It's about to end."
+
+The broadcast sat in the air. Three pieces of intelligence, each one pulling in a different direction. Nettava Daeshara — missing, which meant either dead or operating in a silence that the Wardensea couldn't penetrate. The Inheritors — docked at Brannach, damaged, a Cursed Generation crew sharing the next stop. And Tomoe Gallacs — ahead, south, moving through the deep Kingsrun with a speed that made the Wardensea give her room.
+
+*choice
+  #Focus on the Inheritors. Kovesse Thrallek's crew is damaged and stuck at the next stop. A crew in need is a crew that owes favors — and a 190-million-bounty captain sitting at anchor changes Brannach's power balance.
+    *set personality_aggression %+ 3
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne's pen stopped. She read your posture the way she read everything — as data.
+
+      "The Inheritors at Brannach." She wrote a line. Two lines. "Kovesse Thrallek is funded. Family legacy, Thrallek money, a ship that cost more than our entire operation. But money doesn't fix a keel — hands fix a keel. And we have hands."
+
+      She tapped the notebook.
+
+      "If we help them, we gain standing with a Cursed Generation captain. If we ignore them, we pass through Brannach clean. Neither is wrong. Both cost something."
+
+    *goto second_day
+
+  #Focus on the patrol. The Wardensea is behind the crew and closing. Every decision from here to Brannach should be about speed, timing, and staying ahead of the inspection sweep.
+    *set personality_loyalty %+ 3
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne nodded. The nod was professional — one intelligence officer acknowledging another's tactical read.
+
+      "Patrol focus. The gap between us and the Fourth Division is shrinking by the hour. At Brannach, we resupply, we repair, we leave. No lingering. No side operations. The patrol reaches Brannach four days after us if they hold speed. That's our window."
+
+      She made three marks in the notebook. Each one a stop. Brannach. Kelvanni. Velundri. The route south, drawn in ink, the patrol drawn in the space behind it.
+
+    *goto second_day
+
+  #Focus on the bigger picture. Nettava Daeshara has disappeared, Tomoe Gallacs is running ahead of a patrol that won't touch her, and the Kingsrun's power dynamics are shifting. Understanding the pattern matters more than reacting to any single piece.
+    *set personality_openness %+ 4
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne looked at you. The pen went still. For a moment the ex-intelligence officer surfaced — the woman who had been trained to read systems, not events.
+
+      "Pattern analysis." She said it quietly. "The Wardensea deployed a patrol that has orders to avoid the strongest crew in the water. Nettava Daeshara — the highest bounty in the world — vanished. The Inheritors are stuck. The middle Kingsrun is emptying."
+
+      She wrote a single line. Underlined it.
+
+      "Something is happening south of Stop Eight. Everything else — the patrol, the Inheritors, the inspections — is reaction. We won't know what it is until we get there. But we can watch for the shape of it."
+
+    *goto second_day
+
+*label second_day
+
+*page_break
+
+The second day dawned with a change in the air.
+
+The temperature had been climbing since Merrenbach — a degree per day, an incremental warming that the body registered before the mind did. But on the second morning, the change was sharp. The dawn was warm. The air had weight — a humidity that settled on the skin and stayed, the ocean breathing moisture into the atmosphere with an intensity that said the water below had changed temperature.
+
+The Bastion Sea was warming as they went south. The reef zone was ending. The deep water was beginning.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek noticed it in the food. "The dried fish is softening faster. The moisture in the air is getting into the stores." He adjusted the galley's ventilation — opening the upper hatch, closing the lower. "The Bastion Sea's southern edge is where the currents shift. Warm water from the deep Kingsrun pushes north and meets the temperate water from the reef zone. The result is —" he gestured at the air — "this. Humidity. Heat. The ocean sweating."
+
+The horizon changed.
+
+South. Past the flat blue line that had been constant since Selvaggio. Something was different. A discoloration in the sky — not cloud, not haze. A smudge. Grey-brown, rising from a point on the horizon that was too far away to resolve into shape but close enough to affect the light.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne saw it first. She had the long-glass — a collapsible telescope from the ship's equipment locker — and she'd been scanning the southern horizon since dawn.
+
+  "Smoke." One word. "South by southwest. Origin point: below the horizon. Volume: significant. It's been rising for at least two hours — the column is stable, not dispersing. That means sustained combustion, not a flash event."
+
+  She lowered the long-glass.
+
+  "Brannach is south by southwest. Brannach sits on an active volcanic field. The Inheritors reported a lateral eruption two weeks ago."
+
+  She looked at the smoke. At the crew. At you.
+
+  "The volcano is still active."
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara came to the bow. She looked at the smudge on the horizon with the expression of an engineer assessing a structural failure from a distance.
+
+  "If that's Brannach, the eruption is ongoing. The Inheritors reported hull damage from debris — that means the eruption is producing ejecta, material thrown into the air. A lateral eruption means the fissures are venting sideways, not upward. That's worse for the harbor. Upward eruptions go into the atmosphere. Lateral eruptions go into the buildings."
+
+  She looked at the chart.
+
+  "Brannach's harbor is on the south side of the island, sheltered from the volcanic field by a ridge. If the fissures have extended past the ridge, the harbor might be compromised." She paused. "The Kingsrun doesn't have an alternative. Stop Four is Brannach. There's no stop three-and-a-half."
+
+The smoke grew. Hour by hour, as the Sundered Wake sailed south, the smudge on the horizon thickened into a column — a dark vertical stroke against the blue sky, widening at the top where the wind caught the upper plume and dragged it east. The column said fire. The column said sustained. The column said the fourth stop on the Kingsrun was burning.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was on the bow. Watching. He had a spoon in one hand — he'd been tasting something in the galley when the smoke appeared. The spoon was still in his hand. He'd forgotten about it.
+
+  "The Gorundai mine the fissures," he said. "Volcanic ore, obsidian, sulfur. They live in the eruption zone because that's where the — it's where the money is. Literally." He watched the smoke. "My mother used to say the Gorundai have a saying about the mountain. 'Gives with one hand, takes with the other.' Something like that. She'd correct me if she heard me say it wrong." He watched the smoke a little longer. "She'd probably also correct me for staring at a volcano from a boat instead of doing something useful."
+
+*choice
+  #Hold course. Brannach is the next stop and the Kingsrun doesn't skip stops. Whatever's burning, you deal with it when you get there.
+    *set personality_aggression %+ 3
+
+    The heading held. South by southwest. The smoke column grew larger and the air grew warmer and the ocean's surface began to carry things — flecks of grey, drifting on the swell, that Kessara identified as volcanic ash. Fine particles. Light enough to float. The vanguard of whatever was happening at Brannach, carried north by the wind.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne made a note. "Ash on the water at —" she checked the distance, frowned, rechecked — "forty miles out. No. Thirty-five. I've been using the wrong reference point for —" She scratched out a number. Rewrote it. "Thirty-five to forty miles. The difference matters and I'm not certain. The harbor may be operational or it may not."
+
+    The crew said nothing. The ship sailed south. The smoke column was a pillar now — visible without the long-glass, a dark mark against the southern sky that grew by the hour.
+
+    *goto chapter_close
+
+  #Reduce speed. Approach cautiously — get within visual range of Brannach before committing. If the harbor is compromised, you need options.
+    *set personality_loyalty %+ 3
+
+    Kessara eased the sail. The ship slowed — from five knots to three, the approach measured, the heading adjusted to bring them in from the northeast where the wind would carry them clear if they needed to turn.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      "Cautious approach. Smart." Sullavenne had the long-glass at the bow. "At three knots, we reach visual range of Brannach by late afternoon tomorrow. We'll be able to see the harbor, the volcanic field, and the state of the island before we commit to approach." She lowered the glass. "The Wardensea patrol is behind us. If we slow down, the gap shrinks. But a ship that approaches a volcanic island at full speed doesn't get to change its mind."
+
+    The Sundered Wake crept south. The smoke column was a permanent feature of the sky now — it had been there since morning and it would be there tomorrow and the day after that. The volcano was on its own schedule, and the Kingsrun's schedule was secondary.
+
+    *goto chapter_close
+
+*label chapter_close
+
+*page_break
+
+The evening fell on the open water.
+
+The smoke column caught the sunset — the grey-brown plume turning orange and red in the last light, the colors of fire projected into the sky by the fire below. The effect was beautiful in the way that dangerous things are beautiful when viewed from a sufficient distance. Up close, at Brannach, the beauty would be heat and ash and the sound of a mountain breaking itself apart.
+
+The Sundered Wake sailed in the shadow of the plume. The ash on the water thickened — a fine grey film that settled on the deck, on the rigging, on the storm-leather coat. It tasted of sulfur when it touched the lips. The Sennaku Highlands had volcanic ash — the same taste from childhood, from the eruptions that painted the highland sky orange and dropped grey snow on the ridges for days. But the highland eruptions were distant. Observed from the safety of the Stormspire's elevation. This was close. Getting closer. The source was ahead, and the ship was moving toward it.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne's final entry in the ship log for the day was concise.
+
+  "Day eight at sea. Transit from Merrenbach to Brannach. Wardensea patrol estimated thirty hours behind. Volcanic activity ahead — sustained plume, ash on water at forty-mile range. Brannach harbor status: unknown. Arrival: tomorrow."
+
+  She closed the log.
+
+  "Chapter three is over. The reef stops. The Bastion Sea stops. Everything south of here is harder."
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was on her knees at the waterline with a rag, scraping volcanic ash off the caulking. The ash was acidic — you could taste it on the air.
+
+  "The combination —" She scrubbed harder. "Ash and saltwater and wood. Eats caulking." She wrung the rag. Grey water ran through her fingers. She was scrubbing the ship the way she'd tidied her tools before the bell at Selvaggio — with the focused attention of someone who needed her hands to be busy while her mind processed something larger.
+
+  She looked at the hull. At the patches. At the repairs that had accumulated stop by stop. She didn't say anything about what the ship had survived. She just kept scrubbing.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek served dinner. Kelp broth with rice and the last of the Merrenbach reef bass, pan-fried in spice oil. The spice was from the cargo — one crate, slightly damaged in the dive, the seal compromised enough that Terrek had declared it unsaleable and requisitioned it for the galley. The meal was the best thing the crew had eaten since Selvaggio.
+
+  "The damaged crate is ours," he said. "One out of thirty. That's a loss rate I'll accept." He ate. "Brannach is Gorundai territory. The food will be different — volcanic soil cooking, ash-cured meat, fire-pit grains. Heavy. Mineral. The Gorundai eat like they mine — deep and dense."
+
+  He looked at the smoke column.
+
+  "If there's still a kitchen standing."
+
+*set completed_reef_walk true
+
+The night fell. The stars came out — fainter than they'd been at Merrenbach, the volcanic plume diffusing the light, casting a haze across the southern sky. The Southern Cross was visible but softened, its sharp points blurred by the ash in the atmosphere.
+
+The Sundered Wake sailed south. The crew was four. The ship carried cargo and intelligence and the memory of a Khari warren sixty feet above the waterline. Behind them: Merrenbach, the reef walk, the path-songs in the dark. Behind them: a Wardensea patrol that was closing but not catching. Behind them: three stops where you had arrived as a stranger and left as a name the Grimoire was beginning to learn.
+
+Ahead: the volcano. The smoke. The fourth stop on a Kingsrun that was getting harder with every mile south.
+
+Brannach was burning. The Sundered Wake was heading toward it.
+
+Chapter three ended at sea, with ash on the deck and fire on the horizon.
+
+*page_break
+
+*goto_scene ch4_brannach_landfall

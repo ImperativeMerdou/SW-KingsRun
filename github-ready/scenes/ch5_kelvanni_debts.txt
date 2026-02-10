@@ -1,0 +1,350 @@
+*comment ===================================================
+*comment  CHAPTER 5, SCENE 2 — KELVANNI: DEBTS
+*comment  The Debt Ledger. Suuba face-to-face. Route intel.
+*comment  Romance thread acceleration.
+*comment ===================================================
+
+*comment ---------------------------------------------------
+*comment  MORNING — THE DEBT LEDGER
+*comment ---------------------------------------------------
+
+Morning at Kelvanni started with the smell of antiseptic and boiling linen.
+
+The clinic's laundry operation ran on the east porch — three Khari medics working through the overnight sheets, the fabric heavy with sweat and wound drainage, the water in the copper tubs going grey within minutes. The smell reached the harbor. The harbor had learned to ignore it.
+
+You woke on the Sundered Wake's deck. The ship held its berth at the outer pier — the berth they'd earned by arriving with an injured crew member, which at Kelvanni was both a priority marker and an announcement. Every crew in the harbor knew the Sundered Wake had someone in the clinic. Every crew in the harbor had done the same math: one member down, small crew, captain stretched thin.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was already awake. The broken wrist was splinted clean — Oursseva's work, the bandaging precise, the splint material a lightweight coral composite that the Thalessi physician had shaped to Kessara's forearm with the attention of someone who understood that an engineer's wrist was not a decorative appendage. Kessara was testing range of motion, her face tight with professional assessment.
+
+  "Twelve degrees short of —" She rotated the wrist. Winced. Rotated it again. Winced again. "Eleven. No. Twelve. I keep hoping the number will change if I check it enough." She flexed her fingers. "Good enough for tiller work. Bad for rigging. Bad for everything that matters."
+
+*if (crew4_name = "Terrek Ghaal")
+  From the clinic's open windows, Terrek's voice carried. The cook had spent the night in the treatment ward — the broken leg elevated, the proper cast set by Oursseva's staff, the pain managed with whatever the clinic used for pain management. Terrek's response to hospitalization had been to befriend every patient within earshot. The sound of his voice was warm, loud in the way Gorundai were loud even when they were being quiet, and punctuated with the rhythms of someone telling a story that involved food.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was at the ship's rail, watching the clinic's porch. She'd been there when you fell asleep. She might have been there all night. Her coat was buttoned — every button, the collar straight, the Wardensea dress regulation she couldn't stop following. She was watching the clinic door. Her notebook was in her hand, open to a blank page. She hadn't written anything on it. The page had been blank all night.
+
+*page_break
+
+The Debt Ledger ceremony happened at midmorning.
+
+It was not formal. It was not grand. Oursseva Denn sat at a desk on the clinic's west porch — the quieter side, away from the laundry, where the coral platform met the water and the sound of the harbor was muffled by the building's bulk. A leather-bound book lay open in front of her. The pages were dense with handwriting — names, dates, debts owed, debts honored. The book was thick. Two hundred years of entries. The ink at the bottom of the older pages had faded to the color of rust.
+
+Three crews had appointments before the Sundered Wake. You watched from the porch rail as each captain approached, sat across from Oursseva, and had the same conversation.
+
+The terms were simple. Oursseva spoke them with the economy of someone who had said them ten thousand times and meant every word:
+
+"The clinic healed your crew member. The clinic does not charge." She turned a page. The page was already turned. She turned it back. "One favor. Undefined. Called when I call it. No violence. No illegality beyond —" She paused. The corner of her mouth moved. It might have been amusement. "Beyond your current status, which I understand is already somewhat flexible."
+
+Every captain accepted. The Debt Ledger had never been refused. Not because the terms were generous — they were fair — but because the alternative was arriving at Kelvanni next season with an injured crew member and finding the clinic door closed. Oursseva had never closed the door. The possibility that she might was enough.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne stood three steps behind you. Close enough to hear. Far enough to pretend she was just standing. Her hands were behind her back — the Wardensea rest position she defaulted to when her body needed something to do that wasn't visible.
+
+Your turn.
+
+Oursseva looked up from the ledger. The assessment was the same as yesterday — direct, unhurried, calibrated. She took in your height, the horns, the coat, the hands. The hands she'd noticed yesterday. The hands that had carried a crew member into the clinic.
+
+"Captain." Her voice carried the Thalessi precision — every syllable earning its keep. "Your crew member is responding well to treatment.
+*if (crew4_name = "Terrek Ghaal")
+  The tibia fracture will require four to six weeks of limited mobility. He will not be standing on that leg at Velundri. Possibly not at Durromakh.
+*if (crew4_name != "Terrek Ghaal")
+  *if (crew3_name = "Kessara Veldt")
+    The wrist will require three to four weeks of restricted use. She is already exceeding the restrictions I set. This is predictable for a Rathai engineer. You may inform her that if she re-breaks the alignment I will splint her entire arm to her torso and she will spend Velundri learning to eat left-handed."
+
+She turned the ledger toward you.
+
+"The terms are the same as every crew that has come before you. One favor. Undefined. Called when it is called. Within your capability. Without requiring violence or illegality beyond what the Kingsrun already provides." A pause. The specific Thalessi pause that meant the next words were chosen with care. "I ask you to understand that I have been running this clinic for sixty-seven years and I have never called a favor that damaged the crew that owed it. I have called favors that were inconvenient. Inconvenience and damage are different categories."
+
+*set clinic_debt_owed true
+
+She wrote in the ledger. Your name, the date, the crew. The pen was a thin metal instrument — Thalessi craftsmanship, the kind that cost more than the book it wrote in. The handwriting was small, precise, and identical to the entries above it. Sixty-seven years of the same hand.
+
+"You carried your crew member into the clinic yourself." She said it as she wrote. "Captains who do that tend to honor their debts. Captains who send someone else tend to need reminding."
+
+*if (crew5_name = "Sullavenne Ohn")
+
+  Oursseva's pen stopped.
+
+  She looked past you. At Sullavenne. The gaze held for three seconds — long enough to be deliberate, short enough to be deniable. Then she returned to the ledger, wrote the final line, and closed the book.
+
+  "Your crew is welcome to use the clinic's porch and water supply for the duration of your stay. The east side is for medical operations. The west side is for everyone. Please do not confuse the two."
+
+  She stood. She walked inside. She did not look at Sullavenne again.
+
+  Sullavenne's hands had not moved from behind her back. She stood there for thirty seconds after Oursseva left. Her jaw worked once, twice — the muscle jumping under the scar. She took out her notebook. Wrote one word. The pen pressed hard enough to dent the next page. She closed the notebook. Put it away. Straightened the collar of her coat, though the collar was already straight. Her hands, behind her back again, were fists.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  MIDDAY — SUUBA METTANI
+*comment ---------------------------------------------------
+
+The porch at midday was full.
+
+Eleven ships in harbor meant eleven crews rotating through the clinic's neutral zone — the west porch, the water barrels, the benches that lined the coral-stone wall. The smell of the laundry operation had shifted from antiseptic to clean linen. The Khari medics had switched from washing to hanging — lines of white sheets across the porch supports, creating a maze of fabric that divided the space into accidental rooms.
+
+You were sitting on the porch's south bench when Suuba Mettani walked out of the clinic's front door.
+
+She was shorter than expected. Rathai short — five foot one, compact, the body of someone who'd grown up in the Nettleworks' assembly blocks and had never lost the density that came from carrying industrial equipment since childhood. Dark hair cut to jaw length, practical, the kind of cut that said hairdressing was a time expense she'd eliminated. Brown skin. Brown eyes that moved fast — Rathai fast, the processing speed of a species that thought in schematics and talked in comma splices.
+
+She was wearing a sleeveless work shirt, dock trousers rolled at the calf, and boots that had been resoled twice. No armor. No visible weapon. The only indication that this was a 290-million-bounty captain was the Grimoire device strapped to her left forearm — modified, the casing cracked and re-welded with improvised metalwork that said the user had been repairing their own equipment since before they could afford to pay someone else to do it.
+
+*set met_suuba true
+
+She saw you.
+
+"You're the half-Oni."
+
+She said it already walking, already filling a clay cup at the water barrel, already drinking half of it. Rathai didn't pause between thoughts. The thoughts happened and the body happened and if the two overlapped that was everyone else's problem.
+
+"Brannach eruption crew. Grimoire footage. Khellen says the lighting was terrible but the composition was dramatic, which is his way of saying he's jealous he didn't film it." She drank the rest of the water. Refilled. Drank again. Then she looked at the cup like she'd forgotten she was holding it.
+
+"Sorry. I haven't eaten today. I keep drinking water instead because water doesn't require decisions and I've already made four hundred decisions since dawn." She set the cup down. Picked it up again. "Five hundred."
+
+"I'm Suuba. You know that. Everyone knows that. The bounty makes introductions redundant, which is the one advantage of having a number attached to your face." She refilled the cup. "Your engineer's got a broken wrist or your cook's got a broken leg — I heard both versions. Either way you're running a crew of four with one compromised. Velundri's three hundred and ten miles south. Four to five days fair wind, seven to ten adverse. You can't make that run short-handed without pushing your ship past what the ash damage already did to the hull."
+
+She looked at your ship. The Sundered Wake, visible at the outer pier, the Brannach ash still visible in the hull seams.
+
+"So either you stay here long enough to get your crew member functional, which costs you four to six weeks and the Kingsrun moves on without you. Or you leave Kelvanni with a compromised crew and hope the weather cooperates." She shrugged. "Or there's a third thing, which is the thing I'd do, which is recruit someone here. Kelvanni's got overflow — injured crew members whose captains left without them, freelancers who came south looking for a ship and haven't found one. You could fill your roster."
+
+*choice
+  #Let her talk. She's offering information freely — take it.
+    You sat. Suuba talked. It was what Rathai did — they filled silence with data the way other races filled it with pleasantries, and Suuba's data was good.
+
+    She talked for twenty minutes. The porch traffic moved around them — crews coming and going, the Khari medics hauling laundry, a Morventhi sailor with a bandaged shoulder trying to flirt with the Varrek records clerk, failing measurably. Suuba talked through all of it.
+
+    *set personality_aggression %- 3
+
+    What she gave away:
+
+    Velundri was a weight-trade market. No currency. Goods weighed against each other on Varrek-calibrated scales. The system was precise, fair, and merciless — counterfeit weight meant ship seizure, full stop, no appeal. "Don't try to cheat the scales. The Varrek who designed the system are still alive and they take it personally."
+
+    Beyond Velundri was Durromakh. Stop Seven. Cassara Vellune's toll gate. A Morventhi woman, 134 years old, 660-million bounty frozen under a negotiated tolerance with the Masqarat. She charged passage by tonnage. She'd destroyed six ships in sixty years and left the wreckage visible as advertising. "Pay the toll. Everyone pays the toll. The people who don't pay the toll are the wreckage."
+
+    Beyond Durromakh was the stretch that killed crews — Shoalfields to Ossengaard. Wardensea patrol density peaked. The water cooled. The weather shifted from tropical to something harder. "The Kingsrun stops being fun at Stop Seven. It stops being survivable at Stop Nine for anyone who hasn't prepared."
+
+    Ossengaard. The fortress. Every ship logged, every crew identified, every bounty cross-referenced. Three Commandants. A rotating High Command presence. And the Kingsrun Passage Log — every captain asked the same question by Belvaan Orech, the garrison commander: "Where are you going, and is it worth dying for?"
+
+    "I'm going to lie to him," Suuba said. Then: "Not about where I'm going. About the dying part. It's worth dying for. Obviously. But I'm not telling a Wardensea officer that because —" She drank water. "Because he'd write it down and someone would use it against me later. That's how institutions work. You give them a true thing and they file it under 'leverage.'"
+
+    She looked at you.
+
+    "You've got an ex-Wardensea officer on your crew. That's either the best preparation for Ossengaard or the worst. Depends on whether the Wardensea considers her a defector or a wash-out. Defectors get special attention."
+
+    *goto suuba_end
+
+  #Match her pace. Trade information back — what was seen at Brannach.
+    You leaned forward.
+
+    Suuba registered the shift. Her eyes sharpened — Rathai recognized transactional body language the way Khari recognized path markers. She sat down on the bench opposite, the water cup balanced on her knee.
+
+    *set personality_aggression %+ 3
+    *set rival_suuba + 5
+
+    You had information she wanted. Brannach. The eruption. The Inheritors. Information traveled on the Kingsrun the way currency traveled in Velundri — by weight, and your Brannach experience had weight.
+
+    The trade happened in the way trades happened between Rathai and everyone else — fast, specific, reciprocal. Suuba gave route intelligence. You gave Brannach ground truth.
+
+    What you traded:
+
+    The eruption's lateral blast origin. The fissure network instability. The Regrade's scaffolding collapse and Kovesse Thrallek's repair timeline — not weeks, possibly a full season. The Inheritors were stuck. Your crew had helped them during the eruption, pulling scaffolding debris while dock crews ran.
+
+    What Suuba gave back:
+
+    "Velundri's weight-trade is fair if you're honest and fatal if you're not. Counterfeit weight means ship seizure. The Varrek take it personally." Durromakh's toll — Cassara Vellune, 134, Morventhi, 660-million bounty, passage charged by tonnage, six ships destroyed in sixty years, wreckage left visible. "Pay the toll. Don't negotiate. The negotiation is the wreckage." And Ossengaard — the fortress, the log, the three Commandants, and the question every captain answered: "Where are you going, and is it worth dying for?"
+
+    "The Kovesse information is useful," Suuba said. She was already recalculating. Rathai recalculated constantly — new data in, updated model out, the process as automatic as breathing. "The Inheritors stuck at Brannach changes the middle Kingsrun. Their absence opens a gap between Stop Five and Stop Nine that the rest of us will fill. The question is who fills it better."
+
+    She looked at you with the narrow Rathai expression that meant she was running a cost-benefit analysis on whether to say the next thing.
+
+    "You helped them. During the eruption. That's interesting. Most captains would have cast off and counted the advantage." She paused. "I would have cast off. Drossik would have told me to help. He'd have been right. I'd have cast off anyway." A small Rathai smile — fast, honest, gone. "That's why he's my first mate. He's right about the things I'm wrong about. Which is approximately forty percent of things, according to his tracking spreadsheet, which he maintains and updates weekly."
+
+    *goto suuba_end
+
+*label suuba_end
+
+*if (crew5_name = "Sullavenne Ohn")
+  Suuba looked past you toward the ship. Sullavenne was visible on the Sundered Wake's deck — she'd moved from the rail to the rigging, checking the lines with the focused attention of someone who didn't want to be on the porch while Suuba Mettani was holding court.
+
+  "Sullavenne Ohn," Suuba said. "Second Division intelligence. Discharged four years ago." She saw your reaction — or absence of reaction, which told her more. "I know because Drossik identified her at Galluun's Tooth. Varrek memory for faces — he cross-referenced her against the Wardensea's public discharge records. Don't worry, the records don't say why she was discharged. They just say she was."
+
+  She stood up.
+
+  "My crew's heading south tomorrow. The Kindling's resupplied and rested. You'll see us again at Velundri or you won't. Either way —" She tossed the clay cup in a short arc, catching it behind her back without looking, a piece of Nettleworks muscle memory that had nothing to do with combat and everything to do with growing up in a factory district where you caught what you could or it broke. "— I'm glad you came through the eruption. The Kingsrun's better when the interesting crews survive."
+
+She walked away. Rathai-paced — fast, efficient, already onto the next thing before the current thing was finished. Drossik Verath was waiting at the porch steps. He had two cups of water — one for himself, one held out at the angle Suuba would be walking. She took it without looking. He'd known the angle. The water didn't spill.
+
+They argued before they reached the dock. The sound carried — Suuba's voice rapid and Drossik's measured, the words indistinct but the cadence unmistakable. Halfway down the pier, Drossik said something that made Suuba stop walking. She turned. Said something short. He adjusted his collar — the Varrek equivalent of conceding a point. They kept walking. Closer together than before.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  AFTERNOON — CREW AND MAINTENANCE
+*comment ---------------------------------------------------
+
+The afternoon was practical.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara worked. The broken wrist limited her to left-handed operations, which meant she was running at sixty percent efficiency, which for Kessara was still faster than most engineers running at full. She assessed the Brannach ash damage — the hull seams, the rigging wear, the rudder chain that had been grinding since the eruption's lateral blast had shaken the ship from keel to masthead.
+
+  "Fourteen items," she said. Her inventory voice — flat, technical, stripped of everything except data. "Six I can fix here with one hand. Four I can fix if someone holds things. Four need materials I don't have." She looked at you. "We need pitch, canvas, and two lengths of galvanized chain. The clinic's supply stores might have pitch. The chain I don't know."
+
+  *set ship_condition + 10
+
+*if (crew4_name = "Terrek Ghaal")
+  *if (crew3_name != "Kessara Veldt")
+    The ship needed work. The Brannach ash damage was visible in the hull seams and the rigging, and without a dedicated engineer you and the remaining crew spent the afternoon on basic maintenance — scrubbing ash from the deck seams, checking the rigging tension, inventorying the stores. The work was slower than it should have been. The absence of a full crew showed in the pace.
+
+    *set ship_condition + 5
+
+*if (crew4_name != "Terrek Ghaal")
+  *if (crew3_name != "Kessara Veldt")
+    The ship needed work. Without a dedicated engineer or a cook to share the labor, the afternoon's maintenance fell to you and Oursseva — the physician applying her precise hands to tasks she hadn't trained for, and you applying strength to problems that needed finesse. Ash scrubbed from seams. Rigging tightened by guesswork. The work was rough and slow.
+
+    *set ship_condition + 3
+
+The Warren Kaelith Khari were everywhere. The canine Khari medics ran the clinic's external operations with pack efficiency — triage, patient transport, supply runs, laundry, water distribution, and the particular brand of warm territorial management that characterized canine Khari social structure. They moved in pairs. They communicated in short barks of speech and hand signals that you had learned to read over the past day: palm up meant safe, fist meant priority, three taps on the shoulder meant incoming patient. The system was faster than words.
+
+One of the Khari medics — a young woman with the rust-brown fur and wide-set eyes of a coastal canine Warren — stopped by the Sundered Wake's berth. She brought a clay pot sealed with wax.
+
+"Pitch compound," she said. Fast, warm, the path-metaphors lacing even technical speech. "For your hull seams. The clinic keeps it for ship repair — crews that stay for treatment usually need it. The road breaks everything, including boats." She looked at the ship's waterline. "You've got fissure damage in the — port side? Starboard." She squinted. Walked three steps to the right. "Starboard. Sorry. I keep mixing those up. I'm a medic, not a —" She gestured at the harbor in general. "Boat person." She closed her eyes. "Sailor. The word is sailor. I know the word." A Khari medic at the next berth looked over. The young woman's ears had gone flat against her head. "The point is your lower strakes. The volcanic grit works into the seam calking and eats it from inside. This compound will hold until Velundri. After Velundri —" She shrugged. "After Velundri you're in cold water and the compound sets harder. Better seal in cold."
+
+*set supplies + 5
+
+The afternoon settled into the rhythm of a ship in port — work punctuated by rest, rest punctuated by the sounds of a crowded harbor doing the same. The Kindling's crew was visible on their ship two piers over, running their own maintenance with the coordinated efficiency of an eleven-person crew that had been doing this together for long enough that the choreography was unconscious. Suuba's crew worked like a machine. The Sundered Wake's crew worked like people — slower, messier, getting it done through effort instead of practice.
+
+*comment ---------------------------------------------------
+*comment  EVENING — THE CONVERSATION
+*comment ---------------------------------------------------
+
+*page_break
+
+The evening was different.
+
+The porch cleared after dusk. The day crews went to their ships or to the harbor's single tavern — a low stone building at the dock's north end that served warm grain spirit and fish stew and didn't ask questions. The night crews stayed: the patients who couldn't sleep, the medics on rotation, and the captains who had something on their mind that darkness made easier to carry.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne found you on the west porch.
+
+  She brought two cups of the clinic's tea — the herbal mixture that the Khari brewed in large batches and left in pots along the porch rail, available to anyone, the taste somewhere between medicinal and tolerable. She set one cup beside you and took the bench opposite, sitting with the careful posture of someone who wanted to appear casual and hadn't practiced it enough.
+
+  The clinic's oil lamps cast the porch in amber. The harbor was dark beyond the lamplight. The sound of water against coral — steady, patient, the sound that Kelvanni was built on.
+
+  "She didn't recognize me." Sullavenne said it to the harbor. "Or she did and it didn't matter. I'm not sure which is worse."
+
+  She drank. The tea was too hot. She drank it anyway.
+
+  "Four years ago I intercepted a supply manifest for this clinic. A hundred and twenty crates of medical equipment — bandaging, surgical instruments, pharmaceutical compounds, sterilization materials. Routed through the Second Division's logistics chain because the direct shipping route was compromised by weather. My CO decided the supplies represented an unauthorized transfer of military assets to a civilian operation. They weren't military assets. They were medical supplies that happened to be on a military ship."
+
+  She set the cup down.
+
+  "He dumped them. At sea. A hundred and twenty — I was on the bridge. I had the codes. The cargo hold codes, the manifest was — it was my operation. My name on it. I could have locked the hold. I could have just…" She stopped. Started again, quieter. "I filed a complaint. Instead of locking the hold, I filed a fucking complaint."
+
+  The harbor was quiet.
+
+  "Three patients at this clinic died that month from conditions that the supplies would have treated. I learned that later. After the discharge. After my CO made it clear that the complaint was received and the person who filed it was not valued." She touched the scar on her jaw — the one she'd shown the crew at Brannach. The reminder from someone who'd felt the complaint was personal. "The Wardensea discharged me for insubordination. The supplies stayed at the bottom of the ocean. The three patients stayed dead."
+
+  She looked at you.
+
+  "I came to Kelvanni because I owed her an explanation. I got a look and a sentence about porch etiquette." She almost smiled. "Thalessi. They don't give you the satisfaction of your own guilt. They file it and move on."
+
+  *set crew5_loyalty + 5
+
+  *choice
+    #Stay. The silence between them held what words wouldn't.
+      You stayed on the bench. The tea cooled. The harbor moved its tides against the coral platform. The oil lamps shifted in the breeze — the shadows on the porch lengthened and shortened in slow alternation, the light touching Sullavenne's face, the scar, the hands that held an empty cup.
+
+      She didn't speak again. She didn't need to. The confession had been the purpose. The staying was the response. An hour passed in the specific silence of two people who understood that presence was a form of speech and the sentence being spoken was: I heard you.
+
+      *set personality_openness %+ 5
+      *set crew5_romance + 10
+      *set crew5_loyalty + 5
+
+      When Sullavenne stood, she picked up both cups. She walked to the porch rail and emptied them over the side — the tea into the dark water, a small gesture that closed a conversation without ending it.
+
+      "Thank you." She said it with her back turned. "For staying."
+
+      She walked to the ship. You watched her go. The porch held its lamplight. The clinic held its patients. The Kingsrun held its course.
+
+      *goto night_close
+
+    #Stand. Walk to the rail. The harbor is dark and there is work to do tomorrow.
+      You stood. The bench shifted. Sullavenne watched the movement — the decision to leave registered in the set of her mouth, the small recalibration of someone who had offered something and received a boundary in return.
+
+      The boundary was not rejection. It was timing. You walked to the porch rail and looked south — the dark water, the harbor's edge, the open ocean that continued past Kelvanni to Velundri and the places where the Kingsrun stopped being about survival and started being about choices made under pressure.
+
+      *set personality_openness %- 3
+      *set crew5_loyalty - 3
+
+      Sullavenne stayed on the bench. She finished her tea. She did not follow.
+
+      When you returned to the ship, Sullavenne was already in her bunk. The berth was quiet. The crew was asleep. The evening had deposited its conversation on the porch and the conversation would wait — the way conversations on ships always waited, carried forward by proximity and repetition until they found their moment or died of neglect.
+
+      *goto night_close
+
+*if (crew5_name != "Sullavenne Ohn")
+  *if (crew3_name = "Kessara Veldt")
+    Kessara found you on the west porch.
+
+    She'd finished working for the day. The broken wrist was wrapped in a clean bandage — Oursseva's staff had re-dressed it during an afternoon check, replacing the morning's wrapping with fresh material and a stern Thalessi reminder about overuse. Kessara had listened to the reminder with the expression of someone cataloguing technical feedback for later optimization.
+
+    She sat beside you without asking. Rathai didn't ask. They assessed available seating, calculated proximity preferences, and acted.
+
+    "The ship needs four things I can't source here." She said it to the harbor. Rathai processed anxiety through work talk — if the hands couldn't be busy, the brain filled the gap. "Galvanized chain for the rudder assembly. Canvas for the jib patch. Caulking fiber for the lower strakes. And someone who can climb the mainmast to check the cap fitting, because I can't climb one-handed and you're too heavy for the upper rigging."
+
+    She paused. The pause was unusual for a Rathai. Kessara in particular did not pause — she transitioned between topics with the seamless efficiency of someone who considered silence a design flaw.
+
+    "I lied. The ship needs five things." She looked at you. "The fifth thing is time. Three weeks of maintenance that we don't have. The hull took volcanic grit into the seam calking at Brannach. The compound the Khari gave us will hold until Velundri. After Velundri — cold water, higher seas, the kind of conditions that find every weakness in a ship and test it." She held up her broken wrist. "I can't do the work this needs with this. And I won't pretend I can, because pretending leads to sinking, which is a design outcome I reject."
+
+    *set crew3_loyalty + 5
+
+    The harbor was quiet. The oil lamps gave the porch a warmth that the coral stone didn't hold — Kelvanni's nights were mild, the latitude and the ocean currents keeping the temperature stable, a maritime mildness that made it possible to sit outside in a sleeveless shirt and not think about it.
+
+    "I was a yard engineer before this." She said it differently. The work voice was gone. Something underneath it — still Rathai in cadence, still direct, but the pitch shifted lower and the speed came down. "Torval yards. North Orenthas. We built packet ships for the coastal trade — fast hulls, shallow draft, designed for the reef channels between the northern islands. I was good at it. I was very good at it."
+
+    She rotated the broken wrist. Slowly. Testing the edge of the pain the way she'd test the edge of a tool.
+
+    "The yard closed. The Kolmari consolidated the northern routes and the packet trade dried up. Dessima Keth — the yard master, the woman who taught me how to read a hull by sound — she didn't survive the closure. Not in the way that matters." Kessara's voice was even. Rathai didn't decorate grief. They reported it. "I came south because the Kingsrun was the only place where a shipwright without a yard could still build something."
+
+    She looked at you.
+
+    "This ship is not what I would have built. It's what I have. And I will keep it sailing until the ocean takes it or I do." She stood up. "That's not a speech. That's a maintenance report. Goodnight."
+
+    *set crew3_romance + 10
+    *set crew3_loyalty + 5
+
+    She walked to the ship. Her left hand — the good one — trailed along the hull as she passed it. The gesture was automatic. An engineer touching her ship. The contact lasted three seconds. It said everything her speech hadn't.
+
+    *goto night_close
+
+*label night_close
+
+*comment ---------------------------------------------------
+*comment  NIGHT CLOSE — KELVANNI SECOND NIGHT
+*comment ---------------------------------------------------
+
+The second night at Kelvanni settled with the weight of a place that had heard too many confessions to be surprised by any of them.
+
+The clinic's lights held. The harbor held its eleven ships. The porch held its medics and its insomniacs and the settled gravity of a neutral zone where people told the truth because the alternative was carrying it across three hundred miles of open ocean to Velundri and arriving heavier than they'd left.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek's voice carried from the clinic. Quieter now. The late-night voice — the one that told stories slowly, the words spaced for listeners who were falling asleep and wanted something warm to carry them into it. The cook who fed people had found another way to feed them. The broken leg kept him in bed. The bed couldn't keep him quiet.
+
+*set days_since_departure + 1
+*if (food_days > 0)
+  *set food_days - 1
+*if (sovereigns >= 1)
+  *set sovereigns - 1
+
+The Kindling would leave tomorrow. Suuba's crew, resupplied, rested, uninjured — the contrast with the Sundered Wake was a comparison the Grimoire broadcasts loved and captains hated. Two crews. One running clean and one running ragged. The ocean would decide which approach held.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Tomorrow you would decide: stay for the crew member's recovery, or leave and push south with what you had. The conversation on the porch had not changed the calculation. But it had changed the weight. Sullavenne's debt to Oursseva was older than the Kingsrun. Your debt to the clinic was fresh. Two debts, stacked. The Kingsrun collected them.
+
+The night was warm. The harbor was still. The Kingsrun held its course, south and south and south, toward Velundri and the weight-trade and the toll gate and the fortress and the ocean that didn't care about debts or confessions or crews that stayed on porches too long.
+
+Tomorrow: the decision. Stay or go. Heal or risk. The Kingsrun didn't wait.
+
+*goto_scene ch5_kelvanni_crisis

@@ -1,0 +1,464 @@
+*comment ===================================================
+*comment  CHAPTER 3: MERRENBACH — "The Reef Walk"
+*comment  Scene 1: Arrival
+*comment  Khari reef island. Warren Suuvi (avian, ~90).
+*comment  Low-tide reef market. First contact with Khari
+*comment  culture. Wardensea patrol urgency. Piloting
+*comment  service. MC's size and horns noted. Trust is
+*comment  currency here — and the MC has none.
+*comment  2 real choices. Zero fake choices.
+*comment ===================================================
+
+Merrenbach announced itself with birds.
+
+The Sundered Wake was twelve hours south of Galluun's Tooth when the first ones appeared — small, quick, brown-feathered, riding the thermals above the ship's mast. They circled twice and left. An hour later, more. Three of them, larger, with wingspans that cast shadows on the deck when they passed between the sail and the sun. They didn't circle. They flew alongside, matching the ship's heading, keeping pace at fifty feet altitude.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was watching them.
+
+  "Spotters," she said. "Warren Suuvi runs a — it's a lookout network. Birds. Trained to follow incoming ships and —" She watched one of them bank against the wind. Lost the sentence. Started again. "They report back. I don't know how. The Wardensea uses signal flags. The Khari just — the birds go out and come back and somehow that's enough." She frowned at her own explanation. "It's either primitive or significantly more advanced. I genuinely can't tell."
+
+  She made a note. Crossed out a word. Wrote it again.
+
+  "Point is, they know we're coming. They've known for an hour. Hull type, crew count, heading — probably what Terrek cooked for breakfast."
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was at the helm. The chart from Selvaggio was pinned beside the tiller, and the stolen chart — if you'd taken the box — was beneath it. She'd been cross-referencing for the last six hours, the engineer's focus applied to a navigator's problem.
+
+  "The reef approach at Merrenbach is wider than Galluun's Tooth. Deeper channel, better marked — the Khari run buoys on the outer edge. But the current is stronger. The Bastion shelf drops away to the south and the tidal exchange pulls harder through a wider gap."
+
+  She adjusted the tiller.
+
+  "The Khari offer piloting. A local comes aboard and talks you through the channel. I'd recommend taking it."
+
+The island appeared in the late afternoon — a low, dark shape on the horizon that grew into something different from Galluun's Tooth. Where the coral fang had been a single ridge, white and sharp, Merrenbach was broader. Lower in the center, with cliff faces rising at the north and south ends — grey limestone weathered by salt wind, pocked with holes and ledges, the vertical faces catching the late sun in bands of shadow and light.
+
+The cliffs were inhabited.
+
+You could see it from a mile out — structures built into the rock face. Platforms. Overhangs extended with wooden frames and rope bridges. Netting strung between ledges. The architecture was vertical where every settlement you'd seen before was horizontal. Galluun's Tooth had built along the ridge. Selvaggio had built along the harbor. Merrenbach had built upward — into the cliffs, against them, as if the ground level was an afterthought and the real community lived thirty, forty, sixty feet above the waterline.
+
+Figures moved on the cliff face. Small at this distance. Fast. They climbed the ledges the way dock workers walked the waterfront — with the casual confidence of people who'd been doing it since they could stand.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek had come to the bow. He shaded his eyes and watched the cliffs.
+
+  "Khari," he said. "Avian lineage, from the architecture. They build vertically. Height has social meaning — the higher your position, the more trust you've earned. Ground level is for outsiders and cargo."
+
+  He looked at you. The look said: *We'll be on the ground.*
+
+  "I spent three months on a supply route to a canine warren east of the — the Bastion coast, east side. Different lineage, different customs, but the — one thing is the same everywhere. The Khari don't trust until you've earned it." He scratched his jaw. "And they don't forget. They never forget who earned it and who didn't. That part's important."
+
+The reef buoys appeared. Wooden markers, painted white, bobbing in a line that marked the outer reef edge. Inside the buoys, the water shallowed and the coral became visible — dark masses beneath the surface, the same reef architecture as Galluun's Tooth but wider, more varied. The channel between the buoys was generous — eighty feet across, with clear water and a visible sand bottom.
+
+A boat was waiting in the channel. Small — a single-hulled outrigger, narrow, with a lateen sail and a crew of one. The figure in the boat stood as the Sundered Wake approached, and everything about the way they stood said Khari.
+
+Short. Maybe five feet. The build was light — the lean, calibrated frame of someone whose body was designed for vertical movement, with long arms and legs proportioned differently from any human or Oni frame you'd seen. Feather-patterns on the forearms — not tattoos, not decorations. Plumage. Mottled brown and grey, like the cliff stone, lying flat against the skin. The face was angular, the eyes large and dark, the head capped with short feathers that lay close to the skull in place of hair. No wings — not in the way the Lunarians had wings. But the shoulders were broader than the frame suggested, and the arms moved with a rotation that said the joints were built for a range of motion your body couldn't match.
+
+The Khari pilot called across the water. The voice was high, clear, carrying — a voice shaped by calling across cliff faces and open water.
+
+"Incoming. What ship?"
+
+*if (crew3_name = "Kessara Veldt")
+  "Sundered Wake," Kessara called back. "Ketch, forty-four foot. Crew of four. From Galluun's Tooth, two days."
+
+The pilot tilted their head. The motion was quick, birdlike — a rotation of the head that took in the ship's hull, the waterline, the sail trim, and the crew count in a single sweep. The large dark eyes found you. Paused. The height, the horns, the storm-leather coat. The head tilted the other way.
+
+"Oni. Half, from the skin." The head tilted the other direction. The dark eyes were doing something you couldn't read — processing at a speed that made your own perception feel like it was running on a delay.
+
+"Piloting is four Silver Spans. I take you through the channel, you tie off at the south dock. Market opens at low tide — three hours from now. You want piloting or you want to thread it alone?"
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara looked at you. The look said: *We can do this ourselves and save the money, or we can do this smart and save the hull.*
+
+*choice
+  #Take the piloting. Four Silver Spans for a hull that survives the reef is a trade worth making.
+    *if (sovereigns >= 4)
+      *set sovereigns - 4
+
+    The pilot's outrigger came alongside. The Khari tied a line to the Sundered Wake's port rail and scaled the hull like it was a cliff face — hands finding holds on the planking that you couldn't see, feet bracing on the waterline strake, the whole ascent taking four seconds. They landed on deck with a weight that barely registered.
+
+    Up close, the pilot was younger than you'd guessed. Late twenties, maybe. The feather-patterns on the forearms were dense — individual plumes, each one distinct, the brown-grey coloring shifting to a darker amber at the hands. The eyes were the most striking feature — large, dark, with an iris that caught the light in a way that suggested a different structure beneath the surface. Khari enhanced senses. Biological, not Dominion.
+
+    "I'm Tessavenne. Warren Suuvi. Pilot." The introduction was three facts delivered in the time it took to draw a breath. "You steer. I call the line. Stay on my calls and the reef won't touch you."
+
+    *set khari_guide_name "Tessavenne"
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara took the helm. Tessavenne went to the bow and crouched there — not standing, crouching, the body balanced on the balls of their feet in a posture that looked uncomfortable for a human frame but was clearly native to theirs. The dark eyes scanned the water.
+
+      "Come left. Two degrees. Hold." The commands were musical — not sing-song, but pitched. High for urgency. Low for ease. The channel unrolled ahead of the ship like a path being walked.
+
+      "Coral head, starboard, twenty feet. No danger — we're clearing by ten. Hold your line."
+
+      Kessara held. The ship moved. The channel was wider than Galluun's Tooth and the Khari's calls made it wider still — the certain, practiced voice of someone who'd guided a hundred ships through this water and never lost one to the reef.
+
+      "Depth dropping. Sand bottom, twelve feet. Channel opens in thirty meters. You're through."
+
+    The anchorage opened. Wider than Galluun's Tooth — a natural harbor formed by the reef's horseshoe shape, with the island's bulk breaking the ocean swell. The water was clear and calm and a half-dozen ships were moored at a wooden dock on the south side, including a sloop with a dark red hull and an orange-on-black flag.
+
+    The Kindling. Suuba Mettani had arrived first. Again.
+
+    Tessavenne dropped from the bow to the dock — a six-foot drop taken without breaking stride. They turned, caught the mooring line that Sullavenne threw, and tied it off with three motions that were efficient enough to be choreography.
+
+    "South dock. Market in three hours. Freshwater is on the ridge — free, not metered. The cisterns are communal." They looked at you from the dock. Eye level with your chest. "Warren Suuvi is on the north cliff. If you want to go up, ask first. Don't climb without an invitation. The paths are mapped and the unmapped ones are unmapped for a reason."
+
+    *goto arrival_dock
+
+  #Thread the channel alone. The crew can read the buoys and the water is clear — save the coin for provisions.
+    "We'll take the buoys," Kessara called.
+
+    The pilot shrugged. The motion was precise. A data point. Ships that refused piloting at Merrenbach were noted. The information went into whatever system the warren used to track incoming crews, and the first fact about the Sundered Wake was that they'd declined help.
+
+    *set personality_aggression %+ 3
+
+    "Buoys mark the center line. Stay inside the white. If you see red, you're on the reef edge and you've gone wrong." The pilot's outrigger peeled away, heading back toward the dock.
+
+    *set khari_guide_name "unknown"
+
+    The channel was wider than Galluun's Tooth. Kessara steered by the buoys — white markers in a line, the center of the navigable water, with the reef visible beneath the surface on both sides. The coral here was different from the northern stop — more varied, with structures that rose in columns and fans and branching formations that cast complex shadows on the sand bottom.
+
+    The approach took twenty minutes. Longer than it would have with a pilot — Kessara took it slow, reading the water, adjusting for a current that pulled from the south with more force than the chart had promised.
+
+    "Stronger pull here," she said. "The shelf drops away faster on this side of the island. The tidal exchange is pulling through the channel like a funnel." She corrected. The bronze fitting earned its keep — the rudder answered clean. "Through. We're through."
+
+    The anchorage opened. A natural harbor, wide and calm, with ships moored at a wooden dock on the south side. Including a sloop with a dark red hull and an orange-on-black flag.
+
+    The Kindling.
+
+    Sullavenne threw the mooring line. A dock worker — Khari, avian, young — caught it and tied off with the practiced competence of someone who'd been tying lines since childhood. They looked at the hull. At the crew. At you.
+
+    "South dock. Market at low tide. Freshwater on the ridge, free." They looked at the Sundered Wake's hull — at the patches, the replaced planking, the new bronze fitting that was the only thing on the ship that looked like it belonged. "You need supplies, the market has them. You need repairs, we don't have a boatwright."
+
+    They left. No name offered. The first impression had been a refusal.
+
+    *goto arrival_dock
+
+*label arrival_dock
+
+*page_break
+
+Merrenbach from the dock was vertical.
+
+The south dock was ground level — wooden planking built on coral foundations, with bollards and cleats worn smooth by decades of mooring lines. Standard. Functional. The dock could have been at Selvaggio or Galluun's Tooth or any harbor in the Bastion Sea. But above the dock, the island began to climb, and what it climbed into was nothing you'd seen before.
+
+The cliff face rose sixty feet from the waterline. The limestone was grey-white, pitted by weather, layered with horizontal strata that created natural ledges every eight to ten feet. On every ledge — platforms. Some were bare stone, worn flat by feet. Some had been extended with wooden frames that jutted from the cliff face like shelves, supported by rope stays anchored to the rock above. Rope bridges connected the ledges in a web of movement paths — horizontal traversals that linked the north cliff to the south cliff, with vertical ladders and climbing routes running between the levels.
+
+People moved on the cliff. Avian Khari — dozens of them, climbing and traversing and standing on ledges with the casual verticality of people for whom the ground was an inconvenience. They were small. The largest you could see was maybe five-three. The feather-patterns varied — some brown-grey like Tessavenne, some with amber accents, some with a pale gold that caught the light. They wore light clothing — wraps, tunics, bare feet with toe-grip that looked prehensile from below.
+
+Children ran the rope bridges. Ran. Full speed, bare feet, the bridges swaying, and they didn't slow down. A child of maybe eight dropped from a ledge to a lower platform — a ten-foot drop — landed in a crouch, kept moving. An older child, twelve or thirteen, was hanging upside-down from a rope bridge by her knees, braiding another child's hair. The child being braided was also upside-down. Neither of them seemed to consider this unusual.
+
+You looked up. Six-seven, two hundred and sixty pounds, and you had never in your life felt more like a ground animal.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had noticed the same thing. "Height-hierarchy," she said quietly. "Avian Khari assign social trust by vertical position. Ground level is for strangers and transactions. The higher someone stands in the warren, the more trust they hold. An invitation to climb is an invitation to be trusted."
+
+  She looked at the cliff. At the rope bridges and the children running them and the Khari adults who watched the dock from sixty feet above.
+
+  "We're at ground level. Which means we're unknown. Unknown is not hostile — it's untested. The Khari separate the two."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was already scanning the dock for food vendors. There were none. The dock was functional — mooring, supply transfer, nothing else. The economy of Merrenbach was elsewhere.
+
+  "The market's on the reef flat," he said. "Low tide. Three hours." He was staring at the drying racks on the lower platforms — rows of something flat and dark. "Is that — that's kelp. Reef-dried kelp." His voice changed. "I've had it once. A canine warren on the eastern coast, a woman gave me a sheet as a trade sample, I used it in a broth and it was —" He stopped. Swallowed. "We need it. We need as much of it as we can afford. I'm not being dramatic. I am being dramatic. We need it."
+
+The south dock had a waiting area — an open-sided shelter, wooden frame, palm-thatch roof, with stone benches worn smooth. Four benches. Two were occupied.
+
+Suuba Mettani's crew.
+
+Drossik Verath sat on one bench, Grimoire in his lap, running numbers. His grey-blue Varrek skin caught the light at an angle that made him look like he was made of the same stone as the cliff. Hollenne Goss sat on the other bench, her legs stretched out, eating something from a leaf wrapper.
+
+Drossik looked up when you arrived. Nodded. Looked down. Looked up again. The second look lasted longer — the Varrek recalculating something he'd miscalculated the first time. He adjusted a number on his Grimoire. You were apparently worth a second data point.
+
+Hollenne waved. "The ketch. You made it." She moved her legs to make room, then realized there was already room, then moved them back. "Suuba's on the cliff — she got invited up the first day. Something about her ship being Rathai-designed and the Khari respecting builder cultures." She bit into whatever was in the leaf. "The rest of us are dock-level. Two days. Drossik's been counting."
+
+"I've been working," Drossik said, without looking up.
+
+"He's been counting," Hollenne said.
+
+She looked at you. At the horns. At the crew.
+
+"You hear the broadcast? Wardensea patrol."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne's hand stopped halfway to her coat pocket. The notebook stayed where it was.
+
+  "What do you know?"
+
+"Same as you, probably. Fourth Division, three ships, heading south. Full inspections." Hollenne shrugged — the kind of shrug that used her whole body. "Suuba's not worried. She says the Khari have some — a deal. With the Wardensea. No patrols at warren islands. Path Registration something. Accord? Path Registration Accord." She waved a hand. "Suuba explained it twice. I got maybe forty percent the first time and less the second, honestly. Point is they can't inspect us at anchor. Supposedly."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne's expression didn't change. Her hand moved to her notebook pocket — touched the leather, didn't open it.
+
+  "The Path Registration Accord. Year 2,400. The Khari agreed to register migration routes in exchange for sovereignty over warren settlements. The Wardensea agreed not to garrison or inspect at warren islands." She paused. "It's been challenged eleven times and upheld nine. The exceptions were both during declared emergencies."
+
+  She looked at the cliff. At the Khari who were not coming down to greet anyone.
+
+  "If the accord holds, this anchorage is safe from inspection. The Wardensea can patrol the waters outside the reef, but they can't board ships docked at a warren island."
+
+"That's what Suuba said. In more words and with more hand gestures." Hollenne finished her leaf-wrapped food. "She's been up there since yesterday. Talking to the trail-leader — that's their word for the — path-leader? Trail-leader. One of those." She wiped her hands on her trousers. "The Khari love path metaphors. 'We're walking the same road.' 'That trail goes to a cliff.' I keep getting them wrong and Drossik keeps correcting me."
+
+"'Goes nowhere,'" Drossik said, still not looking up. "'That trail goes nowhere.' You said 'cliff' last time too."
+
+"Same concept," Hollenne said.
+
+She stood. Tall for a human woman. Broad. The easy physicality of someone who solved problems by carrying them.
+
+"Market's in —" she checked the water level against a mark on the dock piling — "two and a half hours. If you need supplies, that's where. Reef pearls, dried kelp, fishing tackle, information. The information costs more than the pearls."
+
+She looked at the cliff again.
+
+"If you want to go up, you need an invitation. The Khari don't lock their doors — they just build them sixty feet in the air and let gravity sort out who belongs."
+
+*page_break
+
+The two and a half hours passed.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara inspected the hull. The bronze fitting was holding. The sternpost was solid. The caulking Pellanne had applied at Galluun's Tooth was cured and sealed. The ship was, by Kessara's grudging assessment, seaworthy.
+
+  "We can leave in twelve hours," she said. "The question is whether we should. The Wardensea patrol reaches Merrenbach in —" she calculated — "forty-eight hours at patrol speed, give or take. If the Path Registration Accord holds, they can't inspect us at the dock. But if we leave Merrenbach and they're waiting outside the reef..."
+
+  She left the sentence.
+
+  "If we leave too early, we're in open water when the patrol passes. If we leave too late, we're trapped behind a Wardensea screen. The timing matters."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had been walking the dock since arrival. Not exploring — surveying. She'd mapped the anchorage, counted the ships (six, including the Kindling and the Sundered Wake), noted the reef buoys, and measured the channel width by eye.
+
+  *if (galluuns_tooth_challenge = "took_box")
+    She'd also spent thirty minutes in the cargo hold with the modified Grimoire.
+
+    When she came out, her face was different. Harder.
+
+    "Grey band. I tuned in. The patrol is broadcasting — standard Wardensea operational chatter, encrypted, but the encryption is quarterly and the Grimoire's decoder appears to be current." She kept her voice low. "The patrol squadron — callsign Bastion Sweep — departed Kassevaan thirty-one hours ago. Current position: north of Selvaggio, heading south at nine knots. That puts them at Galluun's Tooth by tomorrow morning. Merrenbach by the day after."
+
+    She paused.
+
+    "They've listed eighteen vessels of interest for inspection. Crew descriptions, ship types, last-known headings. We're not on the list." Her eyes were flat. "The Kindling is. Ship number four. 'Rathai sloop, single mast, dark red hull, crew of eleven. Captain: Suuba Mettani, 275 million bounty, Element-type God Fruit, Kindling.'"
+
+    She closed the notebook.
+
+    "Suuba doesn't know she's a specific target. We know because we're listening to the Wardensea's private channel on a contraband device. If we tell her, we reveal we have the Grimoire. If we don't tell her, she sails into an inspection that's looking for her specifically."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was restless. The cook without a market was a man without a purpose, and he'd been pacing the dock in a circuit that took him past the mooring lines, past the shelter, past the water-level mark on the piling, and back. Each circuit, he checked the mark. The water was dropping.
+
+  "Tide's turning," he said on his fourth pass. "The reef flat's starting to show. Another hour and the market surface is exposed."
+
+  He stopped. Looked at the cliff.
+
+  "I want to trade for kelp. The reef-dried kelp the Khari make — it's the best soup base on the Kingsrun. If I can get a week's supply, I can make the Selvaggio provisions last twice as long." He paused. "I also want to buy reef pearls. Not to wear — to trade. Reef pearls from Merrenbach are worth three times their weight at Brannach. The Gorundai use them in ceremonial metalwork."
+
+  He looked at you. He was doing math on his fingers, which he always did when the numbers mattered.
+
+  "Four coppers now. Sell at Brannach for Silver." He folded down a finger. "My mother called it patience with a price tag. She was better at it than me. I keep wanting to eat the investment."
+
+The tide retreated. The reef flat emerged — slowly, the way it had at Galluun's Tooth, but wider here. The coral shelf extended south from the dock in a broad apron, flat and rough, the surface covered in ankle-deep water that shallowed by the minute. Tide pools formed. Channels drained. The underwater world became the market floor.
+
+*page_break
+
+The low-tide reef market at Merrenbach was temporary by design.
+
+The Khari did not build permanent markets. Permanent things got taken. The lesson was historical and the memory was institutional — path-routes registered, ancestral knowledge appropriated, settlements garrisoned. Warren Suuvi had learned, across generations, that what the tide revealed and the tide concealed was safer than anything built to last.
+
+The market was the reef flat. Sixty feet wide, a hundred feet long, exposed for six hours between tides. The Khari came down from the cliffs to set it — wooden frames assembled from parts carried on backs, cloth canopies stretched on poles driven into coral crevices, goods laid on mats of woven kelp. The assembly took twenty minutes. It was practiced, communal, and fast — every member of the warren who participated knew their position and their task.
+
+The goods were reef-sourced. Dried kelp hung from frames in dark, translucent sheets that smelled of salt and iodine. Reef pearls sat in shallow stone bowls — small, irregular, with the iridescence of things that had been formed inside living creatures. Fish, dried and salted, in quantities that said the reef fed this island the way volcanic soil fed the highlands. Rope made from reef-fiber. Bone hooks for deep-line fishing. A rack of tools — coral chisels, shell scrapers, bone needles — that were crude by Nettleworks standards and elegant by their own.
+
+The market was for Khari and outsiders both. Warren Suuvi occupied the upper tiers of stalls — deeper into the reef flat, further from the dock. The lower tiers, closest to the water and the dock, were where outsiders traded. The separation was physical and legible. You could shop at the outer ring. You could look at the inner ring. You could not enter it without an invitation.
+
+Other crews were there. Dock-level crews from the ships in the anchorage — three you didn't recognize, plus the Kindling's Hollenne and Khellen, who were haggling at a kelp stall with the focused intensity of professionals.
+
+The Khari who ran the outer stalls were patient. They did not call out. They did not hawk. The goods were present. You looked or you didn't. The prices were not posted — you asked, they answered, you agreed or you walked. Bargaining existed but was not theatrical. A Khari vendor named a price and meant it. The margins were in the second transaction — buy once at full price, buy again at a discount. Trust was sequential.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was already deep in the market. He'd found the kelp — dark sheets, sun-dried, the smell intense and complicated. The vendor was an older Khari, feather-patterns gone silver, with hands that moved with the particular speed of someone who'd been sorting reef products for decades.
+
+  "Reef kelp. Four days drying on the south flat. Rehydrates in warm water — stock base, soup thickener, flavor carrier." The vendor's voice had the Khari cadence — fast, musical, each phrase a step on a path. "Three coppers a sheet. Ten sheets, twenty-five coppers. You won't find better south of here — the Brannach kelp is ash-tainted from the volcano."
+
+  Terrek bought ten sheets. The vendor wrapped them in waxed cloth and tied the bundle with reef-fiber cord. A nod. Transaction complete. No warmth, no hostility. A path walked.
+
+  *set sovereigns - 1
+
+You walked the market. The reef flat was rough under your boots — the coral surface uneven, studded with small formations that caught the sole. The Khari moved barefoot on the same surface without visible discomfort. Their feet were different — the toes longer, more articulate, gripping the coral the way fingers grip a rung. The reef was their floor and their feet had evolved to walk it.
+
+Your boots drew looks. Not from the vendors — they'd seen boots before. From the children. Warren Suuvi's children watched you from the inner ring, perched on the wooden frames of their parents' stalls, the dark eyes tracking you with the open, undisguised curiosity of small things watching a large thing move through their territory.
+
+You were the largest person on the reef flat by a foot and a half. The horns added another dimension. The storm-leather coat was highland gear in a place that had never seen highlands. Every step you took on the coral announced weight and foreignness, and the Khari heard both.
+
+A vendor at the outer ring was selling reef pearls. Small, irregular, sitting in a shallow stone bowl on a kelp mat. The iridescence shifted in the light — blues and greens and a pink that came from the particular mineral content of the Merrenbach reef. The vendor was middle-aged, with amber feather-patterns on the temples and the quiet patience of someone who sold luxury goods to people who didn't know what they were worth.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was beside you. He picked up a pearl. Turned it in the light.
+
+  "Three of these. The small ones — they're cheaper, and the Gorundai at Brannach use the small ones for inlay work." He looked at the vendor. "How much?"
+
+  "Two coppers each." The vendor watched Terrek handle the pearl. Watched the care. "Six for three. If you carry them properly — dry, not against metal, wrapped in cloth."
+
+  "Done."
+
+  *if (sovereigns >= 1)
+    *set sovereigns - 1
+
+*page_break
+
+The market ran for three hours. The tide held. The reef flat dried further, exposing the outer edges where the coral formations grew taller and the tide pools held creatures that retreated with the water — small things, bright-colored, darting for cover as feet approached.
+
+*if (galluuns_tooth_challenge = "took_box")
+  *if (crew5_name = "Sullavenne Ohn")
+    Sullavenne found you between the kelp stalls and the rope vendors. Her expression was controlled. The notebook was open.
+
+    "Decision time." She kept her voice below the market noise. "The Kindling is target number four on the Wardensea list. Suuba Mettani doesn't know. We know because of a contraband device that would get us arrested."
+
+    She held the notebook where only you could see. Numbers. Distances. Times.
+
+    "Option one: tell Suuba. She has two days to change her heading, alter her ship's profile, or prepare for an inspection. She lives. We expose the Grimoire's existence to a crew we've known for six days."
+
+    She turned the page.
+
+    "Option two: say nothing. Suuba sails into an inspection that's hunting her specifically. The Kindling's crew is eleven people. The Wardensea impounds ships whose captains have 275-million-Sovereign bounties. Suuba's crew goes to Kassevaan in chains."
+
+    She closed the notebook.
+
+    "There's no clean version of this."
+
+    *choice
+      #Find Suuba. Warn her. The Grimoire stays a secret — say you overheard it from a Khari vendor's Grimoire, not that you intercepted Wardensea communications.
+        The lie was practical. A Khari vendor's Grimoire picking up chatter — plausible, given the Khari's information networks. The real source stayed in the cargo hold.
+
+        *set personality_mercy %+ 5
+        *set rival_suuba + 5
+
+        Finding Suuba meant finding someone who could take a message up the cliff. Hollenne was at the kelp stalls.
+
+        "I need to get word to Suuba. It's about the Wardensea patrol."
+
+        Hollenne looked at you. The cheerfulness compressed into something harder and more immediate.
+
+        "What about the patrol?"
+
+        "The Kindling is on a target list. Eighteen ships the Wardensea wants to inspect specifically. Suuba's ship is number four."
+
+        Hollenne didn't ask how you knew. The cheerful haggler was gone. The woman who'd survived two years of the Kingsrun with a Cursed Generation crew was standing in her place.
+
+        "I'll get her." She was already moving toward the cliff, her stride covering the reef flat in long steps that said she'd learned to walk coral the hard way. She reached the base and started climbing — not with Khari ease, but with the brute competence of someone who'd been climbing their way into and out of places for years.
+
+        Twenty minutes later, Suuba Mettani was on the reef flat.
+
+        She was angry. The anger was Rathai — fast, directed, already converting to action. She looked at you, already reassessing the variable you represented.
+
+        "Who told you?"
+
+        "Khari vendor. Grimoire chatter. The Wardensea listed eighteen ships."
+
+        She held your gaze. The dark eyes — the Nettleworks eyes, sharp with intelligence and warm with anger — searched for the lie. They found something, or they didn't. Her expression didn't change.
+
+        "Number four." She said it flat. "They listed us number four."
+
+        She turned to Hollenne. "Get Drossik. Get Khellen. We're changing the departure schedule." Back to you. "You didn't have to tell me. The smart play was to let us sail into it — one less crew on the Kingsrun, one less ship splitting the Grimoire attention."
+
+        She was five-one. You were six-seven. She looked up at you with the same unafraid directness she'd shown on the stone platform at Galluun's Tooth.
+
+        "Thank you. I owe you one. On the Kingsrun, that's not nothing." She was already walking. "Hollenne. Move."
+
+        *goto evening
+
+      #Say nothing. The Grimoire is the most dangerous thing on your ship — and the most valuable. Protecting it protects the crew.
+        The eleven people on the Kindling were Suuba's problem. The modified Grimoire in the cargo hold was yours.
+
+        *set personality_aggression %+ 5
+
+        Sullavenne watched. She didn't argue. The notebook closed. Her thumb ran along the leather spine — back and forth, three times, the way someone touches a wound to check if it still hurts. She opened it. Wrote something — one line, small, in the margin. Closed it again. Her left hand found the inside of her wrist and stayed there, pressing, like she was checking her own pulse.
+
+        "I'll continue monitoring Grey band," she said. Her voice was the same. Everything else was a degree off-center. "If the target list changes, we adjust."
+
+        She walked back toward the ship. The reef flat held the afternoon light and the Kindling's crew moved through the market and Suuba Mettani was on the cliff above, talking to the trail-leader, planning a route south that would take her directly into a patrol hunting her by name.
+
+        *goto evening
+
+*if (galluuns_tooth_challenge = "left_box")
+  The afternoon light stretched across the reef flat. The market hummed — quiet commerce, the low sound of a community trading what the reef provided. The Wardensea patrol was a weight in the air, a fact that every crew at the dock knew and none discussed openly. The timeline was known. The options were limited. Two days until the patrol reached Merrenbach — less if the patrol pushed hard, more if they lingered at Galluun's Tooth.
+
+  *if (crew5_name = "Sullavenne Ohn")
+    Sullavenne had been calculating. She cornered you between the tool stall and the rope vendor.
+
+    "The Path Registration Accord protects us at anchor. The Wardensea can't board ships docked at a warren island." She kept her voice even. "But they can wait outside the reef. If we leave and they're patrolling the waters south of Merrenbach, we're inspected at sea. No documentation. No papers. A salvage-claimed ship with four people and no registered purpose."
+
+    She tapped the notebook.
+
+    "We need to leave before the patrol arrives, or we need to leave after they pass. Before means gambling on timing. After means days at anchor while the patrol sweeps south. Days we don't have — supplies, provisions, the Kingsrun doesn't wait."
+
+    She looked at you. "The Khari have information about patrol movements. Their lookout network tracks ships. If we can earn enough trust to access that information, we can time our departure."
+
+*label evening
+
+*page_break
+
+The tide came in. The market disappeared.
+
+The water reclaimed the reef flat by inches — the outer edge first, the tide pools filling, the channels connecting, the coral surface darkening as the ocean returned. The Khari dismantled the market in the same twenty minutes it had taken to build it. The frames came apart. The canopies folded. The goods went into carrying sacks and up the cliff, passed from hand to hand along the vertical paths, disappearing into the warren's upper levels.
+
+Within half an hour, the reef flat was underwater. The market was gone. No trace remained — no permanent structure, no sign, nothing that said a hundred people had traded here an hour ago. The reef held the secret the way the Khari held their paths: temporary, protected, revealed only when the conditions were right.
+
+*set current_stop 3
+*set current_stop_name "Merrenbach"
+*set days_since_departure + 6
+*set total_sea_days + 5
+
+The evening was warm. The cliff face caught the sunset — orange light on grey stone, the rope bridges casting long shadows, the Khari moving upward in the last light, returning to the heights where the warren lived.
+
+*if (khari_guide_name = "Tessavenne")
+  Tessavenne appeared on the dock. The pilot had been absent since the mooring — gone to the cliff, gone up, gone into the warren's vertical world. Now they were back, standing on the dock edge, watching the last of the tide cover the reef flat.
+
+  "The trail-leader knows you're here." Tessavenne's voice carried the evening's stillness. "She knows your ship and your crew count and your hull condition and your heading. She knows the Wardensea patrol is coming. She knows you need something from us."
+
+  The dark eyes were steady.
+
+  "Her name is Suuvi Renn. She was a scout before she was a leader. The best pathfinder Warren Suuvi has produced in two generations." A pause. "She doesn't come down. If you want to talk to her, you go up."
+
+  Tessavenne looked at the cliff. At the rope bridges and the ledges and the sixty feet of vertical distance between the dock and the warren's heart.
+
+  "She said to tell you: 'The path is open. Whether you walk it is your decision.'"
+
+  The invitation. The first step above ground level.
+
+*if (khari_guide_name = "unknown")
+  A Khari appeared on the dock as the tide covered the reef flat. Young — one of the market vendors, the pearl seller with the amber feather-patterns. They stopped at the edge of the dock and looked at you with the neutral assessment of someone delivering a message they hadn't written.
+
+  "The trail-leader wants to see the new ships' captains. All of them." The voice was flat. Professional. "Tomorrow. Low tide. The meeting platform — it's the third ledge, north cliff. You climb the marked path. Don't leave the path."
+
+  They looked at the cliff. At the height.
+
+  "The trail-leader's name is Suuvi Renn. She was a scout. She remembers every ship that's docked here in thirty years. She'll remember yours."
+
+  They left. The message delivered. The dock empty.
+
+The night fell on Merrenbach.
+
+The cliff face came alive in the dark — lanterns and small fires on the ledges, the warm light making the limestone glow from within. The rope bridges were visible as dark lines against the cliff's lit face, with figures crossing them in silhouette. Sound carried down — voices, laughter, a song that was melodic and repetitive and structured like a chant. A path-song. The Khari singing their routes into the evening air, the melody encoding the reef and the tides and the island's relationship to the ocean.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek listened. He'd stopped moving on the ship's deck, a pot in his hands, and his face had the expression of a man hearing something he recognized but couldn't name.
+
+  "That's a navigation song," he said. Quiet. "My mother hummed something like it — she grew up near a canine warren on the eastern coast. The warren women sang the tide schedules. Different melody. Same structure."
+
+  He set the pot down. "They're singing the reef. Every interval is a depth reading. The high notes are the shallows. The low notes are the deep channels. If you could read the song, you'd have a chart."
+
+The Sundered Wake rocked at the dock. The Kindling was dark — Suuba's crew had turned in early, or they were planning in the dark, or they were already preparing to run south ahead of the patrol. The other ships in the anchorage were quiet.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was on the stern. Notebook open. Writing by the ship's lantern.
+
+  "Suuvi Renn." She didn't look up. "The trail-leader's name. Renn. That's a Path-Hider warren lineage — Renn-descended warrens were expelled from the main Khari network three thousand years ago for hiding Silverborn refugees during the genocide. The Renn warrens accepted expulsion rather than stop."
+
+  She wrote another line.
+
+  "A trail-leader from a Path-Hider lineage, running a warren on a Kingsrun stop, offering to meet with Kingsrun captains while a Wardensea patrol approaches." She looked up. "That's not hospitality. That's positioning. She's going to offer something, and whatever it is will have a price that isn't money."
+
+The night deepened. The path-song continued from the cliff — cyclic, patient, the reef's shape rendered in melody and passed from voice to voice as the watch changed on the upper ledges. The sound was older than the buildings. Older than the warren. The song remembered routes the singers had never walked, and the reef held the notes the way coral held names — temporarily, persistently, long enough to matter.
+
+Tomorrow. The trail-leader. The climb.
+
+The Wardensea patrol was forty-eight hours south of Selvaggio and closing.
+
+*goto_scene ch3_merrenbach_warren

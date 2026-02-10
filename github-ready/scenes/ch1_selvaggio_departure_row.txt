@@ -1,0 +1,238 @@
+*comment ===================================================
+*comment  CHAPTER 1: SELVAGGIO — "The Gate"
+*comment  Scene 3: Departure Row
+*comment  Crew recruitment begins. 3 potential crew members met.
+*comment  Grimoire broadcast shows the wider world.
+*comment  The famous CG crews are ALREADY GONE — the MC is late.
+*comment  3 real choices. Zero fake choices.
+*comment ===================================================
+
+Departure Row in the evening was a recruitment market wearing the skin of a bar district.
+
+The twelve taverns ran shoulder to shoulder along the harbor's east wall, built from the same salt-bleached timber as everything else at Selvaggio. Each had a name painted above the door. The Anchor's Rest. The Broken Compass. Galluun's Daughter. The Last Sovereign. Most of the names were aspirational or morbid or both.
+
+The crowd outside was a species unto itself — crew-seekers, the boy at the bounty board had called them. People who'd come to Selvaggio for the same reason you had, and who were now doing what people did when they needed something from strangers: standing in groups of two and three, talking too loud, drinking to loosen what couldn't be loosened any other way. Bragging. Lying. Sizing each other up and pretending they weren't.
+
+You pushed through the foot traffic. Pushed was literal — at your width, the street required people to move or be moved. Most moved. A Gorundai woman with arms thicker than your thighs held her ground on principle, looked up, and gave you a nod that was half greeting and half challenge. You returned it. She went back to her conversation.
+
+The Anchor's Rest was the largest of the twelve, and the most crowded. The door was propped open with what looked like a cannonball but was probably a counterweight from a broken dock crane. Someone had drawn a face on it in chalk.
+
+Inside. Warm. Loud. A man at the near table was arm-wrestling a woman twice his age and losing in a way that suggested money was involved. Lanterns on chains. A bar along the left wall, three people deep. The servers — two human women and one Rathai man — navigated by collision memory, and the Rathai was winning. He carried four plates at shoulder height and hadn't spilled on anyone in years, if you believed the tally scratched into the doorframe. Below the tally, in different handwriting: [i]liar[/i].
+
+And on the far wall, the crew board.
+
+It was bigger than the bounty board on the jetty. Eight feet tall, twelve feet wide, covered in pinned paper. Each sheet was a posting — a ship's name, positions needed, pay offered, departure date. Some sheets were fresh, ink still wet. Some were yellowed and curling, the ships they described long gone or long sunk.
+
+[i]REQUIEM — Navigator, 2 fighters, cook. Pay: shares. Departing 6th. Captain Helvaan. Ask at bar.[/i]
+
+[i]SALT PROMISE — Engineer (Rathai preferred). Pay: 40 Sovereigns/month + shares. See Vorreth, corner table.[/i]
+
+[i]NAMELESS (working title) — Full crew needed. Captain has ship, plan, and ambition. Lacks everything else. First round's on me.[/i]
+
+You read the board. Most of the postings were for berths on established crews — positions opening because someone quit, got hurt, or didn't come back. A few were new crews forming from scratch, like you'd need. Those postings were easy to spot because they promised more and offered less.
+
+The room noticed you while you read. A woman at the bar lifted her cup to cover the look. A man at a corner table turned his head too late to pretend he hadn't. The horns caught the lantern light, and the storm-leather coat was highland gear in a room full of maritime dressing. Someone near the door whispered something, and someone else laughed, and the laugh had the particular pitch of nervousness pretending to be amusement.
+
+A server passed behind you — the Rathai man, carrying four plates at shoulder height, weaving between a chair and your coat. He miscalculated. Your coat was wider than whatever had been standing here before. One plate clipped the leather and he caught it without looking, redistributing all four in a motion so practiced it was almost a dance. Almost. One piece of bread slid off a plate and landed on your boot.
+
+"Board's best before midnight," he said without slowing down, retrieving the bread from your boot on the way past. "After that, the desperate postings go up and you don't want those."
+
+*page_break
+
+You found a space at the bar. The stools were human-sized and your weight would have made the question academic — you stood instead, and the bar's edge hit you mid-thigh, and the two people on either side leaned away by an inch each. Geometry.
+
+The bartender was a woman in her fifties, human, with hands that had been pouring drinks for long enough that the motion was part of her breathing. She looked at you, looked at the horns, and reached for a specific bottle without asking.
+
+"Storm tea?"
+
+Highland drink. She'd served Oni before.
+
+You shook your head. You wanted something cheaper. She poured something amber from a different bottle.
+
+"Four coppers."
+
+*if (sovereigns >= 4)
+  *set sovereigns - 4
+
+You paid. The drink was rough and warm and tasted like someone had aged it in a boat hull, which they probably had. It was the best thing you'd had since the highlands.
+
+The bar gave you a vantage point. You could see the room — the crew board, the tables, the traffic between them. And you could see the people who were here for the same reason you were: alone, watching, calculating.
+
+Three of them caught your attention.
+
+The first was at a table near the crew board, sitting alone with a Grimoire device propped against a cup. Rathai. Female. Small — four foot something, which was standard. Her hands were moving while she read, not nervously but mechanically, like her fingers were testing invisible joints. A tool harness hung over the back of her chair. Her Grimoire was better than the cheap limestone ones on the docks — darker stone, basalt maybe, with a clean glow.
+
+Her eyes were on the Grimoire, not the crew board — shaking her head at it, muttering numbers that didn't match the drink prices.
+
+The second was at the bar, six seats down from you. Human. Male. Big — not Oni-big, but the kind of big that came from years of lifting things heavier than himself. Broad face, sun-dark skin, a scar across his left eyebrow that had healed crooked. He was eating. Specifically, he was eating his third plate of food since you'd arrived, which had been four minutes ago. Each plate was different. He was tasting, not gorging — taking a bite, considering it, adjusting something in a small leather notebook he kept beside his elbow.
+
+A cook. You could tell the way you could tell a fighter from a dock worker — not by what they carried but by how they paid attention. Fighters watched hands. Cooks watched plates.
+
+The third was harder to spot because she didn't want to be spotted. A woman at the back wall, in the shadow between two lanterns. Tall for a human — five-ten, maybe more. Dark hair pulled back tight. Lean, angular, the kind of build that suggested speed over strength. She wore a long coat — not highland, not Wardensea white, something between. Dark blue, well-made, with a collar turned up despite the heat.
+
+She was watching the room the way you were watching the room. Cataloging. Not the crew board — the people. Her gaze moved from table to table, paused, moved on. When it reached you, it stopped for half a second. Then moved on. You'd been filed.
+
+*page_break
+
+The Grimoire behind the bar — the bartender's, mounted on the wall above the bottles — was playing a broadcast. Low volume, competing with the room noise, but close enough to hear from your position.
+
+The voice was male, confident, built for an audience.
+
+"—and that brings us to this week's Kingsrun update. Let's talk about the crews that matter, because let's be honest, that's why you're listening."
+
+A few heads at the bar turned toward the sound. The broadcast was a familiar ritual, apparently. The bartender turned it up a notch.
+
+"First: Gannet Crew. Tomoe Gallacs, 680 million, and if you haven't seen the Brannach footage, what are you doing with your life? She put three Wardensea Commandants on their backs in eleven seconds. Eleven. I've timed it. That Vision of hers — four seconds of future-sight, and she uses every fraction. Mid-Kingsrun now, pushing toward the fortress. My odds: she makes it past Ossengaard. Barely."
+
+Someone at a table near the bar pounded it once. Agreement or excitement — the line blurred at Selvaggio.
+
+"Second: Deshanni Reapers. Mavrokka Deshaan, 520 million. Deep Kingsrun. DEEP. Further south than any other rookie crew in the last fifteen years. I've said it before, I'll say it again — that woman fights like the ocean personally insulted her family. Last broadcast was the storm clip. 900 million views. The clip where she's laughing? While her ship is taking water? While her first mate is trying to steer through a sixty-foot swell? She's LAUGHING. I love her. I fear for her crew."
+
+You listened. Mavrokka Deshaan. Oni. 520 million. The name was on the bounty board outside, and now it was in your ears, and the gap between her and you was the distance between someone the world argued about and someone the world hadn't noticed.
+
+"Third: The Kindling. Suuba Mettani, 275 million. Set the ocean on fire. That's it. That's the pitch. Rathai captain with a combustion Fruit and the anger of an entire underclass. She's early Kingsrun, moving fast, and the Inheritors are trailing her at distance. If those two crews collide, I want front-row Grimoire coverage."
+
+The broadcast kept listing. More names, more numbers, more opinions delivered with the certainty of someone who'd never sailed past Selvaggio's harbor mouth. The room listened and argued and added their own analysis, and the noise climbed, and the crew board on the far wall waited with its pinned papers and its promises.
+
+Every name on that broadcast had started here. At Selvaggio. At Departure Row. At a bar like this one, reading a board like that one, with nothing but a direction and the conviction that they were different from the ones who didn't come back.
+
+*page_break
+
+The Rathai woman at the crew board table solved the problem of introduction by introducing herself.
+
+You'd been watching the room for twenty minutes. She'd been watching you watch the room for ten. When she stood up, she didn't come to you — she walked to the crew board, pulled a pin from one of the postings, read it, put it back, and then turned around in a way that made standing next to you look like an accident.
+
+"That board is ninety percent garbage," she said. "Half the ships listed have already left. A quarter of the captains don't exist — people post fake crews to inflate departure numbers for the betting board. The remaining quarter are real, and of those, maybe six ships are worth the wood they're built from."
+
+She talked fast. Rathai-fast. The sentences ran into each other with the confidence of someone who processed information at a speed the rest of the world found inconvenient.
+
+"I'm Kessara Veldt. Engineer. Former Nettleworks assembly — you know what, you don't care about Nettleworks. Gannavar dockyards, three years. I broke a supervisor's Grimoire over his head because he docked my pay for — it's a long story. Short version: I fixed his mistake, he punished me for it, the Grimoire was the closest heavy object." She took a breath. "Charges dropped. Contract voided. I'm not great at the middle part of introductions." She looked up at you. She had to tilt her head significantly. "You've been standing at that bar for twenty minutes and you haven't talked to anyone. Either you're shy, which I doubt because shy people don't walk into a room shaped like that —" she gestured at the entirety of you, horns to boots "— or you're choosing. Which means you have standards. I like standards."
+
+She stuck out her hand. It barely reached your belt line.
+
+"I need a ship. You need a crew. If you're heading south, I can keep whatever you're sailing in one piece past the reefs and probably past the deep water if the hull's not already rotting. If you're not heading south, I'm wasting both our time, and I've got three more bars to hit tonight."
+
+The cook down the bar had stopped writing in his notebook. He was listening. Not obviously — his eyes were on his plate. But his fork had paused, and that pause said more than looking would have.
+
+The woman at the back wall was still in her shadow. Still watching. She hadn't moved since you'd walked in.
+
+*choice
+  #Take her hand.
+    Her grip was stronger than her size suggested. Mechanical hands — the kind that turned wrenches and held tension lines and knew the difference between tight-enough and too-tight by feel.
+
+    "Merdou Akkan," Kessara said, reading the permit sticking out of your coat pocket. She'd clocked it minutes ago. "Highland name. No crew listed on the permit, no ship, arrived yesterday on a cargo hauler. I asked the dock kid — he talks to everyone. So you're building from scratch."
+
+    *set crew3_exists true
+    *set crew3_name "Kessara Veldt"
+    *set crew3_race "rathai"
+    *set crew3_role "Engineer"
+    *set crew3_loyalty 15
+    *set crew3_trust "known"
+    *set crew_count 1
+    She pulled a stool from a nearby table, climbed onto it, and was suddenly at chest height instead of belt height. A practiced maneuver — the stool was already positioned within reach.
+
+    "Here's what I know. There are four ships at Selvaggio right now that could make the Kingsrun and don't have captains. Two of them are impound releases the Wardensea auctioned last week — cheap, damaged, fixable. One is a private sale, owner wants out, priced too high for anyone without Kolmari credit. The fourth is sitting in the north harbor under a name nobody recognizes, and the dock kid says it hasn't moved in six months."
+
+    She tapped the bar. "I can fix a ship. What I can't do is captain one. You look like a captain."
+
+    "He looks like a wall somebody dressed in a coat," said a voice from six seats down.
+
+    The cook. He'd given up pretending not to listen. He was turned on his stool, plate forgotten, the leather notebook closed under one hand. Up close, the scar across his eyebrow was newer than it looked — weeks, not years.
+
+    "Terrek Ghaal," he said. "Cook. And — yes, Gorundai, before you ask. No tusks, no green. I know. I look human. Both parents were Gorundai, Kethrun mining district, but the bloodline came out —" He gestured at his own face. "This. I got the appetite and the volume, not the jaw. I have this speech memorized. I hate this speech." He grinned anyway — wide and crooked and belonging to a face that grinned whether the situation called for it or not. "Six months at Selvaggio. Three crews, all fell apart before departure. I keep cooking and people keep leaving. Beginning to take it personally."
+
+    *set crew4_exists true
+    *set crew4_name "Terrek Ghaal"
+    *set crew4_race "gorundai"
+    *set crew4_role "Cook"
+    *set crew4_loyalty 10
+    *set crew4_trust "stranger"
+    *set crew_count 2
+    He looked at Kessara. Looked at you. Did the math the same way everyone at Selvaggio did — fast, practical, and out loud.
+
+    "An engineer and a cook. That's a maintenance crew, not a ship. You need a navigator, at least one fighter, and someone who knows what a Wardensea inspection looks like from the other side of the clipboard."
+
+    Kessara pointed at him with her fork — she'd taken it from his plate. "He's right. But we also need a captain who can sit at a table and make people take him seriously, and I think we've got that covered."
+
+    She looked up at you. Ram horns, black mane, storm-leather coat, ash-white skin. Six foot seven of highland exile filling the space between two lanterns.
+
+    "Yeah. We've got that covered."
+
+    *goto end_of_scene
+
+  #Don't take her hand. Not yet. You don't hire the first person who walks up.
+    You looked at her hand. Looked at her. The tool harness. The basalt Grimoire. The speed of someone who'd learned to make decisions in the time it took slower people to frame the question.
+
+    Your hand stayed at your side.
+
+    *set personality_openness %- 5
+    *set personality_loyalty %+ 5
+    Kessara Veldt withdrew her hand without offense. She'd been rejected before. Probably today.
+
+    "Fair enough. Offer stands. I'll be here until midnight, then I'm at the Broken Compass, then I'm at Galluun's Daughter, and if I haven't found a ship by dawn I'm reconsidering my life choices." She paused. "I'm not reconsidering my life choices. I'll be back here tomorrow."
+
+    She returned to her table. The Grimoire went back up. The muttering resumed.
+
+    The cook down the bar was watching you openly now. He'd given up on subtlety.
+
+    "Smart," he said. "Don't take the first offer. That's a —" He stopped. "I was going to say 'captain's instinct' but that sounded like I was flattering you. I was flattering you. I'm not subtle." He turned back to his plate, then turned back. "Terrek Ghaal. Cook. I've done the Selvaggio pitch three times already and I'm tired of the pitch, so."
+
+    He didn't offer his hand. He nudged his plate — a skewer of something glazed and sharp-smelling — toward your end of the bar.
+
+    "Just try it. If you like it, we can talk. If you don't —" He paused. "Actually, if you don't like it, don't tell me. I'm fragile about the glaze."
+
+    The food was good. Better than good. The glaze had heat to it — not the blunt assault of the dock cart sauce, but a layered burn that arrived in stages, each one a different spice. The meat was tender and the char was deliberate.
+
+    He watched you eat it the way an engineer watched a machine run — checking for the reaction, not the compliment.
+
+    *goto end_of_scene
+
+  #Walk past her to the woman in the shadows. The one who's been watching the room like she owns it.
+    You left Kessara Veldt with her hand extended and walked toward the back wall.
+
+    *set personality_aggression %+ 3
+    *set personality_openness %+ 5
+    The room was between you and the shadow-woman, and the room didn't want to move. You moved it. Shoulders turned. Chairs scraped. A server with a tray pivoted, cursed, and kept going. The path you cut through the Anchor's Rest was the path of someone who'd grown up in spaces where size was a language and you were fluent.
+
+    The woman in the dark blue coat watched you come. She didn't stand. Didn't reach for anything. Didn't adjust her position. She sat with her back to the wall and her hands visible on the table and let you arrive.
+
+    Up close, she was older than you'd estimated. Early thirties. The dark hair pulled back showed a face that was sharp at the cheekbones and jaw, with eyes that were either dark brown or black depending on the light. A scar — thin, precise, surgical or deliberate — ran from her left ear to the corner of her jaw. Old. Displayed. The collar of her coat was turned up, but not high enough to hide it.
+
+    She looked at you the way the Varrek chart seller had looked at you. Reading.
+
+    "Sit down," she said. "Or don't. But you came over here for a reason, and standing over me doesn't tell me what it is."
+
+    Her voice was even. Controlled. The accent was Caldruun coast with something underneath it, older, from somewhere she'd left behind.
+
+    You sat. The chair protested. You'd gotten used to that.
+
+    "I've been watching you since you walked in," she said. "You read the board. You didn't post. You didn't approach anyone. You stood at the bar and watched the room. That's not what the desperate ones do. The desperate ones grab the first berth on the board and pray. You're choosing."
+
+    She leaned forward. Fractionally.
+
+    "Sullavenne Ohn." She said it like a rank and serial number. Paused. Something shifted in her jaw. "I'm not looking for a berth. I've had berths. I'm looking for a —" She stopped. Started again. "What I need is — a crew that doesn't — no." She pressed two fingers against the bridge of her nose. "I had this. I had the words for this an hour ago. A crew that's worth the walk south. That's what I — that sounded rehearsed. It was rehearsed. I've been sitting here for two weeks rehearsing it and it still came out wrong."
+
+    The scar caught the lantern light. Her hands were still on the table. Long fingers, no calluses — not a laborer, not an engineer. Not a cook. Something else.
+
+    "I was Wardensea. Four years, Second Division, Lieutenant grade. Left on my own terms, which means I have a discharge paper that says 'voluntary separation' and a commander who'd put me back in a cell if she thought I had something she wanted." She said it flat. No pride, no bitterness. A fact, like the chart seller's facts. "I know how the white coats operate. Patrol schedules, inspection protocols, what makes them flag a ship and what makes them wave one through. That's what I'm offering."
+
+    Behind you, Kessara Veldt had withdrawn her hand and was watching from her table. The cook had stopped eating. The room kept moving, but this corner of it had gone still.
+
+    "The question," Sullavenne said, "is what you're offering."
+
+    *set personality_openness %+ 5
+
+    *goto end_of_scene
+
+*label end_of_scene
+*page_break
+
+The night deepened. The Grimoire on the wall played another broadcast — Wardensea update. Three-ship patrol heading south in the morning. Commander Gress running sweep duty. Every departing crew logged. The bar went quieter for that one.
+
+At the bar's far end, a man sat alone with a drink he wasn't touching. A tattoo on his forearm — a ship's name, crossed out. Below it, another ship's name, also crossed out. Below that, a third, uncrossed. The third name was faded. The ship was gone. He was still here.
+
+You set your cup down. Six days until the departure wave.
+
+Tomorrow. Ship. Crew. The next step toward the bell.
+
+*goto_scene ch1_selvaggio_first_night

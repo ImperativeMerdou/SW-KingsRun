@@ -1,0 +1,373 @@
+*comment ===================================================
+*comment  CHAPTER 6, SCENE 1 — VELUNDRI: WEIGHT-TRADE MARKET
+*comment  Arrival at Velundri. Weight-trade market (no
+*comment  currency — goods weighed against goods). Resupply.
+*comment  Information overload — planted intelligence.
+*comment ===================================================
+
+*comment ---------------------------------------------------
+*comment  APPROACH — THE FLAT HORIZON
+*comment ---------------------------------------------------
+
+*set current_stop 6
+*set current_stop_name "Velundri"
+*set days_since_departure + 4
+*if (food_days >= 4)
+  *set food_days - 4
+*if (food_days < 4)
+  *set food_days 0
+*set total_sea_days + 4
+
+The ocean was flat in a way you had never seen flat before.
+
+Four days south of Kelvanni, the Bastion Sea stopped pretending to have features. No swells. No whitecaps. No current lines visible in the surface. The water was a single shade of blue-black that stretched in every direction, and the horizon was a perfect circle, and the ship sat at the center of that circle like a coin on a plate.
+
+*if (crew3_name = "Kessara Veldt")
+  "Doldrums window," Kessara said. She was at the helm, reading the anemometer — the wind gauge she'd built from scrap brass and a piece of sail linen at Brannach. The spinner wasn't spinning. "Zero wind. The technical term is 'becalmed.' The practical term is —" She tapped the spinner. Tapped it again. "— we're stuck."
+
+  She looked at the water. At the glass-smooth surface that reflected the sky so perfectly the ship appeared to be floating between two skies.
+
+  "The Velundri corridor is — this is a known thing. The Gannavar charts have a doldrums belt marked between 5 and 6. Dead air, dead water, two to three days depending on — or four. Four, sometimes. The Bastion Sea does this thermal — warm surface, cold deep, and the vertical mixing just..." She waved her hand. Waved it again, harder, like she could push the explanation out of the air. "The wind is gone. That's the short version. The long version involves thermodynamics and I'm too angry for thermodynamics."
+
+The crew rowed. Two hours on, two hours off. Kessara and you on the oars — the Rathai was half your size and pulled three-quarters your stroke, the efficiency of a body that had been lifting engine parts since childhood. Terrek cooked and rowed. Sullavenne rowed and watched the horizon through a spyglass she'd acquired at Kelvanni, scanning south for the first sign of land or current.
+
+The rowing was brutal. Not because of the effort — your highland body was built for effort, the arms and shoulders and back that had hauled iron in the Sennaku mines — but because of the emptiness. The ocean offered nothing to look at. No birds. No fish jumping. No other sails. The world had been reduced to a circle of water and a sky that was the same color as the water and a ship that wasn't moving fast enough to feel it.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek rationed. The food days were counted — he'd told you the number that morning, the same way he'd told the number every morning since Selvaggio. A Gorundai accounting of what was left and what it cost and how long it would hold. The number was low. Not desperate. But the margin between "enough" and "not enough" had been shrinking since Brannach, and four days of minimal progress on the open ocean hadn't helped.
+
+  He cooked smaller portions. The crew noticed. Nobody said anything. The ship food was still better than what most crews ate at full ration — Terrek's skill stretched ingredients the way Kessara's skill stretched hull integrity. But the gap between quality and quantity was widening.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  VELUNDRI — FIRST SIGHT
+*comment ---------------------------------------------------
+
+On the fifth morning, Sullavenne saw it.
+
+"Land." One word. She was at the bow with the spyglass. "South-southwest. Low profile. Flat."
+
+The crew came forward. The spyglass passed from hand to hand. Through the lens: a white line on the horizon. Thin. Barely visible against the blue-white sky. No elevation. No trees. No structure. A line.
+
+Velundri.
+
+The island resolved over the next three hours as the current — finally, mercifully, a current — carried the Sundered Wake south. What had been a line became a shape. What had been a shape became a platform. The word "island" was generous. Velundri was a coral shelf — flat, white, roughly oval, less than a mile across at its widest point. No natural elevation above fifteen feet. No vegetation taller than salt-grass. The entire surface had been engineered: drainage channels carved into the coral, stone platforms for the market stalls, a harbor basin cut from the reef's southern edge with the precision of someone who understood water flow at a level that was closer to art than engineering.
+
+Varrek work. You could tell from the dock.
+
+*if (crew3_name = "Kessara Veldt")
+  "Varrek drainage system," Kessara confirmed. She was studying the channels as the ship entered the harbor approach. "The gradient is engineered — the water flows from the interior to the ocean at a controlled rate. Without the drainage, every storm would flood the market platform. With it, the water exits faster than it enters." She shook her head — the Rathai gesture of reluctant admiration. "The channels were cut by hand. Limestone chisel work. The tolerance is within a quarter inch over a hundred feet. That's not construction. That's clockwork."
+
+The harbor held eight berths. Five were occupied. The Sundered Wake took the sixth — an open berth on the south side, facing the ocean, the mooring posts carved from the same coral as the island itself. The water was shallow — eight feet at high tide, visible to the bottom, the coral sand white and undisturbed. Fish swam between the hulls. Small, silver, indifferent to the ships that came and went.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was already reading the harbor. The five occupied berths: the Morventhi freelancers from the Depthline, who had been at Kelvanni; two merchant haulers from the northern coast; a ship she didn't recognize; and — in the east berth, the largest berth, with the best approach angle — the Regrade.
+
+  "Kovesse Thrallek." Sullavenne said the name like a navigation marker — a fact of the terrain. "The Inheritors arrived ahead of us. By at least two days, judging by their supply offload."
+
+  *if met_kovesse
+    The legacy heir was not on deck. The Regrade's crew was present — eight people moving with the coordinated ease of a well-funded operation. The ship was clean, well-maintained, the hull painted in the deep blue that Kovesse's mother had chosen forty years ago and her daughter had not changed.
+
+    The contrast with the Sundered Wake was visible from fifty feet. One ship funded by legacy. One ship held together by Kessara's stubbornness and Terrek's food and the stubborn gravity of people who refused to stop.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE WEIGHT-TRADE MARKET
+*comment ---------------------------------------------------
+
+The market was the island.
+
+Not beside it, not on it — the market WAS the island's purpose. Velundri produced nothing. No food, no water, no materials. The coral shelf existed because it was positioned at the geographic center of the Kingsrun's first half — equidistant from the last comfortable stop and the first dangerous one. Location. That was Velundri's product. Everything else was imported, traded, and carried away.
+
+The weight-trade.
+
+No currency. You put what you had on one pan of a brass scale. The trader put what you wanted on the other. When the scale balanced, the trade was done.
+
+At the first stall you passed, a Gorundai woman was trading a coil of anchor chain for salt pork. The chain was heavy. The pork was light. She added a copper fitting. The scale tipped the wrong way — she'd overshot. She pulled the fitting back, put a smaller one on. Still too much. She exhaled through her nose. The Varrek trader added a second slab of pork and a clay jar of rendered fat. The scale balanced. The Gorundai woman looked at the extra pork like she hadn't expected it. Both parties walked away without speaking.
+
+At the second stall, a human man was arguing. He'd been arguing for a while, judging by the crowd. He wanted the Varrek to accept a Kolmari letter of credit. The Varrek stared at him the way a scale stares at an empty pan.
+
+*comment The exception, per the bible: counterfeit weight = ship seized.
+
+A sign at the market's entrance, carved in Varrek lettering:
+
+COUNTERFEIT WEIGHT — SHIP SEIZED. NO APPEAL.
+
+The consequence was not theoretical. Two hulls were visible on the reef edge, half-submerged, the remains of crews who had tried to cheat the scales. The Varrek who administered Velundri's market did not employ guards, did not threaten, did not raise their voices. They weighed. And the weight was law.
+
+*choice
+  #Walk the market. See what's being traded, what's available, what the crew needs. Information first, then decisions.
+    *set personality_aggression %- 2
+    *goto market_walk
+
+  #Go straight to the provision stalls. The food supply is low and the next stretch is the longest yet. Resupply is the priority.
+    *set personality_aggression %+ 2
+    *goto market_provisions
+
+  #Find the information traders. At Velundri, intelligence is weighed by the word. The revelation — whatever Sullavenne is chasing — might be for sale here.
+    *set personality_openness %+ 5
+    *goto market_intelligence
+
+*label market_walk
+
+The market was arranged in concentric rings around the primary weight-scale — a massive brass instrument, waist-high, its pans wide enough to hold a crate. The outer ring held provision traders: food, rope, canvas, caulking compound, medical supplies. The middle ring held specialty goods: weapons, navigation instruments, Grimoire repair kits, ship fittings. The inner ring — closest to the primary scale — held information.
+
+You walked the rings. The stalls were staffed by every race. A Gorundai woman sold weapon-grade ore from Brannach, weighed against whatever the buyer had. A human couple from the northern coast offered dried provisions — fish, grain, salt — at weights that favored the buyer because they were carrying too much and needed to lighten before the next stretch. A Khari trader from a warren you didn't recognize sold maps. Hand-drawn. The quality varied. The price was always weight.
+
+The smells shifted as you moved inward. Outer ring: salt, fish oil, the mineral tang of iron and bronze. Middle ring: weapon oil, varnish, the acrid bite of Grimoire repair compounds. Inner ring: paper. Old paper. The specific smell of documents that had been stored in sealed containers and opened for the market.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was in the outer ring. The cook had gone straight to the provision stalls with the single-minded focus of a professional who understood that his domain was under threat. He was weighing. A sack of grain on one pan. Three lengths of Brannach sulfur-cord — the trade item the crew had carried from Stop 4 — on the other. The trader was Varrek. The negotiation was conducted in grams and millimeters. The Gorundai cook and the Varrek trader spoke the same language: precision.
+
+  He looked up as you passed. Held out a twist of something — dried fruit, dark, the smell sweet and unfamiliar. He didn't explain. He'd bought it with his own trade-weight, the personal supplies he'd carried since Brannach. He put it in your hand and went back to the scale.
+
+  *set food_days + 8
+  *comment Terrek handles provisioning automatically on the walk path
+
+*if (crew4_name != "Terrek Ghaal")
+  *comment No dedicated cook — MC buys basic provisions directly
+  *set food_days + 4
+
+*goto market_continues
+
+*label market_provisions
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was already there. The Gorundai had beaten you to the provision stalls by the simple expedient of not stopping to look at anything else. He'd assessed the available stock, identified the three stalls with the best quality-to-weight ratio, and was in the middle of a transaction with a Varrek grain trader that involved micro-adjustments to the brass weights and the kind of concentrated silence that two professionals share when the work is the conversation.
+
+  "I need four things," he said, not looking up from the scale. "Grain. Dried protein — fish, meat, whatever's available at weight. Spice. And —" He stopped. Counted on his fingers. "Three things. I said four. It's three." He adjusted a weight. "The spice is the luxury. Everything else is survival. I can make survival edible. I can't make survival interesting without spice."
+
+  The Varrek trader produced four paper twists — the Velundri spice packets the bible described. Mixed spices from a dozen trade origins, contents unpredictable. Terrek opened one. Smelled it. Closed it. Opened the second. His nostrils flared — the Gorundai equivalent of a wine taster finding a vintage.
+
+  "This one." He put it on the scale. You put what the crew could spare on the other pan.
+
+  *set food_days + 8
+  *comment No Sovereigns spent — weight-trade uses goods, not currency
+
+*if (crew4_name != "Terrek Ghaal")
+  The provision stalls were simple. Grain, dried fish, salt — the basics. Without a dedicated cook to assess quality, you traded by weight and hoped the goods were what the traders said they were. The spice packets sat in rows. You picked one at random.
+
+  *set food_days + 4
+  *comment No cook — MC gets less efficient provisioning
+
+*goto market_continues
+
+*label market_intelligence
+
+The inner ring of the market was different. The stalls here didn't have physical goods on display — instead, they had people. Individuals sitting behind scales with nothing on the pans. The weight-trade for information was conceptual: you offered what you knew, weighed against what you wanted to know. The scale was metaphorical. The exchange was real.
+
+An old Thalessi man sat behind the primary stall. He was thin, precise, the features of a race that aged slowly and maintained their faculties long past the point where other races would have retired. His eyes tracked you — tracked the horns, the height, the highland coat. The assessment took less than a second.
+
+"Kingsrun crew. Four stops — no, five. Six." He squinted at your coat. Recounted something in his head. "Six. The coat's been salt-washed to the point of bleaching, which means extended sea exposure. Half-Oni, highland origin, which means you're either running from something or toward something." He paused. "Both, probably. I always say 'both, probably.' I'm always right."
+
+He gestured to the empty pan.
+
+"So. You tell me something. I tell you something. The quality — that's what matters. Not the quantity. I get people who come here and talk for twenty minutes and say nothing. That's worth nothing." He scratched behind his ear. "I don't cheat. I don't lie. I also don't — what's the word — curate. What I sell you is raw. Some of it's good. Some of it's horseshit that someone planted because they want you sailing the wrong direction. That's your problem, not mine."
+
+He looked at you.
+
+"Welcome to Velundri. Half the people here are lying. The other half think they're telling the truth, which is worse."
+
+*if (crew4_name = "Terrek Ghaal")
+  *comment Terrek handles provisioning independently while MC trades for info
+  *set food_days + 8
+
+*if (crew4_name != "Terrek Ghaal")
+  *comment No cook — MC grabs basic provisions after intelligence trading
+  *set food_days + 4
+
+*goto market_continues
+
+*label market_continues
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE MARKET — MIDDAY
+*comment ---------------------------------------------------
+
+The market's rhythm became clear by midday. The weight-scales operated continuously — the brass clink of pans settling, the murmur of traders calling adjustments, the sound of goods being weighed and exchanged and carried away. The system worked because the rules were simple and the consequences were visible. The two hulls on the reef edge were the only enforcement the market needed.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara found you at the middle ring. The Rathai was carrying a sack — small, heavy, the contents clinking with the sound of metal on metal.
+
+  "Ship fittings. Bronze. Three cleats, a new halyard hook, and a ring bolt for the anchor rode." She hefted the sack. "I traded the damaged rudder bracket from the Galluun's Tooth repair — the old one, the one I replaced. The Varrek fittings trader weighed it and offered these." She hefted the sack again. She'd already hefted it. She was holding it the way she'd held the bronze fitting at Galluun's Tooth — close, like it might leave. "First fair trade since Selvaggio."
+
+  She looked at the ship from the market. The Sundered Wake in her berth, salt-stained and patched and floating level. The ship they'd sailed from the start. The ship Kessara had kept alive through five stops and an ocean that tested everything she knew about hulls and water and the physics of not sinking.
+
+  "I need two more hours in the market. The canvas stall has sail-grade linen at a good weight ratio. And there's a Varrek toolmaker in the inner ring who's selling a calibrated wrench set that would cut my repair time by a third." She paused. The pause was financial. "I have nothing left to trade for the wrench set. The rudder bracket was everything."
+
+  *choice
+    #Trade the storm-leather coat. The highland coat has been on your back since Selvaggio. It's the last piece of the highlands. It's also the most valuable thing you own by weight.
+      *set personality_aggression %+ 5
+      *set coat_traded true
+      *goto coat_trade
+
+    #Find something else. The ship has cargo, salvage, items from previous stops. There's always something to trade.
+      *set personality_openness %+ 3
+      *goto alternate_trade
+
+    #The wrench set can wait. Kessara has managed five stops with the tools she has. The tools she needs are a future problem.
+      *set personality_aggression %- 3
+      *goto no_trade
+
+*label coat_trade
+
+The storm-leather coat weighed six pounds. Highland Oni leather — tanned in volcanic springs, weather-treated with Sennaku highland oil, the stitching done by a skin-singer whose name you had never learned. It had been a gift. Or a possession. Or the last thing the highlands had given before the highlands had stopped giving.
+
+The Varrek toolmaker weighed it. Ran her fingers across the leather — feeling the grain, the treatment, the density. Her expression changed. The coat was rare. Storm-leather was not traded often because Oni did not give up their leather often, and the Sennaku process for treating it was not available outside the highlands.
+
+The wrench set went on the other pan. Precision tools. Varrek-made. The kind of equipment that turned a good engineer into an excellent one.
+
+The scale balanced.
+
+Kessara took the wrench set. Looked at you standing in the market in a salt-bleached shirt, the coat gone, the shoulders bare. The horns visible. The highland tattoos visible — the incomplete lines, the festival marks that stopped halfway. Everything that the coat had covered was now exposed.
+
+She didn't say thank you. Rathai didn't. She put the wrench set in the sack with the fittings and said, "I'll have the cleats installed by sundown."
+
+That was Kessara's thank you. Work. Immediate, specific, measurable work.
+
+*set crew3_loyalty %+ 8
+
+*goto afternoon
+
+*label alternate_trade
+
+The crew searched the hold. The Sundered Wake's cargo was lean — they'd been running light since Selvaggio, carrying only what they needed and what they could trade. But six stops had accumulated things. The modified Grimoire casing from the Galluun's Tooth wreck — if they still had it. A bolt of Merrenbach reef-silk that Terrek had accepted as payment for cooking a meal at the Khari market. Small items. Trade goods.
+
+*if (galluuns_tooth_challenge = "took_box")
+  The chart folio from the Galluun's Tooth wreck was an option. Old, valuable, containing navigation data from a pre-Kingsrun era. The Varrek would weigh it by the vellum — but the information inside would be recognized.
+
+The crew scraped together enough. The wrench set went into Kessara's hands. The cost was distributed — a piece from everyone, a shared expenditure that reminded you that a crew's resources were collective, not individual.
+
+*set crew3_loyalty %+ 5
+
+*goto afternoon
+
+*label no_trade
+
+Kessara nodded. The nod was professional — the acceptance of a command decision, filed without complaint, the Rathai instinct for operational hierarchy. She would work with what she had. She always had.
+
+"I'll make do." She hefted the sack with the fittings. "I've been making do since Selvaggio. The ship hasn't sunk yet." She turned to leave. Stopped. Turned back. Opened her mouth. Closed it. Turned again and walked toward the ship, her free hand tapping against her thigh in the rhythm of someone running calculations she didn't like the answer to.
+
+*goto afternoon
+
+*label afternoon
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  AFTERNOON — THE HARBOR
+*comment ---------------------------------------------------
+
+*if met_kovesse
+  Kovesse Thrallek found you at the market's edge.
+
+  She didn't approach the way Suuba had — fast, talking, already three sentences ahead of the conversation. Kovesse moved the way money moves: slowly, with the gravity of something that doesn't need to hurry because it owns the space it enters.
+
+  Tall for a Human. Five-ten. Dark skin, close-cropped hair, the posture of someone who had been taught to stand correctly and had never questioned the instruction. She wore a coat that cost more than the Sundered Wake. The fabric was Rathai-woven — treated, the weave tight enough to be waterproof, the cut tailored. She looked like what she was: the inherited captain of a funded legacy operation, raised to run the Kingsrun the way her family had run it for two generations.
+
+  She was also tired. The kind of tired that money couldn't fix. The kind that came from watching a volcanic eruption destroy three weeks of repair work and then sailing south with a ship that wasn't ready.
+
+  "Akkan." She used the surname. The formality was Thrallek — the legacy family's style, learned from her mother, applied to everyone. "You pulled scaffolding at Brannach. My first mate tells me your crew was on the dock when the tremor hit, hauling debris while most captains were casting off."
+
+  She looked at the Sundered Wake. At the Regrade. The two ships in the same harbor, one patched and salt-bleached, the other funded and still damaged.
+
+  "I wanted to say that in person. The Grimoire doesn't carry gratitude very well."
+
+  *choice
+    #Accept the acknowledgment. Nod. The Brannach dock was chaos and you did what the ground needed. Kovesse's thanks is noted — and so is the fact that the Inheritors owe a debt.
+      *set personality_aggression %+ 3
+      *set met_kovesse true
+
+      The nod was enough. Kovesse read it — the economy of a response that didn't need words. She was a legacy captain. She understood that transactions didn't require decoration.
+
+      "I'll remember it." She turned to leave. Stopped. The stop was calculated — the Thrallek instinct for dramatic punctuation that she'd inherited with the ship. "The Kingsrun south of here changes. Durromakh. The toll gate. Cassara Vellune doesn't care about legacy or money or gratitude. She cares about tonnage." She looked at the Sundered Wake. "Your ship is light. That's an advantage at the toll. Maybe the only one you have."
+
+      She left. The Inheritors' crew closed around her the way funded crews close around their captains — with competence and proximity and the specific gravity of people who were paid to be present.
+
+      *goto market_evening
+
+    #Trade information. Kovesse was at Brannach longer — she knows the harbor, the Gorundai, the eruption's aftermath. Information from a funded crew is worth more than a thank-you.
+      *set personality_openness %+ 4
+      *set met_kovesse true
+
+      The exchange was brief. Kovesse traded like a legacy captain — aware of what she had, aware of what it was worth, aware that sharing intelligence with a rival was a calculated investment in future reciprocity.
+
+      What she gave: Durromakh's toll structure — tonnage-based, paid in goods or sovereignty markers. Cassara Vellune's temperament — "She's Morventhi. She's 134 years old. She's been running the toll for sixty years and she's killed six crews who tried to run it. The wreckage is visible from the channel." The Gorundai at Brannach had mentioned the weather south of Velundri — volcanic monitoring showed atmospheric disturbance that wasn't volcanic. "They said 'the sky is wrong.' I don't know what that means. The Gorundai always know what it means."
+
+      She left with what you gave her — Kelvanni's clinic capacity, the Wardensea cutter incident, whatever intelligence the crew had gathered at the medical stop. The trade was weighted in her favor. She had more to give. But the transaction itself — the willingness to exchange — was the point.
+
+      *goto market_evening
+
+    #Walk past. Kovesse's gratitude is real and irrelevant. The Inheritors are funded, crewed, and running the Kingsrun with resources the Sundered Wake will never have. Gratitude between unequal ships is decorative. Keep moving.
+      *set personality_aggression %- 3
+      *set personality_loyalty %+ 3
+
+      Kovesse watched the walk-past. Her expression didn't change — the Thrallek composure held. But the first mate behind her — Sureth Kellane, lean and watchful — shifted his weight. The shift said: *noted*.
+
+      The market continued. The scales balanced. The Inheritors went their way and the Sundered Wake's captain went the other and the coral platform held them both without comment.
+
+      *goto market_evening
+
+*label market_evening
+
+The market closed at sunset. The Varrek administrators covered the scales with canvas, locked the stall frames, and swept the coral platform with brooms made from reef-grass. The efficiency was automated — a routine performed daily for however many years the market had been running. Decades. Centuries. The drainage channels continued to run. The platform was dry within an hour of the last rain. The system worked.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had spent the day in the inner ring. You had seen her once — seated across from the Thalessi information trader, the two of them in a conversation that was conducted in low voices with long pauses and the guarded body language of people who were trading dangerous things. Sullavenne had offered something — you didn't see what — and the Thalessi had placed something on the scale in return. A rolled document. Small. The exchange had lasted less than a minute.
+
+  She'd disappeared after that. Into the market crowd. Into the harbor. Into whatever network of contacts and sources she'd built during the day — the former intelligence officer operating in her element, gathering data from a market that traded information by the gram.
+
+  You would hear what she'd found. Tonight. On the ship. In the dark, where the crew assembled and the Grimoire glowed and the Kingsrun's secrets were weighed against the crew's willingness to carry them.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek had provisioned well. The galley was stocked — eight days of food at full ration, longer if he stretched. The Velundri spice packets were stored in the dry locker. The grain was sealed. The dried fish was hung in the hold where the air circulated. The Gorundai cook had done what the Gorundai cook always did: ensured that the crew would eat, and eat well, for as long as the journey continued.
+
+  He was cooking now. The first proper meal in five days — the doldrums had limited the galley to cold provisions, and the arrival at Velundri had meant provisioning before eating. Now, at anchor, with the stove lit and the evening warm and the harbor quiet, Terrek was in his element. The smell rose from the galley hatch: rice, Brannach sulfur-salt, the first of the Velundri spice packets.
+
+  The crew gathered. On the stern. Sitting on rope coils and deck crates. Four people. One ship. Six stops.
+
+  The food was good. The food was always good. But tonight it tasted like more than food. It tasted like arrival. Six stops of the Kingsrun. The halfway point — the place where the route shifted from "getting started" to "committed." The place where turning back stopped being a possibility and became a fantasy. The crew had crossed something. The scales at Velundri had weighed what they carried, and the weight had balanced, and the balance meant they belonged here.
+
+*comment ---------------------------------------------------
+*comment  GRIMOIRE — EVENING BROADCAST
+*comment ---------------------------------------------------
+
+*set broadcast_count + 1
+
+The Grimoire lit up during dinner.
+
+Kingsrun Watch. Veshanna Torc.
+
+"Velundri market close. Fourteen crews docked at Stop 6 in the last three days. Three departures southbound. One reversal — a human crew from the eastern coast, their captain citing supply exhaustion and crew injury. They turned north this morning. By the time they reach Selvaggio, the season will be half over."
+
+*if (bounty >= 30000000)
+  "The Sundered Wake arrived today. Merdou Akkan — the half-Oni cold entry from Selvaggio. Six stops. The Watch is noting this because cold entries don't usually make it past Stop 4. The attrition rate for unfunded crews is seventy-three percent by Stop 4 and eighty-nine percent by Stop 6. The Sundered Wake is in the eleven percent."
+
+  *set grimoire_followers + 400
+
+*if (bounty < 30000000)
+  "Among today's arrivals: the Sundered Wake. Low-profile crew out of Selvaggio. The Watch has them listed but not featured — minimal bounty, no major incidents on public record. That said, they've made it to Stop 6, which puts them ahead of most of the season's entrants."
+
+  *set grimoire_followers + 150
+
+"Also at Velundri: the Inheritors. Kovesse Thrallek's crew, carrying the Thrallek legacy and enough funding to buy half the market. The betting board has them at twelve to one — down from eight to one at Selvaggio. The odds are getting worse because the Kingsrun is getting harder, and money doesn't buy wind or luck or the specific thing that separates crews who make it from crews who don't."
+
+"Ahead of everyone: the Kindling. Suuba Mettani's crew passed through Velundri three days ago and didn't stop. Didn't dock. Didn't trade. They sailed through the harbor without dropping anchor and continued south. Either they're fully provisioned or they're running from something. The Watch is watching."
+
+A pause. The editorial pause. Veshanna's signature.
+
+"And south of Velundri — weather. The Wardensea's Bastion Sea forecast is calling for anomalous conditions in the Velundri-Durromakh corridor. Localized. Non-seasonal. The kind of weather that makes meteorologists nervous and Kingsrun crews very, very quiet."
+
+The Grimoire dimmed. Dinner continued. The crew ate in the heavy silence of people who had heard a weather warning and were choosing not to discuss it yet.
+
+The harbor held its breath. The drainage channels ran. The stars came out over Velundri — the flat island, the engineered platform, the place where weight was law and the scales balanced and the Kingsrun's secrets were sold by the gram to anyone willing to pay.
+
+Tomorrow. The second day at Velundri. The market would open again and the scales would balance again and the information that Sullavenne had bought would find its way to the crew. And south of here — south of the flat water and the doldrums and the white coral shelf — the ocean was getting darker and the weather was getting wrong and something was building that wasn't on any chart the Gannavar had published.
+
+The Kingsrun continued. It always did. The question was whether the crew continued with it.
+
+*goto_scene ch6_velundri_revelation

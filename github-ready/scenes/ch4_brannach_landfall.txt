@@ -1,0 +1,401 @@
+*comment ===================================================
+*comment  CHAPTER 4: BRANNACH — "The Fissure Stop"
+*comment  Scene 1: Landfall
+*comment  Volcanic scar island. Sulfur air, Gorundai miners,
+*comment  active volcanic field. First encounter with the
+*comment  Inheritors — Kovesse Thrallek's CG crew. Gorundai
+*comment  see half-Oni MC as "kindred spirit with wrong horns."
+*comment  2 real choices. Zero fake choices.
+*comment ===================================================
+
+*set current_stop 4
+*set current_stop_name "Brannach"
+*set days_since_departure + 2
+*if (sovereigns >= 2)
+  *set sovereigns - 2
+
+The ash thickened through the final approach.
+
+It was on the water — a grey film that broke against the hull and reformed in the wake, the surface of the Bastion Sea coated with a fine particulate that looked like dust and tasted like metal. It was on the rigging — a dry accumulation that dulled the rope and turned the sail from bleached canvas to a mottled grey that Kessara kept brushing off and the wind kept replacing. It was in the air. Every breath carried a weight that wasn't humidity. A mineral presence that coated the throat and made the next breath slightly more difficult than the last, the way altitude did in the Sennaku Highlands, where the air thinned at elevation and the lungs worked harder without being told why.
+
+This wasn't altitude. This was the volcano.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had the long-glass trained south since dawn. She hadn't put it down.
+
+  "Harbor confirmed. South side of the island, behind a basalt ridge — the ridge is intact, the harbor is sheltered. I count eight vessels at anchor. Three fishing boats, two cargo haulers, one Wardensea patrol cutter — marked but flying civilian pennants, which means it's decommissioned or pretending to be."
+
+  She adjusted the glass.
+
+  "Two other ships. One large — three-masted, heavy beam, with scaffolding on the port side. That's the Regrade. The Inheritors are still here."
+
+  She lowered the glass and looked at the crew.
+
+  "The last ship is small. Schooner rig, no markings. Could be local. Could be anything."
+
+*page_break
+
+Brannach was not what the ocean had promised.
+
+The smoke column had suggested devastation — an island consumed, a harbor buried, an economy cratered. The reality was different. The volcanic field occupied the north face of the island, a landscape of black rock and thermal venting that sent plumes of white-grey vapor into the sky at irregular intervals, each plume carrying the sulfur stench that had been building in the air for two days. The fissures were visible from the water — dark lines in the rock face, some venting heat, some glowing dull orange at their base where the magma was close enough to the surface to light itself. The sound carried across the water. A low harmonic. Constant. The island's voice — the vibration of a mountain that was hollow in places and full of fire in others, the sound transmitted through rock and water and air in a frequency that the ribs registered before the ears did.
+
+The harbor was on the south side. The ridge separated it from the volcanic field — a wall of basalt that rose three hundred feet and cut the thermal venting off from the docks, creating a pocket of air that was warm but breathable, sheltered but not sealed. The harbor was built into the rock. Stone piers jutting from the cliff base. Iron mooring rings sunk into basalt. The docks were heavy — thick timber over stone foundations, built to survive the tremors that shook the island on a cycle that the locals had calibrated to minutes and the newcomers hadn't calibrated at all.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was at the bow. Her eyes moved from the docks to the ridge to the fissure field behind it with the expression of an engineer reading a building's stress points.
+
+  "The ridge is volcanic basalt — dense, slow to erode, good at absorbing thermal shock. The harbor works because the ridge works. If the fissures extend past the ridge or the next eruption undermines the base, the harbor goes with it." She looked at the docks. "The infrastructure is Gorundai. Iron and stone, not wood and rope. They build for the next earthquake, not the next season."
+
+  She paused.
+
+  "We need to dock on the outer pier. The inner berths put us against the cliff face, and if a tremor drops —" She looked at the ridge again. At the inner wall. Back at the ridge. "Wait. No. The overhang angle means the debris field would — no, I was right the first time. Outer pier. Anything moored to the inner wall takes the impact. Probably. I'm doing geological physics on the fly and I'm not a geologist."
+
+The Sundered Wake entered Brannach harbor at midmorning. The approach was clean — no reef, no coral channel, no current hazard. The volcanic island had burned its approaches clean. The water was deep and dark and warm — perceptibly warm, the temperature rising as the ship neared the docks, the ocean heated from below by the same geological engine that was venting fire from the fissures above.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek leaned over the rail and touched the water. He held his hand there for three seconds, then pulled it back and smelled his fingers.
+
+  "Warm. Not hot — not dangerous. But warm. And the sulfur content is high. The fish here will taste different. Mineral-heavy, slightly acidic." He wiped his hand on his apron. "Gorundai cooking uses the volcanic water. They heat pots on the fissure vents and let the mineral content season the food. Gorrash — the grain porridge — tastes like it's been cooked in metal because it has been."
+
+  He looked at the smoke rising from beyond the ridge.
+
+  "The island is the kitchen."
+
+*page_break
+
+The docking was watched.
+
+Not by dock officials — Brannach didn't have a harbor office in the way Selvaggio or Galluun's Tooth did. No Kolmari banking station, no Wardensea inspection post, no departure bell. The economy was extraction, and the culture was Gorundai, and the Gorundai did not build institutions that existed to process strangers. Strangers processed themselves. The docks were open. The mooring was self-service. The fee was posted on a stone slab at the pier head — "2 Silver per day, paid to the Forge" — and the enforcement mechanism was the population of miners who worked the fissures and did not tolerate free-riders.
+
+The watching came from two directions.
+
+The first was the dockside work crew — six Gorundai, stripped to the waist despite the ash in the air, loading volcanic ore into basalt-lined crates. They were large. The Gorundai were larger than humans by a head, with denser musculature, thicker bone structure, and the tusked lower jaw that gave their faces a permanent expression that other races read as aggression and the Gorundai themselves considered neutral. Skin from deep green to grey-brown. Arms built for the work they were doing — lifting crates that would require two humans each, handling them singly, the weight distributed through bodies that had been loading ore since adolescence.
+
+They looked at the Sundered Wake as it glided into the outer berth. They looked at the crew. They looked at you.
+
+The looking changed.
+
+A half-Oni at the helm of a Kingsrun vessel. Six-seven, broad-framed, ash-white skin, ram-curved horns, the black mane tied back for the approach. The storm-leather coat open to the heat. The Gorundai ore-loaders saw the horns first — everyone did — but they processed them differently than the Khari at Merrenbach or the humans at Galluun's Tooth. The Khari had been wary. The humans had been nervous. The Gorundai were interested.
+
+One of them — the largest, deep green skin, tusks prominent, forearms corded with scar tissue that said the fissures had bitten back more than once — looked at you for a long time. Then he turned back to his crate. The pace of his work didn't change, but the angle of his shoulders did. An opening. A space made in the peripheral awareness for someone who might belong in it.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne noticed.
+
+  "They're not threatened." She was tying off the mooring line. Tugged it. Tugged it again. "They're doing something. I can't tell what." She finished the knot and looked at the ore-loaders again. "The big one — the one who turned back to his work. He made space. Did you see that? He shifted his shoulders."
+
+  She paused.
+
+  "I think they're making room for you. I don't know what that means yet."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was watching the Gorundai. His weight had shifted — forward, onto the balls of his feet, his hands loose at his sides. The same stance the ore-loaders had. He probably didn't know he was doing it. The human-passing man from the Kethrun district, standing on a Gorundai dock, and his body was doing things his face hadn't been told about.
+
+  "My mother was from the Kethrun district," Terrek said. "Alessi Ghaal. She cooked for the shift crews — gorrash and ore-bread, four meals a day, the food that kept miners upright through a twelve-hour dig. She used to say the Gorundai were the mountain's children, and the mountain fed its children heavy." He smiled. "I came out looking human. But the appetite came through. And the stance."
+
+*page_break
+
+The second source of watching was the Regrade.
+
+The Inheritors' ship was moored at the inner berth, against the cliff face, with scaffolding on the port side that extended from waterline to gunwale. The damage was visible. The hull planking on the port side had been stripped and partially replaced — new timber against old, the fresh wood pale against the weathered original, the contrast making the Regrade look like an animal mid-molt. The keel was supported by stone cradles on the dock — the ship had been hauled partially out of the water for structural work, the waterline exposed, the copper sheathing battered and partially peeled from whatever impact had done the damage.
+
+Gorundai workers moved on the scaffolding. Welding — not soldering, not fitting. The orange glow of heated metal and the sharp percussion of hammer on iron rang from the hull in a rhythm that was almost musical. The repairs were serious. Keel-deep. The kind of work that took three weeks and cost more than most crews earned in a month.
+
+The crew of the Regrade was on the dock.
+
+Three of them, visible from the outer berth. A human — lean, late twenties, dark hair, standing with his arms crossed and watching the approach of the Sundered Wake with an expression that was neutral and attentive. An Oni — tall, broad, not as large as you but built with the compact power of someone who'd learned to fight in tight spaces, a weighted chain coiled at his hip. A Rathai — short, wiry, grease-stained, hands moving constantly as she talked to one of the Gorundai scaffold workers about something that required extensive gesturing.
+
+The human was Sureth Kellane. First mate. The one who told Kovesse when she was becoming her mother.
+
+The Oni was Terrek Ghaal. Bosun. The one with the chain he called "Conversation Starter."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek — your Terrek, the cook — saw the Oni on the dock and stopped moving.
+
+  "That's an Oni." He said it with the quiet attention of someone who knew the race from the inside, even if the outside didn't show it. "Kingsrun crew. Not highland — the build's different, combat-compressed, trained for ship fighting. And the chain." He looked at it. "Weighted chain. Twelve feet, iron-link. Kuldhara's Warband uses those."
+
+  He looked at you.
+
+  "My parents were Gorundai. I know what it looks like when someone meets their own kind far from home."
+
+The Rathai was Dussa Kervenne. The engineer who talked to the ship.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara looked at the Regrade's exposed hull and the Rathai on the dock. She said nothing for eleven seconds. Which was, for Kessara, the equivalent of a standing ovation.
+
+  "The keel repair is comprehensive. They went to the structural frame, not just the hull." She was gripping the rail. "The scaffolding's rigged for ventilation — that means hot-work on the keel bolts. That's —" She stopped. The Rathai on the dock was mid-argument with a Gorundai welder, gesticulating with a wrench. "That's their engineer. She's telling him the heat distribution is wrong." Kessara watched the argument. "She's right. He knows she's right. He's going to keep arguing for about ten more seconds and then do what she says."
+
+  Eight seconds later, the welder adjusted his torch angle.
+
+Kovesse Thrallek was not on the dock.
+
+The captain of the Inheritors was somewhere else — in the town, in the fissure mines, on the ship. Her crew was visible. She wasn't. The absence said something. A captain who left her damaged ship under repair with her crew on the dock was a captain who trusted both the repair and the crew. Or a captain with business elsewhere that mattered more than watching welders work.
+
+*page_break
+
+The town was above the docks.
+
+Brannach's settlement climbed the south face of the ridge — not vertically like Merrenbach's Khari warrens, but in a stepped progression of stone platforms cut into the basalt. The architecture was functional. Stone and iron. Walls thick enough to withstand tremors. Roofs flat, pitched slightly for ash drainage, with iron gutters that channeled the volcanic dust into collection barrels. The ash was resource. The Gorundai used it for mortar, for ceramics, for the slag-glass that was Brannach's distinctive craft — dark, translucent panels cut from cooled volcanic flow and fitted into the buildings as windows that filtered the light to a warm amber.
+
+The streets — paths, really, cut between the stone buildings — were busy. Gorundai miners moving between the settlement and the fissure approaches on the north side of the ridge, carrying tools and ore in basalt-lined packs. Human traders from the cargo ships at dock, loading supplies for the return trip north. Three Rathai engineers on a platform above the main path, working on a ventilation system — pipes and fans and hand-cranked bellows designed to push fresh air into the mine approaches when the volcanic gases built up.
+
+The air was warm. Not the wet heat of the open Bastion Sea or the gentle warmth of Merrenbach's reef zone. This was mineral heat — dry, sulfuric, carrying the taste of iron and the smell of a furnace that had been burning for geological time. The heat came from below. Through the stone. Through the boot soles. The island was warm in a way that said the fire was not just on the surface. It was in the rock. It was in the ground. Your feet registered it first — the deep thermal memory of volcanic ground, carried forward from the Sennaku Highlands, where the hotsprings turned the mountain paths warm in winter and dangerous in summer.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne's assessment was quick. "Harbor: operational. Settlement: functional, no recent damage visible. Volcanic activity: confined to the north face, behind the ridge. Population: Gorundai majority, human trade minority, Rathai technical contingent. Infrastructure: stone and iron, built for seismic resilience." She looked at the ridge. "The volcano is active. The eruption the Inheritors reported was two to three weeks ago — lateral venting on the north face. The fissures are still open. The miners are still working."
+
+  She paused.
+
+  "The Gorundai mine an active volcano because the ore it produces is worth more than the risk of being buried by it. That calculus is either brave or insane, depending on your relationship with volcanic rock."
+
+*page_break
+
+The forge district was at the top of the settlement.
+
+The path climbed through the residential and market levels — stone-fronted shops selling volcanic ore in graded sizes, tool merchants with iron picks and pry-bars displayed on racks, food stalls where the cooking was done on heated stone slabs set directly over thermal vents in the ground. The food smelled different from anything the Kingsrun had produced so far. Dense. Mineral. Meat ash-cured over volcanic vents, the smoke carrying sulfur compounds that preserved and flavored simultaneously. Grain porridge — gorrash — served in iron bowls, the consistency of mortar and the color of wet stone.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek stopped at a food stall. He bought a bowl of gorrash — one copper — and tasted it. His expression went through three distinct phases: recognition, assessment, and grudging respect.
+
+  "It's exactly —" He stopped. Took another bite. Put the spoon down. Picked it up. "My mother described this. Exactly this. The sulfur taste, the grain texture, the way it sits in you like ballast." He took a third bite. His eyes were bright and his voice was doing something it didn't normally do. "It doesn't taste good. I want to be clear about that. It tastes like eating a mountain. But it's —" He gave up searching for the word and just ate.
+
+  He looked at you.
+
+  "You'd need three bowls. Minimum. Possibly four. I'm not judging."
+
+The forge district occupied the highest platform — closest to the ridge, closest to the fissures, closest to the heat. The forges were open-faced — stone walls on three sides, the fourth open to the air, with chimney shafts cut through the rock above. The heat was immediate. The temperature climbed ten degrees in the twenty steps between the last residential building and the first forge. The Gorundai smiths worked in the heat the way the Khari worked in the heights — adapted, calibrated, native to an environment that would break a newcomer in hours.
+
+The sound was constant. Hammer on metal. The hiss of quenching. The deep bass note of the bellows feeding air to forges that burned volcanic gas instead of coal — a natural fuel piped from the fissures through iron channels, the flame hotter and cleaner than charcoal, producing a heat that could soften volcanic ore that conventional forges couldn't touch.
+
+*choice
+  #Walk toward the Regrade. The Inheritors are a Cursed Generation crew. They've been on the dock watching the Sundered Wake since arrival, and ignoring them is a choice with its own consequences. Better to approach than to be approached.
+    *set personality_aggression %+ 3
+
+    The walk from the outer berth to the inner berth was sixty yards of open dock. The Gorundai ore-loaders watched. The three Inheritors crew members on the dock watched. The scaffolding workers paused their hammering. The sound vacuum lasted four seconds before the welders resumed, and in those four seconds the dock was quiet enough to hear the volcanic harmonic through the stone.
+
+    Sureth Kellane uncrossed his arms. The human first mate was lean in the way that hungry people were lean — not malnourished, but operating without surplus. His eyes tracked the approach with an intelligence that was patient rather than reactive. He didn't move forward. He didn't step back. He held his position and let the distance close, which was either politeness or assessment or both.
+
+    The Oni — Terrek Ghaal of the Inheritors — shifted his weight. The chain at his hip clinked. He was shorter than you by four inches, broader in the shoulders by different proportions, the build of someone who'd fought in ship corridors where height was a liability and width was a weapon. His skin was bronze-red. His horns were swept back — a single pair, shorter than your ram-curve, functional rather than decorative. He looked at you the way Oni looked at other Oni — direct, measuring, the automatic physical assessment that was cultural reflex.
+
+    *if (crew4_name = "Terrek Ghaal")
+      Your Terrek was two steps behind. The cook from the Kethrun district and the fighter from Kuldhara's Warband looked at each other across a dock in a volcanic port. The Inheritors' Terrek saw a human. Your Terrek saw a Gorundai forge town in the stance, heard his mother's kitchen in the weight distribution. The recognition was one-directional and complicated.
+
+    Dussa Kervenne glanced over from her argument with the welder, saw the approaching crew, and went back to arguing. Priorities.
+
+    Sureth spoke first. His voice was careful — words selected and placed like he'd been burned by the wrong ones before.
+
+    "Sundered Wake." He stopped. Rubbed the back of his neck. "Right. So — you've been on the Grimoire since Selvaggio. We've been —" He glanced at the Oni beside him. The Oni shrugged. "— not watching. That sounds — we've been. Aware. Of your crew." He exhaled through his nose. "I had a better version of this in my head."
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne's response was equally measured. "The Regrade. We've been aware of you since Galluun's Tooth."
+
+      Sureth nodded. The exchange was complete — both crews acknowledging mutual surveillance. No hostility. No warmth. Professional recognition between ships that had been sailing the same route at different speeds.
+
+    The Inheritors' Oni spoke. His voice was what Oni sounded like when they'd spent three years in Kuldhara's Warband — loud by nature, disciplined by training, the volume controlled but the energy uncontained.
+
+    "Half." One word. Directed at you. His eyes were on the horns. "Stormspire bloodline. The ram-curve, the coloring, the —" He tilted his head. "No, the build's wrong for pure Stormspire. One of your parents wasn't —" He stopped. The correction was fast, as if he'd caught himself being too specific about something that wasn't his business. "You're a long way south."
+
+    *if (crew4_name = "Terrek Ghaal")
+      Your Terrek answered. "We're all a long way south." He was looking at the chain. "Kuldhara's equipment. The link pattern. Three years?"
+
+      The other Terrek grinned. The expression was Oni — broad, toothy, a grin that meant enjoyment regardless of whether the situation called for it. "Three years. Departed on good terms."
+
+      "Nobody departs Kuldhara on bad terms."
+
+      "Because the bad-terms people don't depart." The grin widened. "Terrek Ghaal."
+
+      "Terrek Ghaal."
+
+      The identical names hung in the air. Both men looked at each other. Then at their respective crews. Then back at each other.
+
+      "That's going to be a problem," the Inheritors' Terrek said.
+
+      "No it isn't," your Terrek said. "I'm the cook. You're the chain. Solved."
+
+    Sureth Kellane's attention had moved past the crew to the Sundered Wake itself. He studied the hull — the repairs, the new timber, the bronze fitting, the caulking. His assessment was silent and thorough.
+
+    "Your ship has been worked on at every stop."
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara answered that one. "She needed it. Selvaggio sternpost. Galluun's Tooth rudder mount. Merrenbach caulking. The ship that left Selvaggio wouldn't have survived the reef approach at Galluun's Tooth. The ship we have now is seaworthy."
+
+      Sureth looked at the Regrade behind him. The scaffolding. The exposed keel. The 39-year-old hull that was more repair than original.
+
+      "Ours has been worked on for four decades. Every plank replaced at least once. Every bolt refitted. Every joint resealed." He paused. "She was my captain's mother's ship. She'll be his until one of them gives out."
+
+    *goto after_approach
+
+  #Stay on the Sundered Wake. Observe. The Inheritors know you're here and you know they're here. First contact with a Cursed Generation crew doesn't need to be rushed — it needs to be controlled. Watch them. Learn what you can from distance before closing it.
+    *set personality_loyalty %+ 3
+
+    The crew worked the docking routine. Mooring lines. Sail furling. Deck wash — the volcanic ash needed clearing before it settled into the wood grain. The routine was familiar, the motions repeated at every stop, and the repetition created a framework of normalcy around a situation that was not normal. There was a Cursed Generation crew sixty yards away. A Boar Fruit user's ship under repair. A 190-million-Sovereign captain somewhere on the island. And the Sundered Wake was mooring next to them like a fishing boat at market.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne used the work as cover. While furling the sail, she studied the Regrade's crew, the scaffolding pattern, the dock layout. Her observations came in fragments between tasks.
+
+      "The human first mate is Sureth Kellane. He hasn't moved since we entered the harbor — he's been watching our approach, our docking, our crew." She tied off a line. "The Oni is their fighter. Chain weapon, Warband-trained. He's relaxed, which means he's confident we're not a threat or he's confident he can handle it if we are." She secured a cleat. "The Rathai is their engineer. She's focused on the repair, not on us. Either she trusts her crew to handle introductions or she doesn't care about other ships."
+
+      She looked at the Regrade.
+
+      "Kovesse isn't visible. A captain who isn't on the dock when a new ship arrives is either unconcerned or sending a message. At 190 million, it's the message."
+
+    The Inheritors' crew on the dock did not approach. The observation was mutual — two Kingsrun crews at the same stop, aware of each other, neither forcing the first move. The distance was professional. The distance was also temporary. Brannach was a small island. The docks were smaller. The forge district was a single platform. Contact was inevitable. The question was timing, and timing was a choice.
+
+    *if (crew4_name = "Terrek Ghaal")
+      Terrek cooked. The galley work was routine — heating water on the small stove, preparing the midday meal from Merrenbach stores. But he was watching the dock through the galley port, and his commentary was quiet and specific.
+
+      "The Oni on the dock. He's Kuldhara-trained — you can see it in the stance. Weight forward, knees bent, ready to pivot. Three years minimum in the Warband to build that reflex." He stirred the pot. "His chain is Warband-standard. Iron-link, weighted counterweight. Twelve feet. In a corridor fight, that weapon controls the space."
+
+      He served the meal.
+
+      "He reminds me of the highland brawlers at the Grand Festival. The ones who fight because fighting is how they talk."
+
+    The afternoon passed at dock. The volcanic harmonic was a constant — a low frequency that was felt rather than heard, transmitted through the stone pier, through the hull, through the deck, a vibration that said the island was alive in a geological sense and had been alive for longer than anything built on its surface.
+
+    The first contact came at dusk. Not from the Inheritors. From the Gorundai.
+
+    *goto after_observe
+
+*label after_approach
+
+The conversation on the dock was brief. Sureth Kellane was not the type to talk longer than necessary, and the Inheritors' Terrek had the Oni capacity for silence between bursts of directness. Three facts exchanged: the Sundered Wake was running the Kingsrun south, the Regrade was under repair for another two weeks, and Kovesse Thrallek was in the fissure mines.
+
+"She goes every day," Sureth said. "The Gorundai let her work with the extraction teams. She moves ore for them, they teach her the volcanic rock." He paused. "She needs to be doing something with her hands while the ship is broken. Otherwise she watches the repairs and the watching makes her worse."
+
+The "worse" was unspecified. But Sureth said it the way someone says a word they've said many times — worn smooth by repetition, the edges gone, the meaning compressed into a sound that communicated everything to people who already understood.
+
+*goto gorundai_contact
+
+*label after_observe
+
+*goto gorundai_contact
+
+*label gorundai_contact
+
+*page_break
+
+The Gorundai foreman found the Sundered Wake's crew at the dock.
+
+She came down from the forge district in the late afternoon — a Gorundai woman in her fifties, grey-brown skin, tusks filed to working length, wearing a leather apron over bare arms that were mapped with old burns and newer scars. Her hands were enormous. Not just large — shaped by decades of forge work, the knuckles thickened, the palms calloused to a surface that looked like tanned leather. She walked with the rolling gait of someone whose balance had been calibrated to ground that trembled.
+
+Her name was Brukka Venn. Forge foreman. The title meant she ran the extraction, the smelting, and the finished metalwork for Brannach's primary forge — the operation that supplied volcanic ore to the Kingsrun's southern stops and, through intermediary traders, to the Wardensea's weapons program.
+
+She looked at you. The look was long and unhurried — the Gorundai assessment that the ore-loaders had started from a distance, now delivered up close. Horns. Build. Skin tone. The highland Oni gear that said origin more clearly than a flag.
+
+"Oni." Her voice was low and direct. Gorundai speech — short declaratives, no decoration. "Half. Highland. Stormspire line, if I'm reading the horns right." She looked at the ram-curve. "I'm reading them right."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne started to respond. Brukka's eyes moved to her, then back to you. The dismissal wasn't rude — it was directional. The Gorundai foreman had identified the person on the crew whose physical presence spoke a language she understood, and she was speaking to that person.
+
+"Brannach doesn't get highland Oni. We get Gorundai. We get humans. We get Rathai who come to fix things and stay because the fissures keep breaking things." She crossed her arms. The gesture made the forearms look like bridge supports. "An Oni on the Kingsrun is rare. A half-Oni is rarer. What's your business?"
+
+The question was not hostile. It was Gorundai — direct, expecting a direct answer, the conversational equivalent of putting your cards face-up.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne answered. "Kingsrun south. We need docking, resupply, and information about conditions ahead. We can pay dock fees and purchase supplies at listed rates."
+
+  Brukka nodded. The nod was for the information. Her eyes stayed on you.
+
+"Dock fees are two Silver a day. Supplies from the market at standard rates. Water from the cistern — free, but you haul it yourself. The fissure district is open to visitors if you don't mind the heat." She uncrossed her arms. "The volcano has been building for nine weeks. The harmonic shifted pitch three days ago. The miners know what that means. Everyone else is learning."
+
+She said it without alarm. The way a sailor described rough seas — a condition, not an emergency. The volcano was building. The Gorundai were still mining. The relationship between those two facts was Brannach's entire economy.
+
+"The Inheritors have been here three weeks. Their captain works the fissures with us." Something in her tone shifted — a fraction warmer. Respect, or the Gorundai equivalent, which was acknowledging competence. "Kovesse moves ore like a Gorundai. The horns are different. The back is the same."
+
+She looked at you again. The assessment was complete but the conclusion was still forming.
+
+*choice
+  #Offer to work. The Gorundai value physical labor. An Oni who volunteers for the fissures is speaking a language Brukka Venn understands better than any verbal introduction.
+    *set personality_aggression %+ 3
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne's expression said she understood the calculation even if she wouldn't have made the same one. An offer of labor at a volcanic mine was not a small commitment. It was a physical credential — hours in the heat, in the fissures, doing work that broke people who weren't built for it. For a half-Oni at Brannach, it was the most direct statement available.
+
+    Brukka Venn looked at you. The offer registered on her face the way warmth registered on stone — slowly, from the surface inward, changing the structure of the expression without changing the shape.
+
+    "The morning shift starts at dawn. The fissure approach is on the north side of the ridge — follow the sound. You'll know which sound." She looked at your hands. "You've never mined volcanic ore."
+
+    She'd already assessed the calluses and found them wrong.
+
+    "Your first shift, you carry. The ore comes out in basalt shells — fifty-pound pieces, hot, edges sharp enough to cut leather. You carry them from the extraction face to the cooling platform. Two hundred yards. No cart — the fissure floor is too uneven. You carry or you don't mine."
+
+    She turned. Then stopped.
+
+    "Kovesse Thrallek will be on the morning shift." She didn't look back. "Two Kingsrun Oni in the same fissure. The miners will have opinions."
+
+    *goto day_end
+
+  #Ask about the volcano. The harmonic shifted three days ago. Brukka said the miners know what that means. Before committing to anything at Brannach, understanding what the mountain is doing matters more than what the people are doing.
+    *set personality_loyalty %+ 3
+
+    Brukka's response was immediate — no hesitation, no calculation. The question was practical and the Gorundai answered practical questions.
+
+    "The volcanic field has twelve active fissures. Nine are venting — gas and heat, stable, the miners work around them. Two are dormant — sealed by cooled flow from the last eruption. One is new." She held up one finger. The nail was black from forge work. "Opened eleven days ago on the northwest face. The new fissure is the concern. New fissures mean the pressure system is finding new routes to the surface. When the mountain does that, it's telling you the old routes aren't enough."
+
+    She looked north, toward the ridge, toward the sound.
+
+    "The harmonic is the mountain's heartbeat. Every miner on Brannach learns to read it before they learn to swing a pick. Low and steady means stable. Rising pitch means building pressure. The pitch has been climbing for nine weeks."
+
+    She paused. The pause was Gorundai — not dramatic, not for effect. A pause because the next sentence required accuracy.
+
+    "Three days ago, the pitch dropped. Not gradually — in one movement. A single shift between the dawn reading and the midday reading." She looked at you. "When the pitch drops after a long climb, the mountain has found a new route for the pressure. That's what the new fissure is. A relief valve."
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara was listening. "A relief valve is good. The pressure is being released incrementally instead of building to a catastrophic event."
+
+      Brukka looked at her. The assessment was brief — an engineer who understood pressure systems, not a miner who'd lived inside one.
+
+      "That's the theory. The practice is that the new fissure is venting hotter than the established ones. The gas composition is different — higher sulfur, traces of metals that the surface fissures don't produce. Those metals come from deeper. The relief valve is working, but the pipe is new and untested."
+
+    "The next eruption could be tomorrow. Could be six months. The mountain doesn't publish schedules." Brukka shrugged — the motion of someone who lived with uncertainty as a baseline condition. "We mine until we can't. When we can't, we go to the shelters. The shelters are cut into the ridge base — thirty feet of basalt between you and whatever the mountain throws. They've held through four eruptions in my lifetime."
+
+    She looked at you.
+
+    "Your ship is on the outer berth. Smart. If the mountain moves and you need to leave fast, the outer berth clears in minutes. The inner berth —" she glanced at the Regrade — "the inner berth is for ships that aren't leaving."
+
+    *goto day_end
+
+*label day_end
+
+*page_break
+
+The evening settled on Brannach with a quality the other stops hadn't had.
+
+At Selvaggio, the evenings were loud — crowds, Grimoire broadcasts, the Departure Bell, the noise of three hundred ships in a harbor built for a hundred. At Galluun's Tooth, the evenings were quiet — the reef absorbing sound, the coral amplifying silence. At Merrenbach, the evenings were musical — path-songs from the cliffs, the trill of Khari voices in the warm dark.
+
+At Brannach, the evenings were heavy.
+
+The volcanic harmonic filled the silence. The low frequency was stronger at night — or the absence of other sound made it louder, the way a heart becomes audible in a quiet room. The tremors came every forty minutes. Small — a vibration through the stone pier that rattled the mooring chains and sent concentric ripples across the harbor water. The crew felt them. The Gorundai didn't. The difference was calibration.
+
+The ash fall was heavier at night. The thermal updrafts that carried the volcanic plume during the day weakened after sunset, and the ash descended on the harbor in a fine grey snow that accumulated on every horizontal surface. The deck. The rigging. The storm-leather coat. The ash was warm. Body temperature. The remnant heat of the fissure that had produced it, carried aloft and deposited as a grey blanket that tasted of sulfur and the interior of the earth.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara had rigged a tarp over the deck — angled to shed the ash into the water, protecting the caulking from the acidic particulate. "The ash is manageable for three to five days. After that, the acid starts eating the sealant and we're back to Selvaggio-level hull maintenance." She checked the tarp's angle. "We do what we need to do here and we leave before the ship starts dissolving."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek cooked dinner with the volcanic water. He'd hauled it from the cistern — free, as Brukka had said, though the hauling was a workout on Brannach's stepped stone paths. The water had a mineral taste that transformed the rice and dried fish into something heavier, denser, the food taking on the character of the island.
+
+  "The water is filtered through volcanic rock. The mineral content is higher than anything I've worked with — iron, sulfur, trace metals. It changes the cooking." He served the bowls. "The Gorundai don't add salt to their food. They don't need to. The island does it for them."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne wrote in the ship log. The entry was longer than usual.
+
+  "Day ten. Stop Four — Brannach. Volcanic scar island, active volcanic field, Gorundai population. Harbor operational. Inheritors (Kovesse Thrallek, Boar Fruit, 190M bounty) docked at inner berth, ship under repair. First contact with a Cursed Generation crew. Initial assessment: not hostile. Cautious. They've been here three weeks — they know this island. We don't."
+
+  She looked at you.
+
+  "Brannach is different from the first three stops. Selvaggio was chaos. Galluun's Tooth was isolation. Merrenbach was trust. Brannach is —" she searched for the word. "Physical. This island rewards people who can carry things and survive heat and swing heavy objects at rock. The Gorundai built this place for people shaped like them."
+
+  She closed the log.
+
+  "For the first time since Selvaggio, you're shaped like the locals. Use it."
+
+The night deepened. The ash fell. The harmonic held its pitch — the mountain breathing in the dark, the sound a presence in the same way the ocean's depth had been a presence between the stops. The Regrade was a shadow at the inner berth, the scaffolding skeletal against the cliff. The Inheritors' lanterns glowed orange through the ash.
+
+Two Kingsrun crews at the same dock. The first shared stop since Suuba's Kindling had been a shadow on the Grimoire. But the Inheritors weren't a shadow. They were sixty yards away, repairing a ship that had been running this route since before their captain was born, carrying a legacy that weighed more than the volcanic ore.
+
+The mountain spoke. The ship answered — a creak in the hull, a tremor in the mooring lines, the wood and iron and water responding to the geological voice beneath them all.
+
+Brannach was burning. The Sundered Wake was docked in its harbor. Tomorrow was the fissures.
+
+*goto_scene ch4_brannach_fissures

@@ -1,0 +1,475 @@
+*comment ===================================================
+*comment  CHAPTER 2: GALLUUN'S TOOTH — "The First Scrape"
+*comment  Scene 3: The Reef
+*comment  Underwater reef exploration. MC can swim — no God
+*comment  Fruit, freedom in the water. A discovery on the
+*comment  reef: something that doesn't belong. A choice with
+*comment  real cost. Cliffhanger: Wardensea patrol heading
+*comment  south. Chapter 2 ends.
+*comment  2 real choices. Zero fake choices.
+*comment ===================================================
+
+The Sundered Wake floated.
+
+The sternpost was solid — Kessara had launched the ship at first light, and the hull sat in the lagoon water with a different weight than before. Deeper in the bow, steadier at the keel. The backing plate Pellanne had forged changed the ship's center of gravity by inches, and those inches translated to a stability you felt in the deck under your boots.
+
+"She's better," Kessara said. She stood on the dock, watching the waterline, her arms folded across the tool harness. The professional assessment was done — she'd checked the caulking, inspected the seams, run her hand along the sternpost joint until she was satisfied. "Not good. Better. The difference between a ship that's going to sink and a ship that's going to complain."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was loading provisions. The fish market had opened for its second morning, and he'd been there at dawn — this time with knowledge of the vendors, the right tables, the reef bass seller who kept the morning catch in a saltwater tank instead of on ice. He carried the supplies aboard in canvas sacks, moving between the dock and the galley with the steady rhythm of someone restocking a kitchen he'd decided to take seriously.
+
+  "Four days of fresh provisions," he said. "Plus the dried stores from Selvaggio. That gives us a week before we're back to survival cooking." He looked south. The open ocean was visible past the reef channel — flat, blue, patient. "Merrenbach is two days. We'll eat well on the way."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was on the ridge. She'd been there since before dawn — watching the lagoon, the reef channel, the ocean beyond. When she came down, her notebook had new entries.
+
+  "The Kindling is preparing to leave," she said. "Suuba's crew has been loading since the early hours. They'll clear the channel by midmorning." She paused. "If we leave by noon, we'll be on the same heading. Different speeds — their sloop is faster than our ketch — but the same destination. Merrenbach."
+
+  She didn't say what she was thinking. She didn't need to. Two ships heading south on the same day meant two ships arriving at the same stop within hours of each other, and at Merrenbach — a Khari reef island with limited anchorage — that meant sharing space with a Cursed Generation crew again.
+
+The tide was dropping. Low tide at Galluun's Tooth came in the late morning — the lagoon thinning, the reef emerging, the underwater world becoming visible through water that went from waist-deep to knee-deep in the space of an hour.
+
+The locals moved with the tide. Reef fishers waded out with nets and bone-tipped spears. Children ran the exposed coral flats, turning over stones, collecting things that lived in the pools. The reef at low tide was a pantry, a pharmacy, and a playground — the island's economy laid bare on the coral shelf twice a day.
+
+You watched from the dock. The water was clear enough to see the bottom — thirty feet of visibility in the lagoon, the sand white, the coral formations casting blue-green shadows on the floor. Fish moved through the shallows in schools, turning in unison, the silver flash of their sides catching the morning light.
+
+The reef extended south from the lagoon's edge — beyond the carving wall, beyond the island's outer face, into deeper water where the coral structures grew larger and the bottom dropped away. The fishers didn't go there. The children didn't go there. It was deeper water — twenty feet, thirty, deeper at the reef edge where the shelf dropped to open ocean floor.
+
+*page_break
+
+Kessara appeared on the dock. She'd been talking to Pellanne.
+
+"There's a wreck on the outer reef." She was wiping her hands — an unconscious habit, grease that wasn't coming off. "Pellanne told me. Ship hit the reef wall two years ago — hull's been sitting in twenty feet of water. The locals stripped the top but the lower compartments are untouched because the reef fishers won't dive below fifteen feet. Cultural thing. Or — I don't know if it's cultural. Pellanne called it 'the line.' I didn't ask what happens below the line."
+
+She looked at the water. At you. Back at the water.
+
+"Here's the thing. The wreck's sternpost has a bronze fitting. A rudder mount." She said "bronze" the way Terrek said "reef bass." "That's a forty-sovereign part. Our mount is rebuilt wood and iron. It works, it works fine, but bronze would —" She stopped wiping her hands. "I'm not going to pretend I'm being rational about this. I want that fitting."
+
+She kicked the dock piling.
+
+"Twenty feet of water. I can't do it — I can't hold my breath long enough for hull work at that depth. Terrek's a cook, not a diver. Sullavenne would go, but she's the wrong build for tight spaces."
+
+She looked at you again. The assessment was direct, Rathai-direct, no apology in it.
+
+"You can swim. I saw you — in the lagoon, the night you walked the reef. You went waist-deep and stayed there like the water was a chair. The highland Oni swim in the volcanic lakes, right? Mineral water, warm, depth doesn't bother you."
+
+*if (carved_name_reef = false)
+  She pointed toward the reef wall. "The wreck is past the carving wall, on the outer face. Two hundred feet from shore."
+
+*if (carved_name_reef)
+  She pointed toward the reef wall where your name was carved. "The wreck is past the wall, on the outer face. Two hundred feet from shore."
+
+"Twenty feet down. The water's clear — you'll see the bottom the whole way. The rudder mount is on the sternpost of the wreck. Bronze. Green with corrosion but that scrapes off. If it's intact, it's the single best upgrade we can make to this ship before Merrenbach."
+
+She folded her arms.
+
+"It's also someone else's shipwreck. The ship had a name. A crew. A captain who hit that reef and probably died on it. And the locals haven't touched it because the deep reef is their boundary." She shrugged. "Salvage law says an abandoned wreck is fair claim. But salvage law was written by people who don't live on reef islands."
+
+*page_break
+
+The reef edge.
+
+You stood on the coral shelf at the island's south end, where the flat exposed reef dropped away into blue water. The tide was still falling — the shelf was dry under your boots, rough and white, the same coral you'd carved your name into that morning. The wind came from the east and pushed the surface chop away from the island, leaving the water on the ocean side clear and calm.
+
+The wreck was visible from the shelf. Twenty feet down, sitting on a ledge of reef that jutted from the island's submerged outer wall. The hull was on its side — a sloop, smaller than the Sundered Wake, broken at the midship and settled against the coral. The mast was gone. The deck was stripped. What remained was the skeleton — ribs, keel, sternpost, the bones of a ship that had lost its argument with the reef.
+
+The water was warm. You'd tested it — feet first, then calves, then waist-deep on the shelf's edge where the coral dropped away. Warm and clear and salt-heavy, the mineral taste of the highland lakes absent. The ocean water was lighter on the skin. Less dense. You had to work to stay submerged — the body wanted to float.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara stood on the shelf above. She had a rope — forty feet of dock line — coiled over her shoulder.
+
+  "The mount is on the sternpost. Bronze fitting, about — this big." She held her fists together, then moved them apart, then put them back. "Four bolts, hex head, corroded. This is for the bolts." She handed you a pry bar. Short, heavy, iron. "If the bolts won't turn, lever the wood — two years in salt water, the planking's softer than the bronze."
+
+  She tied one end of the rope to a coral anchor on the shelf. Tested the knot. Untied it. Retied it with a different knot.
+
+  "Pull twice if you need air. I'll haul." She tested the second knot. "I mean it. Don't be — I know you're going to be proud about it. Don't."
+
+You dove.
+
+Three days ago the ocean had put you on your knees at the rail. Now you were going into it on purpose.
+
+The water closed over your head and the world changed. The sound first — the absence of wind, the replacement of air-noise with the dense, humming quiet of water. The pressure was gentle at the surface, increasing as you went down. The reef wall passed beside you — vertical coral, alive, covered in things that moved. Small fish scattered. Something long and silver turned in the midwater and went away. The light came from above — diffused, blue-white, turning the water into something between air and glass.
+
+Fifteen feet. The wreck was below and to the right. The hull's ribs cast shadows on the reef ledge. The sternpost was visible — the thick, angled timber at the ship's stern, the piece that held the rudder assembly. And on it, green with two years of corrosion, the bronze fitting.
+
+Kessara was right. It was the size of two fists. A cylinder with a flange, bolted through the sternpost at four points. The bronze was heavy — you could feel its weight even through the water's buoyancy. Solid. Dense. Worth every copper of forty sovereigns on the open market.
+
+You braced your feet on the hull's ribs. The wood was soft — the salt water and the reef organisms had been working for two years, and the planking gave under pressure like wet leather. The structural timber was harder, but the surface was slick with growth. The pry bar found the first bolt.
+
+The bolt didn't move.
+
+The second breath was harder. The lungs compressed. Twenty feet was deep enough that the pressure was a presence — not painful, not dangerous, but real. You felt it in the chest, in the ears, in the sinuses. Highland Oni dived in the volcanic lakes — warm water, shallow, the bottom always visible. This was deeper and colder and the bottom was the ocean floor, which was not visible from here, which was somewhere below in the blue-dark where the reef wall ended and the open sea began.
+
+The pry bar found leverage. The bolt turned. A quarter-rotation, then free — the corrosion had fused the thread but the bronze was stronger than the wood around it. The bolt came out trailing a plug of rotten timber. One down.
+
+You surfaced. Breath. The air was shocking — warm, bright, loud after the water's quiet. Kessara was watching from the shelf edge.
+
+You held up one finger.
+
+"Three more. You've got time — the tide won't turn for an hour."
+
+You dove again.
+
+The second bolt. The third. The wood around the fourth had disintegrated entirely — the bolt was loose in its hole, held by nothing except the weight of the fitting. You pried the fitting free. The bronze came away from the sternpost with a sound you felt through the water — a bass vibration, the last piece of a ship surrendering its function.
+
+The fitting was heavy. Ten pounds, maybe twelve. You held it against your chest and kicked for the surface.
+
+And stopped.
+
+The wreck's lower compartment was open. The hull breach at the midship had cracked the planking wide enough to see inside, and the reef growth that covered the exterior hadn't reached the interior yet. The compartment was dark — a pocket of shadow in the clear water, a hold for whatever the crew had stored below the waterline.
+
+Something was in there.
+
+Not alive. Not moving. A shape — angular, too regular to be natural, too solid to be debris. The water was clear enough to resolve it: a box. Wooden, maybe two feet on a side, bound with metal straps. Sitting in the wreck's lower compartment, undisturbed for two years, covered in a film of silt that the current hadn't reached.
+
+Your lungs burned. Twenty seconds of air left, maybe less.
+
+*page_break
+
+You surfaced with the bronze fitting and the knowledge of what you'd seen.
+
+The fitting landed on the reef shelf with a solid thud. Kessara picked it up, turned it, scraped the corrosion with her thumbnail. The bronze underneath was bright — gold-green, intact, the metal that had outlasted the ship it was built for.
+
+"This is better than I —" She turned the fitting. Turned it again. Scraped the corrosion with her thumbnail and the bronze underneath was bright. She held it against her chest like it was a cat. "Nettleworks bronze. They don't make this alloy anymore. They haven't made this alloy since Torval closed and I —"
+
+She stopped. She was hugging a rudder mount. She put it down. Picked it back up.
+
+"Something else?" She'd read your expression — the dripping, the bleeding hand, the look that said the dive wasn't done.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had followed. She stood at the ridge edge above the reef shelf, ten feet higher, watching the water with the careful attention of someone who had once run coastal surveillance.
+
+  "You found something else down there." Statement. Not a question.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was on the shelf too. He'd come from the ship — curious, or worried, or both. He looked at the bronze fitting, at your bleeding hand, at the water.
+
+  "You've got a face," he said. "I don't know what the face means yet but you've had it three times. The cup game. The bell." He pointed at you. "Now."
+
+A box. Sealed. In a dead ship's lower hold. Two years underwater. The locals hadn't touched it — the deep reef was their boundary, the fifteen-foot line they didn't cross. Salvage law said it was free claim. The reef island's customs said it was the sea's.
+
+And the ship had a name. Pellanne had mentioned it — the sloop that hit the reef two years ago. A Kingsrun crew, heading south, miscalculated the channel at night. The captain survived but the crew didn't. Two dead. The captain walked to the dock, reported the wreck, and took the next northbound fishing boat back to Selvaggio. Never came back. Never claimed the wreck. Never mentioned what was in the hold.
+
+Whatever was in that box, the captain had either forgotten it, couldn't retrieve it, or didn't want it found.
+
+*choice
+  #Dive again. Get the box. Whatever's inside has been waiting two years — and the crew of the Sundered Wake needs every advantage the ocean offers.
+    You picked up the pry bar. The bronze fitting was enough — more than enough. The rudder mount alone justified the dive. But the box was there and the tide was still falling and the water was clear and your lungs had learned the depth.
+
+    *set personality_aggression %+ 3
+    *set galluuns_tooth_challenge "took_box"
+
+    The second dive was faster. The wreck was familiar now — the angles, the entry points, the depth. The lower compartment was tight. Your shoulders scraped the hull's broken ribs going in, and the darkness closed over you — the first real darkness since you'd entered the water. The light from above didn't reach here. You worked by touch.
+
+    The box was heavy. Heavier than the bronze fitting — thirty pounds, maybe more. The metal straps were corroded but intact. You gripped it by the straps and kicked backward out of the compartment, the hull's ribs scraping your back through the wet shirt, the box against your chest.
+
+    The ascent was slow. The weight pulled you down. Your lungs were screaming — the deep-chest burn that said you had seconds, not minutes. You kicked. The surface was a bright line above, getting closer, the blue lightening to white.
+
+    You broke the surface gasping. The box came up with you — green with corrosion, streaming water, heavy in your arms. You hauled it onto the reef shelf and it sat there, dripping, sealed, unknown.
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara looked at the box. At you. At the box again.
+
+      "You went back in." Flat. The engineer's assessment of risk, after the fact. "For a box you can't see inside."
+
+      She crouched next to it. Ran her hand along the metal straps. Tested the seal.
+
+      "Iron straps. Wax seal on the lid — that's deliberate. Someone waterproofed this. Whatever's inside was meant to survive submersion." She stood. "I can open it on the ship. The seal will need a chisel and heat."
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne came down from the ridge. She looked at the box the way she looked at everything — with the focused, categorizing attention of a woman who had spent years writing intelligence reports.
+
+      "A sealed container in a wreck that nobody claimed." She touched the wax seal. "Wax over iron over wood. Three layers of waterproofing. Either the contents are extremely valuable or extremely dangerous. Both motivate this level of protection."
+
+      She looked at you. "We should open this aboard. Not here."
+
+    You carried the box and the bronze fitting back to the ship. The box went into the cargo hold. The fitting went to Kessara, who was already measuring the Sundered Wake's rudder mount with a length of cord and a look of professional satisfaction.
+
+    *goto box_opening
+
+  #Leave the box. The bronze fitting is the prize — the rest belongs to the wreck and whatever crew left it there.
+    You looked at the water. The compartment was still visible — the dark gap in the hull, the shape inside it. The box had waited two years. It could wait longer. It could wait forever.
+
+    *set personality_mercy %+ 3
+    *set galluuns_tooth_challenge "left_box"
+
+    The bronze fitting was enough. More than enough. A forty-sovereign rudder mount, pulled from a dead ship's sternpost by hand — the Sundered Wake was better for it. The box was someone else's story. The captain who'd walked away had either chosen to leave it or been unable to retrieve it. Either way, the choice was his.
+
+    The reef island's boundary was at fifteen feet. The locals didn't dive below it. You'd crossed that line for the fitting — a specific part, a known value, a clear purpose. The box was different. The box changed what you were doing on this island, and the ship was pointed south, not anchored to a salvage operation.
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara watched you look at the water and look away. She read it.
+
+      "The fitting's enough," she said. She said it the way she said engineering truths — without argument, without apology. "I can install it this afternoon. The mount will be stronger than anything we could buy at Merrenbach."
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne nodded. A small motion. The notebook stayed closed.
+
+      "Discipline," she said. One word. From a former Wardensea officer, it carried a specific weight.
+
+    *if (crew4_name = "Terrek Ghaal")
+      Terrek looked at the water. At the wreck below. He said nothing for a while.
+
+      "My mother used to say the ocean gives you what you need. Not what you want." He looked at the fitting on the coral shelf. "That's what you need. That's enough."
+
+    You carried the bronze fitting back to the ship. Kessara took it with the reverence an engineer reserves for good material. The wreck stayed on the reef. The box stayed in the dark.
+
+    *goto afternoon
+
+*label box_opening
+
+The cargo hold of the Sundered Wake was dim. Kessara brought a lantern. Terrek brought a chisel and a small iron pan with coals from the galley firebox.
+
+The wax seal was thick — a deliberate application, layered, work that took time and purpose. Kessara ran the heated chisel along the seal's edge. The wax softened, then split, peeling back from the iron straps in a single strip.
+
+The straps were corroded but the clasp beneath them was brass. It opened.
+
+The lid came off. Inside, wrapped in oilcloth that had done its job — two years in salt water and the interior was dry — were three things.
+
+A chart. Rolled, secured with cord, drawn on heavy vellum in ink that had survived the oilcloth's protection. The chart showed the Kingsrun — not the standard route, not the common stops. A different path. Annotations in a cramped hand: depth readings, current patterns, reef gaps. The kind of detail that came from someone who had sailed the route and marked what the official charts didn't show.
+
+A coin purse. Leather, water-stained despite the oilcloth. Inside: fourteen Gold Sovereigns and change. The captain's emergency fund — the money you keep in the hold because the hold is where it survives a capsizing.
+
+And a Grimoire. Not a standard-issue basalt tablet. This one was smaller — palm-sized, darker stone, with runes carved into the casing that didn't match the factory pattern. Modified. Customized. A Grimoire someone had spent money on.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara picked up the chart. Unrolled it. Her eyes moved over the annotations.
+
+  "These are current readings between Merrenbach and Brannach. Handwritten. Someone sailed this route and documented the secondary channels — the gaps in the main reef that aren't on the standard navigation charts." She looked at you. "This is worth more than the bronze fitting. This is the kind of information crews pay hundreds of Sovereigns for."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne picked up the Grimoire. She turned it. The modified runes caught the lantern light.
+
+  "Custom frequency array. Someone expanded the receiver — this Grimoire can pick up Grey band." She looked up. Grey band was Wardensea military communications. Encrypted, restricted. "The owner was either former Wardensea or bought this from someone who was. Either way, this is contraband. If a patrol finds this on our ship, the crew is detained and the ship is impounded."
+
+  She set it down. Carefully.
+
+  "It's also the most useful piece of equipment we could have. Grey band monitoring gives us patrol schedules, deployment changes, route adjustments. At range — two hundred miles on a good relay." She met your eyes. "The question is whether the advantage is worth the risk."
+
+*set sovereigns + 14
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek counted the coins. Lost count. Started over. "Fourteen Gold Sovereigns." He held a coin up to the lantern. His hand wasn't steady. "That's more than we spent on the entire ship repair. That's more than I saved in six months of cooking."
+
+  He put the coins back carefully, one at a time, as if they might break. "A captain who walked away from this. That's —" He didn't finish the sentence. He didn't need to.
+
+The chart. The coins. The modified Grimoire. A dead crew's contingency kit, sealed against the water, waiting for someone to find it.
+
+*goto afternoon
+
+*label afternoon
+
+*page_break
+
+The afternoon passed in work.
+
+*if (galluuns_tooth_challenge = "took_box")
+  *if (crew3_name = "Kessara Veldt")
+    Kessara installed the bronze fitting. The old rudder mount — rebuilt wood and iron, the one she'd assembled at Selvaggio — came off in pieces. The bronze went on clean. The bolts seated into the sternpost with the clean sound of metal finding its home in metal, and the rudder's response was immediate. She tested it from the helm.
+
+    "Night and day," she said. "The lateral play is gone. The mount isn't fighting the current anymore — it's absorbing it. This is what the ship should have had from the beginning."
+
+    *set ship_condition + 10
+
+*if (galluuns_tooth_challenge = "left_box")
+  *if (crew3_name = "Kessara Veldt")
+    Kessara installed the bronze fitting. The work took two hours — removing the old mount, fitting the salvaged bronze to the Sundered Wake's sternpost, testing the alignment. When she was done, the rudder moved with a smoothness that made the previous rebuild feel like a rough draft.
+
+    "This changes things," she said from the helm. "The lateral response is clean. The mount absorbs the current instead of fighting it. In the channel approach, this fitting would have given us another two feet of clearance."
+
+    *set ship_condition + 10
+
+The Kindling left at midmorning. You watched from the dock — Suuba Mettani's sloop cleared the reef channel with the easy precision of a crew that had done it a dozen times. The hull slipped through the sixty-foot gap with five feet of clearance on each side, the helmsman barely adjusting. The sloop's speed was visible immediately — once past the reef, the sail filled and the ship moved south with the committed velocity of something designed for exactly this. Within an hour, the Kindling was a shape on the horizon. Within two hours, gone.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara watched them go. She had the bronze fitting in one hand and a wrench in the other and she'd forgotten she was holding both.
+
+  "Rathai engineering," she said. Quiet. "That hull is — we'll never be that fast." She set the fitting down. Picked up the wrench. Set it down too. "Suuba asked me yesterday if I'd ever built something from scratch. Not repaired. Built. I said no." She wiped her hands on her harness. "I've been thinking about that answer all morning."
+
+The crew prepared to leave. Provisions stowed. Hull checked. New rudder mount installed. The Sundered Wake was better than she'd been since you'd claimed her at Selvaggio — not good, not close to good, but better. The improvement was measurable. It was enough.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had updated the ship's log — a habit she'd started on the second day at sea, recording position, weather, crew status, and "observations" that read like Wardensea intelligence reports. The Galluun's Tooth entry was thorough.
+
+  "Departure time: estimated fourteen hundred hours. Destination: Merrenbach, Stop Three. Distance: one hundred forty miles. Estimated transit: two days with current winds, three in adverse conditions."
+
+  She closed the log.
+
+  "Current winds are favorable. Southeast, steady. The reef approach at Merrenbach is reported to be simpler than Galluun's Tooth — wider channel, deeper water, less current. The Khari warrens run a piloting service for incoming ships."
+
+You were on the deck when the Grimoire sounded.
+
+*page_break
+
+The broadcast came through clean. The Galluun's Tooth relay was close — the signal was stronger here than it had been on the open ocean, the voice sharp and clear.
+
+"Kingsrun Watch — Veshanna Torc — priority broadcast."
+
+The crew stopped moving. Priority broadcasts were rare. In six days on the Kingsrun, you'd heard two standard updates and one bounty revision. Priority meant something had changed.
+
+*set broadcast_count + 1
+
+"Wardensea alert. The Fourth Division has deployed a patrol squadron on the southern Bastion route. Three ships — two corvettes and a frigate — heading south from the Kassevaan naval station. Their route follows the Kingsrun from Stop One through Stop Four."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne's hand went to her notebook. The motion was immediate — not a choice, a reflex. She was writing before Veshanna finished the sentence.
+
+"The patrol is conducting full inspections. Every vessel on the Kingsrun route is subject to boarding, manifest review, and crew identification. The stated purpose is enforcement of maritime safety regulations. The Reckoning's Kollivaan Gesst has a different analysis — quote: 'Safety regulations. Right. The same safety regulations they enforce by impounding ships and seizing cargo. The Wardensea smells blood. Somebody did something at Selvaggio and now the whole southern route gets the inspection.' End quote."
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara looked at you. The humor was gone from her face. The engineer who'd been celebrating the bronze fitting thirty minutes ago was a different person — harder, calculating, running numbers that had nothing to do with hull integrity.
+
+  "Full inspections," she repeated. "That means manifests, cargo checks, crew papers. We don't have crew papers. We have a salvage-claimed ship, four people, and no documentation that says any of us have a right to be on the Kingsrun."
+
+The broadcast continued:
+
+"Patrol speed and heading suggest arrival at Galluun's Tooth within thirty-six hours. Merrenbach within seventy-two hours. Kingsrun Watch advises all crews on the southern Bastion route to ensure compliance with maritime regulations — or to make other plans. This is a general advisory. No specific crew has been named as a target."
+
+A pause. Static.
+
+"Personal note from Torc: when the Wardensea says nobody's a target, everybody's a target. Torc out."
+
+The broadcast ended. The Grimoire went quiet. The lagoon lapped at the hull. The reef fishers on the flats kept working — they had no ship, no bounty, no reason to care about Wardensea patrols. Their world was the reef and the tide and the fish market at dawn. The patrol was someone else's problem.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had filled a page. She tore it from the notebook and laid it on the tiller housing.
+
+  "Timeline." Her voice was the Wardensea briefing voice — clipped, stripped of opinion. "The patrol left Kassevaan. North of Selvaggio. Three hundred miles by the coast, roughly, at patrol speed — eight, ten knots — so that's thirty to thirty-six hours before they're sitting where we're sitting."
+
+  She tapped the page. Frowned.
+
+  "Us to Merrenbach, hundred forty miles. At our speed — five, six knots —" She crossed something out. Rewrote it. Crossed that out too. "No. I did it again. That's the Kindling's number, not ours. We're not — we don't do six knots. Five. Maybe." She put the pen down. Picked it up. "Twenty-six to thirty hours. And that's if I stop accidentally giving us their ship."
+
+  She looked at the crew. Each one in turn.
+
+  "Half a day margin. Maybe less. If the wind holds, if nothing slows us, if I stop borrowing the Kindling's numbers."
+
+*if (galluuns_tooth_challenge = "took_box")
+  She paused.
+
+  "And we have a modified Grimoire in the hold that can receive Grey band military communications. If they find it, we're not getting inspected. We're getting arrested."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was quiet. He'd picked up the ladle from the galley counter at some point during the broadcast and was holding it in both hands, turning it, the wood clicking against his ring finger. He wasn't looking at anyone. He was looking at the water south of the channel.
+
+  "We leave now," he said. The ladle stopped turning. It was the first time he'd made a tactical statement. "Every hour we stay here is an hour they close the gap."
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was already moving. The mooring lines. The sail. The new rudder mount getting its first real test.
+
+  "The bronze fitting means we can push harder in open water. The rudder won't fight us. That's worth half a knot, maybe more in good conditions." She pulled the mainsail's halyard. "I'll take every half knot the ocean gives us."
+
+*if (galluuns_tooth_challenge = "took_box")
+  *if (crew5_name = "Sullavenne Ohn")
+    Sullavenne grabbed your arm. Hard. The grip was Wardensea — trained, specific, the kind of hold that meant stop.
+
+    "The Grimoire." Her voice was flat. Below the crew's hearing. "The modified Grimoire in the hold. It can receive Grey band. Military frequencies. If that patrol boards us and finds it, we're not getting inspected — we're getting arrested for possession of restricted Wardensea communications equipment."
+
+    She released your arm. The grip had left a mark. She didn't notice. She was already past the grip and into the calculation.
+
+    "We have thirty-six hours. Maybe less. The device is the single most dangerous item on this ship, and it's also the single most valuable. Whatever we do, we do it now."
+
+    *choice
+      #Keep the Grimoire. Stow it deep — wrapped in sailcloth, buried under the bilge planking. If the patrol searches, they search the hold and the cargo. Nobody crawls into a bilge on a ship this small.
+        The bilge was four feet deep, dark, and wet. The modified Grimoire went into oilcloth first, then sailcloth, then into the gap between the hull ribs and the bilge planking — the dead space where the ship's skeleton met the water and nothing was meant to be stored because nothing was meant to survive there.
+
+        *set personality_aggression %+ 4
+
+        Sullavenne watched. Her mouth was a line.
+
+        "Wardensea search teams are trained to check dead spaces. It's the first place they look on smuggling vessels." She paused. "But we're not a smuggling vessel. We're a salvage-claimed ketch with four crew and no cargo worth inspecting. They'll look for contraband in the obvious places — the hold, the captain's bunk, the chart table. The bilge is a gamble."
+
+        She looked south. The open water. The patrol closing from the north.
+
+        "Your gamble. I'll note that for the record I think it's the wrong one. But it's yours."
+
+        *goto departure_rush
+
+      #Disassemble it. Pull the Grey band components and scatter them across the ship — the receiver coil in the tool kit, the frequency plate under the galley stove, the housing with the regular Grimoire parts. Reassembled, it's evidence. In pieces, it's junk.
+        Kessara's hands were the right hands for this. The engineer took the modified Grimoire apart in eleven minutes — the casing unscrewed, the Grey band receiver coil separated from the standard array, the frequency modulation plate pulled from its housing. Each piece went to a different location. The receiver coil into the tool kit, wrapped in copper wire, indistinguishable from spare fittings. The frequency plate under the galley stove's heat shield, where the metal was already warped and blackened. The housing reassembled around the standard Grimoire components, looking factory.
+
+        *set personality_openness %+ 4
+
+        "Eleven pieces." Kessara wiped her hands on her trousers. "I can put it back together in twenty minutes if we need it. The question is whether a Wardensea inspector knows what a Grey band receiver coil looks like when it's mixed into a box of bronze fittings."
+
+        *if (crew5_name = "Sullavenne Ohn")
+          Sullavenne's answer was immediate. "They don't. Standard inspectors check for complete devices, not components. The frequency plate is the risk — it has etchings that a signals officer would recognize. Under the stove, the heat damage will obscure them." She paused. "This is good. This is the right call."
+
+        *goto departure_rush
+
+      #Dump it. Drop the whole device over the side. The Grimoire is valuable, but it's not worth the crew's freedom. Let the reef have it.
+        The modified Grimoire hit the water without ceremony. The oilcloth wrapping kept it floating for three seconds — a dark shape on the turquoise surface, the device that had pulled Grey band Wardensea communications bobbing like driftwood. Then the weight took it. The device sank. The reef shelf was twenty feet down here. The Grimoire settled onto a coral formation, visible through the clear water for another ten seconds, and then the current shifted and the silt stirred and it was gone.
+
+        *set personality_mercy %+ 3
+        *set galluuns_tooth_challenge "dumped_grimoire"
+
+        *if (crew5_name = "Sullavenne Ohn")
+          Sullavenne watched it sink. Her expression didn't change. Her hand went to her notebook. She wrote something — one line, the pen pressing hard enough to leave a dent in the next page.
+
+          "That was the best source of real-time Wardensea intelligence on the southern Kingsrun." She closed the notebook. "It was also the thing most likely to get us killed. I'm not going to argue." She looked at the water where the device had disappeared. "The reef takes what the reef takes."
+
+        *goto departure_rush
+
+  *if (crew5_name != "Sullavenne Ohn")
+    The modified Grimoire sat in the hold. The device that could receive Wardensea Grey band communications — the device that would mark this crew as criminals if the patrol found it. Thirty-six hours before three Wardensea warships reached this reef.
+
+    *choice
+      #Hide it in the bilge. Wrapped tight, wedged between the hull ribs. Small ship, small bilge — nobody crawls in there.
+        The Grimoire went into the bilge. Oilcloth, sailcloth, dead space. A gamble on the patrol not checking the one place smugglers always checked first.
+
+        *set personality_aggression %+ 4
+        *goto departure_rush
+
+      #Take it apart. Scatter the components across the ship where they look like spare parts and junk.
+        *if (crew3_name = "Kessara Veldt")
+          Kessara disassembled it. Eleven pieces, eleven locations. The receiver coil in the tool kit. The frequency plate under the stove. The housing cleaned and reassembled around standard parts.
+
+        *if (crew3_name != "Kessara Veldt")
+          You took it apart yourself. Rougher than an engineer would have done — the casing cracked when the screws stuck, the receiver coil came out bent. But the pieces scattered. Tool kit. Galley. Chart table drawer. Separate, unrecognizable.
+
+        *set personality_openness %+ 4
+        *goto departure_rush
+
+      #Throw it overboard. The reef can have it.
+        Over the side. Three seconds floating. Then gone. The reef took the Grimoire and the Grey band intelligence and the risk, all at once.
+
+        *set personality_mercy %+ 3
+        *set galluuns_tooth_challenge "dumped_grimoire"
+        *goto departure_rush
+
+*label departure_rush
+
+The crew moved. The ship moved. The mooring lines came off the dock and the Sundered Wake backed into the lagoon, the hull sitting lower and steadier with the repaired sternpost and the new bronze mount.
+
+*set current_stop 2
+*set current_stop_name "Galluun's Tooth"
+*set days_since_departure + 4
+*set total_sea_days + 3
+
+Galluun's Tooth fell away.
+
+The reef channel opened and the ship threaded it — tighter this time, with the tide lower, the coral walls closer to the surface. But the rudder responded. The bronze fitting made the difference that Kessara had promised — the lateral drift was controlled, the helm responsive, the ship answering the tiller instead of arguing with it. You cleared the channel with four feet on each side. Enough. Not generous.
+
+The open ocean took you. The Bastion Sea, flat and blue, the swells gentler than the outbound passage. South. The heading was south and the wind was southeast and the Sundered Wake caught it and the sails filled and the ship leaned into the work.
+
+*if (carved_name_reef)
+  Behind you, the reef wall held your name. AKKAN — SUNDERED WAKE. The tide would cover it within the hour. The coral would hold it for decades.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne stood at the stern, watching Galluun's Tooth shrink. The island reduced — from a place with fish markets and boatwrights and a carving wall, to a shape on the water, to a shadow, to a memory of coral and light.
+
+  "Half a day," she said. To herself. To you. To the ocean. "We need to make it count."
+
+The sun was high. The sea was open. Merrenbach was south — a Khari reef island, Warren Suuvi on the cliffs, the low-tide reef market, a culture that measured trust the way the Varrek measured weight. Two days of sailing. A half-day margin before a Wardensea patrol that was inspecting every ship on the Kingsrun.
+
+The Sundered Wake sailed south. The crew was four. The ship was better than yesterday. The ocean was indifferent.
+
+Chapter two was behind you. The second stop. The First Scrape. A name on the wall and a bronze fitting from a dead crew's ship and a half-day lead on the Wardensea.
+
+Ahead: the Khari. The reef walk. The third stop. Merrenbach.
+
+*set latest_broadcast "wardensea_patrol_south"
+
+*page_break
+
+*goto_scene ch3_merrenbach_arrival

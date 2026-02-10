@@ -1,0 +1,367 @@
+*comment ===================================================
+*comment  CHAPTER 2: GALLUUN'S TOOTH — "The First Scrape"
+*comment  Scene 1: Approach
+*comment  2-3 days of open ocean. MC's first time on open
+*comment  water. Crew dynamics. Navigation challenge at the
+*comment  reef approach. Grimoire broadcast — wider Kingsrun
+*comment  update. 2 real choices. Zero fake choices.
+*comment ===================================================
+
+The ocean was trying to kill you.
+
+Not actively. The Bastion Sea treated the Sundered Wake the way a mountain treats a fly: with the absolute indifference of something so large it doesn't register your existence. The swells came from the south in long, rolling sets — eight seconds between crests, each one lifting the ship and dropping it with a motion that began in the hull and ended in your stomach.
+
+You were sick by noon of the first day.
+
+The humiliation was specific and terrible. Six foot seven, broad, two hundred and sixty pounds of highland Oni — and you were gripping the port rail with both hands, watching the horizon pitch and roll, and losing the breakfast Terrek had cooked with such care three hours earlier.
+
+The ocean didn't care that you'd survived the highlands. The ocean didn't care about the dock fight or the bell or the two-hundred-to-one odds. The ocean was flat and grey and endless and it moved, constantly, in a rhythm your body had never learned.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek appeared beside you. He said nothing. He set a cup of clear water and a piece of dry flatbread on the rail and waited until you acknowledged them.
+
+  "Ginger root in the water. Settles the —" He gestured vaguely at the situation. "The everything." He paused. "My mother had a saying about the sea and big people. I can't remember it. Something about size not mattering to waves." He frowned. "That wasn't it. Anyway. Drink the water."
+
+  He left. The water helped. The flatbread stayed down. The horizon kept moving.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was fine. The Rathai apparently had the constitution of a dock rat — she ate, she worked, she navigated, and the swell that was destroying you was an inconvenience she compensated for with wider feet and a lower center of gravity.
+
+  "It's the inner ear," she said, not looking up from the chart she'd pinned to the tiller housing. "Your body thinks — basically your eyes and your balance are having an argument and your stomach is losing." She tapped something on the chart. "Two days. Three, maybe, for —" She stopped. Looked at you. Had the decency to not finish the sentence.
+
+  "Watch the horizon. It helps. Or it doesn't. One of those."
+
+The first day was endurance. The ship moved. The ocean moved. Your body learned, slowly and with resistance, that the ground was no longer ground. The deck pitched. The rigging sang. The sails caught wind that smelled like nothing — no ash, no volcanic mineral, no highland pine. Just salt and distance.
+
+By evening, the sickness faded to a dull ache behind the eyes. You could stand upright without gripping something. The horizon was a line — grey-blue, ruler-straight, unbroken in every direction. You'd never seen a horizon without mountains on it. The highland sky was always interrupted — peaks, ridges, the Stormspire's silhouette against the thunderheads. Here the sky went all the way down and there was nothing at the bottom except water.
+
+*page_break
+
+The second day was better.
+
+The body adjusted. The inner ear stopped arguing with the eyes. The deck's motion became background — still present, still felt, but no longer an emergency. Your weight found the ship's rhythm. The roll became a timing you could anticipate, and anticipation turned into balance, and balance turned into something approaching competence.
+
+A highland Oni learning to walk on water. The deck's pitch and roll had become a rhythm instead of an argument.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne ran the ship like a patrol vessel. The Wardensea in her emerged fully on the open water — she had a name for every rope, a protocol for every task, and a tone of voice that turned suggestions into orders without changing a syllable.
+
+  "Watch rotation: four hours on, eight off. I'll take dawn. Terrek takes noon. You take dusk." She looked at you. "Captain takes the hardest watch. Tradition."
+
+  Dusk watch meant the transition from day to night — the hour when the light changed and the horizon blurred and objects on the water became difficult to judge. The hour when a ship could hit something it didn't see.
+
+  "I'll train you on the tiller when you can stand without leaning," she said.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara spent the second day in the bilge.
+
+  The bilge was the lowest interior space of the ship — below the cargo hold, below the crew quarters, a dark and wet and miserable compartment where the hull's health was measured in how much water collected. The Sundered Wake's bilge was bad. Kessara emerged from below decks with grease on her forehead and a wrench in her hand that she was holding the way some people hold grudges.
+
+  "Three seams are weeping. Which — okay, that sounds bad but it's not, it's — well, it's not good. The caulking dried out. A month in a berth, that happens." She wiped her hands on a rag that was already past saving. "I've re-caulked two. The third one is the sternpost joint and I can't — I need the whole ship hauled for that. So for now we just bail. Half a bucket, every four hours. If it gets worse I'll —" She waved the rag at the hull in a vague, encompassing gesture. "I'll know."
+
+  She went back down. You could hear her talking to the hull. The conversation was profane and affectionate.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek cooked.
+
+  The ship's galley was a trial — the brick firebox worked, but the sea's motion turned every meal into a negotiation between the cook and gravity. Pots slid. Oil sloshed. The spice sack swung from its hook like a pendulum and Terrek followed it, adjusting, compensating, producing food that had no right to be as good as it was.
+
+  The second night's dinner was rice pressed into cakes and fried, with a fish he'd caught himself — trailing a line from the stern, an old method his mother had shown him. The fish was small and bony and he deboned it with the speed of someone who'd done it ten thousand times.
+
+  "I've seen crews fall apart over food," he said, serving it on the deck in the last light. "Three nights of the same rice and suddenly it's the captain's fault. It's never about the rice. It's always about the rice." He deboned a section, hit a bone he missed. Picked it out with his fingers. "You won't have that problem. Probably. Unless someone complains about the bones."
+
+  He looked at the horizon. Looked at you.
+
+  "Don't complain about the bones."
+
+*page_break
+
+The Grimoire woke on the morning of the third day.
+
+Kessara had it wedged in the tiller housing, tuned to the Kingsrun Watch frequency. The signal was weaker out here — the relays at Selvaggio were behind them, and the next relay was at Galluun's Tooth, still a day ahead. The broadcast came through in fragments, the voice cutting in and out.
+
+"— Kingsrun Watch — Veshanna Torc — update from the southern route —"
+
+Static. The crew gathered. Even Sullavenne came aft from the bow, which was as close to social as she got.
+
+"— Grimoire broadcast from Brannach. The Regrade — Kovesse Thrallek's Inheritors — reported a volcanic event near Stop Four. Lateral eruption, fissure collapse in the mining district. No crew casualties but significant hull damage from debris. The Inheritors are docked at Brannach for repairs — estimated two weeks before they move south."
+
+Kessara whistled. Low.
+
+"Kovesse Thrallek. The one with the dead mother." She looked at the Grimoire. "Her mother was Ghorvenne Thrallek. She ran the Kingsrun thirty-nine years ago and never came back. Kovesse took her crew's children, her route, and started over. The whole crew is a legacy expedition that got serious."
+
+*if (crew5_name = "Sullavenne Ohn")
+  "Hundred and ninety million bounty," Sullavenne said. "Second-generation Kingsrun crew. The Wardensea has a standing surveillance order on the Inheritors — not a threat assessment, an observation note. Kovesse hasn't done anything illegal. She just keeps going south, and the Wardensea can't figure out why."
+
+The broadcast continued:
+
+"— bounty update from the MEAB: Tomoe Gallacs has crossed the 700 million mark following a confirmed engagement with Wardensea patrol vessels near Stop Eight. Details are sparse but the Broadwave is reporting two Wardensea ships disabled and one impounded. That's Tomoe at seven hundred and change — the second-highest active bounty in the Cursed Generation. The Reckoning's Kollivaan Gesst had this to say: 'That's not a bounty. That's a job application for the end of the world.' Kingsrun Watch will follow up. Torc out."
+
+Seven hundred million. Tomoe Gallacs — the name from the Departure Row Grimoire, the bounty that had made the bar go quiet. She was out there, past the stops you hadn't reached yet, fighting the Wardensea and winning. Her bounty was climbing the way mountains climbed — slowly, inevitably, and the view from the base was steep.
+
+*set met_tomoe false
+
+The world was larger than Selvaggio had shown you. The Kingsrun was longer. The people on it were faster and harder and further ahead.
+
+And the Kindling was still visible. Ahead. Closer than yesterday.
+
+*page_break
+
+Galluun's Tooth appeared on the afternoon of the third day.
+
+The reef announced itself before the island did. The water changed color — from the deep blue of the open Bastion shelf to a milky turquoise that shallowed in patches. The swell shortened. The ship's motion shifted from the long, rolling rhythm of deep water to a choppier, less predictable pattern that said the bottom was rising.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was at the helm, chart in one hand, Grimoire in the other, the tiller wedged against her hip. She was navigating by overlay — the chart showed the reef structure as it had been mapped six months ago, and the Grimoire showed current readings that didn't quite match.
+
+  "The currents shift with the tide cycles," she said. "That means the chart is accurate for the general layout but wrong for the actual channels. We need to find the entry passage — there's one way in and one way out, and if we miss it, we're on the reef."
+
+  She adjusted the tiller. The ship responded.
+
+  "I need someone at the bow. Eyes on the water. The coral heads show as dark patches under the surface — anything darker than the surrounding blue, call it out."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne went to the bow without being asked. She braced against the bowsprit and looked down at the water with the focused attention of someone conducting a threat assessment of the ocean floor.
+
+  "Coral head. Twenty feet. Port side."
+
+  The ship adjusted.
+
+  "Another. Forty feet. Dead ahead."
+
+  Kessara swore and hauled the tiller. The ship turned. The keel passed over something that you felt in the deck — a vibration, not a strike, the proximity of stone through water through wood through your boots.
+
+  "That was close," Kessara said. "I need more lead time. Call them at fifty feet, not twenty."
+
+  "I'll call them when I see them," Sullavenne said. Which was, in her language, an agreement.
+
+The approach was slow. Thirty minutes of creeping through shallowing water, the crew silent except for Sullavenne's calls from the bow and Kessara's responses from the helm. The reef was everywhere — visible through the clear water as dark masses that rose from the sand floor like ruins, branching and sharp-edged, the kind of stone that would open a hull like a knife through canvas.
+
+Galluun's Tooth resolved from the haze. A coral fang island — the name was literal. The island was a single ridge of white-grey coral and limestone that rose from the reef like a broken tooth, a hundred feet at its highest point, half a mile long. The vegetation was scrub and palm. The anchorage was a natural gap in the reef on the island's west side — a channel maybe sixty feet wide, flanked by coral walls that rose to within five feet of the surface at low tide.
+
+One way in. One way out.
+
+*page_break
+
+The channel.
+
+The entry was tighter than it had looked from a distance. The Sundered Wake was forty-four feet at the beam — the channel was sixty. That left eight feet of clearance on each side. Eight feet between the hull and coral that would gut the ship.
+
+The current was moving. The tide was shifting — Kessara had timed the approach for slack water, the brief window between incoming and outgoing when the current paused. But slack water at Galluun's Tooth lasted maybe fifteen minutes, and they'd spent twenty on the reef approach.
+
+The current was waking up. You could feel it — a lateral pressure on the hull, gentle, the beginning of the outgoing tide. The ship drifted. Kessara fought the tiller.
+
+"The current is pulling us starboard. I'm compensating but the rudder was rebuilt three days ago and the mount is — the mount is doing its best." Her voice was tight. Engineer-tight. The specific tone of someone who knows the tolerances and is watching them compress.
+
+*choice
+  #Go to the bow yourself. You're the biggest thing on this ship — if it comes to pushing off a reef, you're the one who can do it.
+    You went forward. Past the mast, past the hatch, to the bowsprit where Sullavenne was still calling depths. You stood next to her and looked down.
+
+    The coral was close. Five feet below the surface on the starboard side, rising in a wall of branched stone that ended in edges sharp enough to draw blood through a hull. The water was clear — you could see the bottom, see the coral, see the gap the ship was threading.
+
+    The current pushed. The hull drifted starboard. A foot. Two feet. The eight-foot clearance became six.
+
+    You leaned over the rail, reached down, and put your hand against the coral wall.
+
+    The impact was immediate — the coral cut your palm. The edges were razor and alive and the blood welled instantly, red in the clear water. But the ship stopped drifting. Your weight, braced against the bowsprit, your arm against the reef wall, your boots dug into the deck — two hundred and sixty pounds of highland Oni holding the ship off the reef by muscle and position.
+
+    *set personality_aggression %+ 3
+
+    The current pushed. You pushed back. The ship crept forward. Kessara worked the tiller. Ten feet. Twenty. Thirty. The channel widened. The coral fell away. The anchorage opened — calm water, protected, the flat turquoise of a reef-locked lagoon.
+
+    You pulled your hand back. The palm was bleeding freely — three cuts, deep enough to see white beneath the red. The coral had taken its toll.
+
+    *set supplies - 2
+
+    Sullavenne looked at your hand. Looked at you.
+
+    "That was either brave or stupid." She paused. "Both work."
+
+    *goto anchorage
+
+  #Trust Kessara at the helm. She rebuilt the rudder — she knows what it can do. Your job is to stay out of her way.
+    You gripped the quarterdeck rail and watched. Kessara was at the tiller, both hands, her weight braced against the lateral pull. The ship drifted starboard. Two feet. Three. The coral wall was close enough to hear — a faint scraping sound as the water carried small debris against the hull.
+
+    *set personality_loyalty %+ 5
+
+    Kessara made a sound. It was the sound an engineer makes when a machine is about to exceed its tolerance and the engineer knows it and the only option is to push anyway.
+
+    She hauled the tiller hard to port. The rudder mount — rebuilt, three days old, functional but not good — groaned. The ship responded. Sluggish, reluctant, the bow swinging left by inches instead of degrees.
+
+    "Come on," Kessara said. To the ship. To the rudder. To the rebuilt mount that she'd installed with her own hands on a dock at Selvaggio.
+
+    The ship cleared the starboard wall by three feet. The keel passed over a coral head that vibrated through the deck like a struck drum. Everyone on board felt it. Nobody breathed.
+
+    The channel widened. The current eased. The anchorage opened.
+
+    Kessara exhaled. The breath came out in a rush that contained three days of engineering stress and fifteen minutes of pure adrenaline.
+
+    "The rudder held," she said. She looked at her hands on the tiller. They were shaking. "The rudder held."
+
+    *set crew3_loyalty + 5
+
+    *goto anchorage
+
+*label anchorage
+
+*page_break
+
+The anchorage at Galluun's Tooth was a different world.
+
+Inside the reef, the water was flat. Turquoise and still, protected from the ocean swell by the coral walls that surrounded the lagoon on three sides. The bottom was visible — white sand, scattered coral, the dark shapes of fish moving in schools. After three days of open ocean, the stillness felt wrong. The body kept bracing for a swell that didn't come.
+
+The island itself was small. A hundred buildings — if you could call them that. Wooden frames with palm-thatch roofs, stacked along the ridge in tiers that followed the coral's natural contour. Drying racks lined the waterfront, hung with fish and coral shards and lengths of something that might have been seaweed. The smell was salt and fish oil and the dense organic warmth of a community that lived by the reef and didn't pretend otherwise.
+
+Four hundred people. Maybe fewer. The entire population of Galluun's Tooth would fit in a single Selvaggio tavern.
+
+The dock was a wooden jetty that extended thirty feet into the lagoon. Three ships were moored — two fishing boats, wide and flat, and one that was neither.
+
+The third ship was a sloop. Single-masted, sleek, with a dark red hull and a sail furled with the tight precision of a crew that knew their rigging. The design was Rathai — you could tell by the hull shape, which prioritized speed over cargo capacity. Narrow at the beam, deep at the keel, built to cut water rather than carry it.
+
+A flag hung from the mast. Black cloth with a symbol in orange — a flame shaped like an open hand.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara stopped moving. The tiller forgotten. Her eyes on the sloop.
+
+  "That's the Kindling," she said. Her hand went to the tiller housing and stayed there, fingers spread flat against the wood like she needed something solid. "Rathai-built. Nettleworks yard, if I'm reading the keel shape right. That hull was designed by someone who —" She swallowed. Her other hand found her tool harness, adjusted a buckle that didn't need adjusting. Started over. "The keel ratio. You can't fake that ratio."
+
+  She looked at you. "Suuba Mettani is here."
+
+The Kindling. The ship they'd sighted on the horizon at sunset three days ago. The Cursed Generation crew with the smallest bounty and the biggest chip on their shoulder. They'd made it to Galluun's Tooth ahead of you — of course they had, they'd left six days earlier — and they were still here. Docked. Waiting, or resting, or planning. Present.
+
+The Sundered Wake drifted to the dock. Sullavenne tossed the mooring line. A dock worker — human, young, brown from the sun — caught it and tied it off with the casual competence of someone who'd secured a thousand ships.
+
+"Welcome to Galluun's Tooth," he said. Then he looked at the Sundered Wake's hull. At the patches. At the replaced planking. The welcome died somewhere in his throat. "Fish market opens at dawn. Boatwright's on the south end. She's — you'll want the boatwright." He tied off the line. Untied it. Retied it better.
+
+He looked at the Kindling, then back at you.
+
+"Your neighbor doesn't bite. She offered me a fish yesterday. I don't know what that means yet."
+
+*page_break
+
+You stepped off the ship and onto solid ground for the first time in three days.
+
+The dock didn't move. The ground was still. The body took a moment to recalibrate — after three days of constant motion, the stillness felt like a new kind of instability. Your legs remembered land slowly, like reuniting with an old language.
+
+The island was quiet. After Selvaggio's roar, the silence was physical — you could feel it on the skin, a reduction in pressure. No crowds. No food carts. No Grimoire broadcasts playing from every stall. Just the lapping of the lagoon, the creak of drying racks, the distant sound of someone hammering coral at the ridge top.
+
+The crew disembarked behind you. Kessara first, her tools clanking, already scanning the dock for repair materials. Terrek with a canvas sack — heading for the fish market by instinct, drawn to food the way Kessara was drawn to broken things. Sullavenne last, her coat buttoned, her notebook out.
+
+The Kindling's crew was on their ship. You could see them — eleven people on a sloop that looked designed for twelve, moving on deck with the loose efficiency of a crew that had been sailing together long enough to skip the communication. A Rathai woman sat on the bowsprit, her legs dangling over the water, a Grimoire in her lap. She was small — five foot two, maybe less. Dark hair, cut short, with the Nettleworks complexion: pale from years of indoor assembly work, freckled from recent sun.
+
+She looked up as you stepped onto the dock. Looked at the horns. The height. The ash-white skin. The storm-leather coat that was highland Oni in a place where highland Oni didn't come.
+
+Her expression did something. Not surprise — assessment. The same measuring look that everyone gave you, but faster, sharper. Rathai processing speed.
+
+She went back to her Grimoire. Filed you. Moved on.
+
+Suuba Mettani. Two hundred and seventy-five million Sovereigns. The underdog of the Cursed Generation. Twenty feet away and utterly uninterested in you.
+
+That was fair. You had no bounty, no name, and a ship that had nearly killed itself on the reef getting here. In her world, you were noise. Background. The kind of crew that filled the Kingsrun's margins and disappeared between stops.
+
+*choice
+  #Stop at the dock rail. Hold your ground twenty feet from the Kindling. Let Suuba Mettani file you away — and then don't move. Make her look twice.
+    *set personality_aggression %+ 4
+    *set met_suuba true
+    *set rival_suuba + 5
+    *goto suuba_stare
+
+  #Walk past the Kindling toward the fish market. Suuba Mettani measured you and found nothing worth remembering. Fair enough. You've got a hull to fix and a crew to feed.
+    *set personality_loyalty %+ 3
+    *goto suuba_ignore
+
+  *if (crew3_name = "Kessara Veldt")
+    #Catch Kessara's eye. Tilt your head toward the Kindling. She's Nettleworks — they're Nettleworks-built. That's a door. Let her open it.
+      *set personality_openness %+ 4
+      *set crew3_loyalty %+ 3
+      *set met_suuba true
+      *goto suuba_kessara
+
+*label suuba_stare
+
+You didn't follow the crew toward the market. You stopped at the dock rail — hands flat on the wood, weight settled, the posture of something large and patient and not going anywhere.
+
+Twenty feet of harbor water. The Rathai woman on the bowsprit. Her Grimoire.
+
+She didn't look up for thirty seconds. Then she did.
+
+The second assessment was slower than the first. Not Rathai processing speed this time — something more deliberate. She tracked the horns. The coat. The hands on the rail that hadn't moved.
+
+"You're still here." She said it flat, the way someone notes a weather change. Not a question. Comma-splice Rathai, the cadence of Nettleworks factory talk bled into everything.
+
+Her eyes went to the Sundered Wake's hull. To the scarring from the reef channel. To the waterline, which told her everything about cargo weight, which was nearly nothing.
+
+"Cold entry. No funding. Salvage hull. Crew of — three? Four?" She counted masts, sail condition, deck traffic. "Four. One ship, four warm bodies, and a reef scar that says your navigator got lucky or your helmsman is good." She shrugged. "One of those is useful."
+
+She went back to her Grimoire. But the dismissal was different this time. She'd looked twice. She'd used sentences. On the Kingsrun, that was something.
+
+Suuba Mettani, 275 million Sovereigns, had acknowledged that you existed. The cost was standing still while a woman half your size decided you were worth seven seconds of her time.
+
+*goto afternoon_logistics
+
+*label suuba_ignore
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was staring at the Kindling's hull. The Rathai professional interest had transformed into something more personal — a Nettleworks-born engineer looking at a Nettleworks-built ship. Home. The closest thing to home she'd seen since Selvaggio.
+
+  "I want to talk to their engineer," she said. Quietly. The ambition was visible, but so was the hesitation. A Cursed Generation crew didn't talk to nobodies.
+
+  She shook it off. "Later. We have a hull to check and provisions to source. Market first."
+
+You walked past the Kindling without slowing. Suuba Mettani didn't look up. You didn't expect her to. The Kingsrun sorted people into categories — threat, opportunity, background — and you were background until something changed. Fine. Let something change.
+
+*goto afternoon_logistics
+
+*label suuba_kessara
+
+Kessara had been staring at the Kindling's hull since the ship came into focus — the Rathai professional interest turned personal. Nettleworks-born, looking at a Nettleworks-built sloop. The lines, the joinery, the specific angle of the bow rake that said Tinthread yard, third-generation design.
+
+"I want to talk to their engineer," she'd said. Quiet. The hesitation was visible.
+
+You caught her eye. Tilted your head toward the Kindling. The message was clear: go.
+
+Kessara blinked. "They're Cursed Generation. They don't —"
+
+But she was already moving. The pull was stronger than the doubt. She walked the dock toward the Kindling with the focus of an engineer approaching a machine she'd read about but never touched.
+
+A Rathai man on the Kindling's deck — rail-thin, oil-stained to the elbows, a wrench tucked behind one ear like a quill — saw her coming. Nettleworks recognized Nettleworks. The conversation started before she reached the gangway.
+
+"Trestle-mount or crossbeam?" he called down.
+
+"Trestle, third generation, with the modified strake." Kessara called back. Her voice had changed — faster, the sentences clipping into Rathai engineering shorthand.
+
+"Modified strake is shit," the man said. "I pulled it out at Selvaggio and replaced it with a Chalkwall beam. You want to see?"
+
+Kessara looked back at you once. The expression was something between gratitude and the look of a woman who'd just been handed the keys to a locked room.
+
+She went aboard.
+
+Suuba Mettani watched the exchange from the bowsprit. She looked at you — the captain who'd sent his engineer to her ship. The measuring look again. This time it stayed three seconds longer.
+
+She didn't say anything. She didn't need to. The acknowledgment was in the duration.
+
+*goto afternoon_logistics
+
+*label afternoon_logistics
+The afternoon was logistics. Water from the cistern. Fish from the market — fresh, a luxury after three days of dried provisions. A boatwright's assessment of the Sundered Wake's hull that cost four Silver Spans and produced a list of repairs that cost more than that.
+
+Galluun's Tooth was small and practical and completely indifferent to ambition. The people here caught fish, harvested coral, and watched Kingsrun crews come and go the way a lighthouse watches ships. They'd seen a thousand crews. They'd remember none of them.
+
+Except the ones who carved their names on the reef wall.
+
+The First Scrape. The tradition. Tomorrow, at low tide.
+
+*if (crew5_name = "Sullavenne Ohn")
+  "Low tide is at dawn," Sullavenne said. "The reef walk to the wall takes forty minutes. The carving surface is on the south face — I asked the dock worker." She checked her notebook. "Every Kingsrun crew that reaches Galluun's Tooth carves their name. The wall goes back forty years." She paused. Flipped a page. "Thirty. Forty. The dock worker said both. I should have asked twice."
+
+  She wrote something in the margin. A correction, or a reminder to make one.
+
+  "Suuba Mettani's crew carved theirs six days ago. 'KINDLING — METTANI — We Were Here First.' The dock worker says she did it herself. He seemed impressed. Or afraid. He had the same face for both."
+
+The sun set over the reef. The lagoon went from turquoise to copper to black. The stars came out — the same southern stars from the open ocean, but brighter here, closer, the reef island's low profile letting the sky down to the horizon.
+
+Tomorrow. The First Scrape. Your name on a wall that stretched back four decades, added to a list of crews who'd passed through and kept going south.
+
+The Kingsrun's second stop. The first proof that you'd survived the ocean.
+
+*goto_scene ch2_galluuns_tooth_port

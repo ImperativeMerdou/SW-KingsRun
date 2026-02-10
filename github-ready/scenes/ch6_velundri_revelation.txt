@@ -1,0 +1,332 @@
+*comment ===================================================
+*comment  CHAPTER 6, SCENE 2 — VELUNDRI: REVELATION
+*comment  Intelligence reveals the Kingsrun is a selection
+*comment  mechanism. Terrek's personal-stakes scene.
+*comment  Crew reckons with what the journey means.
+*comment ===================================================
+
+*comment ---------------------------------------------------
+*comment  EVENING — THE SECOND NIGHT AT VELUNDRI
+*comment ---------------------------------------------------
+
+The market was closed for the night. The weight-scales had been locked and covered — heavy canvas stretched over the stone platforms, tied with Varrek precision knots. Without the market, Velundri was quiet in a way that other stops hadn't been. Galluun's Tooth had the reef. Merrenbach had the path-songs. Brannach had the volcano. Kelvanni had the clinic. Velundri had the market. When the market closed, Velundri closed with it.
+
+The harbor held six ships. The Sundered Wake, the Inheritors' Regrade, a Morventhi freelance crew on a sloop called the Depthline, two merchant haulers from the northern coast, and a single-masted ketch flying Rekkvald colors — the northern compact's iron-grey ensign, rarely seen this far south.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had been gone since midday.
+
+  That was unusual. The former Wardensea officer did not vanish — she repositioned. She told you where she'd be and she went there and she came back. Today she'd said "the market" and gone. Six hours ago. The market had closed four hours ago.
+
+  You had noticed. The crew had noticed. Kessara had said nothing about it, which for Kessara meant she was waiting to see what the silence produced.
+
+The night was warm. The Bastion Sea held its heat longer at this latitude — the water temperature hadn't dropped below seventy since Brannach, and at Velundri the heat was a constant, something the body stopped tracking because it never changed. The coral platform radiated the day's warmth back into the air, and the harbor smelled of limestone and brine and the residual spice-oil from a thousand market transactions.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek had set dinner at the stern. Rice. Reef-kelp broth from the Merrenbach supply. Galluun's Tooth salted fish, the last of it — the strips hard and concentrated, the flavor locked in by the lagoon salt that Terrek had treated with sulfur-dust from Brannach. He'd stretched the provisions from Stop 2 to Stop 6 through a rotation system he'd never explained and the crew had never questioned. The man understood supply lines the way Kessara understood hull integrity: as a problem that existed to be solved with precision and no complaint.
+
+  He ate with the crew. Sat on the stern locker. The Gorundai was comfortable in a way the others weren't — not relaxed, not careless, but settled. Terrek occupied space the way Gorundai occupied space: fully, without apology, his body an honest statement of who he was and where he'd decided to be.
+
+  He looked at the harbor. At the six ships. At the dark water between them.
+
+  "The Rekkvald crew offered me a contract."
+
+  The words came without preamble. Gorundai. Direct.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara's hands stopped moving. She'd been re-stitching a sail patch — the needle and thread work that she did at anchor the way other people did crossword puzzles, the fingers busy while the brain processed something else. The needle stopped.
+
+*if (crew4_name = "Terrek Ghaal")
+  "They came to the market this morning. The Rekkvald cook left at Stop 4 — seasickness. Four stops without a proper cook. The crew's been eating dried provisions and getting —" He stopped. Started again. "They offered double what I could earn on the Sundered Wake." He looked at the bowl in his hands. "Which is double nothing, so the math isn't — I practiced this and it sounded better in my head."
+
+  He set the bowl down. It caught the edge of the stern locker and tipped. Rice on the deck. A single strip of salted fish slid toward the scupper. Terrek stared at the spilled food — the cook who had just finished talking about rationing, watching his own dinner crawl across the planking. He picked up the fish strip. Blew on it. Put it back in the bowl.
+
+  "I said no."
+
+  *if (crew3_name = "Kessara Veldt")
+    Kessara's needle moved again. She pulled the thread too tight. The stitch puckered. She stared at it for two seconds — a bad stitch, from a woman who didn't make bad stitches — and then carefully unpicked it and started over. Her hands were steadier the second time.
+
+  "I said no because they want a cook. I want the Kingsrun. There's a difference." He looked at you. The look was Gorundai — direct, physical, the weight of a person who meant what they said and expected the same in return.
+
+  "The Rekkvald crew is going south because they have a contract to fill. I'm going south because the south has food nobody's tasted. Different reasons. Different kitchens." He picked the bowl back up. "I'm not staying because this is the only berth. I'm staying because this is the right berth. You should know that. A captain should know why their crew is here."
+
+  *set crew4_loyalty %+ 5
+  *set crew4_trust "earned"
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  SULLAVENNE RETURNS
+*comment ---------------------------------------------------
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne came back at the first watch.
+
+  The crew was on deck — the night was too warm for the hold, and the harbor was quiet enough that sleeping on deck was viable. Kessara was at the helm, not steering but present, the tiller within reach. Terrek was cleaning the galley — the sounds of organization, metal on wood, the familiar rhythm of someone putting things where they belonged.
+
+  Sullavenne's boots hit the deck. She crossed to you without stopping, without greeting, without the careful social calibration she usually maintained. She was carrying something. A rolled chart. Old. The vellum was dark with age, the edges stiff.
+
+  "I need the crew on deck."
+
+  Her voice was different. Not louder. Tighter. She kept adjusting her grip on the rolled chart — left hand, right hand, both hands, left hand again. Her jaw was working like she was chewing something that wouldn't break down.
+
+  Kessara came forward. Terrek came up from the galley, a cloth in his hands. The crew assembled at the stern — four people on a ship that the world's betting boards gave two hundred to one.
+
+  Sullavenne unrolled the chart on the deck.
+
+  The chart showed the Kingsrun. Not the standard Gannavar-published route — not the version the Grimoire displayed, with its clean waypoints and estimated transit times. This was older. The vellum was real animal skin, not the pressed-plant paper the modern charts used. The ink was iron-gall — the kind that ate into the surface and became part of the material. The stops were marked, but the names were different.
+
+  *if (galluuns_tooth_challenge = "took_box")
+    "I found this in the Rekkvald trader's hold. She was selling it — not on the open market, not at the weight-scales. Private sale. I paid with the chart folio from the Galluun's Tooth wreck. The wreck chart for this one. A trade of navigation for navigation."
+
+  *if (galluuns_tooth_challenge != "took_box")
+    "I found this in the Rekkvald trader's hold. She was selling it — not on the open market, not at the weight-scales. Private sale. I paid with the barometer and my Wardensea navigation credential. Everything I had that was worth something."
+
+  She pointed.
+
+  "Look at the stops. Count them."
+
+  *if (crew3_name = "Kessara Veldt")
+    Kessara leaned in. The Rathai's eyes were good — the low-light acuity that came from growing up in Nettleworks assembly halls where the lighting was industrial and the detail work was micron-scale. She counted.
+
+    "Seventeen stops." She counted again. Her finger moved across the vellum, tapping each mark. "Eighteen — no. Seventeen. I counted that island twice. The standard Kingsrun chart shows sixteen." She looked up. "There's an extra stop. Between Stop 9 and Stop 10."
+
+  "The modern charts don't show it because the modern charts are — they're based on the Sovereign King's route. His log. The Gannavar standardized it and everyone just... followed." Sullavenne's finger traced the older route. It trembled. She steadied it with her other hand. "This chart is older than him. Older than — by centuries. Centuries." She said the word like she was biting it. "I keep saying it and it keeps being true. The route was here before the man who bloody named it."
+
+  Nobody spoke. Kessara's tool harness clinked once in the harbor swell. The sound was small and familiar and wrong — too ordinary for what they were looking at.
+
+  "The stops aren't random," Sullavenne said. "They're placed. The distances between them scale geometrically — each stretch is longer than the last by a consistent ratio. The gradient — the way the ocean gets deeper and the currents get stronger the further south you go — isn't natural erosion. The seabed was shaped. The currents were channeled. Someone built this corridor."
+
+  She looked at the crew. At Kessara. At Terrek. At you.
+
+  "The Kingsrun is a selection mechanism. The stops are checkpoints. Each one tests something different — Selvaggio tests ambition, Galluun's Tooth tests resourcefulness, Merrenbach tests trust, Brannach tests endurance, Kelvanni tests mercy. Velundri tests judgment. The order matters. The tests compound. A crew that passes Stop 1 but fails Stop 3 is filtered out. A crew that passes all six has been —"
+
+  She stopped. Chose her next word with the care of someone who understood that words, once spoken, became real.
+
+  "— evaluated."
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE CREW REACTS
+*comment ---------------------------------------------------
+
+*choice
+  #Let the silence hold. The crew needs to process this without the captain steering their reaction.
+    *set personality_aggression %- 3
+    *set personality_openness %+ 3
+    *goto crew_reaction_silence
+
+  #Spread the chart flat. Look at the twenty-first stop. If the Kingsrun has a hidden checkpoint, knowing where it is changes everything.
+    *set personality_aggression %+ 3
+    *goto crew_reaction_chart
+
+  #Look at Sullavenne. She paid everything she had for this chart. The question is why. The question is what she already knew before she found it.
+    *set personality_openness %+ 5
+    *goto crew_reaction_sullavenne
+
+*label crew_reaction_silence
+
+The crew was quiet. The harbor lapped at the hull. Somewhere on the Regrade, a watch-bell rang — Kovesse Thrallek's crew marking the hour.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara spoke first. "Selection for what?"
+
+  Three words. The question that mattered. Everything before it was architecture — who built the corridor, when, why the stops were placed. Kessara cut past the structure to the function. The Rathai engineer's instinct: what does the machine do?
+
+  Sullavenne shook her head. "The chart doesn't —" She pressed her thumb against the vellum. Hard. "I don't know. The annotations reference a destination — the Sundren — but the language is Second Age script. I can read fragments. Most of it is beyond me. I spent six hours today pretending that wasn't true."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek had not moved. The Gorundai sat with the cloth in his hands and his eyes on the chart and his body perfectly still. The stillness was not shock. Gorundai processed large information the way they processed large forces — by absorbing it, letting the impact distribute through the body's mass until it became bearable.
+
+  "My grandmother," he said. His voice was low. Gorundai low — the rumble that came from the chest, not the throat. "She told me that the Kingsrun was older than the Sovereign King. I was twelve. She said the route was drawn in the stone before anyone sailed it. I thought she meant the currents."
+
+  He looked at the chart. At the seventeen stops.
+
+  "She didn't mean the currents."
+
+*goto revelation_continues
+
+*label crew_reaction_chart
+
+The seventeenth stop was between the modern Stops 9 and 10. On the standard charts: Ossengaard (the Wardensea fortress) and the Thornwaters (open ocean, no established port). On this chart, between the two: a mark. A small circle with a symbol inside it.
+
+The symbol was not any language currently in use.
+
+*if (crew5_name = "Sullavenne Ohn")
+  "Second Age glyph," Sullavenne said. "I recognize the script family. The Wardensea archives had fragments — classified, restricted access. I read them during my service. This symbol means 'threshold' or 'gate.' The translation is imprecise — Second Age concepts don't map cleanly onto modern language."
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was measuring. She'd produced a straight-edge — the drafting tool she kept with her engineering kit — and was calculating distances on the chart. Her lips moved. The math was automatic.
+
+  "The ratio holds. If the geometric scaling is consistent, the twenty-first stop is approximately one hundred and twenty miles south of Ossengaard. That's deep water. Open ocean. No islands, no reefs, no natural anchorage." She looked up. "There's nothing there."
+
+  "Something was there," Sullavenne said. "Something that warranted a stop on a chart older than our civilization."
+
+*goto revelation_continues
+
+*label crew_reaction_sullavenne
+
+Sullavenne met your eyes. She held the look.
+
+"I knew." Two words. The professional distance collapsed entirely. Beneath it: a woman who had served the Wardensea and left it and had been carrying a reason that was bigger than a scar and a notebook.
+
+"I knew the Kingsrun was older than the official record. I knew the route was pre-charted. I learned this during my service — fragments, classified reports, intelligence briefings that were above my clearance that I read anyway because reading things I wasn't supposed to read was my job."
+
+She touched the scar. The thin line from ear to jaw. Displayed.
+
+"The Wardensea discharged me because I filed a report. A formal intelligence assessment connecting the Kingsrun route geometry to Second Age survey data. The report went up the chain. Two days later, my clearance was revoked. Three days after that, I was discharged. No tribunal. No charges. Just — out."
+
+She dropped her hand.
+
+"The scar happened on the way out. A reminder. From someone who wanted me to understand that the discharge was the gentle option."
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara had stopped stitching. The Rathai looked at Sullavenne the way she looked at hull damage that she'd missed during an inspection — the stunned expression of someone recalculating everything they thought they knew.
+
+  "You joined this crew because of the Kingsrun." Not a question.
+
+  "I joined this crew because the Kingsrun goes where the answers are." Sullavenne looked at the chart. "And because the captain is a half-Oni from the Sennaku Highlands with unfinished tattoos and a reason for leaving that nobody has asked about. That combination — highland exile, Kingsrun route, the selection mechanism — is not a coincidence. I don't think it's an accident that you're here."
+
+  She looked at you.
+
+  "I think you were supposed to be here."
+
+*set velundri_revelation true
+*set revelation_type "sullavenne"
+
+*goto revelation_continues
+
+*label revelation_continues
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE SECOND AGE QUESTION
+*comment ---------------------------------------------------
+
+The chart lay on the deck. Seventeen stops. Geometric scaling. A route older than the civilization that used it. The crew of the Sundered Wake — four people, one salvage-claim ketch, a bounty that the world's betting boards dismissed — sat with information that the Wardensea had discharged an officer for finding.
+
+*if (crew5_name = "Sullavenne Ohn")
+  "The Masqarat knows." Sullavenne said it flat. Not an accusation — a fact. "The Wardensea knows. The Gannavar cartographers know. The Kolmari know — their insurance models for Kingsrun crews don't match natural-hazard projections because the hazards aren't natural. Everyone who has access to the data has reached the same conclusion I reached. The Kingsrun is artificial. The route is designed. The selection is intentional."
+
+  "And they suppress it. The Second Age research ban — the 'ontological hazard' justification — covers this. Researching the Kingsrun's origin is a capital offense under the same statute that bans Second Age archaeology."
+
+  She rolled the chart. The vellum curled back into its tube with the ease of something that had been rolled and unrolled many times by many hands.
+
+  "We are carrying a capital offense on this ship. Every crew member who has seen this chart is, under Masqarat law, guilty of possessing suppressed Second Age material."
+
+*choice
+  #Keep the chart. The information changes what the journey means. The risk is real. The value is higher.
+    *set personality_aggression %+ 5
+    *set revelation_type "kept_chart"
+    *goto after_revelation
+
+  #Hide the chart. Not destroyed — hidden. Somewhere on the ship that a Wardensea inspection wouldn't find. The information survives, but the crew has plausible deniability.
+    *set personality_aggression %+ 2
+    *set revelation_type "hidden_chart"
+    *goto after_revelation
+
+  #Give the chart to Sullavenne. She found it. She paid for it. She understands what it means better than anyone on this crew. Let her carry the risk.
+    *set personality_loyalty %+ 3
+    *set revelation_type "sullavenne_chart"
+    *goto after_revelation
+
+*label after_revelation
+
+*comment ---------------------------------------------------
+*comment  TERREK'S REACTION — THE PERSONAL STAKES
+*comment ---------------------------------------------------
+
+*if (crew4_name = "Terrek Ghaal")
+  The crew dispersed. Kessara went to the helm — the default position when the world required processing. Sullavenne went below with the chart or without it, depending on the captain's decision. The harbor was quiet. The Rekkvald ketch's watch-lamp burned yellow on the north berth.
+
+  Terrek didn't move.
+
+  The Gorundai sat at the stern and looked at the water for a long time. The cloth was still in his hands. He was wringing it. He didn't seem to know he was wringing it. The knuckles were white, then loose, then white again — the rhythm of someone whose body was processing something his mouth hadn't found words for yet.
+
+  When he spoke, his voice was different. Lower. The rumble that came from deep in a Gorundai chest, where the words lived before they became sound.
+
+  "Selection mechanism." He repeated it. Tasting the words the way he tasted ingredients — rolling them, testing them, looking for the note that would tell him what the dish was about. "The Kingsrun tests people. Sorts them. Finds the ones who — what? Survive? Deserve? Qualify?"
+
+  He shook his head.
+
+  "My grandmother didn't just tell me the route was old. She told me something else. She said: 'The ocean remembers who feeds it.' I didn't understand. I was twelve. She died the next year. The soul-bar was hammered. I carried it until I couldn't carry it anymore."
+
+  He looked at you.
+
+  "If the Kingsrun is selecting for something, I want to know if it's selecting for the people who are willing to go all the way. Not the strongest. Not the fastest. The ones who refuse to turn around." His jaw set — Gorundai granite, a decision locking into place behind his eyes. "Because that's what I am. I'm the one who refuses to turn around. I left the mining district. I left the soul-bar. I left every kitchen that told me I was good enough to stay and never good enough to matter. And I came here — to a ship that's falling apart with a crew of four and a bounty the world laughs at — because here, what I do matters. The food I make keeps this crew alive. Not metaphorically. Actually. Every bowl of rice and every strip of fish and every spice I traded for at the weight-scales is the difference between a crew that functions and a crew that falls apart."
+
+  He stood. The full height — shorter than you, broader, the mass of a Gorundai who had spent his youth hauling ore before he'd spent his adulthood hauling provisions. His face was set.
+
+  "I am not cargo. I am not a passenger. I am the cook of the Sundered Wake and I am here because I chose to be and I want you to remember that when the storm comes. Because the storm is coming. Kuldhara Mabaan is south of us and the weather is wrong and we are sailing toward a Conqueror who will decide what we're worth." He put his hand on the rail. "When she looks at this ship, I want her to see a crew. Not four people sharing a deck. A crew."
+
+  *set crew4_loyalty %+ 10
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  NIGHT — THE HARBOR
+*comment ---------------------------------------------------
+
+The night held Velundri. The six ships in the harbor breathed with the tide — the slow rise and fall of vessels at rest, the creak of wood against mooring lines, the restless music of ships waiting to leave.
+
+*if met_kovesse
+  On the Regrade, a light burned in the captain's cabin. Kovesse Thrallek was awake. The legacy heir — Ghorvenne Thrallek's daughter, carrying a dead woman's ship and a dead woman's question and a forty-year-old route that had ended in "Not the one" — was reading something. A chart, a log. Whatever it was, she held it to the cabin lamp and studied it with the focus of someone who had inherited a puzzle and was running out of stops to solve it.
+
+  You and Kovesse had never spoken at length. You'd exchanged gestures — the raised hand at Galluun's Tooth, the nod at Merrenbach. Two captains orbiting the same route, aware of each other the way ships are aware of ships: by wake, by silhouette, by the particular way a vessel sits in the water and announces what it is.
+
+  Tomorrow you would leave. Kovesse would stay, or follow, or turn back. The Kingsrun would decide.
+
+The stars were different here. The constellations that had been overhead at Selvaggio had shifted south — the Shipwright's Crown was at the horizon now, and new patterns had risen from the south: the Morventhi Deep-Light, the Gorundai Crucible, star-groups you had never seen from the highlands. The sky was telling a story about distance. Six stops. Hundreds of miles. A world that kept getting larger and older and stranger the further south they went.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne took the first watch. She sat at the bow with the Grimoire dark in her lap and the notebook open in her hands — the first time you had seen the notebook open. She was writing. Small, precise handwriting. The pen moved fast.
+
+  She closed it when she felt your attention. The reflex was automatic — the notebook shut, the cover turned, the contents invisible. But you'd seen the page. The handwriting was different. Smaller. Faster. The letters leaned forward — not the upright Wardensea script she used for notes, but something looser, less controlled. The handwriting of someone writing for themselves.
+
+  "Tomorrow," she said. "Departure at first light. The Rekkvald crew is leaving at dawn — we go with them or after them. Not before. A second ship on the corridor gives us a reference point and divides any attention."
+
+  The professional was back. The woman who had shown the scar's origin was stored away, the vulnerability filed in the same place as the chart — present, acknowledged, operational.
+
+  "Sleep," she said. "I'll wake the captain at the change."
+
+*comment ---------------------------------------------------
+*comment  GRIMOIRE CHECK — OVERNIGHT
+*comment ---------------------------------------------------
+
+*set broadcast_count + 1
+
+The Grimoire woke you in the dark. A pulse — the notification rhythm that meant Kingsrun Watch, the channel that never slept because the Kingsrun never slept.
+
+Veshanna Torc's voice, low and measured:
+
+"Overnight update. Bounty adjustments for three crews passing through the Velundri corridor. The Sundered Wake — adjusted upward. The Wardensea's southern command has added a notation to their file. Classification: 'Observation Priority.' That's not an arrest warrant. It's worse. It means they're watching and waiting for a reason to escalate."
+
+*set bounty + 2000000
+*if (bounty >= 1000000000)
+  *set bounty_tier "Conqueror-Class Threat"
+*if (bounty >= 100000000)
+  *if (bounty < 1000000000)
+    *set bounty_tier "Major Threat"
+*if (bounty >= 10000000)
+  *if (bounty < 100000000)
+    *set bounty_tier "Regional Threat"
+*if (bounty >= 1000000)
+  *if (bounty < 10000000)
+    *set bounty_tier "Known"
+*if (bounty > 0)
+  *if (bounty < 1000000)
+    *set bounty_tier "Minor"
+
+"In other news: weather. The southern Bastion Sea between Stops 6 and 8 has been experiencing anomalous conditions for the past seventy-two hours. Localized pressure drops. Static interference on civilian broadcast bands. The pattern is familiar to anyone who's followed the Kingsrun for more than a year."
+
+A pause. The pause was editorial.
+
+"The Living Storm hasn't been seen in the Kingsrun corridor for eleven months. If the weather reports are accurate, she's back. Kuldhara Mabaan is in the water. And every crew heading south from Velundri just got a new variable in their math."
+
+The Grimoire dimmed. You lay in the dark of the hold and listened to the ship breathe and the harbor lap and the distant sound of Sullavenne's pen on paper.
+
+Tomorrow. South. The weight-scales were closed. The revelation was open. The Kingsrun was older than the name they called it, and the ocean was watching, and somewhere between here and Durromakh a woman made of storm was deciding who deserved to pass.
+
+*goto_scene ch6_velundri_cliffhanger

@@ -1,0 +1,306 @@
+*comment ===================================================
+*comment  CHAPTER 1: SELVAGGIO — "The Gate"
+*comment  Scene 4: First Night
+*comment  World terms introduced: God Fruit (shown via water
+*comment  weakness + Gambit conditions), Conqueror (in passing)
+*comment  Quiet scene. Character bonding. Gambit encounter.
+*comment  Branches based on who MC recruited in Departure Row.
+*comment  2-3 real choices. Zero fake choices.
+*comment ===================================================
+
+Selvaggio after midnight was a different country.
+
+The dock lanterns dimmed to half-light, oil conserved for morning. The crowd thinned to its residue — the dedicated drinkers, the night-shift dock workers, the people with nowhere to sleep and no money to change that. The harbor water went black and still. The ships became shapes without detail, masts like stripped trees against a sky that held no stars — the overcast hadn't broken in days.
+
+The air cooled. Not highland-cold — Selvaggio never got cold, not really — but enough that the sweat dried on your skin and the storm-leather coat earned its weight. The dock planking was slick with condensation. The smell shifted: less fish oil, more salt. The ocean asserting itself over the human noise.
+
+*if (crew_count > 0)
+  You weren't alone.
+
+  *if (crew3_name = "Kessara Veldt")
+    Kessara Veldt walked beside you, or rather below and ahead of you, her stride covering ground at double-time to match yours. She hadn't stopped talking since you'd left the Anchor's Rest, but the quality of the talking had changed. In the tavern, she'd been performing — the pitch, the resume, the engineered introduction. Out here, on the empty dock, she was thinking out loud.
+
+    "The two Wardensea impound releases are our best bet. Seized from a — Kolmari loan default, the ships are collateral." She was walking and talking and the words were tripping over each other. "They'll be damaged. The Wardensea doesn't maintain seized vessels because — I mean, why would they, the budget goes to patrols. But damaged I can fix. Damaged is what I do. It's literally the only thing I do."
+
+    She tapped her tool harness. The metal clinked.
+
+    "The question is whether we can afford the auction price. Impound releases go for thirty to sixty Gold Sovereigns depending on condition. We don't have that."
+
+    She looked up at you. In the half-light, her features were sharper — the Rathai bone structure, all angles.
+
+    "How much do you have? In total. Don't round up."
+
+    *if (sovereigns < 12)
+      The number was embarrassing. She did the conversion in her head — copper to Gold — and the silence that followed was the silence of someone recalculating a plan they'd just built.
+
+      "Okay," she said. "Okay. So we can't buy a ship. That narrows it."
+    *if (sovereigns >= 12)
+      Twelve coppers. She did the conversion and said nothing for four full seconds, which for a Rathai was an eternity.
+
+      "Okay. So we can't buy a ship. That's clear."
+
+    *if (crew4_name = "Terrek Ghaal")
+      Terrek walked on your other side. He moved quietly for a big man — not stealthy, just comfortable in silence. His leather notebook was in his hand, and he was writing in it by the light of a Grimoire he'd borrowed from Kessara. The stylus moved in small, precise strokes.
+
+      "I've got forty Sovereigns saved," he said, without looking up. "Six months of cooking at Selvaggio. Two Gold and change. It's yours if this is real."
+
+      Kessara looked at him sideways. "You'd put your savings into a crew you met an hour ago?"
+
+      "I've put my savings into three crews I met an hour ago. All three times I told myself 'this is stupid' and did it anyway because the alternative was cooking for dock workers until I died here." He closed the notebook. "So yes, it's stupid. My money's on the wall."
+
+      He meant you. It took a second to realize that.
+    *goto night_walk
+
+*if (crew_count = 0)
+  You were alone.
+
+  The dock was yours. At this hour, nobody contested the space — the night workers were concentrated on the main jetty, loading a trade vessel by torchlight, and the rest of the harbor slept or pretended to. Your boots made a sound on the wet planking that would have been lost in the daytime crowd. Now it was the loudest thing within fifty feet.
+
+  Alone was familiar. The highlands after the exile had been alone — the walk south, the mountain trail to the Caldruun lowlands, the road to the coast, the cargo hauler where you'd slept among rope coils because the crew didn't want you below decks.
+
+  But alone didn't build a crew. And alone didn't sail a ship.
+
+  *goto night_walk
+
+*label night_walk
+
+The dock curved south. Past the berths, past the closed market stalls, toward the stone seawall where the harbor met the open water.
+
+Ahead, where the dock widened into a small plaza between two warehouses, a crowd had gathered. Twenty, maybe thirty people in a loose circle. The light was wrong — not lantern-light. Steadier. Bluer. Casting hard shadows that didn't flicker. These people were watching something.
+
+You moved closer. The crowd noticed you — at your height and width, you entered any gathering like a weather event — but they didn't react beyond the usual adjustment. Space opened. You could see.
+
+The center of the circle was a table. Stone-topped, low, the kind used for dock trades. On it: three cups, inverted. A man sat behind the table on a crate. He was thin, medium height, with the nondescript look of someone who'd cultivated nondescriptness — brown hair, plain clothes, a face you'd forget between seeing it and describing it. His hands rested on the table's edge. Still.
+
+Across from him, a woman was choosing. Her hand hovered over the three cups. She was Gorundai — big, green-skinned, with the focused expression of someone who'd been told the stakes.
+
+"Middle," she said.
+
+The man lifted the middle cup. Empty. The crowd exhaled.
+
+"Left," the man said. He lifted the left cup. A stone sat underneath — small, round, polished black. Worth something, by the way people leaned in.
+
+The Gorundai woman swore. She put coins on the table — ten, twelve, you couldn't count — and stepped back into the crowd. Someone else moved forward. A human, young, nervous. He put his coins down.
+
+The man behind the table set the cups again. Three cups, one stone. His hands moved — not fast, not slow. Precise. The cups shifted positions on the stone surface in a pattern that should have been trackable.
+
+Should have been. Your eyes tracked the stone to the right cup. Stayed there.
+
+The young man chose the right cup. The man lifted it. Empty.
+
+The stone was under the left cup.
+
+You'd watched the hands. The hands hadn't cheated. The cups had moved exactly where you'd tracked them. And the stone was in the wrong place.
+
+*page_break
+
+The game continued. Three more players. Three more losses. The man behind the table collected coins with the same unhurried precision he used to move the cups. Nobody won. Nobody came close.
+
+The crowd didn't thin. If anything, it grew. People came to lose money and stayed to understand why they'd lost. The man didn't smile, didn't taunt, didn't engage. He set cups. He moved cups. He collected money. The blue-tinted light came from a device mounted on the table's edge — a modified Grimoire, broadcasting the game to whoever was watching from elsewhere. The man had an audience beyond the dock.
+
+Then something happened.
+
+A man in the crowd — human, stocky, drunk enough to be loud but not drunk enough to be inaccurate — pushed forward. He didn't put coins down. He put his hand on the table.
+
+"You're cheating."
+
+The thin man looked at him. The nondescript face was patient.
+
+"Everyone can see it," the drunk said. "The cups don't move right. Something's wrong with the table."
+
+"The table is stone."
+
+"Something's wrong with the GAME."
+
+The drunk reached for the cups. His hand got within six inches and then he stopped. Not because he decided to — because his hand stopped. His arm locked at the elbow, fingers still extended, and the momentum of his reach carried his body forward into the table's edge. He hit it and grunted and his hand stayed where it was, frozen, six inches from the cups.
+
+The crowd went quiet.
+
+The drunk stared at his own arm. Tried to push forward. His arm didn't move. Tried to pull back. His arm cooperated — he stumbled backward, free, his hand his own again.
+
+"Don't touch the table." The thin man sighed, like this was the fourth time tonight. "I should put up a sign. House rule."
+
+The drunk's face went that particular shade of confused that preceded either a fight or a retreat. He chose retreat. He backed into the crowd and the crowd let him go and the game resumed as if nothing had happened.
+
+But something had happened. The drunk's arm hadn't stopped because of a physical barrier. There was nothing between his hand and the cups — no glass, no wire, no mechanism. His arm had stopped because a rule said it would.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara, standing somewhere near your hip, let out a breath.
+
+  "That's Goltieri."
+
+  She said it quietly. The name again — the name on the crates, on the dock columns, on the enforcer's bell pin.
+
+  "God Fruit," she said. "There's a man named Dessaren Goltieri who runs this port. He ate something called a Gambit Fruit — Law-type. Sets conditions. Rules that the world enforces whether you agree to them or not." She gestured at the table, the cups, the thin man's unhurried hands. "That game operator didn't stop the drunk's arm. He can't. He's just a hustler. But Goltieri's conditions blanket this entire port district — 'don't touch what isn't yours,' or something close. The thin man built his game around it. He knows where the invisible walls are. Everyone else pays to find out."
+
+  She looked up at you. "There are maybe a hundred and forty of these Fruits in the world. The people who eat them become — well. You've heard the bounty numbers."
+
+  She paused. Considered.
+
+  "There's a cost. The Fruit takes the ocean from you. Eat one and seawater kills you — deeper than your chest and you drown. No fighting it, no exceptions. On a Kingsrun crew, that means your strongest fighter can't survive falling overboard." She watched the thin man reset his cups. "Goltieri controls the docks from somewhere we'll never see. And this man makes a living off the leftovers."
+
+  *goto gambit_choice
+
+*if (crew_count = 0)
+  You watched the drunk stumble back. You watched the thin man reset his cups. You watched the game continue as if the world hadn't just bent.
+
+  The highland elders had spoken of this. A person, somewhere, who'd eaten something — a fruit, grown from a tree that no longer existed — and gained the ability to write rules into the world itself. The cost was the ocean. The old stories said the fruit took the water from you. Touch the sea and die.
+
+  The highlands had called it legend. The kind of thing the elders told children to explain why the world was dangerous.
+
+  The drunk's arm hadn't stopped because of the thin man. The thin man was a hustler with cups and a stone. But someone — the name on the crates, the name the dock workers whispered, the name that owned the fear — had written rules into this port. The thin man had learned where the rules were and built a game inside them.
+
+  Real. Here. Selvaggio. And someone owned it in a way that went deeper than money.
+
+  *goto gambit_choice
+
+*label gambit_choice
+
+The thin man finished another round. Another loss for the player. He collected coins, reset cups, and looked up.
+
+His gaze swept the crowd. Found you. Stayed.
+
+He didn't flinch at the horns or the height. He looked at you the way the Varrek chart seller had looked at you — measuring, but for a different value. Something past the size.
+
+"You," he said. "Highland. Want to play?"
+
+The crowd turned. Thirty pairs of eyes on you. The blue-tinted Grimoire light caught the ram horns and the ash-white skin and the open storm-leather coat, and you were suddenly aware that whatever this broadcast was reaching, you were now on it.
+
+The thin man's hands rested on the table. Three cups. One stone.
+
+*choice
+  #Sit down. You've been watching long enough. Time to learn something.
+    You stepped through the crowd. The circle opened. The crate across from the thin man was too small for you — you sat on it and the wood protested and your knees were higher than the table. The geometry was absurd. Six-seven of highland exile folded over a dock table across from a man who could stop your arm with a thought.
+
+    *set personality_aggression %+ 5
+    *if (sovereigns >= 4)
+      *set sovereigns - 4
+    You put your coins down. Four coppers. The thin man looked at the stake and something moved behind his eyes — not contempt, recognition. He'd seen broke players before. He'd been one.
+
+    "Rules are simple," he said. "Three cups. One stone. Find the stone, you double your money. Miss it, I keep it."
+
+    He set the cups. His hands moved. You watched.
+
+    This time, you didn't try to track the stone. You watched his face. The highland elders had a saying about bouts: *watch the body, not the fists. The body tells you where the fists are going.* The same principle applied here. The cups were the fists. The thin man's face was the body.
+
+    His eyes didn't move. They stayed fixed on you. But at the moment the cups stopped — the fraction of a second when the game was decided — his left hand twitched. Away from one cup. The tell was in the avoidance.
+
+    You tapped the middle cup. Not because you'd tracked the stone. Because his hand had told you where it wasn't.
+
+    The thin man lifted the middle cup. The stone sat underneath.
+
+    The crowd made a sound — not a cheer, closer to a collective intake of breath. Nobody had won in the last twenty minutes.
+
+    The thin man's expression didn't change. He pushed eight coppers across the table.
+
+    *set sovereigns (sovereigns + 8)
+    "Once more?"
+
+    You took the coppers and stood. The crate exhaled with relief.
+
+    "Smart," the thin man said. The word covered more than the game — it covered walking away from a table where the house had the power to rearrange reality.
+
+    *set selvaggio_gambit_encountered true
+    *goto after_gambit
+
+  #Walk away. The game is rigged by something you don't understand, and you don't bet what you can't afford to lose.
+    You turned. The crowd parted — they always parted — and you walked back into the dark of the dock.
+
+    *set personality_loyalty %+ 5
+    Behind you, the thin man said nothing. The game resumed. Someone else sat down. Someone else lost.
+
+    *set selvaggio_gambit_encountered false
+    *goto after_gambit
+
+*label after_gambit
+*page_break
+
+The hour was late. The dock was empty. The harbor water lapped at the pilings in a rhythm that wasn't sleep and wasn't silence — something between, the ocean breathing in its shallow rest.
+
+*if (crew_count > 0)
+  *if (crew3_name = "Kessara Veldt")
+    Kessara found a dry spot between two crates on the dock's edge, sat down, and produced a flatbread from somewhere in her harness. She broke it in half — not evenly, one piece was clearly bigger. She looked at both halves. Switched which hand held which. Offered the bigger piece upward, toward the general vicinity of your chest.
+
+    You took it. The bread was stale and cold and better than nothing.
+
+    She ate in silence for a while. Three times she opened her mouth to say something. Three times she closed it. The Rathai, who had not stopped talking for two consecutive hours, was apparently discovering that silence existed and didn't like it.
+
+    "I left my warren when I was sixteen," she said. Not to you — to the water, or to the air, or to that quality of silence that exists between two people who've decided to trust each other with a version of their lives. "Nettleworks factory. Assembly line. Seven Rathai in a row, hands moving, twelve hours a day, building manifold components for ships I'd never sail on. Paid in coppers. Fed in portions designed for Rathai appetites, which are smaller than human appetites, which the factory managers knew and used as justification for paying us less."
+
+    She tore her bread into smaller pieces. The hands that did it were the same hands that had shaken yours — mechanical, precise, working while the mind worked on something else.
+
+    "I broke the supervisor's Grimoire because he docked my pay for catching a defect in the manifold casting that would have cracked under pressure at depth. I saved a ship. He docked my pay because I slowed the line." She ate a piece of bread. "The union rep told me I was right. The dock master told me I was fired. Both of those things were true."
+
+    The harbor was quiet. The ships were shapes without names.
+
+    "I came to Selvaggio because a ship is a machine and machines need engineers and the Kingsrun is where the machines go to find out what they're —" She stopped. Tore off another piece of bread. Chewed. "I'm making it sound noble. It wasn't noble. I ran out of other places to go."
+
+    She looked up at you. The harbor reflected in her eyes — dim orange, broken by water.
+
+    "Anyway. You're not a machine. But you've got that look. Like something needs fixing and you haven't found the right tool yet." She flicked bread crumb off her harness. "I'm the right tool, by the way. In case that wasn't clear."
+
+  *if (crew4_name = "Terrek Ghaal")
+    Terrek had disappeared during the cup game and reappeared with food. How he'd found food at this hour, in this part of the dock, remained between him and the dock. He set down a bowl — ceramic, chipped, borrowed or stolen from somewhere — containing something hot. Rice and fish and a sauce that smelled like smoke and ginger. He tasted it. His face did something complicated.
+
+    "I burned the ginger. Pretend the bitterness is intentional."
+
+    He set it between you and whoever else was there, and sat down, and ate from his own bowl with the focused attention of someone who was testing the food and the company simultaneously.
+
+    "My parents were both Gorundai," he said, between bites. "Kethrun mining district. My mother cooked for the shift crews — four meals a day, dense, mineral-heavy, the kind of food that kept a miner upright through a twelve-hour dig. I inherited the appetite without the tusks. People think I'm a glutton. I'm just feeding a Gorundai metabolism in a human-passing body."
+
+    He looked at you.
+
+    "I saw your ink. The unfinished tattoos. Skin-singer work, stopped mid-story." He didn't ask why the story had stopped. He was a cook — he understood that some things weren't ready to be served. "My mother had forge-marks. The Kethrun miners get them — iron-dust scarring on the hands and forearms, earned in the fissures. She wore hers like other people wore jewelry. When she died, they burned her on a hill outside the village because the Caldruun was too far. My father lit the fire. It was raining. She'd have liked that."
+
+    He went back to his food. Ate three more bites before he realized he'd been holding his spoon wrong — handle turned backward, gripping it the way a child does. He adjusted without comment.
+
+*if (crew_count = 0)
+  You found a spot on the seawall where the stone was dry and the view was open. The harbor spread below you — the ships, the water, the distant lanterns of Departure Row still burning where the last drinkers hadn't quit. The bronze bell at the harbor mouth was a shape in the dark, barely visible.
+
+  You sat. The stone was warm from the day. Your back found the wall and the storm-leather coat bunched behind you and you were, for the first time since arriving at Selvaggio, still.
+
+  The highland sky had been different. Stars, most nights. The volcanic haze made them tremble, but they were there — fixed points in a world that moved around them. Selvaggio's sky was a blank. No stars. No reference. Just cloud and the faint orange glow of a port that never fully slept reflected back from above.
+
+  The exile. The walk down. The cargo hauler. The checkpoint. The docks. The tavern. The names on the broadcast — Tomoe, Mavrokka, Suuba — people who'd been where you were standing and had turned it into something the world argued about.
+
+  Your hands rested on your knees. They were large hands. Oni hands — broad across the palm, thick at the knuckle, built for gripping. The unfinished tattoo lines ran down the left forearm and stopped. The skin-singer's needle had been mid-stroke when the clan elder entered the hall. After that, the needle hadn't touched skin again.
+
+  The First Bout. The unfinished lines on your forearm caught the dim light. The elder's hip had broken with a sound like green wood splitting. Your own Armoring — *kossk*, the bone-shell — had surged for the first time, unbidden, a dark sheen covering your fists in the half-second before impact. The elder on the ground. The silence of the festival crowd. Your mother's face.
+
+  Your hands closed on your knees, and the stone underneath you groaned, and if anyone had been watching, they'd have seen something — a flicker, dark and brief, across the knuckles of your right hand. There and gone. The ghost of a thing that wasn't ready yet.
+
+*page_break
+
+Dawn came in grey. The harbor resolved from black to the flat steel color of a sky with no intention of clearing. The dock woke in stages — night workers leaving, morning crews arriving, Grimoire broadcasts buzzing with weather and bounty updates.
+
+*if (crew_count > 0)
+  *if (crew3_name = "Kessara Veldt")
+    Kessara was awake before you. She'd been awake before dawn, apparently — her tool harness was reorganized, her Grimoire was showing a schematic of something you didn't recognize, and she was muttering measurements under her breath.
+
+    "The impound auction is at noon," she said. "North harbor, Wardensea dock authority. Two ships. I've pulled the registry specs — one's a modified sloop, thirty-eight feet, single mast. The other's a ketch, forty-four feet, double-masted, deeper draft. The sloop is faster. The ketch carries more. Both need work."
+
+    She looked up. Ready. She'd been ready since before you'd opened your eyes.
+
+  *if (crew4_name = "Terrek Ghaal")
+    Terrek was cooking. You didn't know where he'd found a grill, but he'd found a grill — a flat piece of salvaged iron balanced on two dock bollards, heated by a fuel brick borrowed from a night-shift worker in exchange for a share of the result. The smell was eggs and some kind of cured meat and the warm-fat aroma that meant someone competent was making breakfast.
+
+    "Five days," he said, flipping something with a salvaged fork. "Five days until the departure wave. Today's the day for the ship. Tomorrow's the day for supplies. Day after that, loading and checks. Day after that, rest. Day after that, the bell."
+
+    He slid food onto a dock plank that was doing service as a plate.
+
+    "Eat first. Everything else is harder on an empty stomach."
+
+*if (crew_count = 0)
+  You woke stiff. The seawall was not a bed. Your neck had an opinion about sleeping against stone, and the opinion was detailed and unfavorable.
+
+  The harbor was moving. Morning crews. Departure flags. The first bell — not the Departure Bell, the dock shift bell — rang from the main jetty and the day began whether you were ready or not.
+
+  Five days. Five days until the departure wave. Today, you needed a ship. Tomorrow, a crew to put on it. Or today, a crew, and tomorrow, a ship. The order didn't matter as much as the urgency. Five days. After that, the next wave wouldn't come for a month, and a month at Selvaggio was how people became the old man at the bar with crossed-out tattoos on his arm.
+
+You stood. Selvaggio's morning hit you — the noise, the salt, the scale of a place that didn't care whether you'd slept or what you'd decided. The harbor churned. Ships loaded. The Wardensea patrol from last night's broadcast — Commander Gress's three ships — was already moving, white hulls cutting south through the harbor mouth toward the open ocean.
+
+They were heading where you were heading. They'd be there when you arrived. And they'd have a file with your name on it before you cleared the harbor.
+
+But first: a ship.
+
+*goto_scene ch1_selvaggio_crew_hunt

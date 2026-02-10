@@ -1,0 +1,649 @@
+*comment ===================================================
+*comment  CHAPTER 1: SELVAGGIO — "The Gate"
+*comment  Scene 5: Crew Hunt
+*comment  Day 2-3. Urgency. Ship acquisition is the central
+*comment  choice. Crew finalization. Possible fight scene.
+*comment  Dominion flickers — something is waking.
+*comment  3 real choices. Zero fake choices.
+*comment ===================================================
+
+The Departure Bell rang at dawn.
+
+The sound carried across the harbor — bronze, heavy, final. One ring. Safe journey. A crew was leaving.
+
+A ship pulled away from the south berths. Single-masted, recently patched, crew of seven or eight working the deck with the focused energy of people who'd made a decision. The departure flag flew from the mast. The captain — human, young — stood at the bow with her hand raised. Farewell or defiance.
+
+The dock crowd watched. The fried-food vendor shook her head. "Third one this week. Season's starting early."
+
+The ship cleared the harbor mouth. The bell's echo died. That crew had a ship, a plan, each other.
+
+You had four days.
+
+*page_break
+
+*if (crew_count > 0)
+  *if (crew3_name = "Kessara Veldt")
+    Kessara had a plan. She'd had a plan since before dawn — the Rathai apparently operated on three hours of sleep and unlimited spite.
+
+    "Three options. Wait. Two." She held up three fingers, put one down, walking beside you at double-time. The tool harness clinked with each step. "The third one was stupid, forget the third one. The Wardensea impound auction at noon — two seized ships, the sloop and the ketch I told you about. Or the north harbor berth, the one the dock kid mentioned. Ship that hasn't moved in six months."
+
+    She ticked them off.
+
+    "The auction: we can't afford either ship outright. The sloop will go for thirty to fifty Gold Sovereigns. We have —" she looked at you. "What Terrek offered plus whatever you're carrying. Call it two Gold and change. That's not enough for the auction. But it might be enough for a deposit if the Kolmari credit agent is working the sale. Fifteen percent interest, compounding quarterly. The debt follows you."
+
+    *if (crew4_name = "Terrek Ghaal")
+      Terrek was walking on your other side. He'd produced food again — a flatbread roll, warm, eaten in methodical bites. "Or we don't take the debt. I've cooked for Kolmari agents. They're — nice isn't the word. Polite. Very polite while they repossess your ship." He tore off a piece of bread. "One of them left me a tip on the way out. While his colleague changed the locks."
+
+    "The other option," Kessara continued, "is the north harbor ship. Unclaimed. No auction, no credit. But there's a reason nobody's claimed it. The dock kid says the previous captain died three weeks ago — infection from a reef wound, nothing dramatic. Crew scattered. Ship's been sitting. The berth fees are piling up with Goltieri's dock authority, and eventually they'll seize it for the debt."
+
+    She paused. Recalculated.
+
+    "If we can clear the berth debt — pay what the dead captain owed — the ship's ours by salvage claim. Harbor law. The dock authority would rather collect the fee than warehouse another rotting hull. The debt is probably twelve to fifteen Gold Sovereigns."
+
+    Still more than you had. The math hadn't changed. Broke was broke, regardless of the plan.
+
+    "I know," she said, reading your silence. "We need money. Or we need someone who owes us a favor. Or we need to find something worth trading."
+
+    *goto ship_hunt
+
+*if (crew_count = 0)
+  You walked the harbor alone. The morning light was flat and grey and gave Selvaggio the look of a photograph — all detail, no warmth. Ships loaded. Crews shouted. The bell's sound still hung in the air like a bruise.
+
+  The dock kid found you before you found the dock kid.
+
+  He materialized at your elbow — barefoot, fish-strip in hand, already talking.
+
+  "You're still here. Good. Most of the ones who don't find a crew the first night leave on the next cargo hauler north. You didn't leave. That's either stubborn or stupid and the difference doesn't matter yet."
+
+  He walked beside you, matching your stride with two of his own.
+
+  "Ships. You need one. You can't buy one — a used sloop runs thirty to fifty Gold Sovereigns and you're carrying copper. So. Two options for someone broke. One: the Wardensea impound auction at noon. They auction seized ships. You won't win the bid but you might find someone to partner with who can. Two: the north harbor. Berth eleven. Ship called the Sundered Wake — previous captain died, crew scattered, berth fees stacking up. Goltieri's dock authority will seize it eventually. If someone pays the owed fees before they do, harbor salvage law says the ship's theirs."
+
+  He bit off a strip of fish.
+
+  "The fees are twelve to fifteen Gold. You don't have that either. But the dock authority takes labor credit. Twenty days of hauling work converts to one Gold. Or —" he looked at you sideways "— you could fight for it. The dock bouts. They run every other night behind the Anchor's Rest. Prize money. Nobody asks where the fighters come from. They just ask if you can stand back up."
+
+  He pointed east toward the harbor's curve.
+
+  "North harbor, berth eleven. Go look at it. Then decide."
+
+  He was gone. You were alone again with a direction and no money.
+
+  *goto ship_hunt
+
+*label ship_hunt
+
+*page_break
+
+North harbor. Berth eleven.
+
+The ship sat in the water like a promise someone had broken and left behind.
+
+She was a ketch — double-masted, forty-odd feet from bowsprit to stern, with a hull that had once been painted blue and was now the color of salt and neglect. The sails were furled and greyed. Rope coiled on the deck in loose tangles that said nobody had cared for weeks. The berth lines were taut but fraying — a ship held in place by habit more than intention.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara saw the hull and stopped walking. Her hands went to her tool belt — reaching for a wrench before she realized she was still on the dock.
+
+  "Soft planking forward, loose stays, corroded rudder mount." She was already moving toward the gangway. "But the keel line is straight. Hull's solid below the waterline. Built well, maintained badly. That's fixable."
+
+  "I need to get on that deck."
+
+*if (crew_count = 0)
+  You looked at the ship from the berth. The hull told a story you could read without being a sailor — paint peeling, rope rotting, the particular neglect of a vessel whose crew had given up before the ship did. But the bones were there. Wide at the beam, deep in the draft, built to carry weight through rough water.
+
+  Like you.
+
+A voice came from behind.
+
+"Looking at the Wake?"
+
+You turned. A man sat on a crate at the berth's edge — human, sixties, with a face weathered to the color of the dock planking. He wore a dock authority vest, grey and faded, and held a ledger in his lap. A brass bell-pin on his collar. Goltieri's.
+
+"Berth fees are fourteen Gold Sovereigns, eight Silver Spans. Overdue thirty-one days." He didn't look up from the ledger. "Previous captain was a man named Torvellane Ghess. Died of blood poisoning from a coral wound. Crew took what they could carry and left. Wife lives in Caldruun — we sent word. She doesn't want the ship."
+
+He turned a page.
+
+"Dock authority seizes unclaimed vessels after sixty days of unpaid berth fees. That gives this one twenty-nine more days. After that, it's Goltieri's. He'll strip it and sell the timber."
+
+He looked up. Took you in — the horns, the coat, the width. His expression was the professional blankness of a man who'd seen everything the harbor produced and stopped being impressed a decade ago.
+
+"Fourteen Gold, eight Silver clears the debt and transfers the claim. Harbor salvage law. You pay what's owed, the ship's yours." He paused. "You don't have fourteen Gold."
+
+A statement. He'd been reading broke arrivals for thirty years.
+
+"The dock authority accepts three forms of settlement. Coin. Kolmari credit with a minimum fifteen-percent quarterly interest and a cosigner. Or —" he closed the ledger "— labor credit. One Gold Sovereign per twenty days of dock hauling. At fourteen Gold, that's two hundred and eighty days." He let the number sit. "Most people find the money somewhere else."
+
+He opened the ledger again. The conversation was over unless you had something to offer.
+
+*page_break
+
+The harbor was running out of patience with you.
+
+Three days until the departure wave. The bell had already rung for one crew this morning. By noon, it would ring again — you could see two more ships loading provisions in the south berths, departure flags ready. Every bell was someone who'd solved the problem you hadn't.
+
+Fourteen Gold Sovereigns. Two hundred and eighty days of labor. Kolmari debt at fifteen percent compounding interest. Or something else entirely — the dock kid had mentioned the fights.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara had spent twenty minutes on the ship's deck. She came back with grease on her hands and a Grimoire full of notes.
+
+  "The ship is sound. Three weeks of repair — I can get it done in five days if I have help and materials. Hull plating, new rope, sail patches. The materials I can source. The berth debt is the problem."
+
+  She looked at you.
+
+  "Terrek's forty Sovereigns. Whatever you have. That puts us at maybe two Gold and change. We need twelve more. And we don't have two hundred and eighty days."
+
+  *if (crew4_name = "Terrek Ghaal")
+    Terrek had been quiet. He'd walked the length of the ship and come back and said nothing. Now he spoke.
+
+    "I know a woman. Sullavenne Ohn. She was in the Anchor's Rest last night — back wall, dark coat. She watched you all evening."
+
+    He paused.
+
+    "She has money. More than she showed. Four years in the Wardensea pays well if you don't spend it. And she's been here two months, which means she's been working or trading. She could cover the gap."
+
+    "And she wants something for it," Kessara said.
+
+    "She wants a berth. Specifically, she wants a crew heading south that isn't already in the Wardensea's pocket. That's hard to find. Most crews forming at Selvaggio are either running Kolmari debt — which means the Wardensea knows their financing — or they're posting on the crew boards, which the Wardensea logs. She's looking for someone the white coats haven't indexed yet."
+
+    He looked at you. "You walked through the checkpoint yesterday with no crew, no ship, and no plan. You're exactly what she's looking for."
+
+*if (crew_count = 0)
+  You stood on the berth and did the math. The math lost.
+
+  Twelve copper coins wouldn't buy a meal and a berth debt on the same day. The labor credit option would trap you at Selvaggio for nearly a year. The Kolmari credit required a cosigner you didn't have. And the departure wave was three days away.
+
+  The dock fights. The kid had mentioned them. Prize money. Behind the Anchor's Rest. Dangerous and simple and immediate.
+
+  Or you could find people. The Rathai engineer — Kessara Veldt — had offered her hand last night. You'd turned it down. The cook, Terrek Ghaal, had offered food. The woman in the shadows — Sullavenne Ohn — had offered knowledge of the Wardensea.
+
+  Any of them might have resources. Connections. Solutions to the math that broke you couldn't solve alone.
+
+The harbor bell chimed noon. The impound auction would be starting at the Wardensea dock authority. The dock bouts ran at sundown. And the ship sat in berth eleven, rotting one day at a time.
+
+*choice
+  #Go to Sullavenne Ohn. She has Wardensea money, Wardensea knowledge, and she's been watching you since you arrived.
+    *if (crew_count = 0)
+      You found her at the Anchor's Rest. Same table. Same shadow between two lanterns. Same dark blue coat with the collar turned up, same scar from ear to jaw, same steady gaze that tracked you across the room like a compass needle finding north.
+
+      "Took you long enough," she said.
+
+    *if (crew_count > 0)
+      You went to the Anchor's Rest. The morning crowd was thin — the desperate ones who'd been drinking since last night, and the early workers eating breakfast. Sullavenne Ohn was at the same table. Same shadow. She watched you cross the room with the patient attention of someone who'd been expecting this visit.
+
+      "You found the ship at berth eleven." A statement. "I know — I've been watching it for a week. The berth debt is fourteen Gold, eight Silver. You don't have it."
+
+    She gestured at the chair across from her. You sat. The chair protested.
+
+    "Four years in the Wardensea. Second Division, Lieutenant grade. I saved most of what I earned because there's nothing to spend money on when you're on patrol eight months a year." She put her hands flat on the table. Long fingers, clean nails, the hands of someone who worked with documents and navigation charts rather than rope and metal. "I have eleven Gold Sovereigns in a Kolmari deposit. That's not enough to clear the berth debt alone, but combined with whatever you and your —" she looked at whoever was present "— associates can produce, it closes the gap."
+
+    *set personality_openness %+ 5
+
+    "What I want is — I keep starting this like a briefing. Sorry." She pressed her palms flat on the table. "A berth. South. With people who aren't — who the Wardensea hasn't already —" She exhaled through her teeth. "Patrol schedules. I know the patrol schedules, Selvaggio to Kelvanni, they're four months out of date but the routes don't — the routes are the routes. And I know which officers take bribes and the flag codes for secondary — I'm doing it again." She stopped. Her jaw reset. "I sound like I'm selling myself. I am selling myself. I just — four years of writing reports and I can't have a normal conversation about it. I don't know how to do this part."
+
+    She leaned back.
+
+    "In exchange, I want crew slot five. Fighter and specialist. My discharge papers are clean. My record says 'voluntary separation.' What my record doesn't say is that I filed a formal complaint against my commanding officer. Commander Gress." The name landed like a coin on the table. "The complaint disappeared. I filed again. I was offered voluntary separation with full back pay, or involuntary separation with a criminal referral for insubordination."
+
+    The scar on her jaw caught the lantern light.
+
+    "I took the money and the scar is from a conversation that happened the night before my discharge was finalized. Someone wanted to make sure I understood the terms of my departure."
+
+    She said it flat. No bitterness. A fact reported to someone she'd decided to trust with it.
+
+    "Eleven Gold Sovereigns. Wardensea intelligence. A fighter who knows how the white coats operate from the inside." She put both hands on the table, palms up. "Do we have a deal?"
+
+    *set crew5_exists true
+    *set crew5_name "Sullavenne Ohn"
+    *set crew5_race "human"
+    *set crew5_role "Fighter"
+    *set crew5_loyalty 15
+    *set crew5_trust "calculated"
+    *set crew_count + 1
+
+    *if (crew3_name = "Kessara Veldt")
+      *if (crew4_name = "Terrek Ghaal")
+        The math finally worked. Sullavenne's eleven Gold. Terrek's two Gold and change from his forty Silver Sovereigns. Your copper. Between the three contributions, the total scraped past fourteen Gold and eight Silver. Barely. The margin was counted in coppers.
+
+        Kessara did the addition on her Grimoire and looked up with the expression of someone who'd just solved an equation she'd expected to fail.
+
+        "That's enough. That's — yes. That clears the berth debt."
+
+        *set sovereigns 3
+        *goto sullavenne_finish
+      *else
+        Sullavenne's eleven Gold and whatever you could scrape together left a gap. She saw it in your face.
+
+        "I know a cook," she said. "Terrek Ghaal. He's been at Selvaggio six months and he's sitting on two Gold in savings. He was watching you last night — he's interested. If you bring him in, we have enough."
+
+        That meant trusting a stranger's recommendation about another stranger. The chain of trust was thin and new and held together by money and shared desperation.
+
+        But the math worked.
+
+        *set crew4_exists true
+        *set crew4_name "Terrek Ghaal"
+        *set crew4_race "gorundai"
+        *set crew4_role "Cook"
+        *set crew4_loyalty 10
+        *set crew4_trust "stranger"
+        *set crew_count + 1
+        *set sovereigns 3
+        *goto sullavenne_finish
+
+    *elseif (crew_count = 1)
+      Sullavenne's eleven Gold and your copper. The gap was still three Gold.
+
+      "We're short," she said. "We need more people or more money. There's an engineer at the Anchor's Rest — Rathai, small, talks fast, carrying a basalt Grimoire worth more than everything in my pocket. She's looking for the same thing we are."
+
+      You found Kessara Veldt at her table by the crew board. She was already standing when you reached her — she'd been watching the door.
+
+      "I saw you talking to the shadow woman. You've found a ship." A statement. Her hands were already moving to her tool harness, checking, adjusting. "How much do we need?"
+
+      The three of you, plus the cook Terrek Ghaal who materialized as if he'd been waiting for exactly this configuration, pooled everything. Kessara had no money but offered labor value — the dock authority accepted skilled work as partial credit. Terrek's forty Silver Sovereigns. Your copper. Sullavenne's eleven Gold.
+
+      It was enough. The sum arrived at fourteen Gold and nine Silver — one Silver Span over the debt. The margin was a joke. The margin was everything.
+
+      *set crew3_exists true
+      *set crew3_name "Kessara Veldt"
+      *set crew3_race "rathai"
+      *set crew3_role "Engineer"
+      *set crew3_loyalty 10
+      *set crew3_trust "known"
+      *set crew4_exists true
+      *set crew4_name "Terrek Ghaal"
+      *set crew4_race "gorundai"
+      *set crew4_role "Cook"
+      *set crew4_loyalty 10
+      *set crew4_trust "stranger"
+      *set crew_count + 3
+      *set sovereigns 0
+      *goto sullavenne_finish
+
+    *label sullavenne_finish
+    *set ship_acquisition_method "salvage_claim"
+    *set personality_loyalty %+ 5
+    *goto claim_the_ship
+
+  #Go to the dock bouts. Fight. Win the money yourself. You don't owe anybody for a ship you earned with your fists.
+    The dock bouts ran behind the Anchor's Rest in a courtyard hemmed in by warehouse walls on three sides. No roof. The sky overhead was grey and the walls held the noise in — the shuffle of feet on packed dirt, the murmur of the crowd, the sound of money changing hands at the edges.
+
+    *set personality_aggression %+ 8
+
+    The fights were simple. Two enter, one wins. No weapons. No rules beyond "don't kill anyone." The prize purse came from entry fees and the betting pool.
+
+    You arrived at sundown. Fifty, sixty people packed along warehouse walls, leaving a circle of packed earth twenty feet across. Lanterns made the fighters' shadows large.
+
+    A Gorundai ran the bouts from a crate at the courtyard's edge — sixties, grey-green skin, hands that had held a thousand purses. He saw you push through and his face did something that was almost a smile.
+
+    "Highland Oni. Half, from the skin. Six-seven, broad, and you walk like you know where your weight is." He looked at the crowd, then back at you. "Two Gold entry. Purse for the winner is six Gold, eight Silver. Three fights tonight — you'd be the fourth if we pair you."
+
+    Two Gold entry fee. You didn't have two Gold.
+
+    The old Gorundai read the hesitation.
+
+    "Credit entry for new fighters. You lose, you owe me the two Gold from dock work. You win, the entry comes out of the purse and you walk with four Gold, eight Silver clear."
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara was behind you. She'd followed without being invited.
+
+      "This is insane," she said. Then: "Win."
+
+    *if (crew4_name = "Terrek Ghaal")
+      Terrek leaned against the wall. He had his notebook out.
+
+      "I'll bet on you. That way we double whatever you win."
+
+      "Or lose everything," Kessara said.
+
+      "I didn't say it was a good bet. I said it was a bet."
+
+    Your opponent was already in the ring. Human. Big — six-four, two-forty, scarred knuckles and a stance that said trained. His forearms had the density of someone who'd pushed past natural limits.
+
+    He looked at the horns. At the coat you were already shrugging off.
+
+    "Highland," he said. One word.
+
+    *page_break
+
+    The fight started without ceremony. The old Gorundai said "go" and the human moved.
+
+    He was fast. Faster than his size suggested — he closed the distance in two steps and threw a combination that would have broken ribs on someone who wasn't ready for it. A left hook to the body, a right cross to the head, both thrown with the mechanical precision of repetition.
+
+    You moved. The highland bouts had taught you one thing before they'd taught you anything else: a big body moves differently than a fast body, and the trick is being both. Your mother had drilled it — *feet first, horns last, and never let them see your weight until it's already on them.*
+
+    The left hook missed your ribs by two inches. You pivoted. The right cross grazed your temple — not clean, but enough to light a white flash behind your eyes and remind you that the dock bouts weren't a festival exhibition.
+
+    You answered. A straight right hand — no technique worth naming, just the weight of a 6'7" frame with Oni bone density behind the knuckles. The punch connected with his solar plexus and the sound it made was heavy and final.
+
+    He folded. Not down — forward, bending at the waist, his guard dropping for a fraction of a second. You didn't follow up. The highland code said a clean hit earns a clean count. You stepped back.
+
+    He straightened. Breathed. Looked at you — recalculating everything he'd assumed about this fight.
+
+    "Again," he said.
+
+    He came in lower this time. Smarter. Worked the body — three, four shots to the ribs that you caught on your arms, each one jarring. He knew that trading head shots with a half-Oni was a losing bet, so he went for the ribs, the liver, the soft architecture that didn't care about bone density.
+
+    It hurt. The ribs absorbed it and the pain was sharp and real and the courtyard got brighter the way it does when the body dumps chemicals you don't control.
+
+    And then — briefly, for less than a second — your forearms went dark.
+
+    The sheen. The same thing you'd seen on the dock worker's arms. The same thing the highland elders wore like armor. It crawled up from the wrists and hardened across the knuckles and the human's next punch landed on something that was no longer just skin over bone.
+
+    He felt it. His fist hit your forearm and the impact transferred wrong — his wrist buckled instead of your guard. He pulled back. Stared at your arms.
+
+    The sheen was already fading. Half a second. Gone.
+
+    *set dominion_armoring + 3
+    *if (dominion_armoring >= 30)
+      *set armoring_tier "Forged"
+    *if (dominion_armoring >= 10)
+      *if (dominion_armoring < 30)
+        *set armoring_tier "Tempered"
+
+    You hit him. A left hand to the body and a right hand that started at the hip and ended at his jaw and carried the weight of the highlands behind it. He went down. The packed earth caught him. He didn't get up immediately — not unconscious, but done. His body had made the decision before his mind caught up.
+
+    The crowd made noise. The old Gorundai counted. The human stayed down for the count and then rolled to his hands and knees and looked up at you with the grudging recognition of a professional who'd just been beaten by something he didn't understand.
+
+    The Gorundai pushed a purse across the crate. Coins. Heavy.
+
+    *set sovereigns + 48
+    *set selvaggio_fight_won true
+
+    "Four Gold, eight Silver," the Gorundai said. "Minus entry fee. Clean win. The crowd liked you — the Oni thing, the horns. You'll get bets next time."
+
+    There wouldn't be a next time. You'd come for money, not a career.
+
+    *if (crew_count > 0)
+      *if (crew3_name = "Kessara Veldt")
+        Kessara was waiting outside the courtyard. She was holding a cup of something she'd bought and hadn't drunk. She held it out to you, then pulled it back, then held it out again.
+
+        "I saw it," she said. Quietly. "Your arms. For a second, they —"
+
+        She stopped. Handed you the cup. Pulled out her Grimoire and started tapping notes into it, mouth set in a line that had nothing to do with the fight and everything to do with what she'd seen on your forearms.
+
+        "Four Gold, eight Silver. With Terrek's money and Sullavenne's —" she paused. "We haven't talked to Sullavenne yet."
+
+        "We have now," said a voice from the courtyard entrance.
+
+        Sullavenne Ohn stepped out of the shadow she'd been standing in. Dark blue coat. Scar. The same steady gaze.
+
+        "I watched the fight. I've been watching you since yesterday. I was Wardensea — I know what that sheen was on your arms and I know what it means and I know you don't have control of it yet." She looked at the purse in your hand. "You have four Gold. I have eleven. Between us, with whatever your crew has, the berth debt is covered."
+
+        *if (crew5_exists = false)
+          *set crew5_exists true
+          *set crew5_name "Sullavenne Ohn"
+          *set crew5_race "human"
+          *set crew5_role "Fighter"
+          *set crew5_loyalty 20
+          *set crew5_trust "tested"
+          *set crew_count + 1
+
+        The math resolved. Fight money plus Sullavenne's savings plus Terrek's contribution. The total crossed fourteen Gold. The ship was reachable.
+
+        *set sovereigns 5
+
+    *if (crew_count = 0)
+      You stood in the courtyard with a purse of coins and bruised ribs and the fading memory of your forearms going dark. Four Gold, eight Silver. Enough for a third of the berth debt. One fight wasn't going to solve this.
+
+      But one fight had changed the math. And it had changed something else — the crowd had seen you. The old Gorundai had announced your fight to the betting pool. Somewhere, a Grimoire had been broadcasting.
+
+      *set grimoire_followers + 50
+
+      Someone was going to have seen a half-Oni from the highlands beating a trained dock fighter with fists that flickered dark for half a second.
+
+      You needed the rest of the money. You needed a crew. The two problems were the same problem.
+
+      You went to the Anchor's Rest. Kessara Veldt was at her table. Terrek Ghaal was at the bar. Sullavenne Ohn was in her shadow. And this time, you didn't walk past any of them.
+
+      The conversation took twenty minutes. The math took five. Your fight money, Sullavenne's Wardensea savings, Terrek's six months of cooking wages. Kessara had nothing but skills and a willingness to work twenty-hour days repairing the ship. The total arrived at fourteen Gold and six Silver — two Silver short.
+
+      Kessara reached for her basalt Grimoire. Stopped. Her hand hovered. She pulled it from her harness and set it on the table, then adjusted its position twice, lining it up with the table's edge like she was organizing a workbench.
+
+      "This is worth eight Silver at any salvage stall. I'll use a limestone one until —" She turned the Grimoire over in her hands. Turned it back. Lined it up with the table's edge again. "Until we can afford better. It's fine. It's a device. I'm not —" Her thumb ran across the basalt casing one more time, finding the smooth spot where three years of grip had worn a groove. She pulled her hands into her lap. "It's fine."
+
+      She was still looking at it when Terrek gently slid it toward the center of the table, out of her reach.
+
+      The gap closed.
+
+      *set crew3_exists true
+      *set crew3_name "Kessara Veldt"
+      *set crew3_race "rathai"
+      *set crew3_role "Engineer"
+      *set crew3_loyalty 15
+      *set crew3_trust "known"
+      *set crew4_exists true
+      *set crew4_name "Terrek Ghaal"
+      *set crew4_race "gorundai"
+      *set crew4_role "Cook"
+      *set crew4_loyalty 10
+      *set crew4_trust "stranger"
+      *set crew5_exists true
+      *set crew5_name "Sullavenne Ohn"
+      *set crew5_race "human"
+      *set crew5_role "Fighter"
+      *set crew5_loyalty 15
+      *set crew5_trust "tested"
+      *set crew_count 3
+      *set sovereigns 0
+
+    *set ship_acquisition_method "fight_earned"
+    *goto claim_the_ship
+
+  #Work the docks for labor credit. No debt, no violence, no favors owed. The slow way is the clean way.
+    *set personality_loyalty %+ 5
+    *set personality_mercy %+ 3
+
+    You went to the dock boss — the grey-vested man at the main jetty intersection, the one who'd offered you work the day before. He looked up from his ledger.
+
+    "Changed your mind."
+
+    You had.
+
+    "Labor credit runs at one Gold per twenty days. But the dock authority also runs a fast-track for skilled heavy hauling — double loads, dangerous cargo, the jobs the regular crews won't take. Fuel barrels. Forge materials. The Gorundai shipments from the inner harbor where the heat warps the planking and the crates weigh as much as a man. Fast-track pays double. One Gold per ten days."
+
+    He looked at you — the height, the width, the frame that could carry what two humans couldn't.
+
+    "For someone your size, I'd guess triple rate. The loading bosses will fight over you. Three Gold per ten days. Fourteen Gold in — call it five days of hard hauling."
+
+    Five days. The departure wave was in four. Tight. Too tight for comfort, but not impossible — if you worked every waking hour and the dock authority processed the credit fast enough.
+
+    "Start now?"
+
+    *page_break
+
+    You hauled.
+
+    Fuel barrels from the inner harbor — two hundred pounds each, iron-banded. The regular crews carried one per trip. You carried two. The loading boss watched and stopped arguing. Forge shipments next — crates of raw iron, packed in straw that did nothing for the weight. Fourteen trips in the first hour. The boss stopped counting.
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara worked alongside you — not hauling, but repairing. She'd struck a deal with the dock authority: skilled repair labor at a Rathai engineer's rate counted as double credit. She spent the first day underneath a seized fishing sloop, replacing hull planking with tools from her harness and profanity from a vocabulary built across three dockyards.
+
+    *if (crew4_name = "Terrek Ghaal")
+      Terrek cooked for the loading crews. He'd negotiated food-for-credit — feeding the dock workers in exchange for labor points applied to your account. The dock boss agreed because the regular food cart had raised prices and the workers were eating garbage.
+
+      By the second day, the loading crews were asking for Terrek by name.
+
+    The days blurred. Haul. Eat. Sleep on the dock near berth eleven. Haul again. The Departure Bell rang twice more — two more bells you weren't ringing.
+
+    By day three, the dock authority ledger showed ten Gold credited. Two more days would close the gap. The departure wave was tomorrow.
+
+    The dock boss came to you on the morning of day four.
+
+    "Fourteen Gold, two Silver credited. The berth debt is fourteen Gold, eight Silver." He checked the ledger. "You're short six Silver Spans."
+
+    Six Silver. After four days of hauling cargo that would have broken anyone under six feet. Six Silver Spans between you and the ship.
+
+    *if (crew_count > 0)
+      *if (crew3_name = "Kessara Veldt")
+        Kessara had been repairing the ship for three days, working on credit and promise. She'd already replaced the forward deck planking and re-rigged the mast stays. She heard the number.
+
+        "I have it." She pulled coins from the inside pocket of her tool harness — six Silver Spans, counted out on the dock boss's ledger. "I've been saving the repair credit separately. In case we needed it."
+
+        The dock boss marked the ledger. The debt cleared.
+        *goto labor_finish
+
+      *else
+        Sullavenne Ohn appeared — she had a way of appearing, silent and precise, when the math required her. She set six Silver Spans on the ledger without a word.
+
+        "Consider it an investment," she said.
+
+        The debt cleared.
+        *goto labor_finish
+    *elseif (crew_count = 0)
+      Six Silver Spans. You'd earned fourteen Gold through labor and you were short by six Silver.
+
+      A voice from behind you.
+
+      "You've been hauling cargo for four days. I've been watching for four days. Here's what I know: you don't quit, you don't complain, and you carry more than any two men on this dock."
+
+      Sullavenne Ohn. Dark blue coat. Scar. Standing at the edge of the berth with six Silver Spans held between two fingers.
+
+      "I was Wardensea. I have eleven Gold in savings and skills your crew needs. I've been waiting for someone worth following south. You've spent four days earning a ship with your back instead of your fists or someone else's money." She set the coins on the dock boss's ledger. "That tells me what I needed to know."
+
+      Behind her — Kessara Veldt, tool harness clanking, already eyeing the ship. And beside Kessara — Terrek Ghaal, carrying a pot of something that smelled like breakfast.
+
+      They'd been watching. All three. Waiting to see what you'd do when the math didn't work.
+
+      *set crew3_exists true
+      *set crew3_name "Kessara Veldt"
+      *set crew3_race "rathai"
+      *set crew3_role "Engineer"
+      *set crew3_loyalty 20
+      *set crew3_trust "earned"
+      *set crew4_exists true
+      *set crew4_name "Terrek Ghaal"
+      *set crew4_race "gorundai"
+      *set crew4_role "Cook"
+      *set crew4_loyalty 15
+      *set crew4_trust "earned"
+      *set crew5_exists true
+      *set crew5_name "Sullavenne Ohn"
+      *set crew5_race "human"
+      *set crew5_role "Fighter"
+      *set crew5_loyalty 20
+      *set crew5_trust "earned"
+      *set crew_count 3
+      *set sovereigns 0
+      *goto labor_finish
+
+    *label labor_finish
+    *set ship_acquisition_method "labor_earned"
+    *goto claim_the_ship
+
+*label claim_the_ship
+*page_break
+
+The dock authority ledger updated. The berth debt cleared. The claim transferred.
+
+The man in the grey vest wrote a name on the form — your name, or rather the one on your entry permit: Merdou Akkan — and stamped it with a dock authority seal that smelled like hot wax and old paper.
+
+"Ship's yours. Hull designation Sundered Wake — you can rename it at the port authority for two Silver or just paint over it yourself."
+
+*set has_ship true
+*set found_ship true
+*set ship_name "Sundered Wake"
+*set ship_condition 35
+
+The Sundered Wake. A forty-four-foot ketch with a blue hull gone grey, two masts, a deep draft built for ocean swells, and a deck that needed more work than any of you wanted to admit. She sat in the water at berth eleven, and she was yours.
+
+Your hand found the rail. The wood was soft in places it shouldn't be. Everything this ship could do to kill the people aboard was your problem now.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was on deck within minutes. The tool harness came off. The tools came out. She was talking — not to you, not to anyone. To the ship. To the mast stays, the rudder mount, the soft deck planking in the forward section.
+
+  "I know. I know. We'll fix that. And that. And — yeah, that too. But you're solid at the keel and that's what matters."
+
+  She looked up from the forward hatch.
+
+  "I need two days. Three would be better. The sails need patches. The rudder mount needs a full rebuild — I can source the iron from the salvage yard. The rope is all new — none of this holds." She pulled a length of standing rigging and it frayed in her hand. "See?"
+
+  She threw the rope overboard without ceremony.
+
+  "Two days. Give me two days and she'll sail."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek inspected the galley. The ship's cooking space was a closet-sized compartment below the quarterdeck with a brick-lined firebox and storage that smelled like the previous cook had given up months before the captain died.
+
+  He opened the storage. Closed it. Opened the firebox. Scraped something off the inside with his fingernail and sniffed it.
+
+  "I can work with this. The firebox is functional. The storage needs cleaning — three hours, maybe four. Supplies are a different problem." He looked at whatever money remained. "We need food for five people for eight days minimum. Rice, dried fish, salt, oil, spice. Call it six Silver Spans for basic provisions. More if you want the crew to eat food instead of survival."
+
+  *set supplies 20
+  *set food_days 5
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne walked the deck once. Slowly. She checked sight lines — how much of the harbor was visible from the helm, from the bow, from the quarterdeck rail. She checked escape routes — how fast could five people get from below decks to above. She checked the weapons locker. Empty.
+
+  "No weapons on board. We need something. Boarding situations are common past Galluun's Tooth — not piracy, just territorial. Crews protecting their route." She looked at you. "You fight with your hands. I can work with that. But a crew needs contingency."
+
+  She didn't press. She'd stated the fact and let it sit. Wardensea training — present the assessment, let the commanding officer decide.
+
+*page_break
+
+Two days of work.
+
+Kessara rebuilt the rudder mount, re-rigged the stays, patched the sails — cursing in three languages at the rope prices. Terrek cleaned the galley and sourced provisions from the dock markets with the intensity of someone negotiating a peace treaty. Sullavenne inventoried everything on the ship and created a watch rotation in the leather notebook she carried in her coat. And you hauled — materials, provisions, water barrels. The ship came together one piece at a time.
+
+Two days. The ship was ready. The crew was assembled. Tomorrow was the departure wave.
+
+*page_break
+
+The evening before departure, the crew sat on the Sundered Wake's deck. Five people. One ship. The harbor at sunset was copper and grey and the water held the light like oil.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara sat cross-legged on the forward deck, her Grimoire propped on one knee — the cheap limestone replacement, cracked and dim, already showing the wear of three days' hard use. She was running calculations. Always running calculations.
+
+  "Route to Galluun's Tooth is three to five days depending on the currents south of the Bastion shelf. Could be faster if the north wind holds. Could be worse if it shifts." She looked up. "I'm navigating by chart and Grimoire relay. We don't have a Khari navigator. I keep saying that."
+
+  The absence in crew slot two was a hole the size of a person.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was cooking. On the ship. The first meal prepared on the Sundered Wake's brick firebox since its previous captain died. The smell was rice and fish and a sauce that he'd built from the spice sack — something that combined heat and sweetness in a ratio that made the deck smell like a place people chose to be.
+
+  He served it in the bowls he'd bought at the market — ceramic, mismatched, cheap, already the most personal objects on the ship. He set a bowl in front of each person and sat with his own and ate in the quiet, focused way he always ate.
+
+  "First meal on a ship," he said. "The highland tradition is you eat the first meal together and the food binds you to the journey. My mother told me that."
+
+  He looked at you. The unfinished tattoos on your forearm. The horns catching the last light.
+
+  "She'd have liked this. Feeding an Oni heading south on a ship held together by hope and an angry Rathai."
+
+  Kessara threw a piece of flatbread at him. He caught it without looking.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne sat at the stern rail, looking south. The harbor mouth was a dark gap between the jetties, and beyond it, the ocean. She hadn't spoken much during the two days of preparation — she'd worked, organized, contributed, and kept her own counsel. Now, with the evening settling and the crew gathered, she spoke.
+
+  "Wardensea patrol update. Commander Gress's three ships left yesterday morning — we saw them. They're running a south sweep to Galluun's Tooth and back, eight-day round trip. That means they'll be between Selvaggio and Galluun's Tooth when we depart. We will be inspected."
+
+  Nobody spoke.
+
+  "Standard inspection: manifest, crew roster, cargo check, captain's permit. We're clean on all counts — the Sundered Wake's claim is legal, the crew's papers are in order, we're not carrying contraband. The inspection will be tense and slow and the officers will look at the captain —" she looked at you "— and make assessments. An Oni half-blood in highland gear captaining a salvage-claim ketch with a crew of four is going to get attention."
+
+  She paused.
+
+  "My name is in the Wardensea system. They'll recognize me. That could be a problem or an advantage depending on the officer. If it's one of Gress's people, it's a problem."
+
+The sun went down. The lanterns came on — orange points reflected in the black water. The Departure Bell hung at the harbor mouth, bronze on stone, waiting.
+
+The crew settled into their spaces — Kessara forward with her tools, Terrek in the galley, Sullavenne in the stern cabin she'd claimed by putting her coat on the bunk and daring anyone to move it.
+
+You stayed on deck. The overcast hadn't broken since you'd arrived. The ocean beyond the harbor mouth was a black absence where the world ended and something else began.
+
+Four people who'd chosen you. Or chosen the idea of you — a half-Oni with no money and no name and no plan beyond a direction. South.
+
+*if (selvaggio_fight_won)
+  The knuckles of your right hand ached from the dock fight. And underneath the ache, something else. The memory of the sheen. The half-second when your forearms had gone dark and the world had felt different — heavier, more present, as if the air itself had weight and you were pushing through it.
+
+  The highland elders had a word for that feeling. *Kossk-sa*. The bone-shell waking. The Dominion stirring in the body like a tide coming in. Most Oni felt it by fifteen. You'd felt it once, at the First Bout, and then never again — until the dock fight. After years of silence, the bone-shell had moved.
+
+  Unreliable. Unready. A flicker, a suggestion, a promise that might break. But there.
+
+*if (selvaggio_fight_won = false)
+  The knuckles were calloused from hauling — rope and iron and the weight of a harbor's worth of cargo. The body was sore and the muscles were tired and underneath the exhaustion, something waited. A memory from the First Bout — the half-second when the bone-shell had surged, dark and unbidden, across your fists. The highland elders called it *kossk-sa*. The waking. Most Oni felt it by fifteen. You'd felt it once, and then the exile, and then nothing.
+
+  But the nothing had a quality to it now. A pressure. As if the bone-shell was there, asleep, and the distance between asleep and awake was shrinking.
+
+The harbor rocked the ship. The overcast held. Somewhere in the dark, the ocean breathed.
+
+Tomorrow. The bell.
+
+*goto_scene ch1_selvaggio_the_bell

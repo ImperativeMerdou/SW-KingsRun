@@ -1,0 +1,343 @@
+*comment ===================================================
+*comment  CHAPTER 1: SELVAGGIO — "The Gate"
+*comment  Scene 1: Arrival
+*comment  World terms introduced: Kingsrun, Grimoire, Sovereigns
+*comment  MC creation woven into the inspection checkpoint
+*comment ===================================================
+
+The smell came first.
+
+Fish oil and tar. Woodsmoke. Something fermenting in the heat — fruit or flesh, impossible to tell. Salt underneath all of it, the kind that gets into cloth and doesn't leave.
+
+Selvaggio.
+
+The cargo hauler that carried you south from Caldruun listed into the harbor on a current it didn't bother fighting. Three weeks of deck-sleeping, rat-dodging, and eating whatever the crew didn't finish — and this was the destination. The gate island. The last place people stop before they stop coming back.
+
+The harbor was a wound in the coastline, ringed on three sides by stone jetties black with age. Ships packed the water so tight their hulls touched — fishing sloops and trade barges and fast-hulled things with no flags and crews who watched the dock like they were pricing it. Hundreds of vessels. The masts made a forest against the grey sky, and the noise coming off the water was a wall of its own.
+
+Shouting. Rope-creak. A hammer on wood, over and over, somewhere to the left — someone was either building a ship or punishing one. Music from a docked sloop, a string instrument badly tuned, played by someone who hadn't let that stop them. And under all of it, the low electric hum of hundreds of small stone devices chattering at once, voices and tones bleeding into each other from every direction like a hive had cracked open. Somewhere a woman was yelling the word [i]barnacles[/i] with a fury that suggested the word meant something different here than it did in the highlands.
+
+The cargo hauler's captain — a Bastion Sea woman with salt-crust in her hair and no patience left — jerked her thumb toward the gangplank.
+
+"End of the line. Checkpoint's at the — north jetty. The big one." She waved vaguely at a jetty that was not the biggest. "Don't skip it or they'll find you and it'll be worse."
+
+She looked at you for a second longer than necessary. Looked at the horns. Started to say something. Stopped. Looked away.
+
+"Stay out of — good luck out there."
+
+The gangplank bowed under your weight. Forty feet of warped timber connecting the hauler's deck to a dock crowded with bodies — sailors, merchants, dock hands, beggars, three children chasing a dog between stacked crates, a woman selling fried something from a cart that smoked like a small fire. Nobody looked up. The dock absorbed you the way a river absorbs a stone.
+
+You were taller than most of them. The horns cleared the crowd by a foot, curving back from your temples in wide arcs that caught the light when you turned your head. People didn't stare — not here, not on a dock that processed a thousand strangers a week — but they adjusted. Gave you the extra six inches. Shifted their path without looking at you directly.
+
+The storm-leather coat hung open, heavy on your shoulders. Highland make — cured in volcanic ash, dark, built for mountain weather that Selvaggio had never seen. The skin-singer's work on your arms was visible past the sleeves: black ink in patterns that told a story, if you knew how to read it. The lines stopped halfway down your left forearm. Unfinished. The story cut short.
+
+*page_break
+
+The checkpoint was a stone booth at the north jetty's mouth, manned by two people in grey uniforms and one in a white coat.
+
+The white coat was the one who mattered. You could tell by how the grey uniforms looked at her — deference without warmth. She was young, human, with short dark hair and a jaw that kept resetting itself, like she was chewing on something she'd already swallowed. No stripe on the coat — low rank, but rank enough to run this checkpoint.
+
+A line of arrivals waited ahead of you. She processed them fast — name, origin, destination, purpose. A flat stone device on the counter glowed faintly as she tapped notes into it with a stylus. Same devices you'd been hearing all through the harbor. Pocket-sized. Carved limestone. Everyone had one.
+
+The line moved. A dock hand. A merchant with three crates of something that smelled like medicine. A pair of sailors who answered questions with the rehearsed ease of people who'd done this before.
+
+Your turn.
+
+The officer looked up. Registered the height. The horns. The ash-white skin. Her expression didn't change, but the stylus paused.
+
+"Name."
+
+*fake_choice
+  #Give her the truth. Merdou Akkan.
+    She wrote it down. Sounded it back under her breath — getting the shape of it. A highland name, or close to one. She'd have heard a few.
+  #Just the surname. Akkan.
+    "First name."
+
+    You held the pause a beat longer than courtesy allowed. The rest of the name crossed the counter like something dragged.
+
+    She wrote it down without comment. The pause told her more than the name did.
+
+"Origin."
+
+*fake_choice
+  #Sennaku Highlands. Don't flinch from it.
+    The stylus stopped. She looked at you again — not at the horns this time. At the coat. The unfinished ink on your arms. Highland gear on a lowland dock.
+
+    "Long way from home."
+
+    The grey-uniformed man behind her shifted his weight. His hand didn't move toward the weapon at his hip, but the thought crossed his face.
+  #Caldruun. Leave the highlands out of it.
+    True enough. The highlands were on Caldruun. The rest was none of her business.
+
+    "Caldruun's a continent, not an origin. Narrow it down."
+
+    A vague wave eastward. Enough to fill the form. Not enough to mean anything.
+
+    She wrote it. Didn't push. Either she believed it or she didn't care enough to argue.
+
+"Purpose of visit."
+
+The line behind you was growing. Someone coughed. The fried-food cart's smoke drifted across the checkpoint and the officer didn't blink.
+
+*choice
+  #Passage south. (The truth — you're heading for the open ocean.)
+    "South" meant one thing at Selvaggio. The route that started here and ended at the edge of the world — sixteen stops through water that got darker and meaner the further you went. Most people who said "south" at this checkpoint said it with a crew at their back and a ship in the harbor.
+
+    You had neither.
+
+    She looked at the coat again. The boots — highland-made, battered, soles worn from terrain that wasn't dock planking. The frame filling the checkpoint's doorway.
+
+    "Crew?"
+
+    *set personality_openness %+ 5
+    You said nothing.
+
+    "Ship?"
+
+    The same nothing.
+
+    She stamped the form. Slid a square of pressed paper across the counter — your entry permit.
+
+    "Departure Row's on the east wall. If you're looking for a crew or a berth, that's where." She paused. "Most people heading south have both before they get here."
+
+    *goto after_checkpoint
+
+  #Work. (Keep it vague. Don't advertise your plans.)
+    "What kind."
+
+    A shrug that covered the full spectrum from honest hauling to the other kind.
+
+    *set personality_openness %- 5
+    She studied you for a two-count. Half-breed in highland gear, big enough to pick up the checkpoint booth and walk away with it, asking about work at a port where "work" covered everything from honest hauling to the kind that raised your number on government lists.
+
+    She stamped the form.
+
+    "Stay out of trouble."
+
+    She slid the entry permit across the counter. Her eyes were already on the next person in line.
+
+    *goto after_checkpoint
+
+  #Just passing through. (Flat. Give her nothing.)
+    "To where."
+
+    Nothing. The answer was the absence of one.
+
+    *set personality_openness %- 10
+    *set rep_wardensea - 3
+    The officer's mouth thinned. She glanced at the grey-uniform behind her — a look that said *note this one* without a word spoken. Then she stamped the form.
+
+    "Enjoy Selvaggio."
+
+    She didn't mean it. She slid the entry permit across the counter and looked past you to the next in line. You'd given her nothing, and she'd given you a stamp with an edge on it. Fair trade.
+
+    *goto after_checkpoint
+
+*label after_checkpoint
+*page_break
+
+Past the checkpoint, Selvaggio opened.
+
+The dock district ran half a mile along the harbor's curve — a crush of timber structures built on top of each other, newer boards nailed over old ones, rooflines that didn't match because nobody had ever planned any of it. Stalls crowded every gap between buildings. Rope bridges connected second-floor walkways across streets too narrow for your shoulders. The ground was salt-stained planking over stone, slick with fish water and something the food carts left behind.
+
+And people. More people than you'd seen in one place in your life. None of them knew you.
+
+They came in every shape. Humans mostly — the majority everywhere, the default, the ones who ran the institutions and filled the ranks. But not only. A pair of figures built like siege towers pushed through the crowd ahead of you — green-skinned, tusked, a head taller than the humans around them. Dockhands, by the look of it, hauling crates that would have taken three humans to lift. One of them laughed at something the other said, a sound like rocks in a barrel.
+
+To your left, a woman barely four feet tall moved through the crowd at twice everyone else's speed, weaving between legs with the automatic ease of someone who'd spent her life at knee-height. Pointed ears, sharp features, a leather tool harness strapped across her chest with pockets that clinked with metal. She was arguing with someone on one of those stone devices — the carved pocket-things that were everywhere — talking so fast the words blurred together.
+
+"—told Veshk the manifold's cracked, he says it's fine, I say show me the fine, he says trust me, I say trust THIS—"
+
+She vanished into the crowd. A man next to you — human, middle-aged, chewing something that stained his teeth dark — watched her go.
+
+"Rathai," he said, to nobody in particular. Or to you. Hard to tell. "Fix everything, break everything, fix it again. Talk the whole time." He chewed. "Good people. Loud people. Same thing, down here."
+
+He looked up at you. Took in the horns, the height, the coat. Gave a small nod — the kind that acknowledged a thing without commenting on it.
+
+"First time?"
+
+*choice
+  #A nod. Keep it simple.
+    You returned the nod. A minimal transaction.
+
+    *set personality_openness %- 3
+    "Thought so." He spat something dark onto the dock. "You've got the look. Like you're trying to see all of it at once and it won't hold still." He jerked his chin toward the harbor. "Three hundred ships in that water right now. By the end of the month, half of them sail south. By the end of the year, half of THOSE are sunk, grounded, impounded, or turned around."
+
+    He let that sit.
+
+    "The other half keep going. That's the bet."
+
+    *goto harbor_view
+  #Stop. Turn toward him. Give him the full view — the horns, the frame, the coat.
+    You stopped. Turned. Gave him the full weight of your attention — six foot seven of highland Oni in a storm-leather coat, ram horns catching the overcast light.
+
+    *set personality_aggression %+ 3
+    He didn't step back. Credit to him. He looked at you the way a man looks at weather he can't change.
+
+    "Easy. I'm just talking." He spat dark onto the dock. "You've got the look. Fresh off a hauler, no crew, no ship, heading for Departure Row with nothing but whatever's in those pockets."
+
+    He wasn't wrong.
+
+    "I've been here six years. I've seen a thousand of you." He pointed at the harbor. "Three hundred ships. Half sail south by month's end. Half of those don't come back. That's just the math."
+
+    *goto harbor_view
+  #Keep walking. You didn't come here for conversation.
+    You kept walking. The man shrugged behind you — the sound of someone used to being ignored.
+
+    *set personality_openness %- 5
+    The harbor was ahead. You could see it through the gaps in the crowd — the forest of masts, the water dark with the shadows of hulls pressed together, the occasional flash of color from a flag or a painted figurehead.
+
+    Three hundred ships, the hauler's captain had said. Three hundred crews with plans and supplies and people who knew each other's names. You had twelve coins in your pocket that wouldn't cover a meal and a bed on the same night.
+
+    *goto harbor_view
+
+*label harbor_view
+*page_break
+
+The harbor's east curve gave you the view.
+
+Ships. Dozens of types you didn't have names for — fat-bellied traders, long warships with ram prows, sleek two-masted things that looked fast even standing still. Flags you didn't recognize. Paint schemes faded by salt. Crews on every deck, loading and unloading, repairing, arguing, sleeping in the sun.
+
+And on the stone wall above the main jetty, a board. Twenty feet wide, ten feet tall, covered in paper and ink. Names and numbers. Lines connecting them. Some papers fresh, some yellowed, some torn and replaced.
+
+You stepped closer.
+
+The board was organized by columns. Each column was a name — a person or a crew. Each row was a number and a note beside it.
+
+[i]Gannet Crew — 680M — Mid-Kingsrun, past Brannach. Last broadcast: Brannach fight footage. 1.2 billion views.[/i]
+
+[i]The Kindling — 275M — Early Kingsrun. Set the ocean on fire. That clip.[/i]
+
+[i]Deshanni Reapers — 520M — Deep Kingsrun. Further south than any other rookie crew. Captain laughed at a storm on broadcast. 900 million views.[/i]
+
+Numbers in the millions. Hundreds of millions. Beside each name, scrawled in different hands, notes that read like arguments:
+
+[i]"Gannet doesn't make it past the fortress."[/i]
+[i]"Reapers' captain is insane. Insane wins."[/i]
+[i]"Kindling = one trick. Runs out of ocean to burn."[/i]
+
+The numbers weren't money. They were something else — a measurement. A price on a person's head, set by the government that ran the white coats. The higher the number, the more the government wanted you gone. And here, on this board, the numbers were bragged about. Compared. Debated.
+
+A boy — human, maybe fifteen, barefoot, ink on his fingers — was pinning a fresh sheet to the board. New crew. New number. He saw you looking and grinned.
+
+"Checking the field? You've got time — big departures aren't for another week." He looked at you sideways. "Unless you're already on someone's crew."
+
+The question was obvious. So was the answer. Your silence gave it.
+
+"Right." The boy's grin didn't falter. "Departure Row. East wall. Can't miss it." He pointed without looking — the direction was muscle memory. "If you want a berth, talk to Pellune at the Anchor's Rest — she knows every ship that's hiring. Or Mellune. Wait, no, Pellune died. It's — the woman with the ledger. You'll know her."
+
+He looked at the storm-leather coat. The boots. The frame that said a lot and the pockets that said almost nothing.
+
+"If you want your own ship, you'd better be interesting. Or really, really big." He glanced up at the horns. "So — maybe."
+
+He went back to pinning papers. You stood at the board for another minute, reading names you didn't know and numbers that meant nothing to you yet.
+
+Somewhere behind you, deeper in the dock district, one of the stone devices was playing a broadcast loud enough to hear from fifty feet away. A voice — smooth, professional, used to being listened to — was reading a list.
+
+"—updated figures from the Bureau of Enforcement. Deshaan crew: five-twenty adjusted. Vosst crew: three-ten, holding. Gallacs crew—"
+
+Someone in the crowd groaned. Someone else laughed. A third person shouted a name and a counter-argument. The broadcast kept going, indifferent, and the crowd argued over it like it was sport.
+
+The sky over Selvaggio was the color of old iron. The air tasted like salt and ambition and something burning. Three hundred ships in the harbor and most of them were crewed by people who thought they were special.
+
+The dock stretched ahead. Departure Row was to the east. Somewhere on this island was a ship, a crew, and a reason to ring the bell.
+
+Twelve coins. No crew. No ship. No name on any board.
+
+*page_break
+
+The afternoon wore itself out against the harbor.
+
+You walked the dock district for two hours, learning Selvaggio with your feet and your eyes. The layout was chaos with a pattern underneath: the main jetty was the spine, side streets branching off like ribs, each dominated by a trade. Rope street. Tar street. A narrow lane where three competing food carts had merged their smoke into a single grey cloud.
+
+And everywhere, the stone devices — Grimoires, you'd hear them called. Palm-sized, carved limestone on the cheap ones, darker stone on the better. Everyone had one. Everyone was talking into one, tapping one, watching something on one. You didn't have one. The highlands had a few for the clan elders. Down here, not carrying one marked you as broke, stubborn, or from somewhere that didn't care about the rest of the world's conversations.
+
+*choice
+  #Study one of the devices up close — a discarded cheap one on a food cart's counter.
+    A food cart vendor had left one on the counter while she flipped something in hot oil. Limestone casing, cracked at one corner, the carved symbols on its face worn from use. The surface glowed faintly — blue-white, like foxfire. You could see text scrolling across it. Names. Numbers. The same kind of figures that covered the board at the jetty.
+
+    The vendor caught you looking. She was human, fortyish, wide, with a burn scar across one forearm that said she'd been flipping things in hot oil for a long time.
+
+    "First time seeing a Grimoire up close?" She wasn't mocking. The question was genuine. "Twelve coppers gets you a dead one at the salvage stalls. Twenty gets you one that works. Sort of."
+
+    She tapped the cracked device. "This one picks up six bands. Used to get eight, but the rune-lattice is shot. Still gets the bounty feeds and the weather. That's all anyone really —" She stopped. Flipped something in the oil, too late — it had burned on one side. She scraped it off the surface and dropped it onto a plate. "Three coppers. Slightly charred. Character building."
+
+    She looked at you again — the horns, the coat. Started to ask something. Stopped. Flipped another piece of fish.
+
+    "None of my business where you're headed. But if you're heading south, eat first. That's free advice. The food costs extra."
+
+    *goto dusk_approach
+
+  #Keep walking. You'll learn what you need to learn when you need to learn it.
+    The devices were everywhere and you were nowhere, and that was fine. You'd pick up how things worked down here the same way you'd learned everything: by watching until watching wasn't enough and then doing.
+
+    The highland way. Watch the elders. Watch the fighters. Watch the mountain until you understand what the mountain is doing. Then climb it.
+
+    Selvaggio was a living thing — ate people who moved too slowly, forgot people who moved too fast. The trick was finding the pace that let you see without being seen.
+
+    At your height, with your horns, "not being seen" was a theory.
+
+    *goto dusk_approach
+
+*label dusk_approach
+
+The light changed. Selvaggio's overcast sky shifted from grey to amber to a dull copper that turned the harbor water the color of old blood. The crowd didn't thin — it rotated. Day workers drifted out and a different population drifted in. Louder. Looser. The tavern doors along the east wall opened their mouths and the noise poured out like heat from a forge.
+
+Departure Row.
+
+You could hear it before you could see it — twelve establishments packed along a two-hundred-yard stretch of harbor-front, each one leaking music and argument and the specific sound of people spending money they might not live long enough to earn back. Lanterns hung from the eaves, oil-fed, throwing orange light across the foot traffic. The street was wide enough for a cart but no cart would survive the crowd. People moved in currents — into one tavern, out of another, clustering at the gaps between buildings to argue, trade, or watch the harbor.
+
+Above the door of the nearest tavern, a painted sign: **THE ANCHOR'S REST**. Below it, in smaller letters: *Crew board inside. Berths posted daily. No fighting on premises — house rule enforced.*
+
+The "enforced" was underlined twice.
+
+The evening was starting. Departure Row was where the business happened — crews forming, ships hiring, reputations being built or wrecked in a single conversation. If you were going to find a ship and a crew, this was where.
+
+But the day had been long. Three weeks on a cargo hauler, the checkpoint, the walk, the weight of a place that moved faster and louder than anything you'd grown up with. The twelve coins in your pocket could buy a meal or a bed. Not both.
+
+*choice
+  #Head into the Anchor's Rest. The crew board won't wait, and neither will you.
+    The door was heavy timber. You pushed it open and the room hit you — noise, heat, the smell of food and spilled drink and too many bodies in a space built for half of them. The crew board was on the far wall. Names, ship names, positions needed, pay offered. A living document, pinned and re-pinned, scrawled over and crossed out.
+
+    You stepped inside. The doorframe required you to duck — the horns cleared it by two inches.
+
+    Three people at the nearest table stopped talking when you walked in. One of them picked up her drink and put it down without drinking. They started again a second later, louder than before, as if the conversation had never paused.
+
+    *set personality_aggression %+ 3
+    *goto scene_end
+
+  #Find food first. Empty stomach, bad decisions.
+    The food carts near Departure Row were busy. You found one with the shortest line — a woman running a grill made from half a ship's anchor, green-skinned and broad and built like she'd been born behind that grill. The menu was whatever she pointed at. You pointed back.
+
+    Eight of your twelve coins got you a slab of grilled fish on flatbread, dense and hot, with a sauce that tasted like someone had declared war on your tongue with peppers and vinegar.
+
+    *set sovereigns 4
+    You ate standing up, back to a wall, watching Departure Row's mouth. The food was good. The sauce was an assault. The warmth in your chest was the first thing all day that carried the weight of home — not the taste, but the act. Eating well before doing something hard. Highland tradition: never fight hungry.
+
+    *set personality_loyalty %+ 3
+    *goto scene_end
+
+  #Find a spot above the crowd and watch. Learn the patterns before you walk into them.
+    There was a stone staircase at the end of the dock row that climbed to a second-level walkway. From there, you could see Departure Row laid out below — the twelve taverns, the foot traffic, the flow of people in and out.
+
+    You sat on the top step. The stone was warm from the day's heat. The ram horns caught the lantern light from below, and a dock worker climbing past you flinched — saw the shape before they saw the person.
+
+    "Sorry. Didn't — the horns. I mean, not that they're — I've seen horns. I work with a Gorundai on the night shift who has — they're not the same kind of horns, I know that. Sorry."
+
+    *set personality_openness %- 3
+    They kept climbing. You could hear them muttering to themselves all the way to the top. You stayed. Watched. Departure Row moved in patterns. Crews entered in groups and left in groups. Individuals entered alone and some left alone and some left with new people at their sides. The taverns closest to the harbor pulled the biggest crowds. The ones further back were quieter.
+
+    The pattern was the same as a highland festival market. Noise at the center, deals at the edges.
+
+    *goto scene_end
+
+*label scene_end
+*page_break
+
+The sky over Selvaggio went dark. The harbor lanterns doubled in the water, orange on black.
+
+No crew. No ship. Nothing but a highland coat, a fistful of coins, and a name that nobody at Selvaggio had heard yet.
+
+The bell at the harbor mouth — the departure bell — was a dark shape against the sky. Bronze. Old. Not tonight. But you'd ring it. You hadn't walked down from the Sennaku Highlands and crossed half a continent to watch other people leave.
+
+*goto_scene ch1_selvaggio_docks

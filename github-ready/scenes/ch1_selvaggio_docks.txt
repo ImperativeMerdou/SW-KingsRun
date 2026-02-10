@@ -1,0 +1,267 @@
+*comment ===================================================
+*comment  CHAPTER 1: SELVAGGIO — "The Gate"
+*comment  Scene 2: The Docks
+*comment  World terms introduced: Wardensea (named), Dominion/Armoring
+*comment  (shown), bounty system (context), Goltieri's presence (felt)
+*comment  3 real choices. Zero fake choices.
+*comment ===================================================
+
+Morning on the docks was a different machine than the night.
+
+The drunks and dreamers had crawled back into their rented beds. What replaced them was labor — organized, loud, and governed by a hierarchy you could read if you watched long enough. The loading crews answered to dock bosses. The dock bosses answered to a man in a pressed grey vest who stood at the main jetty's intersection with a ledger and didn't raise his voice because he didn't need to. And the man in the grey vest answered to a name that was painted on the jetty's support columns, scratched into the dock planking, whispered by the loading crews when they thought the dock bosses weren't listening.
+
+Goltieri.
+
+You didn't know the name yet. You learned it the way Selvaggio taught everything — by proximity.
+
+Two dock workers unloading a fishing sloop. One of them — human, young, arms roped with muscle — dropped a crate. Something inside it shattered. The other dock worker, older and thinner, went pale.
+
+"That's a Goltieri shipment."
+
+"It's fish. It's — there's more fish. They won't even notice."
+
+"They notice. They count the fish." The older man's voice had gone flat. "They count everything."
+
+The older man was already walking toward the dock boss. The younger one stood over the broken crate with a look that said he was calculating whether to run. He didn't run. Nobody ran from a broken crate at a dock. But nobody forgot who owned the fish, either.
+
+You filed the name. Goltieri. Someone who owned the docks — not the buildings, but the fear.
+
+*page_break
+
+The morning work gave you cover. At your height you couldn't hide, but you could blend into the purpose of the place — walk like you belonged, move like you had somewhere to be. It almost worked. The dock crews looked at you and saw the size first. Good. Size meant labor value. A half-Oni built like a stone wall could haul cargo that would take two or three humans. That was worth tolerating the horns.
+
+A dock boss — the grey-vested man at the intersection — saw you pass and called out without looking up from his ledger.
+
+"You. Big one. Need work?"
+
+Twelve coins in your pocket. Four, if you'd eaten last night. The offer was practical. The docks paid daily. A day's hauling bought food and a bed for two nights.
+
+But a day hauling was a day not spent finding a crew or a ship. And the departures wouldn't wait.
+
+You kept walking. The dock boss shrugged and went back to his numbers. He'd asked the question a thousand times and heard every answer. Yours wasn't interesting.
+
+The docks narrowed as you moved east along the harbor's curve. The main jetty gave way to smaller berths — private, rented by the week, occupied by the ships that were here for reasons beyond fishing or trade. Faster vessels. Leaner hulls. Crews that watched the walkway instead of working it.
+
+Two men sat on the edge of one berth, legs dangling, eating something from a shared bowl. Both wore heavy canvas jackets over leather, practical and salt-stained. One had a short blade on his belt — not a work tool, a weapon. The other had nothing visible, but his forearms had a quality you recognized.
+
+You'd seen it once in the highlands. An elder, mid-bout, whose skin had gone dark — not shadow, not bruise. A sheen, like oil on water, that crawled up from the wrists and settled over the knuckles. The elder had hit a stone column and the column had cracked. The skin hadn't.
+
+This dock man's forearms had that same density. Resting, but the tissue underneath was wrong in a way that said it had been hardened by something that wasn't exercise.
+
+He caught you looking. Held your gaze for a beat — not aggressive, assessing. Then he nudged his companion.
+
+"Oni. Half, maybe. Or big human with — no, that's horn. That's definitely horn."
+
+"Highland. The curve's wrong for lowland Oni."
+
+"There are lowland Oni?"
+
+"Not anymore."
+
+They went back to their food. You kept walking. The assessment was mutual.
+
+*page_break
+
+The eastern berths ended at a stone seawall where the harbor met open water. Three ships were docked in a row, larger than the fishing sloops, smaller than the warships. Working vessels with scarred hulls and crews that moved with the economy of people who'd done this a hundred times.
+
+Between the second and third ship, on the narrow dock, a problem was happening.
+
+A woman — short, dark-skinned, with close-cropped hair and a tool belt that weighed more than she did — was standing in front of a stack of crates marked with a symbol you didn't recognize. She had her arms crossed and her chin up, which put her eye level somewhere around the chest of the man blocking her path.
+
+He was big. Not Oni-big, but big for a human — six foot two, wide, with a shaved head and a face that had been rearranged by fists more than once. He wore the grey vest of a dock boss, but his was newer and cleaner than the one at the main jetty. A brass pin on his collar — a bell shape.
+
+Goltieri's people. You were learning to read the pins.
+
+"The crates stay," the man said. "Dock fee's doubled for independent berths. New policy."
+
+"New since yesterday." The woman's voice was flat and precise. Her hand was on her tool belt, tightening a wrench that was already tight. "I paid dock fees for the week. The receipt's on your ledger."
+
+"Ledger's been updated."
+
+"In the middle of the night."
+
+"Policy changes when policy changes." The dock enforcer smiled. It didn't reach his eyes or try to. "You want the crates, pay the difference. You can't pay, the crates secure the debt."
+
+Behind the woman, on the deck of the second ship, two crew members were watching. They weren't coming down. The dock enforcer outweighed the woman by a hundred pounds and had three more of his people standing twenty feet back, pretending to inspect a hull.
+
+The woman noticed you. Not your face — your shadow. It fell across the crates and kept going. She looked up. Took in the height, the horns, the storm-leather coat. Her expression didn't change, but her weight shifted — half a step back, making space she hadn't needed a moment ago.
+
+The enforcer noticed her looking and turned.
+
+He was six-two. You were six-seven. He had a hundred pounds on the woman. You had a hundred on him. The ram horns added another dimension that weight couldn't measure — the shape of something that was not entirely human standing in the narrow dock space.
+
+His smile lost a degree. His left foot shifted back — not a step, just a weight adjustment. The kind of thing a body does when the head hasn't decided yet.
+
+"Help you?" he said.
+
+*choice
+  #Step closer. You don't need to say anything. Let the shadow do the talking.
+    You stepped forward. One step. The dock planking groaned under your weight.
+
+    The enforcer's three backup men stopped pretending to inspect the hull. They were looking now. The one nearest had his hand on something at his belt.
+
+    You didn't look at them. You looked at the enforcer. Straight down, because that was the geometry of it — six-seven to six-two, and the horns added the rest.
+
+    He held for two seconds. Then three. His jaw worked. His right hand opened and closed once — the unconscious motion of a man checking where his weapon was without reaching for it.
+
+    *set personality_aggression %+ 8
+    *set personality_mercy %+ 3
+    "Fine." He said it to the woman, but he was watching you. "One-time courtesy. The crates stay. Fee resets at end of week."
+
+    He stepped back. Not quickly — he controlled the retreat, made it look like a decision instead of a concession. Professional. But a concession it was.
+
+    The woman watched him go. Watched his three men follow. Then she looked at you.
+
+    "I didn't ask for that." She uncrossed her arms. Crossed them again. Uncrossed them. Her hands didn't seem to know where to go now that the confrontation was over.
+
+    "I mean — thank you. No. I mean I didn't need it. But also thank you." She pinched the bridge of her nose. "I'm bad at this part." She was shorter than you'd first estimated — five foot three, maybe less. Up close, her hands were the kind that had spent years inside machinery. Grease under the nails that no amount of scrubbing would remove. The tool belt wasn't for show.
+
+    "Tessavenne Gruul offered me a berth on the Polished three months ago. I turned it down because Vosst's crew runs on ledgers, not loyalty." She looked at the crates, then at you. "I have twenty crates of replacement hull plating that I need moved to a ship that doesn't exist yet, because the ship I was crewing on sank two weeks ago. The Wardensea — the white coats, if you've been here less than a day — impounded the salvage and called it contraband."
+
+    She stuck out her hand. The gesture was precise, habitual, mechanical.
+
+    "Dussa Kervenne. Engineer. Currently shipless, crewless, and out of patience."
+
+    *set met_officer_selvaggio true
+    *goto after_dock_conflict
+
+  #Walk past. This isn't your fight and she didn't ask for help.
+    You walked past. The enforcer watched you go — tracked the horns, the coat, the frame — and then turned back to the woman with the relief of a man whose problem just simplified itself.
+
+    "So. The fee."
+
+    Behind you, the woman's voice stayed flat and controlled. She'd handle it or she wouldn't. People at Selvaggio solved their own problems or they didn't solve them. That was the math of this place and you'd learned it in the highlands, where the clan didn't carry anyone who couldn't carry themselves.
+
+    *set personality_aggression %- 5
+    *set personality_loyalty %- 3
+    Thirty feet past the confrontation, you stopped. Not because of the woman. Because of what was happening on the dock to your right.
+
+    A loading crew was unloading barrels from a shallow-hulled transport. One of the crew — young, human, couldn't have been older than twenty — was struggling with a barrel that the others handled in pairs. He was trying to muscle it alone. Proving something. The barrel slipped and he caught it, barely, and in the second of effort something happened to his forearms.
+
+    A dark sheen. Brief. Like oil catching light. It crawled up from his wrists, hardened, and then faded as his grip steadied and the barrel stopped moving.
+
+    The worker next to him — older, Gorundai, green-skinned and unmoved — glanced at the sheen and grunted.
+
+    "Tempered. Barely. Stop showing off and use two hands."
+
+    The young man flushed and grabbed the barrel properly. The dark sheen was gone. Nobody else on the dock had noticed.
+
+    Armoring. The highlands had another word — *kossk*, the bone-shell — but down here they called it Armoring. You'd seen the elders use it. You'd seen the clan's strongest fighters wear it like a second skin during festival bouts. Your own had flickered once, during the First Bout, in the second before everything went wrong.
+
+    You kept walking.
+
+    *goto after_dock_conflict
+
+  #Stay where you are. Watch. See how this resolves — it'll tell you how power works at Selvaggio.
+    You stopped. Leaned against a berth piling — the wood complained but held — and watched.
+
+    *set personality_openness %+ 5
+    The enforcer saw you watching. It changed his math. Not enough to back down — the woman and her crates were a small-value shakedown, routine, not worth losing face over. But enough to make him efficient about it.
+
+    "Half rate. Call it a correction. Pay by sundown."
+
+    The woman stared at him. The number was still wrong, but it was less wrong. She was calculating — not the money, the politics. What fighting this cost versus what paying it cost. The dock enforcer had twenty more years of these calculations behind him and he knew the answer she'd reach.
+
+    "Half rate," she said. "And a receipt."
+
+    "Receipt's extra."
+
+    "A receipt," she said, "or I file a cargo dispute at the port authority and your name goes on the audit ledger. Goltieri doesn't like audits."
+
+    The enforcer's face went flat. He pulled a scrap of paper from his vest, wrote on it, and handed it over. The woman took it without looking at it.
+
+    He left. His three men followed. The woman stood alone with her crates and a scrap of paper that was worth more than the money it represented.
+
+    She noticed you leaning against the piling. Her eyes traveled the full length of you — boots, coat, arms, horns.
+
+    "Enjoy the show?"
+
+    You pushed off the piling. The dock protested again.
+
+    She watched you move. Measuring. People at Selvaggio measured everything.
+
+    "You stood there and watched a man try to rob me."
+
+    She was testing what kind of person stands still during someone else's problem.
+
+    "I'm Dussa Kervenne. That ship —" she pointed at the second vessel, the one with the crew who hadn't come down to help — "was my berth until two weeks ago. Sank in a reef crossing. The Wardensea — the white coats at the checkpoint, you've seen them — impounded everything we salvaged and called it contraband. I've been on this dock arguing with Goltieri's people for eleven days."
+
+    She crossed her arms.
+
+    "You're new. Highland, from the coat. And you're watching instead of doing, which means you're either smart or you don't care about anyone but yourself. I haven't decided which."
+
+    *set met_officer_selvaggio true
+    *goto after_dock_conflict
+
+*label after_dock_conflict
+*page_break
+
+The morning burned toward noon. The stone dock absorbed the sun and threw it back. You walked the berths. Counted ships. Listened.
+
+The ones heading south were easy to spot — departure flags, provisions in long-voyage quantities, crews too focused to notice you watching. The first stop south of Selvaggio was something called Galluun's Tooth. A coral island. Reef-locked anchorage. "First test of navigation," one sailor had said, with the weighted tone of someone who'd watched ships fail it.
+
+The Kingsrun. Sixteen stops south into water that stopped being charted and started being storied. The route the strongest man in the world had sailed and then vanished on, twenty-two years ago. Down here, the Kingsrun was everything — the test, the proving ground, the road that turned nobodies into names the world argued about.
+
+And the white coats — the Wardensea, Dussa had called them — patrolled every mile of it.
+
+Their ships were easy to spot in the harbor. White-hulled, clean-lined, flying a standard with a wave crest. Three of them occupied the north end of the harbor in a neat row, berths cordoned with chain. Crews in grey uniforms moved on their decks with the coordinated rhythm of people who'd been drilled.
+
+On the nearest Wardensea ship's quarterdeck, an officer stood with a long-glass, scanning the harbor. White coat. A single stripe on the shoulder. She swept the glass across the merchant berths, the independent docks, the departure flags. Cataloging. Every ship that was loading for a southbound run, noted.
+
+Two grey-uniforms on the dock below her were stopping a departing crew — four people carrying supplies toward a berth. Papers checked. Cargo examined. The inspection was polite and thorough and the crew waited through it with the rigid patience of people who understood that arguing made it longer.
+
+"Wardensea," said a voice at your elbow.
+
+You looked down. The speaker was a boy — the same ink-fingered kid from the bounty board yesterday, or his twin. Barefoot, wiry, chewing a strip of dried fish. He'd materialized beside you with the automatic stealth of someone who'd grown up on docks.
+
+"You were staring. Don't stare at the — white coats don't like it when you stare. They notice." He bit off another piece of fish, talked through it. "Three ships this rotation. Four? No, three. Wait. Might be four. The — doesn't matter. Commander Gress, she's the — the one up there, with the glass? She does this thing where she just —" He mimed sweeping a spyglass with his fish strip, lost his grip, caught it. "She logs every crew heading south. Like, every one. Bounty above zero, she's got your name. Zero, she's wondering what you're hiding. It's — yeah. Don't stare."
+
+He looked up at you. The horns didn't bother him. He'd been born on a dock where everything came through.
+
+"You don't have a bounty yet, do you."
+
+Not a question. The coat, the boots, the aimless walking. Nobody with a bounty walked Selvaggio's docks alone and directionless.
+
+"That'll change if you ring the bell. The second you clear the harbor on a southbound heading, you're in the system. Wardensea starts a file. Bounty starts at zero but it doesn't stay there."
+
+He pointed at the bounty board, visible from here as a patch of color on the jetty wall.
+
+"Every name on that board started right where you're standing. No crew, no ship, no number. Just a dock and a direction."
+
+He finished his fish, wiped his hands on his trousers, and squinted up at you one more time.
+
+"The Anchor's Rest. Departure Row. That's where the crews form. You're running out of time to stand here — the next departure wave is six days out and the good berths go fast."
+
+He was gone before you could decide whether to nod or not. Dock kids. Fast-talking, fast-moving, and they knew Selvaggio the way you knew the highland trails — by muscle memory.
+
+*page_break
+
+The sun hit its peak and the dock became a furnace.
+
+You found shade under an awning where a Varrek woman was selling charts — actual navigation maps, hand-drawn on cured skin, priced in denominations that made your twelve coins a joke. She sat behind her table with the posture of someone who had not moved in hours and did not intend to. Thin, grey-haired, spectacles pushed up on her forehead, surrounded by tubes of rolled charts.
+
+She didn't look up when your shadow fell across her table.
+
+"If you can't afford them, don't touch them."
+
+Reasonable. You didn't touch them. But you looked. The charts were detailed — coastlines, depth markings, current arrows, reef boundaries. Handwritten notes in small precise script. One chart was labeled in a language you didn't recognize.
+
+"That one's Silverborn script," the Varrek said, still not looking up. "Decorative. The actual navigation data is —" She stopped. Pulled the chart closer. Adjusted her spectacles. "No. That one's Kolmari commercial notation. I mislabeled it." She pulled a pen from behind her ear and scratched out something in the corner. "Two Gold Sovereigns for the Kingsrun entry charts — stops one through three. Five Gold for one through six. Fifteen for the full run, but nobody buys the full run because nobody makes the full run."
+
+Two Gold Sovereigns. You had twelve copper coins. The currency converted at approximately one Gold to two hundred copper. The chart she was offering cost more than everything you'd earned in the last year of highland life combined.
+
+"The Wardensea sells outdated charts at the port authority for twenty coppers," she said. "They're accurate to within five years and two degrees of drift. Most crews use them. The ones who survive use mine."
+
+She finally looked up. Adjusted her spectacles. Took you in — the whole of you, head to heavy boots, with the analytical attention of someone who measured the world for a living.
+
+"Highland Oni. Alone. Copper-poor. Heading south." She said it like reading a chart — facts, no judgment. "You'll need a navigator more than you need my charts. Good navigator makes charts secondary. Bad navigator makes charts useless."
+
+She went back to her work. Conversation over. You'd been dismissed by a woman a third your size who sold paper for a living and was entirely right about everything she'd said.
+
+The shade was good. The harbor rhythm was becoming legible — Wardensea patrols on a ninety-minute rotation, dock enforcers checking berths at irregular intervals, loading crews shifting with the tide. The pattern underneath the chaos.
+
+Six days until the next departure wave. Six days to find a crew, find a ship, and earn the right to ring a bell.
+
+You pushed off the awning and headed east.
+
+*goto_scene ch1_selvaggio_departure_row

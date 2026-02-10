@@ -1,0 +1,461 @@
+*comment ===================================================
+*comment  CHAPTER 4: BRANNACH — "The Fissure Stop"
+*comment  Scene 2: The Fissures
+*comment  The fissure mines. Deep, hot, claustrophobic for
+*comment  a 6'7" Oni. Meeting Kovesse Thrallek. Named
+*comment  Gorundai NPC. Major fight scene — Kingsrun
+*comment  predator. MC's Dominion tested — Armoring holds
+*comment  three seconds longer. Something is growing.
+*comment  2 real choices. Zero fake choices.
+*comment ===================================================
+
+Dawn came through the ash.
+
+The light was orange — filtered through the volcanic plume that drifted east of the island, the sun rising behind a curtain of particulate that turned the morning into something that looked like an ending rather than a beginning. The ash on the deck had accumulated overnight into a grey film that Kessara had already begun clearing, working the tarp's angle to shed the worst of it into the harbor water.
+
+The fissure approach was on the north side of the ridge.
+
+Brukka Venn had said to follow the sound. The sound was the volcanic harmonic — the low-frequency vibration that had been constant since arrival, transmitted through the stone, through the dock, through the soles of the boots. On the north side of the ridge, the harmonic was louder. Not a background presence but a foreground one. The mountain's voice, unobstructed by three hundred feet of basalt, speaking directly from the fissures into the open air.
+
+The path over the ridge was cut into the rock — stone steps carved by Gorundai labor, wide enough for a loaded ore-carrier, with iron handrails bolted into the basalt at intervals. The climb was steep. The heat increased with every step — the south side of the ridge held the harbor's sheltered warmth, but the north side was the volcanic field itself, and the temperature differential was immediate. By the halfway point, the storm-leather coat was an oven. By the ridgeline, the air tasted of sulfur thick enough to coat the tongue.
+
+The fissure field.
+
+From the ridge, the north face of the island was visible in its entirety — a landscape of black rock, fractured and venting, the fissures running through it like cracks in a fired pot. Nine active vents produced columns of white-grey vapor that rose and dispersed in the morning air. The dull orange glow of the new fissure was visible on the northwest face — brighter than the established vents, the color more intense, the heat shimmer distorting the air above it in a way the others didn't. The mining operation spread across the field. Iron tracks for ore carts. Stone platforms at the fissure mouths. A ventilation network of pipes and bellows that the Rathai engineers maintained. Gorundai miners moving between the approaches in groups of four and six, carrying picks and pry-bars and the basalt-lined packs that held the raw ore.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne had come to the ridge with the long-glass. She wouldn't enter the fissures — the heat and the claustrophobia were not her terrain. But she'd wanted to see the field.
+
+  "Industrial extraction on an active volcanic site. The Gorundai have been mining this island for —" she looked at the infrastructure — "at least sixty years, based on the depth of the track cuts and the layering on the ventilation pipes." She lowered the glass. "The ore is volcanic basalt with embedded metallic compounds. At the forge temperatures they achieve with the natural gas, that ore produces blade-grade iron that conventional forges can't match."
+
+  She looked at you.
+
+  "Brukka's fissure is the third approach from the left. The shift is already down there. I'll be on the ridge."
+
+*page_break
+
+The fissure approach was a slot in the rock — eight feet wide, fourteen feet high at the entrance, narrowing as it descended. The walls were warm to the touch. Not hot. Warm. The temperature of living skin, as if the rock itself had a pulse. The volcanic harmonic was tactile here — the vibration traveling through the walls, through the floor, through the air in a way that made the chest hum with a frequency below hearing.
+
+The descent was forty feet.
+
+The fissure opened at the bottom into a chamber that was not a cave but a wound — a gap in the mountain's structure where two rock faces had separated, creating a space thirty feet wide and a hundred feet long, the ceiling at nine feet, the floor uneven and littered with ore fragments. The light came from the fissure itself — a crack in the far wall, two feet wide, glowing orange, the magma behind it close enough to illuminate the chamber in a wash of amber that made the dark rock look wet.
+
+The heat was serious. The air was dense with it — not the dry heat of the surface but a humid, mineral-saturated warmth that pressed against the lungs and made each breath a negotiation between oxygen and temperature. The Gorundai miners worked in it. Six of them, stripped to the waist, using picks and pry-bars to crack the ore-bearing rock from the chamber walls. The work was rhythmic. The pick strikes fell in a pattern that interlocked with the volcanic harmonic, the two rhythms creating a composite sound that was both industrial and geological.
+
+Brukka Venn was at the extraction face. She saw you and pointed to the cooling platform — a stone shelf near the fissure entrance where the ore was staged before being carried to the surface.
+
+"Carry."
+
+The first load was fifty pounds.
+
+The ore came in basalt shells — dark, rough-edged, warm. Not hot enough to burn through leather gloves, but warm enough that the heat was constant, accumulating in the hands and forearms over multiple loads. The carry was two hundred yards — from the extraction face through the fissure chamber, up the approach slot, to the cooling platform on the surface. The slot was the problem. Eight feet wide at the entrance, narrowing to six feet at the tightest point. For a six-seven Oni with a broad frame and ram-curved horns, the slot was a series of calculations — angle the horns, drop the shoulder, move the ore without scraping the walls.
+
+The Gorundai miners navigated the slot without adjusting. They were large — larger than humans, the tusked jaws and dense frames filling the space with the ease of bodies shaped by the same architecture. But their builds were proportioned differently. Wider in the shoulder, shorter in the height. The fissure was their workplace, built to their dimensions. Your height was the problem. Your horns were the complication.
+
+The first trip took eight minutes. The second took six. By the third, the body had found the fissure's rhythm — the angle for the horns, the hip-turn at the narrow point, the placement of each foot on the uneven floor that avoided the loose ore fragments and the thermal vents in the rock.
+
+By the sixth trip, your forearms were shaking.
+
+Not from the weight. Fifty pounds was nothing — the highland training had conditioned the body for loads twice that. The shaking was from the heat. The sustained thermal exposure was draining energy in a way that cold and altitude did not. The body was working to stay cool and to carry ore simultaneously, and the two demands competed for the same resources.
+
+*page_break
+
+Kovesse Thrallek was at the far end of the chamber.
+
+She'd been there since before you arrived — Brukka had mentioned it without emphasis, the way she mentioned any miner on the shift. The Gorundai captain of the Inheritors was working the extraction face with a pick, stripped to the waist, her green-brown skin sheened with sweat and volcanic dust. She was twenty-six. She was large — Gorundai large, six-two, dense, the tusked jaw and the heavy brow and the shoulders built for the swing of a pick as much as for the swing of a weapon. Her Armoring was visible. A residual density in the skin — passive, permanent, the Dominion compressed into the body at a level that didn't require activation. Tempered. The word for someone whose will had been forged into a second layer of flesh.
+
+She didn't look up when you entered. She didn't look up for the first hour.
+
+The Gorundai miners tracked both of you. Nobody said anything. Nobody rearranged the work order. But by your third carry, the route had changed — not on paper, not by instruction. The miners had shifted their positions, opening a lane that put your carry path within ten feet of Kovesse's extraction face. The adjustment was wordless and collective and had the subtlety of a dinner party seating chart designed by someone's mother.
+
+On the seventh carry, Kovesse straightened.
+
+She was holding an ore piece — not in a basalt shell, but raw, a chunk of volcanic rock the size of a melon, shot through with veins of bright metal that caught the fissure light. She turned it in her hands. The hands were Gorundai hands — thick, calloused, the nails cracked from the rock. But younger than Brukka's. Less scarred. The hands of someone who'd been mining for three weeks, not three decades.
+
+She looked at you.
+
+The assessment was Gorundai — direct, physical, unhurried. She saw the horns, the build, the sweat, the ore dust on the arms. She saw a half-Oni carrying basalt shells through a fissure that hadn't been built for someone that size. Her face was level. Measuring. The expression of someone looking at something she hadn't expected to see and was deciding how to categorize.
+
+"You carry." Her voice was Gorundai — short, declarative. "Most crews stay on the dock." She turned the ore piece in her hands again. Set it down. Picked it up. Put it in the wrong pile. Moved it to the right one. "Kovesse Thrallek. You already know that. The Grimoire's been saying my name for weeks. I'm tired of hearing it and I can't turn it off."
+
+Not a question. The Grimoire had been broadcasting her crew's presence at Brannach for weeks.
+
+*set met_kovesse true
+
+*if (crew4_name = "Terrek Ghaal")
+  Your Terrek had not come into the fissure — the cook's role was the ship, the galley, the provisions. But Kovesse didn't know that. What Kovesse knew was that the Sundered Wake had a Gorundai crew member — human-passing, but Gorundai by blood. The Grimoire had mentioned it. Veshanna Torc had mentioned it. The Kingsrun was a small world and the crews on it were smaller.
+
+"Your engineer. Kessara Veldt. Rathai, right? Dussa says she's good." The reference was casual — two engineers noticed by each other, professional respect transmitted through the grapevine of dock-side observation. "And Sullavenne Ohn. Former Wardensea. That's unusual for a Kingsrun crew."
+
+She picked up her pick. Hefted it. The weight sat in her hands with the comfort of repetition.
+
+"My mother ran this route thirty-nine years ago. Stop Fifteen. Senmovar turned her back." She swung. The pick bit the rock and a chunk came free. She put it in the pile. Put the next one in the wrong pile again. Moved it. "I keep saying I'm not trying to be her. I say it a lot. To my crew, to the Grimoire, to —" She swung again, harder. "I'm finishing what she started. That's different from being her. Supposedly."
+
+She swung again. The rhythm of the work resumed. The silence between swings was Gorundai silence — work-silence, where the pick said what the mouth wouldn't.
+
+*page_break
+
+The morning shift ran four hours.
+
+By the end, you had carried twenty-six loads. Thirteen hundred pounds of volcanic ore, moved two hundred yards each trip through a fissure slot that required constant adjustment. The arms were heavy. The legs were solid but warm — a deep fatigue that was thermal as much as muscular. The lungs had adjusted to the sulfur air, which was not the same as being comfortable with it. The body had learned the fissure. The fissure had not become easier.
+
+Brukka Venn marked the loads on a stone tally near the cooling platform. She looked at the number. Then at you.
+
+"Twenty-six." She scored the tally. Checked it. Scored it again — she'd lost count somewhere and was reconciling. "First shift. A Gorundai carrier does thirty. An experienced one doesn't make thirty-five." She looked at the tally. "Your back's strong. Your lungs are —" She made a sound. A Gorundai assessment-sound, somewhere between a grunt and a verdict. "Highland. Thin air, not hot air. Different demand."
+
+She put the tally stone down. Picked it back up.
+
+"Come back tomorrow. I'll see if you temper or crack."
+
+The descent from the ridge was easier than the climb. The harbor air felt cold after the fissure — a relative cold, the temperature still warm by any standard, but the contrast made your skin prickle as the sweat began to cool. The Sundered Wake was at the outer berth, the tarp angled against the ash, the crew visible on deck.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara met you at the dock. She looked at the hands. Looked away. Looked back at the hands.
+
+  "You went into the fissures." She took your hand — not gently, the way an engineer takes a component — and turned it palm-up. The skin was red, raw, the basalt shells' edges mapped in welts. "How deep?"
+
+  She listened. Didn't let go of the hand.
+
+  "The gases will corrode your — three days. Maximum. The heat is cumulative and you don't feel the deficit until it's already —" She stopped. Put your hand down. Pulled wrapping cloth from her harness. Started wrapping without asking. "Leather underneath, cloth over. The basalt edges are —" She wrapped tighter than she needed to. Her hands were steady. Her jaw was not. "Come back from the fissures with hands. That's all I ask. I need you to have hands."
+
+*page_break
+
+The trouble came in the afternoon.
+
+The Sundered Wake's crew was on the dock — resupplying, purchasing provisions from the market stalls, hauling water from the cistern. The routine of a Kingsrun stop, repeated now for the fourth time, the process becoming efficient through repetition. The dock was open. The ore-loaders had shifted to the afternoon crew. The Regrade's scaffolding rang with the welders' work. The harbor was busy in the way Brannach's harbor was busy — not crowded, but purposeful, every person moving with a task that justified their presence.
+
+The three men came from the unmarked schooner.
+
+The ship — the one Sullavenne had noted on approach, small, no markings, schooner rig — had been quiet since the Sundered Wake's arrival. No crew visible on deck. No activity. A ship that was either empty or waiting.
+
+It was waiting.
+
+Three men on the dock. Human. Armed. The first was tall and thin, carrying a short sword on his left hip and a second blade strapped to his thigh. The second was shorter, heavier, with a crossbow slung across his back and the weathered look of someone who'd spent years on salt water without ever running a Kingsrun of his own. The third was the one who mattered.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne saw them first. Her hand went to your arm — a grip, not a touch. Warning.
+
+  "The schooner. Three crew, armed. The leader — the one in front — is wearing a Wardensea-pattern belt with the insignia filed off. Ex-military or stolen. His sword is Craft-grade Resonance — I can hear the tone from here."
+
+  She released the grip.
+
+  "They're not looking at the dock. They're looking at us."
+
+The leader was mid-thirties. Medium build, medium height, a frame that didn't announce itself — no size advantage, no obvious strength. Brown hair cut short. A scar across the bridge of the nose that said someone had tried to take his face and mostly failed. His eyes were wrong. Not the eyes of a sailor. The eyes of someone who calculated distances between himself and other people and converted those distances into tactical decisions.
+
+He walked directly to the Sundered Wake's berth.
+
+"The half-Oni." His voice was flat. Professional. "You've been on the Grimoire since Selvaggio. Small crew, small ship, cargo from Merrenbach. The Kolmari have a recovery contract on those spice crates."
+
+*if (galluuns_tooth_challenge = "took_box")
+  "And whatever was in the Galluun's Tooth wreck. The Kolmari aren't the only ones listening to the Grimoire."
+
+*if (galluuns_tooth_challenge = "left_box")
+  "The Kolmari insurance office at Galluun's Tooth filed a report on a small crew matching your description. Diving on claimed wrecks. Whether you took anything or not, the report exists."
+
+He stopped six feet from you. The distance was deliberate — outside arm's reach, inside conversational range. The two men behind him spread, one to each side. Not flanking. Positioning.
+
+"Drellen Maas." He said it like he was used to saying it and tired of the sound. "I recover things. Ships, cargo, sometimes — well. You get the idea."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne stepped forward. Her posture was Wardensea — the unconscious bearing of someone who'd spent years in a uniform.
+
+  "Recovery agent. Operating under whose license? The Kolmari don't hire freelancers for early-route cargo — the insurance payout is cheaper than the commission."
+
+  Drellen looked at her. The assessment was fast.
+
+  "Former military. Fourth Division? No — Second. The bearing's different." He smiled. The smile was thin. "You're right. The Kolmari didn't hire me. I hired myself. The recovery contract is open — anyone who returns the cargo gets the commission. It's listed on the Blue-band commercial boards. Thirty percent of recovered value."
+
+  "Thirty percent of six Gold Sovereigns is less than two Gold. You sailed a schooner to Brannach for two Gold."
+
+  "I sailed a schooner to Brannach for multiple opportunities. Your cargo is one."
+
+*choice
+  #Step between the crew and Drellen Maas. Whatever this man is selling, the answer is physical — a half-Oni standing at full height, horns and shoulders filling the dock space, making the calculation explicit. The cargo stays. The discussion is over.
+    *set personality_aggression %+ 3
+
+    The step forward closed the six-foot gap to three. Drellen Maas didn't retreat. His eyes moved — up, to the horns, to the shoulders, back to center. The calculation was visible. He was measuring you against his own capability and his two men's combined capability and the distance to the schooner and the number of Gorundai on the dock who might or might not intervene.
+
+    "The half-Oni approach." His voice didn't change. "Physical presence as negotiating tool. It works on most people. Most people aren't standing on a dock with a Resonance blade and fifteen years of experience using it."
+
+    He drew the sword.
+
+    The sound was wrong. Not the scrape of steel leaving leather — a sound underneath it, a frequency, a vibration that the ears registered as tone rather than noise. The Resonance. Craft-grade. Cutting Tone. A blade designed to disrupt Armoring. The sunlight caught the metal and the metal held it differently than ordinary steel — the surface rippled with a pattern that was forged into the molecular structure, the smith's work visible as a signature in the blade's reflection.
+
+    "I don't want to fight a half-Oni on a dock. It's expensive, it's loud, and the Gorundai will get involved. But if you're standing between me and a legitimate recovery contract, we're having the conversation your way."
+
+    His two men moved. The crossbow came off the back. The second blade cleared its sheath.
+
+    *goto fight_scene
+
+  #Hold position. Let the crew handle the conversation. Drellen Maas is talking — people who are going to attack don't announce themselves first. He wants something, and finding out what costs nothing.
+    *set personality_loyalty %+ 3
+
+    The dock held. Three men from the schooner. The Sundered Wake's crew. The Gorundai ore-loaders at the adjacent berth, watching with the dispassionate attention of people who'd seen dock confrontations before and would see them again.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne continued. "Multiple opportunities. Meaning you're not here for us specifically. You're working the route — trailing small crews, filing recovery claims on anything that looks undefended. The Kolmari contract is your cover. Your real income is whatever you can take from ships that can't stop you."
+
+      Drellen's smile stayed. "She's good."
+
+      "I was trained by people who hunted people like you."
+
+      "And then you left and joined a rookie Kingsrun crew with a half-Oni captain and a cargo hold full of someone else's spice." He shrugged. "The commission is legitimate. The contract is posted. I'm offering a civilized resolution — you surrender the cargo, I pay you the Kolmari standard finder's fee, ten percent. Everyone walks away."
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara was behind you. She'd moved — not obviously, not dramatically. She'd shifted from the deck to the dock and positioned herself between the crossbow man and the Sundered Wake's mooring lines. An engineer protecting the ship.
+
+    The negotiation lasted four minutes. Drellen Maas spoke in the flat tone of a professional. The terms were simple: the spice cargo from Merrenbach, surrendered at dock, in exchange for a ten percent finder's fee. The alternative was unspoken but present in the positioning of his two men and the Resonance blade on his hip.
+
+    *if (merrenbach_deal = "accepted")
+      Six Gold Sovereigns' worth of spice. Thirty crates hauled from a wreck at thirty feet. Two hours and forty-eight minutes in the water at Merrenbach. The deal with Suuvi Renn. The trust earned in the fissure. The cargo was not just money. It was proof that the crew could do the work.
+
+    *if (merrenbach_deal = "declined")
+      The cargo hold was light. The spice crates from Merrenbach were absent — the deal with Suuvi Renn had not been made. Whatever Drellen Maas thought was in the hold, the hold was simpler than he expected.
+
+    The negotiation failed. It failed because Drellen Maas was not negotiating — he was positioning. The talk was the preamble. The blade was the sentence.
+
+    He drew.
+
+    The Resonance tone filled the dock — a frequency that the stone and the iron and the water reflected back, the Craft-grade Cutting Tone designed to shear through Armoring. His two men moved simultaneously. The crossbow came up. The second blade cleared.
+
+    *goto fight_scene
+
+*label fight_scene
+
+The fight was ugly.
+
+A dock brawl. A recovery agent with a Resonance blade and a half-Oni with nothing in hand except the distance between them and the willingness to close it.
+
+Drellen Maas was fast. The sword moved in short arcs — no wasted motion, no theatrical swings. The blade came at your leading arm in a cut that would have opened the forearm to the bone. Your arm pulled back. The blade passed three inches from the skin and the Resonance tone hummed in the gap — the frequency close enough to feel, a vibration that said the metal was singing and what it sang was designed to cut through things harder than flesh.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek moved. The cook from the Kethrun district was not a fighter by role, but a Gorundai who'd grown up around miners was a Gorundai who'd learned that problems were solved by closing distance. He went for the crossbow man — not with a weapon, with mass and speed and the absolute certainty that forward was always the correct answer. The crossbow fired. The bolt went wide — panic shot, the kind that happens when the target is covering ground faster than the trigger finger can track. Terrek hit the crossbow man at full stride and they went off the dock edge together, into the shallow water between the berths.
+
+*if (crew4_name != "Terrek Ghaal")
+  The crossbow man raised his weapon. The bolt fired — wide, panicked, punching into the dock planking two feet from your left boot. Before he could reload, two Gorundai ore-loaders stepped off the adjacent berth and put themselves between the crossbow and the fight. They didn't speak. They didn't need to. The crossbow man looked at two Gorundai miners built like furnace doors and decided reloading was optional.
+
+*if (crew3_name = "Kessara Veldt")
+  The second swordsman came at Kessara. She had no weapon. She had an iron mooring pin — eighteen inches of dock hardware, pulled from its ring with the leverage of an engineer who knew which direction the threads ran. The pin was not a sword. But it was iron, and it was heavy, and Kessara swung it with the mechanical efficiency of someone who understood force vectors and applied them to the nearest available problem.
+
+*if (crew3_name != "Kessara Veldt")
+  The second swordsman circled left. He had a blade and room to use it. But the dock was Gorundai territory, and the ore-loaders at the adjacent berth had stopped working. The swordsman looked at them. Looked at you. The calculation was simple — one half-Oni in front, two Gorundai miners behind, and a dock that had decided whose side it was on. He lowered his blade.
+
+Drellen Maas. You. The dock.
+
+The recovery agent moved like someone who'd fought for fifteen years and survived all of it. His feet found the dock planking's dry spots — no stumble, no slip, the footing calibrated by reflex. His blade worked in patterns that you had never seen because you had never fought someone with a Resonance weapon. The tone was constant. Every swing carried it — a frequency that said the edge would cut through more than flesh, that the metal itself was a weapon against the body's natural defenses.
+
+The first cut landed.
+
+Across the left forearm. Shallow — you had pulled back, the highland reflexes turning a deep cut into a surface wound. But the Resonance tone bit deeper than the edge. The vibration traveled through the cut, into the forearm, through the muscle, and it felt wrong — a disruption in the body's integrity, a frequency designed to interfere with the thing that made Armoring possible.
+
+The blood was hot. The pain was secondary to the wrongness — the sense that the blade had touched something underneath the skin that wasn't physical.
+
+The second swing came at the ribs.
+
+And the body answered.
+
+The sheen. The same dark film that had covered the forearms in the Selvaggio dock fight — oil on water, crawling up from the wrists. But different. Faster. The sheen didn't flicker this time. It spread. Across the forearms, up to the elbows, across the chest where the blade was aimed. A dark surface that hardened in the half-second before impact.
+
+The Resonance blade hit the sheen.
+
+The tone screamed. The Cutting frequency met the Armoring and the sound that resulted was a collision of two forces designed to override each other — the blade's song versus the body's will, the smith's craft versus the raw material of Dominion. The blade cut. The Armoring held.
+
+One second.
+
+Two seconds.
+
+Three seconds.
+
+The blade pushed through. The Armoring cracked — a surface failure, the dark sheen splitting along the line of the cut, the Resonance finding the seam and exploiting it. The edge reached the skin and opened a line across the ribs — shallow, the same depth as the forearm cut. But the blade had been stopped for three seconds by something that hadn't been there before.
+
+*set dominion_armoring + 5
+*if (dominion_armoring >= 30)
+  *set armoring_tier "Forged"
+*if (dominion_armoring >= 10)
+  *if (dominion_armoring < 30)
+    *set armoring_tier "Tempered"
+*set injured true
+*set injury_type "resonance_cuts"
+*set injury_severity 2
+*set injury_days_remaining 2
+
+Drellen Maas stepped back. His expression had changed — the professional calculation replaced by something less controlled. He'd felt the resistance. He'd expected to cut through a half-Oni's flesh with a Craft-grade Resonance blade and meet nothing. He'd met three seconds of something.
+
+"Armoring." He said it like a diagnosis. "Flicker-grade. No — that held too long for Flicker."
+
+The sheen was fading. It receded down the arms, back to the wrists, gone. The three seconds were over. But the memory of them was in the body — a warmth distinct from the fissure's residual heat, a density beyond muscle, the specific knowledge that the skin had been more than skin and could be again.
+
+You closed the distance.
+
+Without the sheen. Without Armoring. With two hundred and sixty pounds of highland Oni build and the fundamental physical truth that a half-Oni who reaches grappling range against a swordsman has changed the terms of the negotiation.
+
+Drellen was fast. The blade came up — a desperate defensive swing aimed at your leading hand. Your hand took the cut across the knuckles. The blood was immediate. The pain was real. But the hand didn't stop. It found Drellen's sword arm at the wrist, and the grip that closed was the grip of someone who'd spent the morning carrying thirteen hundred pounds of volcanic ore through a fissure.
+
+The sword dropped.
+
+The dock planking caught it. The Resonance tone died when the blade left the wielder's hand — the frequency cutting out like a voice mid-sentence, the silence sudden and absolute.
+
+Your other hand found Drellen's collar. The recovery agent's feet left the dock. Six-seven and two-sixty against five-ten and a hundred and seventy. The math was Oni math — the kind that didn't require explanation because the explanation was happening in real time, in the air, three inches above the dock surface.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was already there. She had Drellen's second blade — picked up from where it had fallen when you closed range. She was holding it correctly. The Wardensea training held.
+
+  "The crossbow man is in the water. Your swordsman is on the dock with an iron pin dent in his shoulder. And you're suspended by a half-Oni who spent the morning mining volcanic ore." She looked at Drellen's feet. "How's the calculation now?"
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek pulled himself out of the water between the berths. The crossbow man was still in it — not unconscious, but stunned, floating on his back with the dazed look of a man who'd been hit by a Gorundai at full speed and was reconsidering his career trajectory. Terrek was soaked. He was grinning. The grin was Gorundai — wide, satisfied, the expression of someone who'd just done something purely physical and was exactly as happy about it as his bloodline dictated.
+
+  "I like Brannach," he said.
+
+The Gorundai ore-loaders hadn't moved. They'd watched the entire fight from the adjacent berth with the attention of people assessing a structural test. Brukka Venn's crew. Miners who evaluated material under stress for a living.
+
+One of them — the large one with the deep green skin, the one who'd tracked you on arrival — spoke. His voice carried the short declarative cadence of his race.
+
+"Not bad." Two words. Gorundai praise.
+
+*page_break
+
+The aftermath was Brannach's version of justice.
+
+Brukka Venn came down from the forge district twenty minutes after the fight. She'd heard about it the way information traveled on a small island — through the miners, through the dock workers, through the Gorundai network that processed physical events with the efficiency of a fire brigade. She looked at the three men from the schooner, lined up on the dock, disarmed, the recovery agent's Resonance blade confiscated.
+
+"Recovery agent." She said it the way she'd say "rat." The same number of syllables. The same degree of respect. "You sailed to Brannach to shake down a rookie Kingsrun crew on my dock. My dock."
+
+Drellen Maas opened his mouth.
+
+"Don't." Brukka's voice dropped to a register that the volcanic harmonic couldn't compete with. "The dock fee for the schooner is two Silver a day. You've been here four days. That's eight Silver. Pay it and leave. Or don't pay it and explain to the forge district why you think Brannach's dock is free."
+
+The schooner left within the hour. The dock felt different after — a tension that had been present since the unmarked ship's arrival, a tension nobody had consciously registered, now absent. The harbor water closed over the wake.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was writing. The notebook filled with the tactical assessment she'd been composing since the first swing.
+
+  "Drellen Maas. Recovery agent, freelance. Craft-grade Resonance sword, Cutting Tone. Trained — fifteen years minimum. He wasn't lying about his experience. What he was lying about was his intent. The Kolmari contract was real — they do post open recovery bounties on commercial boards. But a two-Gold commission doesn't justify a schooner deployment to Stop Four."
+
+  She looked up.
+
+  "He was scouting. Us, the Inheritors, whatever else comes through Brannach. Recovery agents who work the early Kingsrun stops profile crews for clients further south. He'll sell his observations — crew composition, combat capability, cargo manifest — to anyone who pays."
+
+  She paused.
+
+  "He'll sell the Armoring observation."
+
+  She said it plainly. The dark sheen. The three seconds. Drellen Maas had seen it, had felt it, and had named it. That information had value, and it would travel.
+
+*if (crew5_name != "Sullavenne Ohn")
+  The schooner's wake was still visible on the harbor water. Drellen Maas had seen the Armoring. Had felt it. Had named it — "Armoring," spoken like a diagnosis on a public dock. Recovery agents worked the early Kingsrun stops for a reason. They profiled crews. Sold observations to clients further south. Crew composition. Combat capability.
+
+  The dark sheen. The three seconds. That information had value. And Drellen Maas had left with it.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara looked at your hands. The knuckle cut from the Resonance blade. The forearm cut. The rib cut. All shallow. All bleeding.
+
+  "The rib cut is the one that matters. The forearm and knuckles are surface — clean them, wrap them, they'll close in two days." She looked at the rib wound. "This one the blade held against for three seconds before it broke through. That's not normal. The blade should have cut through immediately — Craft-grade Resonance against unprotected skin is instant. Something slowed it."
+
+  She looked at your forearms. The sheen was gone. The skin was ordinary — ash-white, Oni, marked with ore dust and blood.
+
+  "The thing that slowed it. Can you do it again?"
+
+  The question hung. The body didn't have an answer. The sheen had come unbidden, the same way it had come in Selvaggio — a reactive surge, the body answering a threat before the mind could process the question. Three seconds instead of half a second. Longer. Stronger. Reactive, involuntary, and gone the moment the threat passed.
+
+*choice
+  #Go back to the fissures tomorrow. The morning shift. The work. Kovesse. The ore. The heat teaches the body things the dock can't — endurance, resistance, the hard conditioning that volcanic rock demands. The Armoring came from the body under stress. The fissures are stress.
+    *set personality_aggression %+ 3
+    *set dominion_armoring + 2
+    *if (dominion_armoring >= 30)
+      *set armoring_tier "Forged"
+    *if (dominion_armoring >= 10)
+      *if (dominion_armoring < 30)
+        *set armoring_tier "Tempered"
+
+    The decision was physical. The body had done two things today — carried ore for four hours and fought a Resonance-armed recovery agent on a dock. Both had demanded something from you that you hadn't known was available. The ore had demanded endurance. The fight had demanded Armoring. The fissure was the place where both demands converged.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne looked at you. She was quiet for a long moment.
+
+      "The Wardensea has a term for what happened on the dock. Reactive Armoring surge — involuntary deployment under threat. It's how most Armoring users discover their capacity. The next step is replication under controlled stress." She paused. "A volcanic fissure qualifies as controlled stress."
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara wrapped the cuts while you sat on the dock. Her work was precise — clean, bandage, wrap. The engineering of the body.
+
+      "The ore work is progressive loading. Each shift adds thermal stress and physical demand. If the Armoring is stress-responsive —" she tied off the last wrap — "the fissure is a training ground."
+
+    The morning would come. The fissure would be there. Kovesse Thrallek would be there, swinging her pick, carrying her mother's route in her body. And you would be there, carrying ore, learning the mountain, and waiting for the dark sheen to come again.
+
+    *goto scene_close
+
+  #Stay on the ship. Let the cuts heal. The fight proved something — the Armoring is real, it's growing, and it came when it was needed. Pushing it in the fissures risks the body before the body is ready. The crew needs you functional, not broken by volcanic heat and Resonance wounds.
+    *set personality_loyalty %+ 3
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara's response was immediate. "Correct. The Resonance cuts will interact with the thermal stress from the fissure. The blade's frequency disrupted whatever produced the Armoring — if you go back into the heat before the disruption clears, the body is fighting on two fronts." She wrapped the rib cut with extra attention. "One day. Maybe two. Let the cuts close and the tissue recover. Then the fissures."
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne sat on the deck. The notebook was open.
+
+      "The Wardensea's Armoring training protocol requires twenty-four hours between surge events. The body needs recovery time to consolidate the gains — reactive surge without recovery produces diminishing returns." She looked at you. "One day on the ship. Observe. Recover. Then back to the fissures for the forge conversation."
+
+    *if (crew4_name = "Terrek Ghaal")
+      Terrek cooked. The meal was heavier than usual — double protein, extra carbohydrates, the Merrenbach kelp broth enriched with Brannach's mineral water. Recovery food. The cook understood that the body had been asked for more than it had been given time to prepare for, and the cook's response was caloric intervention.
+
+      "Eat. All of it." He set the bowl down. "The highland elders used to say the body rebuilds in sleep and food. Sleep is tonight. Food is now."
+
+    The ship held. The harbor held. The volcanic harmonic held its pitch — the mountain's voice unchanged by the day's events, the geological clock running on a scale that made human conflict irrelevant. The ash fell. The evening came. The cuts ached in the specific way that Resonance wounds ached — not just pain, but a vibration in the tissue, a memory of the blade's frequency stored in the flesh.
+
+    *goto scene_close
+
+*label scene_close
+
+*if (armoring_tier = "Flicker")
+  *set armoring_tier "Tempered"
+*set broadcast_count + 1
+*set latest_broadcast "brannach_dock_fight"
+
+*page_break
+
+The night on Brannach was different from the first.
+
+The Grimoire crackled at dusk. Veshanna Torc's voice — clipped, factual, the cadence of a reporter who confirmed before she broadcast.
+
+"Kingsrun Watch. Stop Four update. The Sundered Wake crew — half-Oni captain — confronted and expelled an armed recovery agent at Brannach harbor this afternoon. Three-on-four engagement on the dock. No fatalities. The recovery vessel has departed south."
+
+A pause. Then: "The Sundered Wake's captain is four stops in and already drawing iron. Make of that what you will."
+
+*if (crew5_name = "Sullavenne Ohn")
+  The broadcast ended. Sullavenne looked at the Grimoire, then at you.
+
+  "Four stops. That's early to be on Veshanna's broadcast. She doesn't cover crew fights unless the crews are worth watching."
+
+The fight had changed the dock's awareness of the Sundered Wake. The Gorundai ore-loaders nodded at you now — small motions, minimal, Gorundai-calibrated. Acknowledgment. The half-Oni who carried ore in the morning and dropped a recovery agent in the afternoon had passed a test that the Gorundai valued without needing to name.
+
+The Inheritors had watched. Sureth Kellane had watched from the Regrade's deck, arms crossed, expression unchanged. The Inheritors' Terrek had watched with the grin of an Oni who'd seen a fight he enjoyed without being in it. Dussa Kervenne had watched from under the scaffolding, her attention split between the combat and the repair schedule.
+
+Kovesse Thrallek had not been on the dock. She'd been in the fissures. When she returned at dusk, Sureth told her. Kovesse listened without expression, then looked at the Sundered Wake at the outer berth.
+
+"The half-Oni." Two words. Then she went to her ship.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne's evening report was delivered at the rail, looking south, the smoke column catching the last light.
+
+  "Summary. Day one at Brannach. Morning: fissure work, first contact with Kovesse Thrallek. Afternoon: confrontation with recovery agent Drellen Maas, three-on-four dock fight, hostile neutralized and expelled." She paused. "And your Armoring held a Resonance blade for three seconds. At Selvaggio, it lasted half a second. The growth is measurable."
+
+  She looked at you.
+
+  "Three seconds of Armoring against a Craft-grade Resonance blade. The Wardensea classifies that as Tempered — professional-grade. The baseline for any crew member expected to fight. Below that threshold, you're a civilian who gets lucky. Above it, you're a combatant who can be trained."
+
+  She let that settle.
+
+  "You crossed it today. On a dock, in a fight you didn't start, four stops into the Kingsrun. The standard Armoring development curve is years. You've done it in days. Either you're exceptional, or you were always capable and the highlands never gave you a reason to find out."
+
+The mountain spoke in the dark. The harmonic was constant — the pitch that Brukka had said dropped three days ago, the new baseline, the mountain's current voice. The ash fell. The tremors came every forty minutes. The island was alive.
+
+The Regrade's lanterns went dark. The Inheritors slept.
+
+The Sundered Wake held its berth. The outer pier. The escape position. The ship that could leave.
+
+But not yet. Not yet. Brannach had more to give.
+
+Tomorrow: the forge.
+
+*goto_scene ch4_brannach_forge

@@ -1,0 +1,410 @@
+*comment ===================================================
+*comment  CHAPTER 5, SCENE 3 — KELVANNI: CRISIS
+*comment  Wardensea patrol. Neutral zone tested.
+*comment  Moral choice. Grimoire cliffhanger.
+*comment ===================================================
+
+*comment ---------------------------------------------------
+*comment  MORNING — THE THIRD DAY
+*comment ---------------------------------------------------
+
+The third morning at Kelvanni began with a sail on the northern horizon.
+
+White canvas. Single mast. The shape was wrong for a merchant — too narrow, too upright, the hull cutting the water instead of riding it. The kind of ship built for speed and jurisdiction. The kind of ship that flew a flag with a word written on the back.
+
+The Kindling had left at dawn. Suuba's crew had cast off in the grey light, the eleven-person operation moving with the coordinated silence of people who had done this together enough times that departure was muscle memory. Drossik Verath had been at the helm. Suuba had been at the bow, facing south, already moving past Kelvanni in her head before the mooring lines cleared the water. The Sundered Wake's crew had watched from their berth. The gap between the two crews — one running clean, one running injured — had widened by the length of a ship and the distance of a heading.
+
+Now the gap was a sail, and the sail was Wardensea.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne saw it first. She was on the ship's deck, coiling lines — the hands-busy work that ex-intelligence officers defaulted to when their brain needed something to process. She stopped mid-coil. Her eyes were on the sail. The line went slack in her hands.
+
+  "Second Division cutter." She said it flat. Professional. Then her voice caught. "Twelve crew. One — no. Thirteen. Twelve and an officer." She corrected herself the way she corrected everything — immediately, annoyed at the error. "Patrol range — they're out of Ossengaard's southern circuit, which means they've been running the Kingsrun stops for provisioning or personnel recovery." She paused. "Or both."
+
+  She looked at you.
+
+  "Personnel recovery means they're looking for someone. The Second Division doesn't send cutters to resupply — they use cargo runners. A cutter at Kelvanni means they have a name and they think the name is here."
+
+The cutter was twenty minutes from the dock. Twenty minutes to decide how the Sundered Wake would meet the Wardensea at a medical station.
+
+*choice
+  #Stay visible. On the porch. On the dock. Let the Wardensea see exactly who's here — a half-Oni captain with no bounty, no charges, and no reason to hide. Visibility is its own kind of armor.
+    *set personality_aggression %+ 3
+
+    You stayed on the porch. The bench. The open posture of someone who had nothing to conceal and the size to make concealment pointless anyway. The horns were visible from the harbor approach. Good. Let the white coats count them.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne's eyes cut to the harbor approach, then back. "You're making yourself a landmark." She adjusted her coat collar. "Fine. If they're focused on you, they're not scanning the deck for me." She moved toward the ship. Casual. The walk of someone going nowhere in particular, at the exact pace of someone going somewhere specific.
+
+    *goto harbor_shifts
+
+  #Pull the crew together. Secure the ship. Whatever the Wardensea wants, the Sundered Wake should look like a crew with discipline and a captain who's been paying attention.
+    *set personality_loyalty %+ 4
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara closed the cargo hatch. Secured the tool kit. Stowed the loose rigging that had been drying on the rail since yesterday. In three minutes the Sundered Wake looked like a ship that expected company and had dressed for it.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne went below deck without being told. The motion was fluid — one moment on the rail, the next gone, the hatch closing behind her with the practiced silence of someone who had been disappearing from Wardensea sight lines for four years.
+
+      Her voice came through the deck boards. Muffled. "If they board, tell them I'm seasick. They'll check the crew manifest — if they have one — and find three names instead of four. Seasick explains the absence."
+
+    *goto harbor_shifts
+
+  #Go to the clinic. Find Oursseva. Whatever's coming, the Thalessi physician has been handling the Wardensea at her door for sixty-seven years. She should know before the cutter docks.
+    *set personality_mercy %+ 3
+    *set personality_openness %+ 3
+
+    Oursseva was in the east wing. You found her changing a dressing on a Gorundai patient's shoulder — the same precise hands, the same instrument belt, the same clinical focus that treated everything as a medical problem regardless of what else it was.
+
+    She looked up when you entered. The Thalessi eyes — two hundred and eight years of reading people — took in your expression and did not ask what was wrong. She already knew. The clinic had windows. The windows faced the harbor.
+
+    "I saw the sail." She returned to the dressing. "A cutter. Second Division markings. They dock in fifteen minutes."
+
+    She tied off the bandage. Adjusted her spectacles.
+
+    "I have been meeting the Wardensea at my door since before you were born, Captain. Possibly before your mother was born." She straightened. "Thank you for the warning. It was unnecessary and therefore appreciated."
+
+    *if (crew5_name = "Sullavenne Ohn")
+      You returned to the ship. Sullavenne was already below deck. She'd read the cutter's approach and made her own decision about visibility.
+
+    *goto harbor_shifts
+
+*label harbor_shifts
+
+The harbor shifted. Eleven ships and the crews that sailed them — the calculus changed when a Wardensea cutter entered a neutral zone. The clinic's porch, which had spent three days as a space where rivals coexisted, tightened. Conversations dropped. Crews that had been sitting in the open moved to their ships. The Morventhi freelancers on the Depthline pulled their ensign — the flag that identified their ship as a registered vessel — and replaced it with a plain pennant. The human rookies did nothing, because they had no bounty and nothing to hide. The Warren Kaelith Khari continued their work with the deliberate calm of a medical operation that did not recognize military jurisdiction.
+
+*page_break
+
+The cutter docked at the clinic's main pier.
+
+It was a clean vessel — narrow beam, shallow draft, the hull painted Wardensea grey with a white stripe at the waterline. The word JUSTICE was painted across the stern in the blocky font that the Wardensea used for everything: sans-serif, the kind of lettering that said the institution did not negotiate with serifs. The crew was twelve — eight sailors and four in officer's white. The coats were the standard cut: long, buttoned, the weight of authority in the fabric.
+
+The lead officer stepped onto the dock.
+
+She was Human. Mid-thirties. Brown hair pulled back tight, the style that said regulation and meant it. A Lieutenant's insignia at the collar — two silver bars, the Wardensea crest between them. She carried a leather document case under her left arm and nothing in her right hand. The right hand was deliberate — empty, visible, a signal that said this was administrative, not combative. Behind her, the three junior officers spread across the dock in the pattern that Wardensea officers spread in: casual, spaced, covering exits without appearing to cover exits.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was below deck. She'd gone below the moment the cutter's heading confirmed it was making for the pier. You could hear her moving — the berth's boards creaking as she settled into the position of someone who intended to stay out of sight for as long as sight was dangerous.
+
+Oursseva Denn met the Lieutenant on the porch.
+
+The Thalessi physician had changed nothing about her appearance or her schedule. The clinic coat. The instrument belt. The silver-white hair in its simple tie. She stood at the porch entrance — the boundary between the dock and the neutral zone — with the rigid posture of a woman who had been meeting Wardensea officers at her door for sixty-seven years and had not once offered them tea.
+
+"Lieutenant." Oursseva's voice carried. The Thalessi precision — audible at distance without being raised. "Kelvanni is a medical facility operating under the Oursseva Accord. Your crew is welcome to receive treatment. Your authority to inspect this facility does not extend past the porch threshold without a medical emergency or a signed warrant from a Division Commander."
+
+The Lieutenant stopped. She opened the document case.
+
+"Doctor Denn. Lieutenant Revenne Kassik, Second Division, Ossengaard Circuit." Her voice was Wardensea-professional — rank-aware, procedure-laden, the cadence of someone who lived inside regulations and found them comfortable. "I have a signed recovery order for a specific individual believed to be receiving treatment at this —" She glanced at the document. Back up. "— at this facility. The order is from High Commandant Belvaan Orech. I am not here to inspect. I am here to recover a member of the Wardensea who has been absent from duty for thirty-one days."
+
+She held out the document.
+
+Oursseva did not take it. She read it from where she stood — Thalessi eyes, 208 years of reading, the distance between them irrelevant.
+
+"Ensign Vellic Marr. Third Division. Absent without authorization from Ossengaard garrison, thirty-one days." Oursseva said it aloud. The porch heard it. The harbor heard it. She was making the name public, which meant she was establishing the scope — one name, one person, one specific claim of jurisdiction. "Ensign Marr is a patient at this clinic. He arrived eleven days ago with a fractured collarbone and secondary infection. He is receiving treatment."
+
+"I'm aware he's injured, Doctor. The recovery order accounts for medical transport."
+
+"The recovery order accounts for your authority. It does not account for his condition." Oursseva's voice did not change. The precision was the weapon. "Ensign Marr is in treatment. Moving him before the infection resolves risks sepsis. Sepsis in a patient with a compromised immune response — his Third Division medical records indicate chronic Dominion burnout from sustained Armoring overuse — has an eighteen percent mortality rate. I will not discharge a patient into conditions that carry an eighteen percent chance of killing him."
+
+The Lieutenant's stylus stopped.
+
+"Doctor, the recovery order is legally binding."
+
+"And my clinical assessment is medically binding. The law and the body rarely agree on timeline. I have found, in sixty-seven years, that the body wins."
+
+Oursseva turned to a Khari medic who'd been hovering with a tray of instruments. "The sutures for bed four need re-sterilizing. The left-hand drawer, third cabinet." She turned back to the Lieutenant. "Apologies. You were explaining the law to me."
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE COMPLICATION
+*comment ---------------------------------------------------
+
+The standoff held for an hour.
+
+The Lieutenant stationed her junior officers at the dock — two at the pier, one at the harbor approach, one on the cutter. Administrative positioning. The message was clear: the Wardensea was here, the Wardensea was staying, and the Wardensea would wait. Lieutenant Kassik remained on the porch, the document case on the bench beside her, her posture the trained patience of an institution that had never been in a hurry in its existence.
+
+The clinic continued to operate. The Khari medics moved through the porch traffic with the deliberate indifference of people who dealt with injuries, not politics. Patients were treated. Bandages were changed. The laundry operation ran its cycle. The Wardensea cutter at the dock was a fact, and Kelvanni's medical staff treated facts the way they treated patients — acknowledged them, assessed their severity, and moved on to the next one.
+
+But the harbor was wrong.
+
+The crews that had spent three days coexisting on the porch were gone. Ships that had been open — hatches up, crew on deck, the casual posture of vessels in a safe harbor — were closed. The Morventhi Depthline had rigged for departure, their crew pulling anchor chain through the capstan in the slow, deliberate rhythm of people who wanted to leave without looking like they were fleeing. Two of the smaller ships — the human rookies and a Varrek trading vessel — had already moved to the harbor's outer edge, increasing the distance between themselves and the Wardensea cutter by two hundred yards.
+
+The neutral zone was intact. Nobody had drawn a weapon. Nobody had raised a voice. But the space that Oursseva's sixty-seven years had built — the space where Wardensea and Renegade sat on the same porch — was emptying. The Lieutenant's presence was doing what her orders hadn't: breaking the clinic's neutrality by existing near it.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne emerged at midmorning. She came up from below deck the way she came up from everything — vertical, controlled, her bearing reset to the trained neutrality that hid everything underneath.
+
+  "Revenne Kassik." She said it to you, standing at the ship's rail, watching the porch. "I served with her. She was a year behind me in the Second —" She stopped. Started again. "She follows orders because she believes in the system they come from. That makes her dangerous in a way that corrupt officers aren't — you can buy a corrupt officer. You can't buy —" She gestured at the cutter. "That."
+
+  She was quiet for a moment.
+
+  "Vellic Marr." She said the name like she was checking it against something. "Don't know him. Third Division — that's Zuharro's, not Merrique's. An Ensign, so he's — young. Has to be young." She looked at the cutter. "Thirty-one days. He deserted at Ossengaard and worked his way south, or caught a ride, or — doesn't matter. The point is they sent a full cutter for him. A cutter. For one Ensign." She shook her head. "AWOL Ensigns are paperwork. You don't send thirteen people for paperwork. Either Marr knows something he shouldn't, or somebody wants him back for reasons that aren't anywhere in that order."
+
+You could see Vellic Marr through the clinic's east window. A young man — twenty, maybe twenty-two — lying in a bed near the wall, his left arm strapped across his chest, the collarbone splint visible beneath the clinic gown. He was Human. Pale. Thin in the way that illness makes people thin, the body consuming itself in the slow arithmetic of infection. He was awake. He was watching the porch through the window, and his good hand was pulling at the edge of the clinic blanket — small repetitive tugs, the fabric already frayed where he'd been pulling it for eleven days. His mouth was moving. Not speaking. Counting, maybe, or rehearsing something he'd never get to say.
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  THE CHOICE
+*comment ---------------------------------------------------
+
+The decision arrived at noon.
+
+Lieutenant Kassik stood from the bench. She straightened her coat. She walked to the clinic's front door. Oursseva Denn was inside — visible through the doorway, attending to a patient, her back to the entrance. The Lieutenant's hand was on the door frame.
+
+"Doctor Denn. I have waited the courtesy hour. The recovery order is legally binding. I am entering the facility to recover Ensign Marr. Any obstruction of a lawful recovery operation is —"
+
+"Obstruction is a legal term. Patient care is a medical term. I will not repeat which one takes precedence in this building."
+
+The Lieutenant's hand stayed on the door frame. The junior officer behind her shifted — a half-step forward, the instinctive support movement that Wardensea officers trained into their bodies. The Khari medic at the doorway — a large male, canine, rust-brown fur, the same warren as the woman who'd brought the pitch compound — moved into the doorway. He didn't speak. He stood in the frame. The position said everything his voice didn't.
+
+The porch had five people on it. You. The Lieutenant. The junior officer. The Khari medic. And Oursseva Denn, inside, her back still turned, her hands still working.
+
+*choice
+  #Step between the Lieutenant and the doorway. The clinic's neutrality holds.
+    You moved.
+
+    Two hundred and sixty pounds of half-Oni filled the doorway beside the Khari medic. The Lieutenant looked up — she had to look up, you were a foot taller and the horns added three inches beyond that. The storm-leather coat. The ash-white skin. The ram-curved horns. The hands that had carried a crew member into this clinic two days ago and were now placed flat on either side of the door frame, blocking it.
+
+    The Lieutenant assessed. Wardensea officers were trained to assess — threat level, Dominion presence, escalation probability. She read your Armoring. The Tempered-tier density in the skin was visible if you knew what to look for, and Wardensea officers knew what to look for.
+
+    "Civilian obstruction of a Wardensea recovery operation." She said it the way she said everything — procedure, regulation, the manual. "This will be noted."
+
+    "Note it." Oursseva's voice came from inside the clinic. She had not turned around. "Note everything. Your Division has always been thorough with its records and selective with its conscience."
+
+    *set personality_aggression %+ 3
+    *set personality_mercy %+ 5
+    *set rep_wardensea - 10
+    *set rep_renegade + 10
+
+    The Lieutenant held your gaze for five seconds. Then she stepped back. The junior officer stepped back. The half-step they'd gained was surrendered to a half-Oni in a doorway and a Thalessi physician who hadn't bothered to turn around.
+
+    "We will remain docked until the patient is discharged." Kassik's voice was level. Professional. The anger was administrative — buried in future paperwork, future reports, future consequences that would arrive at Ossengaard in Lieutenant Kassik's handwriting. "The recovery order stands. When Doctor Denn's medical assessment changes, we will be here."
+
+    She returned to the bench. She sat. She opened the document case and began writing.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      You returned to the ship. Sullavenne was at the rail. She had watched the entire exchange from the deck — close enough to see, far enough to stay unrecognized. She was gripping the rail with one hand. The other was at her side, opening and closing. She saw you and the hand stopped.
+
+      "You stood in a doorway against a Wardensea Lieutenant." She said it evenly. "The last person who did that at a medical facility was me. I filed a complaint. You used your body." She looked at the clinic. "Yours worked better."
+
+    *set kelvanni_favor "protected_clinic"
+
+    Oursseva Denn did not come to the porch. She did not acknowledge you. She continued treating her patient — the Gorundai sailor with the chest bandages, the one she'd been working on when the Lieutenant had reached for the door. The acknowledgment, if it existed, was in the silence. In the continued operation. In the clinic that kept running because someone had stood in its doorway.
+
+    *goto crisis_aftermath
+
+  #Stay at the rail. This is between the Wardensea and the clinic — not your fight.
+    You stayed.
+
+    The Lieutenant entered the clinic. The Khari medic stepped aside — he was medical staff, not security, and the recovery order was a legal document backed by a Division Commander's signature. Oursseva Denn turned. She watched Lieutenant Kassik walk to Vellic Marr's bed. She watched the young man's face collapse — the eleven days of waiting compressed into the five seconds of confirmation.
+
+    "Ensign Marr. You are ordered to return to Ossengaard garrison under escort. Medical transport has been arranged. You will be treated en route." Kassik said it with the trained compassion of an institution that had a procedure for everything, including the delivery of bad news.
+
+    Marr didn't speak. His good hand — the one not strapped across his chest — gripped the bed frame hard enough to bow the wood. He was twenty-two. He was afraid. He was going back.
+
+    *set personality_aggression %- 3
+    *set personality_mercy %- 3
+
+    Oursseva supervised the transfer. Her clinical standards did not bend for jurisdiction — she insisted on medical handover protocols, a written condition summary, a transport brace for the collarbone, and a three-day supply of pharmaceutical compounds. The transfer took forty minutes. The Lieutenant waited through every minute with the patience of someone who understood that Oursseva Denn's cooperation was worth more than Oursseva Denn's enmity.
+
+    Vellic Marr was carried to the cutter on a stretcher. He passed the porch. He passed your ship. His eyes found you — the half-Oni at the rail, the captain who had been on the porch for three days and had stayed at the rail while a twenty-two-year-old was carried back to the institution he'd run from.
+
+    The look lasted two seconds. It said nothing. It said everything.
+
+    *set kelvanni_favor "stayed_neutral"
+
+    The cutter departed at midafternoon. The white sail shrank against the northern horizon. The harbor exhaled. The crews that had retreated to their ships emerged. The porch filled. The neutral zone reformed around the absence — the way water fills a hole, the way silence fills a room after a door closes.
+
+    Oursseva stood on the porch. She watched the sail disappear. Then she looked at your ship. The gaze held for one second. Then she turned and went inside.
+
+    The one second was not neutral. It was a Thalessi physician's clinical assessment of a captain who had been present during a crisis and had chosen to be absent from it. The diagnosis was filed. The record was permanent.
+
+    *goto crisis_aftermath
+
+  #Move to the dock. Place yourself where the Lieutenant's junior officers can see you clearly — every horn, every inch. Draw their attention. Draw their count. Make the Wardensea calculate you instead of the clinic.
+    You walked to the dock.
+
+    The movement was deliberate. Two hundred and sixty pounds of half-Oni walking past the clinic, past the porch, past the Lieutenant's position — walking toward the pier where the Wardensea cutter was docked and the junior officers were stationed. You stopped ten feet from the nearest officer. Stood. The full height. The horns. The coat. The Tempered Armoring visible in the light — the dark sheen on the forearms, the density that said this body had been in fights and had developed the physical response that the Wardensea trained its officers to recognize and classify.
+
+    The junior officer looked at you. Then looked at his partner. The partner looked at you. The assessment was automatic — Wardensea officers catalogued. Height, build, race, visible Dominion expression, estimated threat level. A half-Oni with Tempered Armoring standing ten feet from their vessel was a data point that required attention.
+
+    "Identify your —" The junior officer's hand went to his belt, missed the signal device, found it on the second try. "Identify yourself." His voice was young. Twenty-five, maybe. He'd rehearsed this. The rehearsal hadn't included someone your size.
+
+    *set personality_aggression %+ 5
+    *set rep_wardensea - 5
+
+    You stood. The silence was your voice — the choice not to answer, not to identify, not to cooperate, not to resist. Just to exist, visibly, at the Wardensea's perimeter, drawing resources away from the clinic door and toward the dock.
+
+    The junior officer's hand moved to his belt. The signal device. A small copper tube connected to the cutter's communication array. He pressed it once — the short pulse that said attention needed. The second junior officer moved from the harbor approach to the pier. The positioning shifted: two officers now focused on you, one at the harbor, one with the Lieutenant on the porch. The clinic door was unmonitored.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      You didn't see what happened next. But Sullavenne saw it from the ship's deck, and she would describe it later with the trained precision of someone who had run intelligence operations and recognized one when she saw it.
+
+      While the junior officers calculated you, the Khari medic at the doorway moved Vellic Marr. The transfer was medical — a stretcher carried by two Warren Kaelith members from the treatment floor to the clinic's west wing, through the recovery ward, through the back corridor that connected to the supply rooms. The supply rooms had a door that opened onto the coral platform's south face. The south face was below the dock's sightline.
+
+      By the time Lieutenant Kassik entered the clinic to recover Ensign Marr, the bed was empty and the chart was filed under a different name.
+
+    *if (crew5_name != "Sullavenne Ohn")
+      What happened inside the clinic happened without your awareness. But the result was visible an hour later: Lieutenant Kassik emerged from the clinic with an expression that had lost its professional calm. The patient she'd come to recover was not in the bed. The chart was filed under a different name. The Khari medics expressed polite confusion. Oursseva Denn expressed clinical regret.
+
+    The Lieutenant searched the clinic for two hours. She did not find Vellic Marr. The Warren Kaelith's warren system — the network of paths and tunnels that canine Khari maintained across every island they operated on — had channels that the Wardensea's patrol manual did not map.
+
+    Kassik returned to the dock. She looked at you — the half-Oni who had stood at her officers' perimeter and drawn their attention at the exact moment the clinic had needed it drawn. The look was not friendly. The look was the Wardensea's institutional memory logging a face, a name, a decision.
+
+    "Your ship. The Sundered Wake." She read it from the hull. "This will be in my report."
+
+    She boarded the cutter. The cutter departed. The sail shrank north.
+
+    *set kelvanni_favor "distracted_wardensea"
+    *set rep_wardensea - 15
+    *set rep_renegade + 15
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne met you on the dock after the cutter cleared the harbor.
+
+      "That was an intelligence operation. You didn't plan it. The Khari planned it — they were waiting for someone to draw the perimeter. You drew it." She looked at you with an expression you had not seen from her before. Respect without calculation. "The Wardensea will have your name in their Kingsrun file now. Lieutenant Kassik is thorough. She'll write the report at Ossengaard and Belvaan Orech will read it."
+
+      She paused.
+
+      "At Ossengaard. Stop Nine. Where we'll be sitting in front of the man who signed the recovery order, and he'll know your face."
+
+    *goto crisis_aftermath
+
+*label crisis_aftermath
+
+*page_break
+
+*comment ---------------------------------------------------
+*comment  EVENING — THE BROADCAST
+*comment ---------------------------------------------------
+
+The afternoon passed in the fragile quiet of a harbor recovering from a held breath.
+
+The porch refilled. The crews returned. The neutral zone reassembled itself from the pieces the Wardensea had scattered by existing near it — slower than before, the edges rougher, the trust rebuilt in the way that broken things are rebuilt: functional but aware of the break. The Khari medics resumed their rotations. The laundry operation hung its final sheets. The clinic's lights came on at dusk, and the amber glow reached the harbor the way it always did, the way it had for sixty-seven years.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek's voice carried from the clinic. He was telling a patient about the gorrash — the highland bread — and getting the recipe wrong. You could tell because he kept correcting himself: "Ash flour, not barley — wait, ash flour and barley — no, my mother would kill me." The patients laughed. Terrek laughed. The laughter sounded like something he was giving them because nobody else had thought to bring any. The cook who couldn't walk had found the one thing he could do from a bed, and he'd been doing it all day.
+
+The Grimoire broadcast came at dusk.
+
+Veshanna Torc. The Kingsrun Watch. The signal was strong — the relay station on Kelvanni's north point, the same clean frequency as the previous nights. The broadcast tone was different. The intro was shorter. Veshanna's voice had the clipped edge it got when the news outweighed the format.
+
+"Kingsrun Watch. Priority broadcast."
+
+Conversations dropped mid-word along the dock. Someone's cup clinked against stone in the silence.
+
+"Confirmed report from the mid-Kingsrun relay network. Kuldhara Mabaan — the Living Storm — has moved."
+
+*set broadcast_count + 1
+*set latest_broadcast "kuldhara_movement"
+
+"Thunderhead warband vessels confirmed south of the Sennaku Highlands, moving along the mid-Kingsrun corridor between Stops Eight and Eleven. Three patrol ships — Gorreth Mabaan's Thunder's Son command, Shavellen Durr's Seabreak, and one unidentified vessel. The warband has not engaged any Kingsrun traffic. Repeat: no engagements. But the Thunderhead's patrol pattern has shifted. They're wider. Further south than usual. The Storm is watching more water than she normally watches."
+
+A pause. The broadcast quality of pause that meant the next information changed the frame.
+
+"For the Kingsrun crews currently between Stops Five and Eight: Kuldhara Mabaan's expanded patrol means you will pass through her observation range. The Living Storm watches passing crews. If she likes what she sees, they pass. If she doesn't —"
+
+Veshanna let the silence hold for three seconds.
+
+"— the weather changes. That's not metaphor. Her Raiju Fruit's Awakened state links the atmospheric conditions within a ten-mile radius to her emotional state. If Kuldhara is interested in your crew, you will know because the sky will tell you."
+
+Another pause. Shorter.
+
+"The Wardensea's Second Division has not responded to the Thunderhead's shift. Merrique Sevaine is maintaining standard patrol density at Ossengaard. This is either strategic patience or resource limitation. The Kingsrun Watch does not speculate. The Kingsrun Watch reports."
+
+The broadcast ended.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was at the rail. Her hands were on the wood — both of them, flat, the knuckles white. Her face was still. But the hands had moved before the face had decided what to do.
+
+  "Kuldhara Mabaan. The Oni Conqueror. Sennaku Highlands." She said the words the way she said everything tactical — clean, sorted, each piece laid out for analysis. "Her territory includes the waters between Stops Eight and Twelve. Normal patrol range is Stops Nine through Eleven. She's expanded south — Stops Eight through Eleven — which puts her observation range directly across our path after Velundri."
+
+  She looked at you.
+
+  "You're from the Sennaku Highlands."
+
+  It was a fact she'd known since your unfinished tattoos had told her at Selvaggio. The highland ink. The festival lines that stopped halfway — either the money ran out or the welcome did.
+
+  "Kuldhara Mabaan controls the territory you were exiled from. When we pass through her waters, she will see an Oni ship — or a ship with Oni crew. She will look closer. And when she looks closer, she will see a half-Oni captain with Sennaku tattoos who left the highlands and hasn't been back."
+
+  She let that settle.
+
+  "That's either the most dangerous thing about the next five stops or the most valuable. It depends on why you left and whether Kuldhara cares about the reason."
+
+The night settled on Kelvanni. The third night. The last night — you could feel it in the harbor's rhythm, the way the ships were positioning for departure, the way the crews were running final supply checks in the lamplight. The Wardensea cutter was gone. The Kindling was gone. The neutral zone had held, or cracked, or been proven — depending on what had happened at the clinic door — and the harbor was processing the aftermath the way harbors processed everything: with work, and silence, and the specific gravity of people who lived on the water and understood that every port was temporary.
+
+*set days_since_departure + 1
+*if (food_days > 0)
+  *set food_days - 1
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne's final report of the night was delivered at the rail, facing south.
+
+  "Velundri is four to five days south. Fair wind. The weight-trade market. After Velundri — Durromakh, Cassara Vellune's toll gate. After Durromakh — Shoalfields. After Shoalfields —" She paused. "Ossengaard. Where the Wardensea logs every ship and Lieutenant Kassik's report will be waiting."
+
+  She looked at you.
+
+  "And between Durromakh and Ossengaard, Kuldhara Mabaan's expanded patrol. The Storm. The Oni Conqueror. The woman who controls the highlands you left."
+
+  The ocean was dark. The relay station's light pulsed on the north point — a slow amber flash, the Grimoire signal that connected Kelvanni to the world and the world to the Kingsrun.
+
+  "We leave tomorrow. We leave with a debt to the clinic, a name in the Wardensea's file, and a Conqueror between us and the halfway point." She almost smiled. "The Kingsrun gets harder from here. That's not a warning. That's a navigation report."
+
+The night held. The clinic held. The harbor emptied its breath into the dark water and the dark water carried it south, toward Velundri and the weight-trade and the toll gate and the fortress and the storm.
+
+The Sundered Wake held its berth. Tomorrow it would leave. Tomorrow the ocean would take them south, past the weight-scales and through the toll and under the eyes of a Conqueror who watched the water with the patience of a woman who had been born in the highlands and never left.
+
+You had been born in the highlands and had left.
+
+The Kingsrun would decide if that mattered.
+
+*comment --- Consolidated faction standing updates ---
+*if (rep_wardensea >= 50)
+  *set wardensea_standing "Ally"
+*if (rep_wardensea >= 20)
+  *if (rep_wardensea < 50)
+    *set wardensea_standing "Favorable"
+*if (rep_wardensea > 0)
+  *if (rep_wardensea < 20)
+    *set wardensea_standing "Noticed"
+*if (rep_wardensea = 0)
+  *set wardensea_standing "Unknown"
+*if (rep_wardensea > (0 - 20))
+  *if (rep_wardensea < 0)
+    *set wardensea_standing "Suspicious"
+*if (rep_wardensea > (0 - 50))
+  *if (rep_wardensea <= (0 - 20))
+    *set wardensea_standing "Hostile"
+*if (rep_wardensea <= (0 - 50))
+  *set wardensea_standing "Enemy"
+
+*if (rep_renegade >= 50)
+  *set renegade_standing "Legend"
+*if (rep_renegade >= 20)
+  *if (rep_renegade < 50)
+    *set renegade_standing "Respected"
+*if (rep_renegade > 0)
+  *if (rep_renegade < 20)
+    *set renegade_standing "Known"
+*if (rep_renegade = 0)
+  *set renegade_standing "Nobody"
+*if (rep_renegade < 0)
+  *set renegade_standing "Distrusted"
+
+*if (rep_khari_warrens >= 50)
+  *set khari_standing "Honored"
+*if (rep_khari_warrens >= 20)
+  *if (rep_khari_warrens < 50)
+    *set khari_standing "Welcome"
+*if (rep_khari_warrens > 0)
+  *if (rep_khari_warrens < 20)
+    *set khari_standing "Tolerated"
+*if (rep_khari_warrens = 0)
+  *set khari_standing "Outsider"
+*if (rep_khari_warrens < 0)
+  *set khari_standing "Unwelcome"
+
+*goto_scene ch6_velundri_market

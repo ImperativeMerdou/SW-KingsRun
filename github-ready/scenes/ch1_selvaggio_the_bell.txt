@@ -1,0 +1,302 @@
+*comment ===================================================
+*comment  CHAPTER 1: SELVAGGIO — "The Gate"
+*comment  Scene 6: The Bell
+*comment  The Departure Bell. The betting board. The departure.
+*comment  Bell choice (1 or 2 rings). The harbor mouth.
+*comment  Cliffhanger: another ship on the same heading.
+*comment  2 real choices. Zero fake choices.
+*comment ===================================================
+
+Morning came the way it always came at Selvaggio — loud, sudden, and without permission.
+
+The harbor horn blew at first light. The machinery of departure ground into motion. The Sundered Wake rocked at berth eleven, creaking — wood and rope and iron being asked to do something after sitting still too long.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was already awake. She'd been awake for an hour — you could tell by the progress. Three new rope coils hung from the port-side rigging, each tied with a distinctive Rathai knot-pattern that she'd explained once and you'd immediately forgotten. The forward deck plank she'd replaced yesterday had been sealed with pitch, black and gleaming.
+
+  She stood at the mast, running her hands along the stays, testing tension with a pull-and-release that was half engineering and half instinct.
+
+  "Stays are holding. Sails are patched. Rudder mount is — functional. Not good. Functional." She looked at the sky. Grey. The same grey Selvaggio had worn every day since you'd arrived. "Wind's from the north — northwest. North-northwest." She licked a finger and held it up, frowned, wiped it on her harness. "That's favorable for a south heading. Probably. If it holds. I'm not a navigator. I keep saying that and nobody listens."
+
+  She pulled the cheap limestone Grimoire from her belt and tapped the screen.
+
+  "Current reports show a light chop south of the harbor mouth, smoothing to open swell past the shelf. Tide turns in three hours. We should be past the harbor mouth before it turns or we're fighting the current on the way out."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was cooking breakfast. The last meal at Selvaggio — the last meal before the ocean, the last meal cooked on a dock-side grill instead of the ship's firebox. He'd sourced ingredients from the morning market and the result was rice and fish and a flatbread that he'd pressed thin and fried until it crackled.
+
+  He served it on the deck. Five portions, laid out on the mismatched bowls. The morning light caught the steam and the food smelled like warmth and effort and the particular care of someone who understood that the last meal before a voyage mattered more than the meal itself.
+
+  "Eat," he said. "This is — I'm not calling it a last meal. That sounds bad. It's a last good meal. Everything after this is ship rations and ship rations are — just eat."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was dressed and packed. Her coat was buttoned. Her leather notebook was in her inside pocket. Her hands were empty and her posture was the specific kind of still that meant readiness — the Wardensea in her bones, the parade-ground discipline that hadn't left when her rank did.
+
+  She stood at the stern rail, looking south through the harbor mouth. The ocean was a grey band between the jetties.
+
+  "I checked the Wardensea frequencies on the Grimoire," she said without turning around. "Gress's patrol is two days south. They've logged six departures — or seven, I missed one. Call it seven. We're somewhere in the middle of a wave of forty." She adjusted her collar. Adjusted it again. "That means the early ships have already been inspected. Gress should have her quota by the time we reach patrol range."
+
+  She paused. Longer than the information required.
+
+  "Should. That's my professional assessment. 'Should.'"
+
+*page_break
+
+You walked to Departure Row one last time.
+
+The betting board was outside the Anchor's Rest — a wooden frame bolted to the wall, covered in hand-written slips. Each slip was a departing crew. Each crew had odds.
+
+You found yours.
+
+The slip was new — the paper still white, the ink still dark. Someone had posted it this morning.
+
+SUNDERED WAKE — Capt. M. Akkan (Oni, half, highland). Crew: 4. Ship: ketch, 44ft, salvage claim. Departure wave 7. Destination: South (Kingsrun declared).
+
+Below the crew listing, the odds.
+
+RETURN SAFE: 15 to 1.
+REACH GALLUUN'S TOOTH: 8 to 1.
+REACH MERRENBACH: 22 to 1.
+REACH BRANNACH: 50 to 1.
+COMPLETE KINGSRUN: 200 to 1.
+BOUNTY WITHIN 30 DAYS: 3 to 1.
+
+Fifteen to one against coming back alive. Two hundred to one against completing the Kingsrun. Three to one in favor of picking up a bounty within a month.
+
+The numbers were honest. A half-Oni exile with no name, no money, a salvage-claim ketch, and a crew of four strangers. The betting board had measured you and found you probable to die.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara read the odds over your hip.
+
+  "Two hundred to one." Her voice wobbled on the last word. She cleared her throat. "I've seen worse odds on a structural integrity report. The ship held. Mostly."
+
+  She pulled a copper coin from her tool harness and walked to the betting window. Her hand was steady when she put the coin down. Her other hand, the one she kept in her pocket, wasn't.
+
+  "One copper on complete. Two hundred to one." She looked at you. "When we finish the Kingsrun, I want the payout in basalt Grimoire components."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek read the slip. His face did something subtle — the eyebrows lifting a fraction, the mouth settling into a line. He took out his notebook and wrote the numbers down.
+
+  "Record keeping," he said. "When we prove them wrong, I want to remember what they thought."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne read the slip and said nothing. Her hand moved to the scar on her jaw. Touched it once. Let it go. Moved back to the scar. This time she didn't let go — her thumb traced the line from ear to jaw, slow, like checking that the seam was still holding.
+
+  She read the odds a second time. Her left boot tapped twice against the dock planking — a fast, involuntary rhythm she killed the moment she noticed it.
+
+  "Three to one on a bounty within thirty days," she said. The voice was steady. The boot stayed still. "That's optimistic. I give it two weeks."
+
+*page_break
+
+The Departure Bell.
+
+Bronze on stone, at the harbor mouth where the jetties narrowed to a gap. The bell hung from a salt-corroded pillar, green at the edges. A rope dangled from the clapper — thick, frayed, grabbed by a thousand hands.
+
+The Sundered Wake moved through the harbor on the outgoing current. Kessara at the helm, hands steady on the tiller. Terrek amidships. Sullavenne at the bow, reading the water. The whole of Selvaggio condensed into a moving frame that narrowed as the jetties closed in.
+
+Harbor custom said the captain rang the bell. Nobody else.
+
+You stepped down from the quarterdeck. Crossed the deck. The crew parted without a word. The ship drifted, slowing, aligning with the bell pillar.
+
+The rope was at arm's reach. The harbor went quiet.
+
+You grabbed the rope.
+
+*choice
+  #Ring once. Safe journey. The ocean gives no promises and neither do you.
+    *set bell_rings 1
+    *set rang_departure_bell true
+
+    One ring.
+
+    The bell spoke. Bronze on stone on water — the sound rolled out across the harbor in a wave that touched every ship, every dock, every wall. Deep. Heavy. Final. The note held for three seconds and then died, absorbed by the grey sky and the harbor water.
+
+    One ring. Safe journey. The standard. The tradition. You'd asked for nothing but the ocean's permission, and the ocean didn't answer because it never did.
+
+    On the dock, a vendor raised a cup. A dock worker paused, nodded, went back to his crate. The betting board man at the Anchor's Rest made a mark in his ledger.
+
+    The Sundered Wake moved through the gap.
+
+    *goto departure
+
+  #Ring twice. You're coming back. The highlands threw you out. Selvaggio won't be the last place that sees you — it'll be the first.
+    *set bell_rings 2
+    *set rang_departure_bell true
+    *set personality_aggression %+ 3
+    *set rep_renegade + 5
+
+    One ring.
+
+    The bell spoke. Bronze on stone on water — the sound rolled out across the harbor and people paused and looked and that was normal, that was the standard, every crew rang once.
+
+    You pulled the rope again.
+
+    Two rings.
+
+    The second note landed on the first like a fist on a table. The harbor went still. Not silent — Selvaggio was never silent — but the noise changed register. People turned. The dock workers. The food carts. The crews on nearby ships. Two rings meant something. Two rings was a declaration — you were going and you were coming back and anyone who doubted it could remember this morning.
+
+    On the dock, a woman laughed. An old man shook his head. The betting board man at the Anchor's Rest looked up from his ledger and wrote something.
+
+    Two rings. The last person who'd rung twice from Selvaggio had been Tomoe Gallacs, fourteen months ago. She had a bounty of 680 million. She hadn't come back yet.
+
+    *set grimoire_followers + 30
+
+    The Sundered Wake moved through the gap.
+
+    *goto departure
+
+*label departure
+
+*page_break
+
+The harbor mouth opened and the world changed.
+
+Inside the harbor: shelter, noise, the compressed energy of a thousand ships and ten thousand people packed into a stone bowl. Outside: the ocean. The Bastion Sea. Grey-green and rolling, stretching south to a horizon line that was ruler-straight and absolute. The swell was low — two feet, maybe three — but after weeks of dock and stone and flat ground, even a gentle swell turned the deck into something alive.
+
+The wind hit. North-northwest, as Kessara had predicted. It caught the patched mainsail and the canvas bellied out with a sound like a held breath released. The Sundered Wake leaned. The rigging creaked. The hull — forty-four feet of neglected ketch, rebuilt by a Rathai engineer in three days — took the swell and held.
+
+Selvaggio shrank behind you. The harbor mouth became a gap, then a line, then a detail in a mass of grey stone and dock timber that resolved into an island. An island you were leaving. An island that grew smaller every second and would keep growing smaller until it was gone.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was at the helm, both hands on the tiller, weight braced against the lean. The wind blew her hair flat against her skull and the cheap Grimoire was wedged between her hip and the tiller arm where she could check it without letting go. She was grinning. The Rathai didn't grin often — the expression was a stranger on her face, unfamiliar and bright.
+
+  "Rudder's responding. Sail trim is — acceptable. We're making five knots in a ten-knot wind. That's —" she did the math "— terrible, but we're moving. We're actually moving."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was below decks, securing provisions. You could hear him through the open hatch — the sound of crates being wedged, ropes being tied, the low hum of a man who sang while he worked. The song was highland — or trying to be. He'd learned it from his mother, and he had the melody wrong in two places. The intervals were too wide. A highland Oni would have caught it instantly.
+
+  He came up through the hatch mid-verse and saw you standing there. The song died in his mouth. His face went through three things in rapid sequence — surprise, embarrassment, and the particular horror of a man who'd just realized the one person on the ship who'd know the real melody had been listening the whole time.
+
+  "That was — I know it's not right. The — my mother sang it differently than —" He wiped his hands on his trousers. Wiped them again. "I'll stop."
+
+  He didn't wait for a response. He went back down through the hatch. For a minute, there was only the sound of crates being wedged in silence. Then, quieter, almost inaudible through the deck planking — the same song. Still wrong. Still going.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne stood at the bow. Arms at her sides. Coat open to the wind. She was watching the ocean the way she watched everything — with the patience of someone who expected what she was looking at to eventually try to kill her.
+
+  "Clear water to the shelf. Six miles. After the shelf, the bottom drops from sixty feet to three hundred in about half a mile. That's where the current changes." She looked back at you. "I'll take first watch tonight. The rest of you sleep."
+
+The first hour was pure motion. The ship found its rhythm — a roll and lift that repeated every seven seconds, predictable, hypnotic. The harbor current carried you south along the island's coast, past the fishing berths, past the outer docks where the cargo haulers loaded, past the last stone breakwater that marked Selvaggio's boundary.
+
+The ocean opened. The horizon extended. The sky and the water merged at a line so far away it stopped being a physical boundary and became something closer to an idea.
+
+*page_break
+
+The Grimoire buzzed.
+
+Kessara pulled it from the tiller cradle. The limestone screen flickered — the cheap device struggled with distance from the Selvaggio relays. She tilted it, tapped it, held it at an angle.
+
+"Broadcast," she said. "Kingsrun Watch. Veshanna Torc."
+
+The voice was female, clear, with the measured cadence of someone reading facts she'd verified personally.
+
+"This is Kingsrun Watch with your morning departure update. Selvaggio wave seven has produced forty-two registered departures over the past six days. Of those, thirty-eight are merchant or fishing vessels. Four have declared Kingsrun heading."
+
+She listed them. Three crews you didn't know — names, ship types, crew sizes, odds from the Selvaggio board. Unremarkable. Standard departures.
+
+Then:
+
+"Fourth departure: Sundered Wake. Captain Merdou Akkan, listed as half-Oni, highland origin. Crew of four. Salvage-claim ketch. Declared Kingsrun heading, destination unspecified. No prior Grimoire presence. No bounty. Selvaggio board has them at two hundred to one against Kingsrun completion. This is a cold entry — no crew history, no ship history, no captain history. Veshanna Torc will follow up when more information is available. Kingsrun Watch out."
+
+The broadcast ended. The Grimoire went dark.
+
+*set grimoire_followers + 200
+
+Two hundred to one. Cold entry. No history. The Grimoire network had noticed you and filed you under *probably dead within a month.*
+
+*if (crew3_name = "Kessara Veldt")
+  "Veshanna Torc," Kessara said. "She's the one who only reports confirmed facts. If she's tracking us, it means we're on the map." She paused. "The two-hundred-to-one map. But the map."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek's head appeared through the hatch. He'd heard the broadcast.
+
+  "Cold entry," he said. He rolled the phrase around. "I like that. Cold entry. Sounds like a recipe that starts bad and gets interesting."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne said nothing. But you saw her hand move to her coat pocket — the one where she kept the leather notebook. She wrote something. Closed it. The entry would be precise: date, time, broadcast frequency, exact wording. The Wardensea in her cataloged everything.
+
+*page_break
+
+The afternoon passed in silence and water.
+
+The Bastion shelf dropped away around noon — the swell deepened, the color shifted from inshore green to a blue that darkened with depth. Three hundred feet beneath the keel. Then four hundred. Then numbers that didn't mean anything because your body had never been built for water.
+
+The crew found their rhythms. Kessara navigated by chart and Grimoire. Terrek managed provisions and kept below-decks ordered. Sullavenne watched the horizon and reported conditions at intervals. And you stood at the quarterdeck while Selvaggio shrank to a memory behind you.
+
+Ahead was the Kingsrun. Sixteen stops. Four thousand miles. Crews that had been doing this for years, with ships that worked and captains with bounties in the hundreds of millions. You had a patched ketch and four people and a direction.
+
+The sun was setting when Sullavenne called out.
+
+*page_break
+
+"Ship. Two points off the port bow. Bearing south-southwest."
+
+You crossed the deck. The bow rail was salt-crusted and warm from the afternoon sun. Ahead, on the horizon line where the sea met the copper-colored sky, a shape.
+
+A ship. Small at this distance — a silhouette, mast and hull and the faint line of a sail catching the last light. Running south. Same heading as you. Close enough to see, far enough that the details were lost.
+
+Kessara had the Grimoire up, scanning.
+
+"Grimoire signal. Weak — they're at the edge of relay range." She tapped the screen. "Ship identifier: Kindling. Captain: Suuba Mettani. Race: Rathai. Crew: eleven. Bounty: two hundred seventy-five million Sovereigns." She looked up. "She's Cursed Generation."
+
+The Kindling. Suuba Mettani. The name had been on the Grimoire broadcast at Departure Row — the Rathai captain with the smallest bounty in the Cursed Generation, the one the commentators called an underdog and the betting boards called a footnote. Two hundred seventy-five million. In any other context, it was a fortune. Among the CG captains, it was the bottom of the list.
+
+She'd left Selvaggio six days ahead of you. She was running the same route. She was on the same ocean, under the same sky, heading toward the same stops. And she was close enough to see.
+
+*if (crew3_name = "Kessara Veldt")
+  "The Kindling's a Rathai-built sloop," Kessara said. She was quiet for a moment. She was never quiet. "Fast hull design. She's making better time than us." She did the math. "She left six days ago and she's only that far ahead. Either the currents were bad or she stopped somewhere."
+
+  She looked at the silhouette on the horizon. Then at her hands. Then at the silhouette again.
+
+  "That's a Rathai captain. Running a Rathai ship. On the actual Kingsrun." She said it to the ocean, not to you. "We'll be on a parallel heading to Galluun's Tooth. We might dock at the same time." She adjusted something on the tiller that didn't need adjusting. "I just — I didn't expect to see one of us out here already."
+
+*if (crew5_name = "Sullavenne Ohn")
+  "Suuba Mettani," Sullavenne said. "Wardensea file says she's the least dangerous of the eight CG captains. That assessment is wrong — she's the least obvious. There's a difference." She watched the distant ship. "The Wardensea has underestimated her for two years. Everyone has. She keeps surviving. That's not luck, not for two years."
+
+The Kindling's silhouette held on the horizon as the sun dropped. Two ships. Same ocean. Same direction. One with a bounty of 275 million and a crew of eleven. One with no bounty and a crew of four and a captain whose name meant nothing to anyone outside a highland village that had thrown him out.
+
+The distance between them was measured in miles. The distance between what they were and what you were was measured in everything else.
+
+The sun went down. The ocean went dark. The Kindling's running lights appeared — small points, orange, barely visible. You watched them the way you watched the bounty board at Selvaggio. Studying something that was ahead of you. Learning the shape of the gap between where you were and where you needed to be.
+
+*page_break
+
+The night was vast.
+
+Past the shelf, the overcast broke for the first time since Selvaggio. The stars were there — thousands of them. The highland constellations your mother had taught you — the Horned Walker, the Chain, the Opened Hand — and below them, southern stars you'd never seen. New patterns. Unnamed.
+
+The crew slept. Sullavenne had taken first watch at the bow. Kessara's Grimoire glowed faintly in the forward compartment — she'd fallen asleep mid-calculation. The Kindling's lights were still visible on the southern horizon.
+
+The Kingsrun had begun.
+
+The ocean didn't care who you were. Four thousand miles of salt water that would treat you the way it treated everyone — with indifference. That was fine. The highlands had prepared you for indifference. The exile had refined it.
+
+You were here. On the water. Heading south. With four people and a ship held together by repairs and stubbornness and the specific kind of hope that knows it's foolish and goes anyway.
+
+*if (bell_rings = 2)
+  You'd rung twice. The promise was made. Selvaggio would see you again — not as the half-blood exile who'd scraped together a crew and a ship, but as something else. Something the betting board hadn't accounted for. Something the two-hundred-to-one odds hadn't imagined.
+
+*if (bell_rings = 1)
+  You'd rung once. Safe journey. No promises. The ocean didn't deal in promises and neither did you. What happened next would happen because you made it happen, not because you'd asked the bell for permission.
+
+The stars wheeled. The water moved. The ship sailed south.
+
+And somewhere ahead, past the Kindling's lights and the dark water and the six stops between here and the edge of the known world, the Kingsrun waited — ancient, indifferent, and open.
+
+*page_break
+
+*comment ===================================================
+*comment  END OF CHAPTER 1: SELVAGGIO — "The Gate"
+*comment  MC Status: Has ship (Sundered Wake), crew of 4,
+*comment  heading south toward Galluun's Tooth.
+*comment  Kingsrun declared. Departure bell rung.
+*comment  The Kindling (Suuba Mettani, CG) sighted ahead.
+*comment ===================================================
+
+Chapter 1 — Selvaggio: The Gate
+
+Ahead: the Kindling. The Kingsrun. Sixteen stops between here and the end.
+
+Behind: the highlands. The exile. The bell.
+
+*goto_scene ch2_galluuns_tooth_approach

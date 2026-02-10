@@ -1,0 +1,423 @@
+*comment ===================================================
+*comment  CHAPTER 4: BRANNACH — "The Fissure Stop"
+*comment  Scene 3: The Forge
+*comment  Weapon opportunity — Resonance grade depends on
+*comment  affordability and smith's opinion. The Slag Gift.
+*comment  Crew revelation beat. Conditional eruption sequence.
+*comment  Cliffhanger: crew member injured, Kelvanni is
+*comment  two days south. The ship needs to move.
+*comment  2 real choices. Zero fake choices.
+*comment ===================================================
+
+*set days_since_departure + 1
+*if (sovereigns >= 2)
+  *set sovereigns - 2
+
+The third morning at Brannach began with a sound your body had learned.
+
+The volcanic harmonic. The frequency had been constant since arrival — the mountain's baseline, the pitch that Brukka Venn read the way sailors read wind. But this morning the pitch was different. Higher. A quarter-tone shift that the ribs registered before the ears caught up, a change in the geological voice that said the pressure system underneath the island had moved overnight.
+
+The Gorundai noticed. The ore-loaders on the early shift walked faster. The scaffolding workers on the Regrade paused, tools lowered, heads tilted — listening with the focused attention of people who lived on a volcanic island and understood that the mountain's voice was not decoration. It was data.
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara was on deck, her hand flat on the hull. Feeling the vibration transmitted through the stone pier, through the mooring lines, through the wood.
+
+  "The frequency has shifted up. Approximately eight to twelve hertz above yesterday's baseline." She looked at the ridge. "In a closed pressure system, a pitch increase means the volume of the resonating chamber has decreased. The magma is closer to the surface, or the fissure geometry has changed. Either way, the mountain is tighter than it was yesterday."
+
+  She removed her hand.
+
+  "We should plan to leave today."
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was already dressed. The Wardensea discipline — awake before the watch changed, prepared before the situation demanded it. She'd heard the shift.
+
+  "The Gorundai miners are moving faster. That's the only data point I need. When the people who've lived on a volcano their entire lives change their pace, visitors should pay attention."
+
+*page_break
+
+The forge district was louder than the previous visits.
+
+The smiths had been working since before dawn — the bellows driving volcanic gas into the forges, the heat building in the open-faced workshops until the air at the top of the settlement rippled. The hammering was continuous. A dozen forges running simultaneously, the percussion overlapping into a wall of sound that competed with the harmonic beneath it. The Gorundai smiths worked stripped to the waist, grey-green and grey-brown skin gleaming with sweat and forge scale, the tusked faces concentrated on the metal under their hammers.
+
+Brukka Venn was at the primary forge.
+
+Her forge was the largest — three bellows, two anvils, a quenching trough fed by volcanic water piped from a fissure vent. The fire was white at the core. Not the orange of charcoal or the yellow of coal — the white of volcanic gas combustion, a temperature that could soften ore conventional forges couldn't touch. The heat from ten feet away pressed against the skin like a hand.
+
+She saw you approach. She set down her hammer. The motion was deliberate — a Gorundai smith setting down the primary tool was a punctuation mark.
+
+"Your hands." She looked at them. The palms were calloused from the ore carrying — two days of basalt shells. The knuckle cut from Drellen's blade was healing. The forearm cut was a thin line under the wrapping.
+
+"Better than I expected. Which is what I say when I expected worse." She picked up something from the anvil's ledge — volcanic glass, dark and translucent, the size of a closed fist. Turned it in the light. Set it down. Picked it up again. Put it in a different spot.
+
+"Slag glass. The Gorundai make windows, cups, trade beads. We also make —" She turned the glass to catch the light, and it slipped. Fell. Hit the anvil edge and bounced onto the forge floor, where it rolled to a stop against a slag bucket. The sound was small and sharp and the silence after it was enormous. Two nearby smiths looked over. Brukka stared at the glass on the floor. Her tusked jaw tightened. She picked it up, checked the edge for chips, and set it back on the anvil with the exaggerated care of someone who would rather be swallowed by the fissure than acknowledge what just happened. "Weapons. We also make weapons. Volcanic ore takes a Resonance tone better than mainland metal. That's the point. I should have started there."
+
+She looked at you.
+
+"You worked my fissure. You carried twenty-six loads your first shift and didn't quit. You fought a recovery agent on my dock and put him down with ore-conditioned hands." The assessment was delivered the way Gorundai delivered truth — flat, direct, the words carrying only their literal weight. "The mountain doesn't give gifts to people who watch it from the harbor. You weren't watching."
+
+She reached under the anvil and pulled out a bundle wrapped in forge leather. The bundle was long — three feet, angular. She set it on the anvil and unfolded the leather.
+
+A blade.
+
+Short sword. Twenty-eight inches of dark metal that caught the forge light and rippled it back with a surface pattern that moved like oil on heated stone. The guard was minimal — a flat crossbar, basalt-wrapped. The grip was volcanic leather over iron. The pommel was a rough sphere of cooled slag, balanced against the blade's weight.
+
+It was not beautiful. It was not elegant. It was a Gorundai weapon — functional, dense, built to survive the kind of use that broke prettier swords. The blade had a texture that said the metal had been worked hot and worked hard and worked until the impurities were beaten out of it.
+
+"Common grade. Cutting Tone." Brukka touched the flat of the blade. The metal hummed — a low vibration, audible at close range, the Resonance stored in the forge pattern. "I made it six weeks ago. The ore came from the same fissure you carried from. The volcanic gas powered the forge that heated it. The mountain made this blade. I just shaped it."
+
+She stepped back.
+
+"Eight Gold Sovereigns. That's my price for anyone who walks in off the dock."
+
+*if (merrenbach_deal = "accepted")
+  Eight Gold. Eighty Silver at the exchange rate. The spice cargo from Merrenbach had earned sixty. Dock fees, provisions, water, the accumulated costs of four stops — the treasury was lighter than the Merrenbach haul suggested.
+
+*if (merrenbach_deal = "declined")
+  Eight Gold. The treasury had been thin since Selvaggio and hadn't recovered. Eight Gold was more than the crew had.
+
+*page_break
+
+The forge fell quiet around the conversation. The other smiths kept working — the hammering was constant — but the space around Brukka's primary forge had cleared. The Gorundai understood the economics of a weapon sale the way they understood the economics of the fissure. The transaction was physical. The blade was real. The buyer was being measured.
+
+Brukka looked at you. The assessment had not stopped — it had been running since the first morning in the fissures, accumulating data through carried ore and dock fights and the Gorundai calculus of physical worth.
+
+"Eight Gold is the dock price. The outsider price." She crossed her arms. The forearms were bridge supports. "You're not an outsider. You worked the fissures. That changes the number."
+
+She paused. The pause was Gorundai — accuracy, not drama.
+
+"Five Gold. The mountain price. For someone who carried its ore."
+
+*comment Purchase guard: blade option hidden if player has < 50 Sovereigns
+*choice
+  *if (sovereigns >= 50) #Take the blade. Five Gold is steep for a Common-grade weapon, but this blade was forged from the same ore you carried. The same fissure. The same mountain. There's a logic to that worth more than the metal.
+    *set personality_aggression %+ 3
+    *set obtained_weapon true
+    *set weapon_name "Brannach Short Sword"
+    *set weapon_grade "Common"
+
+    *if (merrenbach_deal = "accepted")
+      *if (sovereigns >= 50)
+        *set sovereigns - 50
+
+    *if (merrenbach_deal = "declined")
+      *if (sovereigns >= 50)
+        *set sovereigns - 50
+
+    The payment was heavy. Five Gold Sovereigns counted out from the ship's treasury — coins that represented weeks of sailing, a reef dive at Galluun's Tooth, a spice deal at Merrenbach. The money left the hand and the weight of it left with it, replaced by the weight of the blade.
+
+    Brukka took the coin. She didn't count it — Gorundai trust. If you shortchanged a Gorundai smith, you didn't do it twice.
+
+    The blade sat in your hand. Twenty-eight inches. The balance was forward-heavy — a cutting weapon, designed to use momentum, the kind of balance that rewarded strength over speed. The Resonance tone was there. Faint. A hum in the grip that the palm registered as vibration and the forearm registered as warmth. Cutting Tone. The frequency designed to disrupt Armoring.
+
+    You now held a weapon that could do to others what Drellen Maas's blade had done to you. The symmetry was not comfortable. It was necessary.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne looked at the blade. "Common grade. Cutting Tone. In Wardensea terms, that's a patrol officer's weapon — standard issue for anyone expected to encounter Armoring in the field." She looked at you. "You're not patrol. But you need a blade that can bite through what the Kingsrun puts in front of you. This does the job."
+
+    *goto slag_gift
+
+  #Decline. The treasury can't afford to bleed five Gold on a weapon when the ship needs provisions, the crew needs supplies, and Kelvanni is two days south. The blade is good. The crew's survival is better.
+    *set personality_loyalty %+ 3
+
+    The blade stayed on the anvil. Brukka's expression didn't change — the Gorundai respected a decision made from practical calculation as much as one made from desire. Turning down a weapon because you couldn't afford to feed your crew was a choice that said something about what you valued. The Gorundai valued it.
+
+    "The blade stays here. Someone will buy it." She folded the leather back over it. "The mountain doesn't mind waiting."
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara's shoulders dropped two inches. Her fingers unclenched from the tool harness strap she'd been white-knuckling, and the leather kept the shape of her grip for a second after she let go.
+
+      "Right call," she said. Quiet. Her hand found a different strap on the harness and tightened something that was already tight.
+
+    *goto slag_gift
+
+*label slag_gift
+
+*page_break
+
+Brukka Venn didn't leave.
+
+The weapon transaction was finished — completed or declined, the economics settled. But the forge foreman remained at the anvil, and her hand went to something on the shelf behind her. Small. Dark. Wrapped in a cloth that was cleaner than anything else in the forge.
+
+She unwrapped it.
+
+Volcanic glass. A piece the size of a palm, oval, the edges sharp enough to draw blood. The surface was black — not the translucent amber of the display piece. Pure black, the glass formed from the deepest flow, volcanic material that only surfaced during a major eruption. The glass caught the forge light and gave none of it back. It absorbed.
+
+"This isn't for sale." She held it up. The glass was between them — the forge foreman and the half-Oni, the Gorundai and the highland exile, two people shaped by different mountains standing in the heat of a forge that ran on volcanic fire.
+
+"Slag Gift." She held the glass at an angle that caught the forge light. "You know what it means or you don't."
+
+The Slag Gift was a custom older than the Thrallic Reformation — a Gorundai offering volcanic glass to someone they judged worthy of being armed. Not sold a weapon. Armed. The distinction was the difference between a transaction and a statement.
+
+"I trust you enough to —" She stopped. Worked her jaw like the next word was stuck sideways. Started over. "I trust you enough to arm you. The mountain made this. I'm giving it to someone the mountain —" She glanced down at her own hands, as if checking she was doing this right. "— tested. You. The mountain tested you." She was gripping the glass hard enough that her knuckles had gone pale under the green-brown skin. "What you do with the trust is — shit, I always forget the order. What you do with the trust is yours. What you do to the glass is mine. That's right. That's the order."
+
+She held the glass out. Her hand was not quite steady. She'd given this speech before — the words were old, practiced, ritual. But the hand that held the glass was shaking, and the shaking said this wasn't routine. This one mattered to her.
+
+The second part was the warning. Breaking the Slag Gift — whether the glass itself or the trust it represented — was the one thing the Gorundai forge culture did not forgive. A broken Slag Gift was a broken word. The Gorundai didn't have many rituals. The ones they had, they held with iron.
+
+*set received_slag_gift true
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was still. His hands were at his sides — not cooking, not holding anything, not doing any of the things Terrek's hands always did. He was watching the glass change hands the way some people watch things they've only ever heard about. His mother had told him about this. In a kitchen that smelled like gorrash. And now he was watching it happen to someone else, and his hands were empty, and his jaw was doing something strange — working side to side, the muscles in his neck cording, the face of a man fighting to keep it together and losing ground by the second. He wiped his eyes with the back of his hand. Sniffed once, hard. Wiped them again.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne's hand went to her notebook pocket. Stopped. She left it there — the hand on the pocket, not opening it, not taking notes, just resting on the leather cover through the fabric. She watched the glass change hands and her pen stayed where it was.
+
+The glass was warm. Not from the forge — from the mountain. The volcanic heat stored in the material, released slowly, the glass radiating a temperature that matched the ground under the boots and the air above the fissures and the water in the harbor. The island's heat, concentrated and held and given.
+
+Your hand closed around it. The edges pressed against the ore-calluses on the palm. A perfect fit — not designed, not engineered. Coincidence. Or what the Gorundai called the mountain's opinion and everyone else called luck.
+
+*page_break
+
+The crew revelation came in the forge district, in the gap between the Slag Gift and the departure.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was at the edge of the forge platform, looking north. The volcanic plume was thicker than yesterday — darker at the base, the column widening as it climbed. The harmonic's new pitch vibrated through the stone platform underfoot.
+
+  She spoke without turning.
+
+  "I didn't leave the Wardensea." The words came out flat. Rehearsed. She'd been carrying this sentence and it showed. "The Wardensea left me."
+
+  She turned. The scar on her jaw caught the forge light.
+
+  "Four years ago. Second Division. Intelligence and patrol assessment. We intercepted a ship running medical supplies to a clinic on the Kingsrun. Oursseva Denn's clinic at Kelvanni." She paused. Longer than the others. "Medical supplies. Bandages, antibiotics, surgical —" She stopped. Started again. "My commanding officer ordered the cargo destroyed. Standard protocol. I filed a dissent."
+
+  Her hand went to the scar. She caught it. Put it down.
+
+  "The dissent was filed. The cargo was destroyed anyway. One hundred and twenty crates sunk in open water." Another pause. "The next week, the clinic ran out of sutures. Three patients died."
+
+  The volcanic harmonic filled the silence.
+
+  "I filed a formal complaint. They filed a conduct review. The Wardensea doesn't punish officers who follow protocol — it punishes the ones who —" Her voice cracked. One syllable. She cleared her throat. "The scar was a reminder. From someone who took the complaint personally."
+
+  She looked at you. Her hands were in her pockets. She took them out. Put them back.
+
+  "I'm going south because Oursseva Denn is at Stop Five. She doesn't know my name. She doesn't know I —" She stopped. "Three people died because I filed a piece of paper. The next time, I won't be filing anything."
+
+  She buttoned her coat. Checked the collar. Smoothed the fabric where it sat against her shoulders — the same gesture she did every morning, the same Wardensea muscle memory she couldn't shed and had stopped trying to. Her hands were steady. They'd been steady the entire time.
+
+*if (crew5_name != "Sullavenne Ohn")
+  *if (crew3_name = "Kessara Veldt")
+    Kessara was sitting on the forge platform's edge, legs hanging over the stone, looking at the harbor below. The Sundered Wake at the outer berth. The Regrade at the inner. The two ships — one heading south, one waiting to heal before it could follow.
+
+    "The ship I crewed before this one." She said it to the harbor, not to you. "The Torval Rose. Nettleworks-built, Torval yard, before Torval closed. I apprenticed there. I was seventeen. The yard master was a woman named Dessima Keth — Rathai, obviously, sixty years old, could hear a cracked weld from across the shop floor."
+
+    She picked at the stone beneath her.
+
+    "Torval closed because the Kolmari withdrew their insurance certification. No certification, no contracts. No contracts, no yard. Dessima said it was political — the Kolmari were consolidating shipbuilding into licensed facilities they controlled. Torval was independent. Independent meant expendable."
+
+    Her hands stopped moving.
+
+    "Dessima killed herself three months after the yard closed."
+
+    She reached for her tool harness. Checked the wrench. Checked the calipers. Tested the hinge on the folding spanner — the one with the worn grip, the one she'd carried since the Torval yard. She put it back in the same loop she always put it in.
+
+    "I went to sea because a ship is a machine and machines don't close. They break, and you fix them, and they keep going." She looked at the Sundered Wake.
+
+    "That ship is mine. Not legally. Not by ownership. Mine because I've rebuilt every piece of her since Selvaggio and I will not let her die the way Torval did."
+
+*page_break
+
+The mountain's voice changed at midday.
+
+The harmonic that had been climbing since dawn shifted — not higher this time. Irregular. A stutter in the geological frequency that the miners recognized before anyone on the dock could process what it meant. The hammering in the forge district stopped. Six forges fell silent simultaneously. The smiths lowered their tools and tilted their heads with the synchronized motion of people listening to a sound they'd been trained since birth to take seriously.
+
+Brukka Venn's voice cut across the forge platform.
+
+"Shelters. Now."
+
+The word traveled down the settlement like fire. Shelters. The Gorundai moved with a speed that was practiced — this was not panic, this was drill. The miners dropped tools. The market vendors closed their stone shutters. The dock workers left the ore crates and moved toward the ridge base, where the shelter entrances were cut into the basalt — heavy iron doors, thirty feet of solid rock overhead, the refuges built to survive what the mountain could produce.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was already moving. "The crew. The ship. We need everyone off the dock and either in the shelters or aboard and ready to cast off."
+
+*if (crew3_name = "Kessara Veldt")
+  Kessara looked at the ridge. "The harmonic's gone irregular — the resonating chamber geometry is changing in real time. That means the fissure network is deforming. When fissures deform, they either vent or they seal, and sealed fissures build pressure until —"
+
+  She didn't finish. She was running for the dock.
+
+The eruption was not what you had imagined.
+
+There was no explosion. No fireball. No cinematic detonation that shattered the sky and rained destruction. The volcano's event was geological — a lateral blast from the new fissure on the northwest face, a directed surge of superheated gas and volcanic debris that jetted from the fissure mouth in a horizontal plume, the force angled away from the settlement, away from the harbor, into the open ocean northwest of the island.
+
+The sound was the sound of the world tearing. A bass concussion that rattled the stone buildings and cracked the slag-glass windows in the forge district and sent a physical shock wave through the ground that you felt in the knees and the teeth and the base of the skull. The volcanic plume billowed — the column doubling in width in seconds, the ash darkening the sky to premature dusk.
+
+Then the fissure collapse.
+
+The new fissure — eleven days old, the one Brukka had called the relief valve — sealed. The lateral blast had emptied its throat and the walls fell inward, closing the vent, and the sound of it was a deep, grinding percussion that said a piece of the mountain had just eaten itself.
+
+*set brannach_eruption_survived true
+
+*page_break
+
+The dock shook.
+
+The tremor was harder than the forty-minute cycles — a single, violent buck in the stone that cracked the pier surface and sent the mooring chains chattering against the iron rings. The Sundered Wake lurched at the outer berth. The Regrade lurched at the inner berth, the scaffolding swaying, the stone cradles groaning under the ship's weight.
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was on the dock. He'd been coming down from the market with provisions — water, gorrash, the volcanic-mineral food that had become part of the crew's routine. The provisions were on his back. His feet were on the stone. When the tremor hit, the stone split under him — a crack that opened two inches wide and ran the length of the pier between the inner and outer berths.
+
+  He went down.
+
+  The fall was bad. The crack's edge caught his leg below the knee — the shin striking the basalt edge with the ugly sound of bone meeting rock at the wrong angle. He landed hard, the provisions scattering, the water barrel rolling into the harbor with a splash that was lost in the eruption's ongoing roar.
+
+  He didn't scream. Gorundai. The pain registered on his face as a compression — the features tightening, the jaw locking, the eyes narrowing. But the sound he made was a grunt. A single, dense exhalation that said the body had been hurt and the body's owner was too stubborn to announce it.
+
+  *set injured true
+  *set injury_type "broken_leg"
+  *set injury_severity 4
+  *set injury_days_remaining 14
+
+*if (crew4_name != "Terrek Ghaal")
+  *if (crew3_name = "Kessara Veldt")
+    Kessara was on the dock, running for the Sundered Wake. The tremor caught her mid-stride — the stone bucking under her feet, the crack opening across the pier. She stumbled. Her hands went out to break the fall, and the left hand found the crack's edge at the wrong angle. The wrist bent. Something gave. The sound was small and ugly.
+
+    She held the wrist against her chest and kept moving. The engineer's priorities held — reach the ship, assess the damage, fix what was broken. Her wrist was broken. The ship might not be.
+
+    *set injured true
+    *set injury_type "broken_wrist"
+    *set injury_severity 3
+    *set injury_days_remaining 10
+
+*if (crew4_name != "Terrek Ghaal")
+  *if (crew3_name != "Kessara Veldt")
+    Oursseva was on the dock. The Thalessi physician moved with the deliberate speed of someone who'd survived catastrophes before — not running, not frozen, the precise middle ground of a medic in a crisis. The tremor knocked her sideways. She caught herself on a mooring post, but the basalt edge grazed her forearm — a shallow cut, bleeding freely, the kind of wound she would have treated in seconds on anyone else. She pressed her sleeve against it and kept moving toward the ship.
+
+    *set injured true
+    *set injury_type "arm_laceration"
+    *set injury_severity 2
+    *set injury_days_remaining 5
+
+The ash fall was immediate. Not the fine grey dust of the previous days — this was heavier, darker, the particulate from the lateral blast carrying chunks of volcanic rock the size of gravel. It fell on the harbor, on the ships, on the dock, on the crew. The tarp over the Sundered Wake's deck caught the worst of it, the canvas sagging under the accumulated weight.
+
+The Regrade's scaffolding collapsed.
+
+The tremor and the ash fall combined — the wooden framework that had supported the hull repairs sheared from its anchors and fell against the cliff face in a cascade of timber and iron fittings. The sound was industrial. The Inheritors' crew scrambled clear. Dussa Kervenne was shouting — Rathai at full volume, the professional composure gone, the engineer watching three weeks of repair work destroyed in four seconds.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne was at your side. She assessed in seconds — the dock, the crew, the injured, the ships.
+
+  "The lateral blast vented the pressure — the main eruption risk is reduced but the fissure collapse means the stable vent network has changed. The mountain needs new relief valves. If it doesn't find them, the next event will be larger."
+
+  She looked at the injured crew member.
+
+  "Kelvanni. Two days south with good wind. Oursseva Denn's clinic."
+
+  She looked at you.
+
+  "We leave now."
+
+*choice
+  #Cast off immediately. The mountain is unstable, the dock is cracked, and a crew member needs medical attention that Brannach cannot provide. Every hour at harbor is an hour closer to the next event.
+    *set personality_aggression %+ 3
+    *set days_since_departure - 1
+    *comment Leaving immediately saves a day vs helping first
+
+    The decision was instant. The dock was broken. The mountain was uncertain. The crew was injured. Three facts that produced one conclusion: the Sundered Wake leaves now.
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara worked the lines one-handed — or directed the work, her voice sharp and precise, compensating for the injury with the sharp authority of an engineer who knew every rope on the ship. "Mooring lines first. Bow line, stern line, spring. The tarp stays — we'll clear the ash at sea. Get the sail up and the tiller free."
+
+    *if (crew4_name = "Terrek Ghaal")
+      Terrek was carried aboard. The leg was splinted with a mooring pin and dock rope — Sullavenne's field work, Wardensea emergency medicine applied with the efficiency of someone who'd done it on a patrol deck. He sat against the mast, the splinted leg extended, his face grey under the weathered skin.
+
+      "I can cook sitting down," he said. The voice was strained. The Gorundai insistence on function through pain.
+
+    *goto departure
+
+  #Help the Inheritors first. Their scaffolding is down, their repair work is destroyed, and they're at the inner berth against the cliff — the position Kessara warned about on day one. A crew that helps a rival crew in a disaster earns something that no amount of sailing can buy.
+    *set personality_loyalty %+ 3
+
+    The Inheritors' berth was sixty yards of cracked dock away. The scaffolding debris was piled against the Regrade's hull — timber, iron fittings, the welding equipment that had been three weeks into hull repair now scattered across the stone pier. Dussa Kervenne was pulling debris clear with the frantic efficiency of someone trying to assess whether the scaffolding collapse had damaged the hull it was supposed to be repairing.
+
+    Sureth Kellane was organizing the crew. The human first mate's measured calm was exactly what the situation needed — no shouting, no panic. Instruction. Direction. The bearing of someone who'd been told by his captain's dead mother's legacy that keeping the crew together was the job.
+
+    Your crew joined the clearing.
+
+    *if (crew3_name = "Kessara Veldt")
+      Kessara — broken wrist or no — was at the hull. One-handed assessment. She ran her good hand along the copper sheathing, feeling for the telltale deformation that said the scaffolding had punched through to the structural frame.
+
+      "The sheathing held. The scaffolding hit the repair sections — the new timber, not the old. The new timber is softer, so it absorbed the impact instead of transmitting it to the frame." She looked at Dussa Kervenne. "Your hull is intact. The repair work needs to restart, but the ship isn't worse than it was."
+
+      Dussa stared at her. Two Rathai engineers across a damaged hull. The professional recognition was instant.
+
+      "I know," Dussa said. Too fast. "I know, I — yes, the hull, the vibration didn't change, I felt it, the keel's — I know." She wiped her face with a grease-black hand and left a smear across her forehead. "It's the work. Three weeks. Three goddamn weeks of hot-work on the keel bolts and now the scaffolding's in the — and the welding rig, the welding rig is —" She gestured at the water where the rig had gone. The gesture said everything her mouth couldn't finish. "Sorry. Thank you. I'm sorry. Thank you."
+
+    The Inheritors' Terrek was lifting debris with the efficiency of an Oni who'd trained to clear wreckage. The weighted chain was a tool now — looped around timber beams, hauling them clear of the hull with the leverage of someone who understood that a chain was just a very long arm.
+
+    Sureth Kellane looked at you. The look was long. It carried the weight of a first mate who'd spent three years managing a legacy crew and understood the rare value of another crew's captain choosing to help when they could have run.
+
+    "Thank you." Two words. The same weight as Kovesse's "the half-Oni" — compressed, Sureth-measured, carrying more than the syllables held.
+
+    *set rival_kovesse + 15
+
+    *goto departure
+
+*label departure
+
+*page_break
+
+The Sundered Wake cast off from Brannach in the afternoon ash.
+
+The harbor was changed. The dock was cracked. The Regrade's scaffolding was debris in the water. The forge district's slag-glass windows were shattered, the amber light they'd filtered now replaced by the grey of unfiltered volcanic sky. The settlement was intact — Brukka's boast about the shelters holding through four eruptions proved accurate for a fifth — but the character of the island had shifted. The mountain had spoken louder than usual, and the people on it were listening to the echo.
+
+Kovesse Thrallek was on the Regrade's deck.
+
+The Gorundai captain stood at the stern rail, watching the Sundered Wake pull away. She hadn't been on the dock during the eruption — she'd been in the shelters with the miners, doing what the miners did, waiting for the mountain to finish its sentence. She'd emerged to find her ship's scaffolding destroyed and a rival crew either helping with the wreckage or already preparing to leave.
+
+She didn't wave. She didn't shout. She stood at the rail and watched, the way Gorundai watched things they were committing to memory. Two green-brown hands on the rail. The volcanic ash settling on her shoulders.
+
+The harbor mouth opened. The Sundered Wake's sail caught the wind — the first clean wind since Brannach, carrying the ship south and away from the volcanic plume. The ash thinned. The air cleared by degrees. The temperature dropped from Brannach's geological heat to the ocean's ambient warmth, and the difference felt like surfacing from a depth.
+
+*if (crew5_name = "Sullavenne Ohn")
+  Sullavenne took the tiller. The Wardensea bearing was present but different now — the woman who'd revealed the scar's story standing at the helm with the relieved posture of someone who'd set down a weight she'd been carrying for four years.
+
+  "Course: south-southwest. Kelvanni is two hundred miles. Two days with this wind. Three if it shifts."
+
+  She looked at the injured crew member. The assessment was medical and tactical simultaneously.
+
+  "Oursseva Denn's clinic. The woman whose supplies I couldn't save." A pause. "The debt comes due at Kelvanni. Mine and ours."
+
+*if (crew4_name = "Terrek Ghaal")
+  Terrek was propped against the mast. The splinted leg was elevated on a coil of rope. His face was drawn — the pain working through the Gorundai stoicism in the small ways, the tightness around the eyes, the careful stillness of someone who'd learned that movement was expensive. But his hands were busy. He'd asked for the galley supplies to be brought to him, and he was preparing dinner from the mast, sitting down, working with the stubborn determination of a cook who would not let a broken leg end a meal.
+
+  "Gorrash. I bought the grain this morning before the mountain had its opinion." He worked the pot. "Brannach's last gift. We eat it at sea and we carry the island with us."
+
+The Grimoire crackled.
+
+Veshanna Torc. The Kingsrun Watch frequency, the signal stronger now that the ship was south of Brannach's volcanic interference.
+
+"Kingsrun Watch. Brannach eruption confirmed — lateral blast, northwest face, fissure collapse reported. Harbor intact. Settlement intact. The Inheritors remain docked — their repair timeline has been extended. The Kindling's Sundered Wake has departed Brannach heading south."
+
+A pause.
+
+"Heading south with a crew member down. Sources say the injury was dock-related during the eruption. The nearest medical facility is Stop Five — Oursseva Denn's clinic at Kelvanni. Two days south."
+
+Another pause. Longer.
+
+"Four stops in. First dock fight at Brannach. First volcanic event survived. First crew injury. The Kindling is learning what the Kingsrun teaches, which is that the ocean and the islands don't care about your plans. The only plan that matters is the next two hundred miles."
+
+The broadcast ended.
+
+*set broadcast_count + 1
+*set latest_broadcast "brannach_eruption"
+
+*page_break
+
+The ocean opened south of Brannach.
+
+The volcanic plume was behind them — a dark column against the northern sky, still building, still venting. The island shrank on the horizon. The basalt ridge. The harbor. The forges. The fissures. The mountain's voice fading from a presence in the chest to a memory in the bones, the specific frequency stored in the body the way the Resonance blade's tone had stored itself in the rib wound.
+
+*if obtained_weapon
+  The Brannach short sword was stowed in the tiller housing. Common grade. Cutting Tone. A weapon forged from the ore you had carried through a fissure too narrow for a six-seven Oni. The blade hummed when the hull vibrated — the Resonance responding to the ship's motion, the stored frequency alive in the metal. It was a tool. It was also a piece of the mountain.
+
+The Slag Gift was in the storm-leather coat's inner pocket. The volcanic glass, warm against the chest, the edges pressing through the cloth. Brukka Venn's words: I trust you enough to arm you. The glass was warm. The trust was heavier.
+
+The crew sailed south. The injured member was stable — splinted, elevated, fed. The ship was sound. The treasury was lighter. The mountain was behind them.
+
+Ahead: Kelvanni. Oursseva Denn. The free clinic. The Debt Ledger.
+
+Two hundred miles of open ocean between a volcanic island and a medical station. Two days with fair wind. The Kingsrun's next lesson.
+
+The Sundered Wake pointed south and ran.
+
+*goto_scene ch5_kelvanni_clinic
