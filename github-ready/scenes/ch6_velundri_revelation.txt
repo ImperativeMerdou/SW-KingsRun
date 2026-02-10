@@ -113,6 +113,15 @@ The night was warm. The Bastion Sea held its heat longer at this latitude — th
 
   "— evaluated."
 
+  *if (crew4_name = "Terrek Ghaal")
+    "I signed on for a route," Terrek said. "Not for a god's exam."
+
+  *if (crew5_name = "Sullavenne Ohn")
+    "You signed on for what the route actually is," Sullavenne said. "None of us got to choose the truth's timing."
+
+  *if ((crew4_name = "Terrek Ghaal") and (crew5_name = "Sullavenne Ohn"))
+    "I can choose whether I trust the person delivering it," Terrek said.
+
 *page_break
 
 *comment ---------------------------------------------------

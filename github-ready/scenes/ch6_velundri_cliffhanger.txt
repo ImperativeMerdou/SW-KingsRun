@@ -237,6 +237,7 @@ The Grimoire hissed with signal static — the comment section erupting. Hundred
 *choice
   #Hold course. The Sundered Wake is south of Velundri and north of Durromakh. There is no port between. There is no turning back. The only direction is through.
     *set personality_aggression %+ 5
+    *set storm_posture "through"
     You held the line south.
 
     The tiller stayed true. Sail stayed full. The Sundered Wake crossed the wind-boundary at speed, cut into the flat black water, and took a hard starboard roll that rattled every loose fitting on deck.
@@ -250,6 +251,7 @@ The Grimoire hissed with signal static — the comment section erupting. Hundred
 
   #Reduce sail. Slow the ship. Give the storm time to pass, or to find whatever it's looking for. A Conqueror's attention is a resource you don't spend unless you choose to.
     *set personality_aggression %- 3
+    *set storm_posture "cautious"
     You called for reduced canvas.
 
     Terrek hauled line at the main while Kessara bled speed at the helm. The ship slowed to a crawl before the boundary line. Five knots. Three. Then barely a knot, the hull drifting with the breath of the sea.
@@ -263,6 +265,7 @@ The Grimoire hissed with signal static — the comment section erupting. Hundred
 
   #Wake the crew. Battle stations — not for a fight, but for survival. Secure everything. Tie down the hold. Prep for heavy weather. Whatever Kuldhara Mabaan is doing out there, the Sundered Wake will be ready for the ocean she brings with her.
     *set personality_loyalty %+ 3
+    *set storm_posture "prepared"
     You woke everyone and ran heavy-weather prep.
 
     Tarps lashed. Crates double-bound. Galley fire drowned. Spare lines staged at both rails. The deck changed from travel mode to survival mode in under four minutes.
@@ -428,6 +431,34 @@ North of them: Velundri and Kelvanni and Brannach and Merrenbach and Galluun's T
 The storm was watching them.
 
 And the storm was smiling.
+
+
+*if (storm_posture = "through")
+  The forward shroud was scorched where the first exploratory pass crossed the rigging. The damage wasn't catastrophic. It was not optional.
+
+  *set ship_condition - 3
+  *if (ship_condition < 0)
+    *set ship_condition 0
+
+*if (storm_posture = "cautious")
+  The slow approach had bought one thing: time to inventory every loose risk before the weather closed. Nothing was fixed. But nothing surprised them.
+
+  *set ship_condition + 1
+
+*if (storm_posture = "prepared")
+  The heavy-weather prep paid immediate dividends. No loose crate had broken free. No galley fire had spread. The ship felt like a crewed vessel instead of a drifting berth.
+
+  *set ship_condition + 2
+
+*if (crew3_name = "Kessara Veldt")
+  "If she gives us an opening, we run it," Kessara said. "I can keep this hull together to Durromakh. Not forever."
+
+*if (crew5_name = "Sullavenne Ohn")
+  "If she gives us an opening, it's because she wants to see what we choose," Sullavenne said. "Running is still a choice she reads."
+
+*if ((crew3_name = "Kessara Veldt") and (crew5_name = "Sullavenne Ohn"))
+  Kessara snapped a look at her. "Good. She can read this: we intend to survive."
+
 
 *page_break
 

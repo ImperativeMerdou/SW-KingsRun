@@ -312,6 +312,7 @@
 *create velundri_revelation false
 *create revelation_type "none"
 *create second_age_fragment false
+*create storm_posture "unknown"
 
 *comment ---------------------------------------------------
 *comment  GRIMOIRE BROADCAST FLAGS
