@@ -123,7 +123,7 @@ The Rathai was Dussa Kervenne. The engineer who talked to the ship.
 *if (crew3_name = "Kessara Veldt")
   Kessara looked at the Regrade's exposed hull and the Rathai on the dock. She said nothing for eleven seconds. Which was, for Kessara, the equivalent of a standing ovation.
 
-  "The keel repair is comprehensive. They went to the structural frame, not just the hull." She was gripping the rail. "The scaffolding's rigged for ventilation — that means hot-work on the keel bolts. That's —" She stopped. The Rathai on the dock was mid-argument with a Gorundai welder, gesticulating with a wrench. "That's their engineer. She's telling him the heat distribution is wrong." Kessara watched the argument. "She's right. He knows she's right. He's going to keep arguing for about ten more seconds and then do what she says."
+  "The keel repair goes all the way to frame members, not just plating." She was gripping the rail. "The scaffolding's rigged for ventilation — that means hot-work on the keel bolts. That's —" She stopped. The Rathai on the dock was mid-argument with a Gorundai welder, gesticulating with a wrench. "That's their engineer. She's telling him the heat distribution is wrong." Kessara watched the argument. "She's right. He knows she's right. He's going to keep arguing for about ten more seconds and then do what she says."
 
   Eight seconds later, the welder adjusted his torch angle.
 

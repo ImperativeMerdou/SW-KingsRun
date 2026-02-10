@@ -364,10 +364,8 @@ A pause. The editorial pause. Veshanna's signature.
 
 The Grimoire dimmed. Dinner continued. The crew ate in the heavy silence of people who had heard a weather warning and were choosing not to discuss it yet.
 
-The harbor held its breath. The drainage channels ran. The stars came out over Velundri — the flat island, the engineered platform, the place where weight was law and the scales balanced and the Kingsrun's secrets were sold by the gram to anyone willing to pay.
+The harbor held its breath. Drainage channels ran under the dock planks. Stars came up over Velundri while the crew sat with food gone cold and weather reports nobody wanted to discuss.
 
-Tomorrow. The second day at Velundri. The market would open again and the scales would balance again and the information that Sullavenne had bought would find its way to the crew. And south of here — south of the flat water and the doldrums and the white coral shelf — the ocean was getting darker and the weather was getting wrong and something was building that wasn't on any chart the Gannavar had published.
-
-The Kingsrun continued. It always did. The question was whether the crew continued with it.
+At sunrise the scales would open, Sullavenne's purchased intelligence would hit the deck, and the argument would stop being theoretical. South of this platform the water was already changing faster than the charts.
 
 *goto_scene ch6_velundri_revelation
