@@ -237,14 +237,44 @@ The Grimoire hissed with signal static — the comment section erupting. Hundred
 *choice
   #Hold course. The Sundered Wake is south of Velundri and north of Durromakh. There is no port between. There is no turning back. The only direction is through.
     *set personality_aggression %+ 5
+    *set storm_posture "through"
+    You held the line south.
+
+    The tiller stayed true. Sail stayed full. The Sundered Wake crossed the wind-boundary at speed, cut into the flat black water, and took a hard starboard roll that rattled every loose fitting on deck.
+
+    *if (crew3_name = "Kessara Veldt")
+      "We just entered it blind," Kessara snapped. She didn't look away from the instrument glass. "No gradual pressure fall. It dropped in one hit."
+
+    The ship kept moving. Fast enough that turning now would mean presenting broadside to whatever came next.
+
     *goto storm_approach
 
   #Reduce sail. Slow the ship. Give the storm time to pass, or to find whatever it's looking for. A Conqueror's attention is a resource you don't spend unless you choose to.
     *set personality_aggression %- 3
+    *set storm_posture "cautious"
+    You called for reduced canvas.
+
+    Terrek hauled line at the main while Kessara bled speed at the helm. The ship slowed to a crawl before the boundary line. Five knots. Three. Then barely a knot, the hull drifting with the breath of the sea.
+
+    *if (crew5_name = "Sullavenne Ohn")
+      Sullavenne watched the dead water ahead. "If this is a screening pass, low profile might matter," she said. "Or it might make us look weak."
+
+    The storm wall did not move toward you. It waited.
+
     *goto storm_approach
 
   #Wake the crew. Battle stations — not for a fight, but for survival. Secure everything. Tie down the hold. Prep for heavy weather. Whatever Kuldhara Mabaan is doing out there, the Sundered Wake will be ready for the ocean she brings with her.
     *set personality_loyalty %+ 3
+    *set storm_posture "prepared"
+    You woke everyone and ran heavy-weather prep.
+
+    Tarps lashed. Crates double-bound. Galley fire drowned. Spare lines staged at both rails. The deck changed from travel mode to survival mode in under four minutes.
+
+    *if (crew4_name = "Terrek Ghaal")
+      Terrek shoved sealed food bundles into every reachable hand on the way past. "Eat now," he said. "If this gets bad, we forget."
+
+    By the time the wind shifted, the ship was ready for a hit.
+
     *goto storm_approach
 
 *label storm_approach
@@ -284,7 +314,7 @@ The third strike hit the water between the Sundered Wake and the storm wall. A h
 
   He was Gorundai. He'd grown up in mines where the mountain shook and the ore glowed and the fissure walls hummed with a frequency you felt in the teeth. He knew the vocabulary of forces larger than a person.
 
-  But this was different. The lightning walked the water in a pattern — not random, not scattered. Rhythmic. Point-eight seconds between strikes. A heartbeat. Something alive was writing on the ocean with electricity, and the handwriting was steady, and the handwriting was coming closer.
+  But this was different. The lightning walked the water in a pattern — not random, not scattered. Point-eight seconds between strikes, precise as a metronome. Something alive was writing on the ocean with electricity, and the script was closing the distance.
 
   "Kessuura," he whispered. The Oni storm-goddess. The name the Oni gave to weather that had intent. The Gorundai knew the name because the Gorundai lived near the Oni highlands, and when Kessuura spoke, even the mines went quiet.
 
@@ -308,7 +338,7 @@ A pass — exploratory. A bolt of white-blue fire arced from the water thirty fe
 
 Nothing was damaged. Nothing was hit. The bolt had crossed over the ship the way a hand crosses over a table — surveying. Looking.
 
-The crew was still. The ocean was flat. The storm wall held, five hundred yards south, lightning walking its surface in that rhythm — point-eight seconds, point-eight seconds, point-eight seconds. A heartbeat. Alive.
+Nobody moved. The ocean stayed flat. Five hundred yards south, the storm wall held position while the lightning kept exact time — point-eight, point-eight, point-eight.
 
 *if dominion_vision >= 10
   And something else. At the edge of the storm wall — a shape. Your Vision, unreliable and growing, caught it for a half-second before the lightning wash blanked the read. A figure. Standing on the water's surface. Tall. Horned. The outline of someone whose body was wreathed in electricity, whose hair stood with static, whose feet rested on the ocean as if the ocean were floor.
@@ -385,11 +415,11 @@ The Grimoire held the last frame of the broadcast. Your profile. The bounty numb
 *comment  THE ENDING
 *comment ---------------------------------------------------
 
-The Sundered Wake held its position. The ocean was flat. The storm wall stood at five hundred yards, lightning walking its face in that steady rhythm — point-eight, point-eight, point-eight. A heartbeat. The Conqueror's heartbeat, written on the weather, broadcast to the ocean.
+The Sundered Wake held position. Five hundred yards out, lightning stitched along the storm wall in exact intervals — point-eight, point-eight, point-eight. Not weather. Deliberate signal.
 
 The crew of the Sundered Wake stood on the deck of a ship that had been a salvage claim at Selvaggio, that had been patched and patched again and declared "not good, better" by an engineer who'd rebuilt it with a broken wrist. The ship that had carried them past six stops. The ship whose name was carved on the reef wall at Galluun's Tooth.
 
-South of them: a Conqueror. A storm. A toll gate and a fortress and a ocean that got darker and deeper and older the further you went. The Kingsrun — the real Kingsrun, the one that existed before the Sovereign King gave it a name, the corridor that selected and tested and watched — stretched ahead into water no chart fully mapped.
+South of them: a Conqueror. A storm. A toll gate and a fortress and an ocean that got darker and deeper and older the further you went. The Kingsrun — the real Kingsrun, the one that existed before the Sovereign King gave it a name, the corridor that selected and tested and watched — stretched ahead into water no chart fully mapped.
 
 North of them: Velundri and Kelvanni and Brannach and Merrenbach and Galluun's Tooth and Selvaggio and the highland where you had been born and the bell that had rung once or twice and the world you'd left behind.
 
@@ -401,6 +431,34 @@ North of them: Velundri and Kelvanni and Brannach and Merrenbach and Galluun's T
 The storm was watching them.
 
 And the storm was smiling.
+
+
+*if (storm_posture = "through")
+  The forward shroud was scorched where the first exploratory pass crossed the rigging. The damage wasn't catastrophic. It was not optional.
+
+  *set ship_condition - 3
+  *if (ship_condition < 0)
+    *set ship_condition 0
+
+*if (storm_posture = "cautious")
+  The slow approach had bought one thing: time to inventory every loose risk before the weather closed. Nothing was fixed. But nothing surprised them.
+
+  *set ship_condition + 1
+
+*if (storm_posture = "prepared")
+  The heavy-weather prep paid immediate dividends. No loose crate had broken free. No galley fire had spread. The ship felt like a crewed vessel instead of a drifting berth.
+
+  *set ship_condition + 2
+
+*if (crew3_name = "Kessara Veldt")
+  "If she gives us an opening, we run it," Kessara said. "I can keep this hull together to Durromakh. Not forever."
+
+*if (crew5_name = "Sullavenne Ohn")
+  "If she gives us an opening, it's because she wants to see what we choose," Sullavenne said. "Running is still a choice she reads."
+
+*if ((crew3_name = "Kessara Veldt") and (crew5_name = "Sullavenne Ohn"))
+  Kessara snapped a look at her. "Good. She can read this: we intend to survive."
+
 
 *page_break
 

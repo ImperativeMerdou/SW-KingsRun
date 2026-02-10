@@ -112,7 +112,7 @@ Galluun's Tooth appeared on the afternoon of the third day.
 The reef announced itself before the island did. The water changed color — from the deep blue of the open Bastion shelf to a milky turquoise that shallowed in patches. The swell shortened. The ship's motion shifted from the long, rolling rhythm of deep water to a choppier, less predictable pattern that said the bottom was rising.
 
 *if (crew3_name = "Kessara Veldt")
-  Kessara was at the helm, chart in one hand, Grimoire in the other, the tiller wedged against her hip. She was navigating by overlay — the chart showed the reef structure as it had been mapped six months ago, and the Grimoire showed current readings that didn't quite match.
+  Kessara was at the helm, chart in one hand, Grimoire in the other, the tiller wedged against her hip. She was running an overlay — the chart showed the reef structure as it had been mapped six months ago, and the Grimoire showed current readings that didn't quite match.
 
   "The currents shift with the tide cycles," she said. "That means the chart is accurate for the general layout but wrong for the actual channels. We need to find the entry passage — there's one way in and one way out, and if we miss it, we're on the reef."
 
@@ -239,13 +239,13 @@ He looked at the Kindling, then back at you.
 
 *page_break
 
-You stepped off the ship and onto solid ground for the first time in three days.
+You stepped off the ship and onto solid ground after three days at sea.
 
 The dock didn't move. The ground was still. The body took a moment to recalibrate — after three days of constant motion, the stillness felt like a new kind of instability. Your legs remembered land slowly, like reuniting with an old language.
 
 The island was quiet. After Selvaggio's roar, the silence was physical — you could feel it on the skin, a reduction in pressure. No crowds. No food carts. No Grimoire broadcasts playing from every stall. Just the lapping of the lagoon, the creak of drying racks, the distant sound of someone hammering coral at the ridge top.
 
-The crew disembarked behind you. Kessara first, her tools clanking, already scanning the dock for repair materials. Terrek with a canvas sack — heading for the fish market by instinct, drawn to food the way Kessara was drawn to broken things. Sullavenne last, her coat buttoned, her notebook out.
+The crew came down the gangplank behind you. Kessara first, her tools clanking, already scanning the dock for repair materials. Terrek with a canvas sack — heading for the fish market by instinct, drawn to food the way Kessara was drawn to broken things. Sullavenne last, her coat buttoned, her notebook out.
 
 The Kindling's crew was on their ship. You could see them — eleven people on a sloop that looked designed for twelve, moving on deck with the loose efficiency of a crew that had been sailing together long enough to skip the communication. A Rathai woman sat on the bowsprit, her legs dangling over the water, a Grimoire in her lap. She was small — five foot two, maybe less. Dark hair, cut short, with the Nettleworks complexion: pale from years of indoor assembly work, freckled from recent sun.
 

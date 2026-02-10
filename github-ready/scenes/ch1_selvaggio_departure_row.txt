@@ -216,7 +216,7 @@ The woman at the back wall was still in her shadow. Still watching. She hadn't m
 
     "I was Wardensea. Four years, Second Division, Lieutenant grade. Left on my own terms, which means I have a discharge paper that says 'voluntary separation' and a commander who'd put me back in a cell if she thought I had something she wanted." She said it flat. No pride, no bitterness. A fact, like the chart seller's facts. "I know how the white coats operate. Patrol schedules, inspection protocols, what makes them flag a ship and what makes them wave one through. That's what I'm offering."
 
-    Behind you, Kessara Veldt had withdrawn her hand and was watching from her table. The cook had stopped eating. The room kept moving, but this corner of it had gone still.
+    Behind you, Kessara Veldt had withdrawn her hand and was watching from her table. The cook had stopped eating. The room kept moving, but this corner had narrowed to the table, the scar, and the question.
 
     "The question," Sullavenne said, "is what you're offering."
 
@@ -233,6 +233,6 @@ At the bar's far end, a man sat alone with a drink he wasn't touching. A tattoo 
 
 You set your cup down. Six days until the departure wave.
 
-Tomorrow. Ship. Crew. The next step toward the bell.
+By morning you needed a ship and people willing to board it. The bell would not wait for indecision.
 
 *goto_scene ch1_selvaggio_first_night
